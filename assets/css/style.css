@@ -151,6 +151,7 @@ p{margin:0}
 .hero{padding-top:var(--nav-h)}
 .hero-inner{padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(40px,6vw,80px)}
 .hero-head{max-width:900px}
+.hero-title{perspective:900px}
 .hero-title .split-word{display:inline-block;white-space:pre}
 .cta-band h2{perspective:900px}
 .cta-band h2 .split-word{display:inline-block;white-space:pre}
