@@ -366,7 +366,7 @@
       var tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
       tl.fromTo(words,
         { rotateX: -75, yPercent: 40, opacity: 0, transformOrigin: '50% 100%' },
-        { rotateX: 0, yPercent: 0, opacity: 1, duration: 1.15, stagger: 0.07 }, 0);          /* words: 1000–1500ms band */
+        { rotateX: 0, yPercent: 0, opacity: 1, duration: 1.6, stagger: 0.11 }, 0);          /* words: 1000–1500ms band */
       var eb = document.querySelector('.hero .eyebrow');
       if (eb) tl.fromTo(eb, { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: .7 }, 0.05);
       var sub = document.querySelector('.hero-sub');
@@ -392,7 +392,7 @@
         gsap.fromTo(ctaWords,
           { rotateX: -75, y: 26, opacity: 0, transformOrigin: '50% 100%' },
           {
-            rotateX: 0, y: 0, opacity: 1, duration: .85, stagger: 0.08, ease: 'power3.out',
+            rotateX: 0, y: 0, opacity: 1, duration: 1.3, stagger: 0.13, ease: 'power3.out',
             scrollTrigger: { trigger: ctaTitle, start: 'top 88%', once: true }
           });
       }
