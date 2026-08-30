@@ -501,7 +501,7 @@
         card.addEventListener('pointerenter', function () {
           if (setImgScaleX) { setImgScaleX(1.14); setImgScaleY(1.14); }
           liftEls.forEach(function (el) {
-            gsap.to(el, { y: -7, duration: .5, ease: 'power3.out' });
+            gsap.to(el, { y: -16, scale: 1.045, duration: .5, ease: 'power3.out' });
           });
         });
 
@@ -510,7 +510,7 @@
           if (setImgX) { setImgX(0); setImgY(0); }
           if (setImgScaleX) { setImgScaleX(1); setImgScaleY(1); }
           liftEls.forEach(function (el) {
-            gsap.to(el, { y: 0, duration: .5, ease: 'power3.out' });
+            gsap.to(el, { y: 0, scale: 1, duration: .5, ease: 'power3.out' });
           });
         });
       });
