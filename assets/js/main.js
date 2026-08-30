@@ -384,6 +384,20 @@
       }
     }
 
+    /* ---------- CTA heading — 3D scroll-triggered word reveal ---------- */
+    var ctaTitle = document.querySelector('.cta-band h2');
+    if (ctaTitle && ST) {
+      var ctaWords = splitWords(ctaTitle);
+      if (ctaWords.length) {
+        gsap.fromTo(ctaWords,
+          { rotateX: -75, y: 26, opacity: 0, transformOrigin: '50% 100%' },
+          {
+            rotateX: 0, y: 0, opacity: 1, duration: .85, stagger: 0.08, ease: 'power3.out',
+            scrollTrigger: { trigger: ctaTitle, start: 'top 88%', once: true }
+          });
+      }
+    }
+
     /* ---------- Ken Burns (standalone ambient tween, not chained) ---------- */
     var kbImg = document.querySelector('.hero-media img, .hero-video video, .page-hero-media img');
     if (kbImg) gsap.to(kbImg, { scale: 1.08, duration: 18, ease: 'none', repeat: -1, yoyo: true });
