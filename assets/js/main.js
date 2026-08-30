@@ -360,6 +360,23 @@
       return spans;
     }
 
+    function splitLetters(el) {
+      if (!el || el.dataset.splitL === 'done') return [];
+      var text = el.textContent;
+      el.textContent = '';
+      var spans = [];
+      for (var i = 0; i < text.length; i++) {
+        var ch = text[i];
+        var s = document.createElement('span');
+        s.className = 'split-letter';
+        s.textContent = (ch === ' ') ? '\u00A0' : ch;
+        el.appendChild(s);
+        spans.push(s);
+      }
+      el.dataset.splitL = 'done';
+      return spans;
+    }
+
     var titleEl = document.querySelector('.hero-title');
     if (titleEl) {
       var words = splitWords(titleEl);
@@ -377,25 +394,57 @@
       if (cue) tl.fromTo(cue, { opacity: 0 }, { opacity: 1, duration: .6 }, 0.9);
     } else {
       /* inner pages: simple page-hero entrance */
-      var phEls = document.querySelectorAll('.page-hero-copy > *');
-      if (phEls.length) {
-        gsap.fromTo(phEls, { opacity: 0, y: 22 },
-          { opacity: 1, y: 0, duration: .8, ease: 'power2.out', stagger: 0.09 });
+      var isAboutPage = /about\.html/i.test(location.pathname);
+      if (isAboutPage && ST) {
+        /* About Us — letter-by-letter staggered reveal on every primary heading */
+        var aboutH1 = document.querySelector('.page-hero-copy h1');
+        if (aboutH1) {
+          var h1Letters = splitLetters(aboutH1);
+          if (h1Letters.length) {
+            gsap.fromTo(h1Letters,
+              { opacity: 0, yPercent: 70, scale: .85 },
+              { opacity: 1, yPercent: 0, scale: 1, duration: .55, stagger: 0.018, ease: 'power2.out' });
+          }
+        }
+        var phElsAbout = document.querySelectorAll('.page-hero-copy > *:not(h1)');
+        if (phElsAbout.length) {
+          gsap.fromTo(phElsAbout, { opacity: 0, y: 22 },
+            { opacity: 1, y: 0, duration: .8, ease: 'power2.out', stagger: 0.09 });
+        }
+        var aboutHeads = document.querySelectorAll('main#top > section h2');
+        aboutHeads.forEach(function (h) {
+          var letters = splitLetters(h);
+          if (!letters.length) return;
+          gsap.fromTo(letters,
+            { opacity: 0, yPercent: 70, scale: .85 },
+            {
+              opacity: 1, yPercent: 0, scale: 1, duration: .55, stagger: 0.018, ease: 'power2.out',
+              scrollTrigger: { trigger: h, start: 'top 88%', once: true }
+            });
+        });
+      } else {
+        var phEls = document.querySelectorAll('.page-hero-copy > *');
+        if (phEls.length) {
+          gsap.fromTo(phEls, { opacity: 0, y: 22 },
+            { opacity: 1, y: 0, duration: .8, ease: 'power2.out', stagger: 0.09 });
+        }
       }
     }
 
-    /* ---------- CTA heading — 3D scroll-triggered word reveal ---------- */
-    var ctaTitle = document.querySelector('.cta-band h2');
-    if (ctaTitle && ST) {
-      var ctaWords = splitWords(ctaTitle);
-      if (ctaWords.length) {
-        gsap.fromTo(ctaWords,
+    /* ---------- Homepage — 3D word reveal for ALL primary headings ---------- */
+    var isHome = !!document.querySelector('.hero-title');
+    if (isHome && ST) {
+      var homeHeads = document.querySelectorAll('main#top > section.section h2.display-lg, .cta-band h2');
+      homeHeads.forEach(function (h) {
+        var w = splitWords(h);
+        if (!w.length) return;
+        gsap.fromTo(w,
           { rotateX: -75, y: 26, opacity: 0, transformOrigin: '50% 100%' },
           {
             rotateX: 0, y: 0, opacity: 1, duration: 1.3, stagger: 0.13, ease: 'power3.out',
-            scrollTrigger: { trigger: ctaTitle, start: 'top 88%', once: true }
+            scrollTrigger: { trigger: h, start: 'top 88%', once: true }
           });
-      }
+      });
     }
 
     /* ---------- Ken Burns (standalone ambient tween, not chained) ---------- */
