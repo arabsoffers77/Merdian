@@ -478,6 +478,7 @@
         var meta = card.querySelector('.proj-meta');
         var overlay = card.querySelector('.proj-overlay');
         var liftEls = [meta, overlay].filter(Boolean);
+        liftEls.forEach(function (el) { el.style.transformOrigin = 'left bottom'; });
 
         var setRX = gsap.quickTo(card, 'rotationX', { duration: .5, ease: 'power3.out' });
         var setRY = gsap.quickTo(card, 'rotationY', { duration: .5, ease: 'power3.out' });
@@ -501,7 +502,7 @@
         card.addEventListener('pointerenter', function () {
           if (setImgScaleX) { setImgScaleX(1.14); setImgScaleY(1.14); }
           liftEls.forEach(function (el) {
-            gsap.to(el, { y: -16, scale: 1.045, duration: .5, ease: 'power3.out' });
+            gsap.to(el, { y: -26, scale: 1.09, duration: .5, ease: 'power3.out' });
           });
         });
 
