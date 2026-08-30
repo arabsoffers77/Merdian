@@ -469,14 +469,25 @@
       });
     })();
 
-    /* ---------- Depth Card — perspective tilt on mouse move (Project cards) ---------- */
+    /* ---------- Depth Card — perspective tilt + image parallax + text lift (Project cards) ---------- */
     (function () {
       var cards = document.querySelectorAll('.proj-card');
       if (!cards.length) return;
       cards.forEach(function (card) {
+        var media = card.querySelector('.proj-media img');
+        var meta = card.querySelector('.proj-meta');
+        var overlay = card.querySelector('.proj-overlay');
+        var liftEls = [meta, overlay].filter(Boolean);
+
         var setRX = gsap.quickTo(card, 'rotationX', { duration: .5, ease: 'power3.out' });
         var setRY = gsap.quickTo(card, 'rotationY', { duration: .5, ease: 'power3.out' });
         var setTY = gsap.quickTo(card, 'y', { duration: .5, ease: 'power3.out' });
+
+        var setImgX = media ? gsap.quickTo(media, 'xPercent', { duration: .6, ease: 'power3.out' }) : null;
+        var setImgY = media ? gsap.quickTo(media, 'yPercent', { duration: .6, ease: 'power3.out' }) : null;
+        var setImgScaleX = media ? gsap.quickTo(media, 'scaleX', { duration: .5, ease: 'power3.out' }) : null;
+        var setImgScaleY = media ? gsap.quickTo(media, 'scaleY', { duration: .5, ease: 'power3.out' }) : null;
+
         card.addEventListener('pointermove', function (e) {
           var r = card.getBoundingClientRect();
           var px = (e.clientX - r.left) / r.width;
@@ -484,9 +495,23 @@
           setRX((0.5 - py) * 8);
           setRY((px - 0.5) * 10);
           setTY(-4);
+          if (setImgX) { setImgX((px - 0.5) * -7); setImgY((py - 0.5) * -7); }
         }, { passive: true });
+
+        card.addEventListener('pointerenter', function () {
+          if (setImgScaleX) { setImgScaleX(1.14); setImgScaleY(1.14); }
+          liftEls.forEach(function (el) {
+            gsap.to(el, { y: -7, duration: .5, ease: 'power3.out' });
+          });
+        });
+
         card.addEventListener('pointerleave', function () {
           setRX(0); setRY(0); setTY(0);
+          if (setImgX) { setImgX(0); setImgY(0); }
+          if (setImgScaleX) { setImgScaleX(1); setImgScaleY(1); }
+          liftEls.forEach(function (el) {
+            gsap.to(el, { y: 0, duration: .5, ease: 'power3.out' });
+          });
         });
       });
     })();
