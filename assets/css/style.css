@@ -155,6 +155,7 @@ p{margin:0}
 .hero-title .split-word{display:inline-block;white-space:pre}
 .cta-band h2{perspective:900px}
 .cta-band h2 .split-word{display:inline-block;white-space:pre}
+.split-letter{display:inline-block;white-space:pre}
 .hero-media{
   width:min(1180px,74%);margin-inline:auto;
   aspect-ratio:16/8.2;border-radius:18px;overflow:hidden;position:relative;
