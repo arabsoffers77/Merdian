@@ -198,12 +198,14 @@ p{margin:0}
 }
 
 /* ---------- shared card language: joined cells on a shared hairline ---------- */
-.cells{border:var(--hair);border-radius:14px;overflow:hidden;background:var(--white)}
+.cells{border:var(--hair);border-radius:14px;overflow:hidden;background:var(--white);perspective:1200px}
 .cell-row{display:grid}
 .cell{
   padding:clamp(22px,2.6vw,34px);border-right:var(--hair);border-bottom:var(--hair);
   background:var(--white);position:relative;min-height:210px;display:flex;flex-direction:column;gap:12px;
+  transform-style:preserve-3d;will-change:transform;transition:box-shadow .35s ease;
 }
+.cell:hover{box-shadow:0 20px 38px -20px rgba(20,20,20,.24);z-index:2}
 .cell:last-child{border-right:none}
 .cell-row:last-child .cell{border-bottom:none}
 .cell .cell-icon{width:40px;height:40px;color:var(--grey-500);transition:color var(--t-hover) var(--ease-out)}
