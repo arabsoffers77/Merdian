@@ -447,6 +447,28 @@
       });
     }
 
+    /* ---------- Depth Card — perspective tilt on mouse move (Services cells) ---------- */
+    (function () {
+      var cells = document.querySelectorAll('.cells.grid-cells-4 .cell');
+      if (!cells.length) return;
+      cells.forEach(function (cell) {
+        var setRX = gsap.quickTo(cell, 'rotationX', { duration: .5, ease: 'power3.out' });
+        var setRY = gsap.quickTo(cell, 'rotationY', { duration: .5, ease: 'power3.out' });
+        var setTY = gsap.quickTo(cell, 'y', { duration: .5, ease: 'power3.out' });
+        cell.addEventListener('pointermove', function (e) {
+          var r = cell.getBoundingClientRect();
+          var px = (e.clientX - r.left) / r.width;
+          var py = (e.clientY - r.top) / r.height;
+          setRX((0.5 - py) * 10);
+          setRY((px - 0.5) * 12);
+          setTY(-3);
+        }, { passive: true });
+        cell.addEventListener('pointerleave', function () {
+          setRX(0); setRY(0); setTY(0);
+        });
+      });
+    })();
+
     /* ---------- Ken Burns (standalone ambient tween, not chained) ---------- */
     var kbImg = document.querySelector('.hero-media img, .hero-video video, .page-hero-media img');
     if (kbImg) gsap.to(kbImg, { scale: 1.08, duration: 18, ease: 'none', repeat: -1, yoyo: true });
