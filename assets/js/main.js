@@ -478,8 +478,7 @@
         var meta = card.querySelector('.proj-meta');
         var overlay = card.querySelector('.proj-overlay');
         var overlayDesc = card.querySelector('.proj-overlay p');
-        var liftEls = [meta, overlay].filter(Boolean);
-        liftEls.forEach(function (el) { el.style.transformOrigin = 'left bottom'; });
+        if (overlay) overlay.style.transformOrigin = 'left bottom';
 
         var setRX = gsap.quickTo(card, 'rotationX', { duration: .5, ease: 'power3.out' });
         var setRY = gsap.quickTo(card, 'rotationY', { duration: .5, ease: 'power3.out' });
@@ -502,7 +501,6 @@
 
         card.addEventListener('pointerenter', function () {
           if (setImgScaleX) { setImgScaleX(1.14); setImgScaleY(1.14); }
-          if (meta) gsap.to(meta, { y: -38, scale: 1.12, duration: .5, ease: 'power3.out' });
           if (overlay) gsap.to(overlay, { y: -12, scale: 1.03, duration: .5, ease: 'power3.out' });
           if (overlayDesc) gsap.to(overlayDesc, { opacity: 0, y: -6, duration: .35, ease: 'power2.out' });
         });
@@ -511,9 +509,7 @@
           setRX(0); setRY(0); setTY(0);
           if (setImgX) { setImgX(0); setImgY(0); }
           if (setImgScaleX) { setImgScaleX(1); setImgScaleY(1); }
-          liftEls.forEach(function (el) {
-            gsap.to(el, { y: 0, scale: 1, duration: .5, ease: 'power3.out' });
-          });
+          if (overlay) gsap.to(overlay, { y: 0, scale: 1, duration: .5, ease: 'power3.out' });
           if (overlayDesc) gsap.to(overlayDesc, { opacity: 1, y: 0, duration: .35, ease: 'power2.out' });
         });
       });
