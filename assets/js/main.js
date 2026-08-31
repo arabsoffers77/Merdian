@@ -477,7 +477,10 @@
         var media = card.querySelector('.proj-media img');
         var meta = card.querySelector('.proj-meta');
         var overlay = card.querySelector('.proj-overlay');
-        if (overlay) overlay.style.transformOrigin = 'left bottom';
+        if (overlay) {
+          overlay.style.transformOrigin = 'left bottom';
+          gsap.set(overlay, { opacity: 0, y: 14 });
+        }
 
         var setRX = gsap.quickTo(card, 'rotationX', { duration: .5, ease: 'power3.out' });
         var setRY = gsap.quickTo(card, 'rotationY', { duration: .5, ease: 'power3.out' });
@@ -500,15 +503,15 @@
 
         card.addEventListener('pointerenter', function () {
           if (setImgScaleX) { setImgScaleX(1.14); setImgScaleY(1.14); }
-          if (overlay) gsap.to(overlay, { y: 22, opacity: 0, duration: .55, ease: 'power2.inOut' });
-          if (meta) gsap.to(meta, { y: 18, opacity: 0, duration: .55, ease: 'power2.inOut' });
+          if (overlay) gsap.to(overlay, { y: 0, opacity: 1, duration: .5, ease: 'power2.out' });
+          if (meta) gsap.to(meta, { y: 18, opacity: 0, duration: .5, ease: 'power2.inOut' });
         });
 
         card.addEventListener('pointerleave', function () {
           setRX(0); setRY(0); setTY(0);
           if (setImgX) { setImgX(0); setImgY(0); }
           if (setImgScaleX) { setImgScaleX(1); setImgScaleY(1); }
-          if (overlay) gsap.to(overlay, { y: 0, opacity: 1, duration: .5, ease: 'power2.out' });
+          if (overlay) gsap.to(overlay, { y: 14, opacity: 0, duration: .45, ease: 'power2.inOut' });
           if (meta) gsap.to(meta, { y: 0, opacity: 1, duration: .5, ease: 'power2.out' });
         });
       });
