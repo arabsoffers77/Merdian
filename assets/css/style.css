@@ -259,13 +259,13 @@ p{margin:0}
 .proj-card:hover .proj-overlay{opacity:1}
 .proj-overlay .proj-cat{font-size:10.5px;letter-spacing:.3em;color:var(--white);text-transform:uppercase;font-weight:700;opacity:.85}
 .proj-overlay h3{color:var(--white);font-size:21px}
-.proj-overlay .proj-line{width:44px;height:2px;background:var(--amber);transform:scaleX(0);transform-origin:left;transition:transform var(--t-hover) var(--ease-out) 60ms}
+.proj-overlay .proj-line{display:none}
 .proj-card:hover .proj-line{transform:scaleX(1)}
 .proj-meta{display:flex;justify-content:space-between;align-items:baseline;padding:14px 4px 0}
 .proj-meta h3{font-size:16.5px;position:relative;padding-bottom:4px}
 .proj-meta .proj-client{font-size:12.5px;color:var(--grey-500);letter-spacing:.04em}
 .proj-meta .proj-title-line{display:block}
-.proj-meta .proj-title-line::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:100%;background:var(--amber);transform:scaleX(0);transform-origin:left;transition:transform var(--t-hover) var(--ease-out)}
+.proj-meta .proj-title-line::after{display:none}
 .proj-card:hover .proj-meta .proj-title-line::after{transform:scaleX(1)}
 
 /* filters */
