@@ -211,7 +211,7 @@ def head_block(title, desc):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"></noscript>
-<link rel="stylesheet" href="assets/css/style.css?v=20260902a">
+<link rel="stylesheet" href="assets/css/style.css?v=20260902b">
 </head>
 '''
 
@@ -270,9 +270,9 @@ def footer(extra_scripts=""):
     </div>
   </div>
 </footer>
-<script src="assets/vendor/gsap.min.js?v=20260902a" defer></script>
-<script src="assets/vendor/ScrollTrigger.min.js?v=20260902a" defer></script>
-<script src="assets/js/main.js?v=20260902a" defer></script>
+<script src="assets/vendor/gsap.min.js?v=20260902b" defer></script>
+<script src="assets/vendor/ScrollTrigger.min.js?v=20260902b" defer></script>
+<script src="assets/js/main.js?v=20260902b" defer></script>
 {extra_scripts}</body>
 </html>
 '''
@@ -629,7 +629,7 @@ def page_about():
   </div>
 </section>
 '''
-    b += cta_band() + "</main>" + footer('<script src="assets/js/globe.js?v=20260902a" defer></script>\n')
+    b += cta_band() + "</main>" + footer('<script src="assets/js/globe.js?v=20260902b" defer></script>\n')
     return b
 
 def xrows(entries):

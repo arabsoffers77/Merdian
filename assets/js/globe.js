@@ -47,11 +47,14 @@
   var REGION_XYZ = REGIONS.map(function (r) { return toXYZ(r.loc[0], r.loc[1]); });
 
   var theta = 0.36; // fixed gentle tilt
-  var phi = 0.4;
-  var dragPhi = 0;
+  var rotation = 0.4; // the single value actually drawn each frame
+  var dragTarget = rotation; // where the pointer wants rotation to be, updated instantly
+  var velocity = 0; // carries momentum forward after release
   var pointerDown = false;
   var pointerStartX = 0;
-  var dragStartPhi = 0;
+  var dragStartRotation = 0;
+  var lastPointerX = 0;
+  var lastMoveTime = 0;
   var size = 0;
   var dpr = Math.min(window.devicePixelRatio || 1, 2);
 
@@ -133,7 +136,7 @@
     ctx.arc(cx, cy, R, 0, Math.PI * 2);
     ctx.fill();
 
-    var rot = phi + dragPhi;
+    var rot = rotation;
 
     // land dots
     for (var i = 0; i < LAND_XYZ.length; i++) {
@@ -219,7 +222,15 @@
 
   var raf = null;
   function loop() {
-    if (!pointerDown && !REDUCED) phi += 0.0016;
+    if (pointerDown) {
+      rotation += (dragTarget - rotation) * 0.18; // ease toward the pointer, not a rigid 1:1 snap
+    } else if (Math.abs(velocity) > 0.00015) {
+      rotation += velocity; // momentum carries on after release
+      velocity *= 0.94; // friction
+    } else {
+      velocity = 0;
+      if (!REDUCED) rotation += 0.0016; // settle back into the gentle auto-rotate
+    }
     draw();
     raf = requestAnimationFrame(loop);
   }
@@ -238,8 +249,12 @@
   canvas.style.cursor = 'grab';
   canvas.addEventListener('pointerdown', function (e) {
     pointerDown = true;
+    velocity = 0;
     pointerStartX = e.clientX;
-    dragStartPhi = dragPhi;
+    dragStartRotation = rotation;
+    dragTarget = rotation;
+    lastPointerX = e.clientX;
+    lastMoveTime = performance.now();
     canvas.style.cursor = 'grabbing';
   });
   window.addEventListener('pointerup', function () {
@@ -250,7 +265,17 @@
   });
   window.addEventListener('pointermove', function (e) {
     if (!pointerDown) return;
-    dragPhi = dragStartPhi + (e.clientX - pointerStartX) / 220;
-    if (REDUCED) draw();
+    dragTarget = dragStartRotation + (e.clientX - pointerStartX) / 220;
+
+    var now = performance.now();
+    var dt = now - lastMoveTime;
+    if (dt > 0) {
+      var dx = e.clientX - lastPointerX;
+      velocity = Math.max(-0.15, Math.min(0.15, (dx / 220) * (16.67 / Math.max(dt, 1))));
+    }
+    lastPointerX = e.clientX;
+    lastMoveTime = now;
+
+    if (REDUCED) { rotation = dragTarget; draw(); } // no rAF loop running — apply instantly
   });
 })();
