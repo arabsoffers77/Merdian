@@ -614,6 +614,24 @@ html.js .feat-grid,html.js .feat-grid > *:not(.chroma-lens):not(.chroma-idle){op
 .split-2 .media-caption{font-size:12px;color:var(--grey-500);letter-spacing:.06em;padding-top:12px;display:flex;justify-content:space-between;gap:12px}
 @media (max-width:900px){.split-2{grid-template-columns:1fr}}
 
+/* ---------- Who We Are — associations globe (about.html only) ----------
+   Self-contained Canvas 2D globe (assets/js/globe.js) — no card, no fill,
+   floats directly on the page background like the reference. The globe
+   circle itself still renders its own dark sphere shading (so it reads as
+   a solid 3D object), it's the surrounding panel that's gone. If canvas/JS
+   is unavailable the caption text alone still carries the point. */
+.split-2 .globe-frame{
+  background:transparent;border:none;border-radius:0;overflow:visible;
+  display:flex;flex-direction:column;align-items:center;
+  padding:clamp(20px,4vw,40px) 0;
+}
+.globe-stage{width:100%;display:flex;align-items:center;justify-content:center}
+.globe-wrap{position:relative;width:100%;max-width:440px;aspect-ratio:1/1}
+.globe-wrap canvas{display:block;width:100%;height:100%;cursor:grab;touch-action:none}
+.globe-wrap canvas:active{cursor:grabbing}
+.globe-frame .media-caption{flex:0 0 auto;width:100%;max-width:440px;color:var(--grey-500)}
+@media (prefers-reduced-motion: reduce){.globe-wrap canvas{cursor:default}}
+
 /* value chips */
 .chip-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
 .chip-tags span{border:var(--hair);border-color:var(--grey-300);border-radius:999px;padding:9px 20px;font-size:13px;font-weight:600;color:var(--ink-700);background:var(--white)}

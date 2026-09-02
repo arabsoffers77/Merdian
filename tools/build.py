@@ -5,6 +5,7 @@ Run:  python tools/build.py   -> emits 6 .html pages at repo root.
 Single source of truth: header/footer/icons shared; edit here, rebuild everywhere.
 """
 import os
+import html as _html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -210,7 +211,7 @@ def head_block(title, desc):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"></noscript>
-<link rel="stylesheet" href="assets/css/style.css?v=20260825q">
+<link rel="stylesheet" href="assets/css/style.css?v=20260902a">
 </head>
 '''
 
@@ -240,7 +241,7 @@ def socials_html():
     out.append("</div>")
     return "\n".join(out)
 
-def footer():
+def footer(extra_scripts=""):
     nav_links = "".join(f'<li><a href="{h}">{l}</a></li>' for h, l in NAV[1:])
     return f'''<footer class="site-footer">
   <div class="wrap">
@@ -269,10 +270,10 @@ def footer():
     </div>
   </div>
 </footer>
-<script src="assets/vendor/gsap.min.js?v=20260825q" defer></script>
-<script src="assets/vendor/ScrollTrigger.min.js?v=20260825q" defer></script>
-<script src="assets/js/main.js?v=20260825q" defer></script>
-</body>
+<script src="assets/vendor/gsap.min.js?v=20260902a" defer></script>
+<script src="assets/vendor/ScrollTrigger.min.js?v=20260902a" defer></script>
+<script src="assets/js/main.js?v=20260902a" defer></script>
+{extra_scripts}</body>
 </html>
 '''
 
@@ -522,10 +523,13 @@ def page_about():
           <noscript><span class="af-word">Europe · USA · Asia · Africa</span></noscript>
         </div>
       </div>
-      <div class="media-frame" data-reveal>
-        <!-- PLACEHOLDER IMAGE: replace with client office/team photo -->
-        <img src="assets/img/about-story.jpg" alt="MEC engineers coordinating over site drawings" loading="lazy">
-        <div class="media-caption"><span>Al Amerat, Muscat</span><span>MEC HQ</span></div>
+      <div class="media-frame globe-frame" data-reveal>
+        <div class="globe-stage">
+          <div class="globe-wrap">
+            <canvas id="who-globe" role="img" aria-label="Rotating globe with connection lines from Oman to MEC's partner regions in Europe, USA, Asia and Africa"></canvas>
+          </div>
+        </div>
+        <div class="media-caption"><span>Global associations</span><span>Oman · Europe · USA · Asia · Africa</span></div>
       </div>
     </div>
   </div>
@@ -625,7 +629,7 @@ def page_about():
   </div>
 </section>
 '''
-    b += cta_band() + "</main>" + footer()
+    b += cta_band() + "</main>" + footer('<script src="assets/js/globe.js?v=20260902a" defer></script>\n')
     return b
 
 def xrows(entries):
