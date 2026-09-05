@@ -434,8 +434,73 @@
     /* ---------- Homepage — 3D word reveal for ALL primary headings ---------- */
     var isHome = !!document.querySelector('.hero-title');
     if (isHome && ST) {
+      /* --- About section: sequenced timeline (title → subtitle → chips → link) --- */
+      var aboutPanel = document.querySelector('.about-drift-section .about-copy--panel');
+      if (aboutPanel) {
+        // Prevent the generic reveal loop from also animating this panel
+        aboutPanel.removeAttribute('data-reveal');
+        aboutPanel.classList.add('is-in');
+
+        var aboutH2 = aboutPanel.querySelector('h2.display-lg');
+        var aboutEyebrow = aboutPanel.querySelector('.eyebrow');
+        var aboutLede = aboutPanel.querySelector('.lede');
+        var aboutChips = aboutPanel.querySelectorAll('.chip-tags span');
+        var aboutLink = aboutPanel.querySelector('p:last-child');
+
+        // Make the panel visible immediately (opacity handled per-child)
+        gsap.set(aboutPanel, { opacity: 1, y: 0 });
+        // Hide children initially
+        var hiddenEls = [aboutEyebrow, aboutLede, aboutLink].filter(Boolean);
+        gsap.set(hiddenEls, { opacity: 0, y: 18 });
+        if (aboutChips.length) gsap.set(aboutChips, { opacity: 0, y: 12, scale: 0.9 });
+
+        var aboutWords = aboutH2 ? splitWords(aboutH2) : [];
+
+        var aboutTL = gsap.timeline({
+          scrollTrigger: { trigger: aboutPanel, start: 'top 85%', once: true }
+        });
+
+        // 1. Eyebrow fades in first
+        if (aboutEyebrow) {
+          aboutTL.fromTo(aboutEyebrow,
+            { opacity: 0, y: 14 },
+            { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, 0);
+        }
+        // 2. Title words 3D flip (starts shortly after eyebrow)
+        if (aboutWords.length) {
+          aboutTL.fromTo(aboutWords,
+            { rotateX: -75, y: 26, opacity: 0, transformOrigin: '50% 100%' },
+            { rotateX: 0, y: 0, opacity: 1, duration: 1.3, stagger: 0.13, ease: 'power3.out' },
+            0.15);
+        }
+        // 3. Subtitle fades in AFTER title finishes
+        if (aboutLede) {
+          aboutTL.fromTo(aboutLede,
+            { opacity: 0, y: 18 },
+            { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out' },
+            '>-0.3');  // overlap slightly with end of title
+        }
+        // 4. Chip tags stagger in one by one
+        if (aboutChips.length) {
+          aboutTL.fromTo(aboutChips,
+            { opacity: 0, y: 12, scale: 0.9 },
+            { opacity: 1, y: 0, scale: 1, duration: 0.5, stagger: 0.08, ease: 'back.out(1.4)' },
+            '>-0.2');
+        }
+        // 5. "More about us" link slides in last
+        if (aboutLink) {
+          aboutTL.fromTo(aboutLink,
+            { opacity: 0, y: 18 },
+            { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' },
+            '>-0.15');
+        }
+      }
+
+      /* --- All other homepage h2 headings: standard 3D word reveal --- */
       var homeHeads = document.querySelectorAll('main#top > section.section h2.display-lg, .cta-band h2');
       homeHeads.forEach(function (h) {
+        // Skip the about section h2 (already handled above)
+        if (aboutPanel && aboutPanel.contains(h)) return;
         var w = splitWords(h);
         if (!w.length) return;
         gsap.fromTo(w,

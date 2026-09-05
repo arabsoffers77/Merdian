@@ -211,7 +211,7 @@ def head_block(title, desc):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"></noscript>
-<link rel="stylesheet" href="assets/css/style.css?v=20260902b">
+<link rel="stylesheet" href="assets/css/style.css?v=20260903a">
 </head>
 '''
 
@@ -270,9 +270,9 @@ def footer(extra_scripts=""):
     </div>
   </div>
 </footer>
-<script src="assets/vendor/gsap.min.js?v=20260902b" defer></script>
-<script src="assets/vendor/ScrollTrigger.min.js?v=20260902b" defer></script>
-<script src="assets/js/main.js?v=20260902b" defer></script>
+<script src="assets/vendor/gsap.min.js?v=20260903a" defer></script>
+<script src="assets/vendor/ScrollTrigger.min.js?v=20260903a" defer></script>
+<script src="assets/js/main.js?v=20260903a" defer></script>
 {extra_scripts}</body>
 </html>
 '''
@@ -288,29 +288,6 @@ def slide_btn(label, hover_label, href, solid=True):
             f'<span class="st-row"><span>{label}</span>&nbsp;{ic("arrow","arr")}</span>'
             f'<span class="st-row st-b" aria-hidden="true">{hover_label}</span>'
             f'</span></a>')
-
-def hex_cluster():
-    return '''<div class="hex-cluster" data-reveal aria-label="Meridian project highlights in hexagon frames">
-      <div class="hex hex-a">
-        <div class="hex-img">
-          <!-- PLACEHOLDER IMAGE: replace with client project photo -->
-          <img src="assets/img/proj-salalah.jpg" alt="Grand Salalah Resort — project preview" loading="lazy">
-        </div>
-      </div>
-      <div class="hex hex-b">
-        <div class="hex-img">
-          <!-- PLACEHOLDER IMAGE: replace with client office/team photo -->
-          <img src="assets/img/about-story.jpg" alt="MEC engineers reviewing site drawings" loading="lazy">
-        </div>
-      </div>
-      <div class="hex hex-c">
-        <div class="hex-img">
-          <!-- PLACEHOLDER IMAGE: replace with client project photo -->
-          <img src="assets/img/proj-redan.jpg" alt="Redan Hotel — project preview" loading="lazy">
-        </div>
-      </div>
-    </div>
-'''
 
 def cta_band():
     return f'''<section class="section">
@@ -438,19 +415,19 @@ def page_home():
 </section>
 '''
     b += ticker()
-    b += f'''<section class="section">
+    b += f'''<section class="section about-drift-section" id="about-drift-section">
+  <div class="drift-field" id="about-drift" aria-hidden="true">
+    <p class="drift-hint">Scroll to explore</p>
+  </div>
   <div class="wrap">
-    <div class="split-2">
-      <div data-reveal>
-        <p class="eyebrow">About Us</p>
-        <h2 class="display-lg">Engineering consultancy built on precision.</h2>
-        <p class="lede" style="margin-top:18px;">Meridian Engineering Consultancy (MEC) is a multi-disciplinary consulting firm registered in Oman. To ensure outstanding professional services, MEC forms associations with specialized foreign firms from Europe, USA, Asia &amp; Africa as necessary.</p>
-        <div class="chip-tags">
-          <span><i>◆</i>Quality</span><span><i>◆</i>Integrity</span><span><i>◆</i>Teamwork</span><span><i>◆</i>Staff Motivation</span><span><i>◆</i>Sustainability</span>
-        </div>
-        <p style="margin-top:30px;">{arrow_link("More about us", "about.html")}</p>
+    <div class="about-copy about-copy--panel" data-reveal>
+      <p class="eyebrow">About Us</p>
+      <h2 class="display-lg">Engineering consultancy built on precision.</h2>
+      <p class="lede" style="margin-top:18px;">Meridian Engineering Consultancy (MEC) is a multi-disciplinary consulting firm registered in Oman. To ensure outstanding professional services, MEC forms associations with specialized foreign firms from Europe, USA, Asia &amp; Africa as necessary.</p>
+      <div class="chip-tags">
+        <span><i>◆</i>Quality</span><span><i>◆</i>Integrity</span><span><i>◆</i>Teamwork</span><span><i>◆</i>Staff Motivation</span><span><i>◆</i>Sustainability</span>
       </div>
-      {hex_cluster()}
+      <p style="margin-top:30px;">{arrow_link("More about us", "about.html")}</p>
     </div>
   </div>
 </section>
@@ -498,7 +475,7 @@ def page_home():
     b += project_modal()
     b += cta_band()
     b += "</main>"
-    b += footer()
+    b += footer('<script src="assets/js/drift-field.js?v=20260903a" defer></script>\n')
     return b
 
 def page_about():
@@ -629,7 +606,7 @@ def page_about():
   </div>
 </section>
 '''
-    b += cta_band() + "</main>" + footer('<script src="assets/js/globe.js?v=20260902b" defer></script>\n')
+    b += cta_band() + "</main>" + footer('<script src="assets/js/globe.js?v=20260903a" defer></script>\n')
     return b
 
 def xrows(entries):
