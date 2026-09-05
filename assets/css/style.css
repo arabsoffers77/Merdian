@@ -703,12 +703,22 @@ html.js .feat-grid,html.js .feat-grid > *:not(.chroma-lens):not(.chroma-idle){op
 
 /* featured projects (home) : 6-col feature grid */
 .feat-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:clamp(16px,2vw,26px)}
+.feat-grid>.span-4{grid-column:span 4}
 .feat-grid>.span-3{grid-column:span 3}
 .feat-grid>.span-2{grid-column:span 2}
 .feat-cell{min-width:0}
 .feat-cell .proj-card{height:100%}
-@media (max-width:900px){.feat-grid{grid-template-columns:repeat(2,1fr)}.feat-grid>.span-3,.feat-grid>.span-2{grid-column:span 1}}
-@media (max-width:560px){.feat-grid{grid-template-columns:1fr}}
+.feat-grid>.span-4 .proj-media{aspect-ratio:16/6.2}
+@media (max-width:900px){
+  .feat-grid{grid-template-columns:repeat(2,1fr)}
+  .feat-grid>.span-3,.feat-grid>.span-2{grid-column:span 1}
+  .feat-grid>.span-4{grid-column:span 2}
+  .feat-grid>.span-4 .proj-media{aspect-ratio:16/9}
+}
+@media (max-width:560px){
+  .feat-grid{grid-template-columns:1fr}
+  .feat-grid>.span-4{grid-column:span 1}
+}
 
 /* projects portfolio : asymmetric editorial 12-col */
 .projects-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(18px,2.4vw,30px);perspective:1400px}

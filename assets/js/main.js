@@ -512,6 +512,74 @@
       });
     }
 
+    /* ---------- Homepage — Services 8-card sequential reveal (01 to 08) ---------- */
+    (function () {
+      var serviceGrid = document.getElementById('services-grid') || document.querySelector('.cells.grid-cells-4');
+      if (!serviceGrid || !ST || REDUCED) return;
+
+      var serviceCells = serviceGrid.querySelectorAll('.cell');
+      if (!serviceCells.length) return;
+
+      // Initial state for all 8 cards: 3D perspective fold
+      gsap.set(serviceCells, {
+        opacity: 0,
+        y: 52,
+        scale: 0.92,
+        rotationX: -14,
+        transformOrigin: '50% 0%'
+      });
+
+      var serviceTL = gsap.timeline({
+        scrollTrigger: {
+          trigger: serviceGrid,
+          start: 'top 60%', // triggers when the grid is in the middle of the viewport
+          once: true
+        }
+      });
+
+      // 1. Sequential arrival of cards 01 -> 08
+      serviceTL.to(serviceCells, {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        rotationX: 0,
+        duration: 0.85,
+        stagger: 0.14,
+        ease: 'power3.out',
+        clearProps: 'transform' // seamlessly hands off to pointermove 3D tilt
+      });
+
+      // 2. Coordinated micro-reveal on number index (01..08) & icon as each card docks
+      serviceCells.forEach(function (cell, idx) {
+        var num = cell.querySelector('.num-index');
+        var icon = cell.querySelector('.cell-icon');
+        var head = cell.querySelector('h3');
+        var startTime = 0.14 * idx + 0.18;
+
+        if (num) {
+          serviceTL.fromTo(num,
+            { color: 'var(--amber)', opacity: 0.4, scale: 1.3 },
+            { color: 'var(--grey-300)', opacity: 1, scale: 1, duration: 0.7, ease: 'power2.out' },
+            startTime
+          );
+        }
+        if (icon) {
+          serviceTL.fromTo(icon,
+            { scale: 0.7, opacity: 0.3, y: -10 },
+            { scale: 1, opacity: 1, y: 0, duration: 0.6, ease: 'back.out(1.5)' },
+            startTime
+          );
+        }
+        if (head) {
+          serviceTL.fromTo(head,
+            { opacity: 0.6, y: 8 },
+            { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' },
+            startTime + 0.05
+          );
+        }
+      });
+    })();
+
     /* ---------- Depth Card — perspective tilt on mouse move (Services cells) ---------- */
     (function () {
       var cells = document.querySelectorAll('.cells.grid-cells-4 .cell');
