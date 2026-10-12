@@ -23,7 +23,7 @@ os.chdir('..') if os.path.basename(os.getcwd()) == '_dev-tools' else None
 if not glob.glob('*.html'):
     os.chdir('..')
 
-pages = sorted(glob.glob('*.html'))
+pages = sorted(glob.glob('*.html')+glob.glob('en/*.html')+glob.glob('ar/*.html'))
 problems = []
 checked = 0
 
@@ -34,7 +34,7 @@ for page in pages:
             continue
         checked += 1
         path = ref.split('#')[0].split('?')[0]
-        if path and not os.path.exists(path):
+        if path and not os.path.exists(os.path.join(os.path.dirname(page),path)):
             problems.append(f'{page}: MISSING FILE -> {ref}')
     ids = set(re.findall(r'id="([^"]+)"', html))
     for ref in re.findall(r'href="#([^"]+)"', html):
@@ -43,9 +43,10 @@ for page in pages:
 
 for page in pages:
     html = open(page, encoding='utf-8').read()
-    for target, anchor in re.findall(r'href="([a-z]+\.html)#([^"]+)"', html):
-        if os.path.exists(target):
-            target_html = open(target, encoding='utf-8').read()
+    for target, anchor in re.findall(r'href="([^#"?]+\.html)#([^"]+)"', html):
+        resolved=os.path.join(os.path.dirname(page),target)
+        if os.path.exists(resolved):
+            target_html = open(resolved, encoding='utf-8').read()
             if f'id="{anchor}"' not in target_html:
                 problems.append(f'{page}: CROSS-PAGE DEAD ANCHOR -> {target}#{anchor}')
         else:

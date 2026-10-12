@@ -6,6 +6,7 @@
    ============================================================ */
 (function () {
   'use strict';
+  var AR = document.documentElement.lang === 'ar';
 
   var REDUCED = false;
   try { REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
@@ -25,6 +26,55 @@
   }
 
   ready(function () {
+
+    /* Client project film: responsive MP4, poster first, no background transfer
+       until the film approaches the viewport. Works on static Hostinger hosting. */
+    (function () {
+      var film = document.getElementById('hero-film');
+      var button = document.querySelector('.video-toggle');
+      if (!film || !button) return;
+      var connection = navigator.connection || {};
+      var automatic = !REDUCED && !connection.saveData;
+      var userPaused = !automatic;
+      var visible = false;
+      var loaded = false;
+      function label(playing) {
+        button.textContent = AR ? (playing ? 'إيقاف مؤقت' : 'تشغيل الفيديو') : (playing ? 'Pause film' : 'Play film');
+        button.setAttribute('aria-label', AR ? (playing ? 'إيقاف فيديو المشروع مؤقتًا' : 'تشغيل فيديو المشروع') : (playing ? 'Pause project film' : 'Play project film'));
+      }
+      function play() {
+        if (!loaded) {
+          film.src = film.getAttribute(window.innerWidth <= 760 ? 'data-src-mobile' : 'data-src');
+          film.muted = true;
+          loaded = true;
+          film.load();
+        }
+        var promise = film.play();
+        if (promise && promise.catch) promise.catch(function () { label(false); });
+      }
+      film.addEventListener('playing', function () { film.classList.add('is-playing'); label(true); });
+      film.addEventListener('pause', function () { label(false); });
+      film.addEventListener('error', function () {
+        film.classList.remove('is-playing');
+        button.textContent = AR ? 'الفيديو غير متاح' : 'Film unavailable';
+        button.disabled = true;
+      });
+      button.addEventListener('click', function () {
+        if (!film.paused) { userPaused = true; film.pause(); }
+        else { userPaused = false; play(); }
+      });
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (entries) {
+          visible = entries[0].isIntersecting;
+          if (visible && !userPaused && !document.hidden) play();
+          else film.pause();
+        }, { threshold: .05 }).observe(film);
+      } else if (automatic) { visible = true; play(); }
+      document.addEventListener('visibilitychange', function () {
+        if (document.hidden) film.pause();
+        else if (visible && !userPaused) play();
+      });
+    })();
 
     /* ---------- header state ---------- */
     var header = document.querySelector('.site-header');
@@ -65,7 +115,7 @@
         if (!card) return;
         var imgEl = card.querySelector('.proj-media img');
         if (pmImg && imgEl) {
-          pmImg.src = imgEl.currentSrc || imgEl.src;
+          pmImg.src = card.getAttribute('data-full-image') || imgEl.currentSrc || imgEl.src;
           pmImg.alt = imgEl.alt || '';
         }
         if (pmName) pmName.textContent = card.getAttribute('data-name') || '';
@@ -163,7 +213,7 @@
       try { tWords = JSON.parse(typeEl.getAttribute('data-words')) || []; } catch (e) {}
       if (!tWords.length) tWords = [typeEl.textContent || ''];
       var tIdx = 0, tPos = tWords[0].length, tDeleting = false;
-      var PREFIX = 'Talk to us about';   /* keep in sync with markup */
+      var PREFIX = AR ? 'تحدث معنا عن' : 'Talk to us about';
 
       function fitCheck() {
         /* will the FULL current word + prefix + caret fit on the line? */
@@ -233,7 +283,7 @@
        ============================================================ */
     var assoc = document.querySelector('[data-assoc]');
     if (assoc) {
-      var aWords = ['Europe', 'USA', 'Asia', 'Africa'];
+      var aWords = AR ? ['أوروبا', 'الولايات المتحدة', 'آسيا', 'أفريقيا'] : ['Europe', 'USA', 'Asia', 'Africa'];
       var aWord = assoc.querySelector('.afw');
       var ai = 0;
       function aNext() {
@@ -362,6 +412,7 @@
 
     function splitLetters(el) {
       if (!el || el.dataset.splitL === 'done') return [];
+      if (AR) return [el]; // Arabic glyphs must remain connected.
       var text = el.textContent;
       el.textContent = '';
       var spans = [];
@@ -607,12 +658,13 @@
       var cards = document.querySelectorAll('.proj-card');
       if (!cards.length) return;
       cards.forEach(function (card) {
+        var gentle = !!card.closest('.projects-grid');
         var media = card.querySelector('.proj-media img');
         var meta = card.querySelector('.proj-meta');
         var overlay = card.querySelector('.proj-overlay');
         if (overlay) {
           overlay.style.transformOrigin = 'left bottom';
-          gsap.set(overlay, { opacity: 0, y: 14 });
+          gsap.set(overlay, { opacity: 0, y: gentle ? 6 : 14 });
         }
 
         var setRX = gsap.quickTo(card, 'rotationX', { duration: .5, ease: 'power3.out' });
@@ -628,23 +680,23 @@
           var r = card.getBoundingClientRect();
           var px = (e.clientX - r.left) / r.width;
           var py = (e.clientY - r.top) / r.height;
-          setRX((0.5 - py) * 8);
-          setRY((px - 0.5) * 10);
-          setTY(-4);
-          if (setImgX) { setImgX((px - 0.5) * -7); setImgY((py - 0.5) * -7); }
+          setRX((0.5 - py) * (gentle ? 2 : 8));
+          setRY((px - 0.5) * (gentle ? 2.5 : 10));
+          setTY(gentle ? -1 : -4);
+          if (setImgX) { setImgX((px - 0.5) * (gentle ? -1.75 : -7)); setImgY((py - 0.5) * (gentle ? -1.75 : -7)); }
         }, { passive: true });
 
         card.addEventListener('pointerenter', function () {
-          if (setImgScaleX) { setImgScaleX(1.14); setImgScaleY(1.14); }
+          if (setImgScaleX) { setImgScaleX(gentle ? 1.035 : 1.14); setImgScaleY(gentle ? 1.035 : 1.14); }
           if (overlay) gsap.to(overlay, { y: 0, opacity: 1, duration: .5, ease: 'power2.out' });
-          if (meta) gsap.to(meta, { y: 18, opacity: 0, duration: .5, ease: 'power2.inOut' });
+          if (meta) gsap.to(meta, { y: gentle ? 4 : 18, opacity: 0, duration: .5, ease: 'power2.inOut' });
         });
 
         card.addEventListener('pointerleave', function () {
           setRX(0); setRY(0); setTY(0);
           if (setImgX) { setImgX(0); setImgY(0); }
           if (setImgScaleX) { setImgScaleX(1); setImgScaleY(1); }
-          if (overlay) gsap.to(overlay, { y: 14, opacity: 0, duration: .45, ease: 'power2.inOut' });
+          if (overlay) gsap.to(overlay, { y: gentle ? 6 : 14, opacity: 0, duration: .45, ease: 'power2.inOut' });
           if (meta) gsap.to(meta, { y: 0, opacity: 1, duration: .5, ease: 'power2.out' });
         });
       });

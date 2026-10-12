@@ -23,17 +23,15 @@
 
   var REDUCED = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
 
-  var IMAGES = [
-    'assets/img/proj-salalah.jpg',
-    'assets/img/proj-albahjal.jpg',
-    'assets/img/proj-awqad.jpg',
-    'assets/img/proj-redan.jpg',
-    'assets/img/proj-alsalam.jpg',
-    'assets/img/proj-restaurant.jpg',
-    'assets/img/about-story.jpg',
-    'assets/img/hero-projects.jpg',
-    'assets/img/hero-about.jpg'
-  ];
+  var mediaRoot = new URL('../media/', document.currentScript.src).href;
+  var IMAGES = ['grand-resort','al-bahja-hotel','awqad-beach','gim-theatre',
+    'tilal-district','kids-library','morjan-hall','fic','training-center',
+    'sas-building','taqa-beach','barkaa','jawad-district','al-shorouq',
+    'al-dahareez-shops','salalah-municipality','science-space-oasis',
+    'wedding-hall','aftalkout-rock','aftalkout-viewpoint','al-dahareez-beach',
+    'octagon-beach','alfarouk-street','sedra-district','mrasi-alsaada-2',
+    'mrasi-alsaada-1','al-dabus-building','hamed-alamri','aftalqout-bridge',
+    'coastal-erosion'].map(function (key) { return mediaRoot + key + '-480.webp'; });
 
   /* Three depth layers — the 'depth' value (0..1) drives per-layer parallax:
      layer 0 = far background, layer 2 = near foreground */
@@ -61,9 +59,9 @@
     var rect = field.getBoundingClientRect();
     containerW = rect.width;
     containerH = rect.height;
-    cellSize = Math.max(120, Math.min(190, containerW / 5.4));
-    cols = Math.ceil(containerW / cellSize) + 5;
-    rows = Math.ceil(containerH / cellSize) + 5;
+    cellSize = containerW < 560 ? 155 : 220;
+    cols = Math.ceil(containerW / cellSize) + 1;
+    rows = Math.ceil(containerH / cellSize) + 1;
     totalW = cols * cellSize;
     totalH = rows * cellSize;
 
@@ -72,15 +70,18 @@
 
     for (var c = 0; c < cols; c++) {
       for (var r = 0; r < rows; r++) {
+        var index = c * rows + r;
+        if (index >= IMAGES.length) continue;
         var seed = c * 41 + r * 23 + 7;
         var layer = LAYERS[Math.floor(rand(seed) * LAYERS.length)];
-        var img = IMAGES[Math.floor(rand(seed * 5.3) * IMAGES.length)];
+        var img = IMAGES[(index * 7) % IMAGES.length];
         var el = document.createElement('div');
         el.className = 'drift-tile';
         var size = layer.size * (containerW < 560 ? 0.72 : 1);
         el.style.width = size + 'px';
         el.style.height = (size * 1.15) + 'px';
         var im = document.createElement('img');
+        im.className = 'client-photo';
         im.src = img;
         im.loading = 'lazy';
         im.alt = '';
@@ -234,7 +235,9 @@
   }
 
   var raf = null;
+  var onScreen = false;
   function loop() {
+    if (!onScreen || document.hidden) { raf = null; return; }
     // Freeze all movement while a tile is focused
     if (focusedTile) {
       // Kill any residual velocity so it doesn't resume on un-focus
@@ -267,9 +270,11 @@
   }
 
   measureAndBuild();
-  if (!REDUCED) {
-    raf = requestAnimationFrame(loop);
-  }
+  function resume() { if (!REDUCED && onScreen && !document.hidden && !raf) raf = requestAnimationFrame(loop); }
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) { onScreen = entries[0].isIntersecting; resume(); }).observe(section);
+  } else { onScreen = true; resume(); }
+  document.addEventListener('visibilitychange', resume);
   setTimeout(function () { field.classList.add('is-ready'); }, 900);
 
   var resizeTimer;

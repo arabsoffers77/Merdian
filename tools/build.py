@@ -6,6 +6,8 @@ Single source of truth: header/footer/icons shared; edit here, rebuild everywher
 """
 import os
 import html as _html
+from arabic import render_arabic, render_english
+from site_media import catalog, image_tag, project_tuples, full_image, hero_film
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -127,27 +129,8 @@ SERVICES = [
      ["Stage 1–4 audits", "Site inspections", "Collision review", "Remedial advice"]),
 ]
 
-PROJECTS = [
-    ("awqad", "Awqad Beach", "Dhofar Municipality", "proj-awqad", "urban-planning buildings",
-     "Coastal development study and design for a flagship public waterfront.",
-     "A coastal development commission for Dhofar Municipality covering the Awqad Beach frontage — master-plan framework, beachfront access and promenade design, utilities routing and phased implementation advice, balancing public amenity with the sensitivity of the shoreline environment."),
-    ("albahjal", "Albahjal Hotel", "Private Developer", "proj-albahjal", "buildings hospitality",
-     "Boutique hotel architecture and engineering in an urban setting.",
-     "Full architectural and engineering package for a boutique urban hotel — guest-room layouts, facade treatment, MEP coordination and authority approvals, carried through construction-stage supervision to fit-out handover."),
-    ("salalah", "Grand Salalah Resort", "Hospitality Group", "proj-salalah", "hospitality buildings",
-     "Resort master planning, design coordination and site supervision.",
-     "Master plan and design coordination for a destination resort in Dhofar — villa siting around landscape features, pool and amenity structures, infrastructure networks and multidisciplinary site supervision across all construction packages."),
-    ("alsalam", "Alsalam Town", "Private Developer", "proj-alsalam", "urban-planning",
-     "Integrated township framework — land use, infrastructure and streetscape.",
-     "An integrated township framework defining land-use parcels, road hierarchy and open-space network, with utility corridor planning and streetscape guidelines that let later phases proceed without re-engineering earlier ones."),
-    ("redan", "Redan Hotel", "Private Developer", "proj-redan", "buildings hospitality",
-     "Hotel building design and construction-stage engineering support.",
-     "Design and construction-stage engineering for a city hotel building — structural and architectural packages, room-module standardisation for operational efficiency, and resident engineering support through to completion."),
-    ("restaurant", "Restaurant Project", "Private Client", "proj-restaurant", "buildings hospitality",
-     "Bespoke dining venue — architecture, interiors and services design.",
-     "A bespoke dining venue delivered end-to-end — interior architecture, kitchen and services design, ventilation and acoustic treatment, and authority submissions, coordinated to a tight fit-out programme."),
-]
-# NOTE: client names other than Dhofar Municipality are placeholders — confirm with client.
+PROJECTS = project_tuples()
+# Project identities and imagery come from the client media catalog.
 
 PILLARS = [
     ("Creativity", "compass", "Fresh engineering responses to complex sites and demanding briefs."),
@@ -211,7 +194,8 @@ def head_block(title, desc):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"></noscript>
-<link rel="stylesheet" href="assets/css/style.css?v=20260903a">
+<link rel="stylesheet" href="assets/css/style.css?v=20261011f">
+<link rel="stylesheet" href="assets/css/photo-grade.css?v=20261011d">
 </head>
 '''
 
@@ -223,12 +207,13 @@ def header(active):
     return f'''<header class="site-header">
   <div class="wrap">
     <a href="index.html" class="brand" aria-label="Meridian Engineering Consultancy — Home">
-      <img src="assets/img/logo.png" alt="Meridian Engineering Consultancy logo — amber hexagon with grey m and MERIDIAN wordmark" class="logo-img" width="34" height="46">
+      <img src="assets/media/logo.png" alt="Meridian Engineering Consultancy logo — amber hexagon with grey m and MERIDIAN wordmark" class="logo-img" width="34" height="46">
     </a>
     <nav class="main-nav" aria-label="Primary">
       <ul>
 {links}      </ul>
     </nav>
+    <a class="language-switch" href="ar/{active}" lang="ar" hreflang="ar" aria-label="عرض الموقع باللغة العربية">العربية</a>
     <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </header>
@@ -247,7 +232,7 @@ def footer(extra_scripts=""):
   <div class="wrap">
     <div class="footer-main">
       <div>
-        <img src="assets/img/logo.png" alt="Meridian Engineering Consultancy logo" class="logo-img" width="30" height="42" loading="lazy">
+        <img src="assets/media/logo.png" alt="Meridian Engineering Consultancy logo" class="logo-img" width="30" height="42" loading="lazy">
         <p style="margin-top:16px;">Multi-disciplinary engineering consultancy registered in Oman — delivering innovative engineering and lasting solutions.</p>
 {socials_html()}
       </div>
@@ -270,9 +255,9 @@ def footer(extra_scripts=""):
     </div>
   </div>
 </footer>
-<script src="assets/vendor/gsap.min.js?v=20260903a" defer></script>
-<script src="assets/vendor/ScrollTrigger.min.js?v=20260903a" defer></script>
-<script src="assets/js/main.js?v=20260903a" defer></script>
+<script src="assets/vendor/gsap.min.js?v=20261011b" defer></script>
+<script src="assets/vendor/ScrollTrigger.min.js?v=20261011b" defer></script>
+<script src="assets/js/main.js?v=20261011d" defer></script>
 {extra_scripts}</body>
 </html>
 '''
@@ -285,9 +270,9 @@ def slide_btn(label, hover_label, href, solid=True):
     cls = "btn btn--solid" if solid else "btn"
     return (f'<a class="{cls}" href="{href}">'
             f'<span class="slide-txt">'
-            f'<span class="st-row"><span>{label}</span>&nbsp;{ic("arrow","arr")}</span>'
+            f'<span class="st-row">{label}</span>'
             f'<span class="st-row st-b" aria-hidden="true">{hover_label}</span>'
-            f'</span></a>')
+            f'</span>{ic("arrow","arr")}</a>')
 
 def cta_band():
     return f'''<section class="section">
@@ -330,8 +315,7 @@ def page_hero(eyebrow, title, lede, img, alt, index_label, after_lede=''):
         <div class="ph-meta"><span>Meridian Engineering Consultancy</span><b>{index_label}</b></div>
       </div>
       <div class="page-hero-media">
-        <!-- PLACEHOLDER IMAGE: replace with client project photo -->
-        <img src="assets/img/{img}" alt="{alt}" fetchpriority="high">
+        {image_tag({'hero-about.jpg':'training-center','hero-services.jpg':'gim-theatre','hero-projects.jpg':'grand-resort','hero-disciplines.jpg':'tilal-district','hero-home.jpg':'kids-library'}[img], lazy=False, sizes='(max-width: 900px) 100vw, 58vw', priority=True)}
       </div>
     </div>
   </div>
@@ -346,10 +330,11 @@ def proj_card(p, span_cls, lazy=True, chroma=False):
     lazy_attr = ' loading="lazy"' if lazy else ""
     cls = f'proj-card chroma-card {span_cls}' if chroma else f'proj-card {span_cls}'
     veil = '<div class="chroma-veil"></div>' if chroma else ''
-    return f'''<a class="{cls}" id="proj-{key}" href="#proj-{key}" data-category="{cat}" data-reveal-child data-name="{name}" data-client="{client}" data-cat-label="{cat_label}" data-desc="{desc}">
+    fit = next(item.get('fit','cover') for item in catalog()['projects'] if item['key']==key)
+    reveal_attr = ' data-reveal' if span_cls.startswith('p-span') else ' data-reveal-child'
+    return f'''<a class="{cls}" id="proj-{key}" href="#proj-{key}" data-category="{cat}"{reveal_attr} data-name="{name}" data-client="{client}" data-cat-label="{cat_label}" data-desc="{desc}" data-full-image="{full_image(key)}" data-image-fit="{fit}">
   <div class="proj-media">
-    <!-- PLACEHOLDER IMAGE: replace with client project photo — {name} -->
-    <img src="assets/img/{img}.jpg" alt="{name} — representative project image"{lazy_attr}>
+    {image_tag(key, lazy=lazy, sizes='(max-width: 760px) 100vw, 60vw')}
     {veil}
     <div class="proj-overlay">
       <span class="proj-cat">{cat_label}</span>
@@ -360,7 +345,7 @@ def proj_card(p, span_cls, lazy=True, chroma=False):
   </div>
   <div class="proj-meta">
     <span class="proj-title-line"><h3>{name}</h3></span>
-    <span class="proj-client">{client}</span><!-- PLACEHOLDER: confirm client name with client -->
+    <span class="proj-client">{client}</span>
   </div>
 </a>'''
 
@@ -370,15 +355,14 @@ def project_modal():
   <div class="pmodal-panel" role="document">
     <button class="pmodal-close" type="button" data-pmodal-close aria-label="Close project details">&times;</button>
     <div class="pmodal-media">
-      <!-- PLACEHOLDER IMAGE: replace with client project photo -->
-      <img id="pm-img" src="" alt="">
+      <img id="pm-img" class="client-photo" alt="">
     </div>
     <div class="pmodal-body">
       <p class="pmodal-cat" id="pm-cat"></p>
       <h3 id="pm-name"></h3>
-      <p class="pmodal-client" id="pm-client"></p><!-- PLACEHOLDER: confirm client name with client -->
+      <p class="pmodal-client" id="pm-client"></p>
       <p class="pmodal-desc" id="pm-desc"></p>
-      <p class="pmodal-note">Representative imagery shown — client photography pending.</p>
+      <p class="pmodal-note">Project imagery supplied by Meridian. Visualizations show design intent; they do not confirm construction status.</p>
     </div>
   </div>
 </div>
@@ -405,13 +389,7 @@ def page_home():
       <div class="scroll-cue"><span class="cue-line"></span><span>Scroll</span></div>
     </div>
   </div>
-  <figure class="hero-media hero-video">
-    <!-- PLACEHOLDER VIDEO: replace poster with client footage — drop a
-         <video autoplay muted loop playsinline> element in this figure
-         (assets/videos folder) when the film arrives; keep the 16:8 crop. -->
-    <img src="assets/img/hero-home.jpg" alt="Engineers reviewing a large foundation slab on an active construction site" fetchpriority="high">
-    <figcaption class="video-badge">{PLAY_SVG}&nbsp;Project reel — placeholder footage</figcaption>
-  </figure>
+  {hero_film()}
 </section>
 '''
     b += ticker()
@@ -425,7 +403,15 @@ def page_home():
       <h2 class="display-lg">Engineering consultancy built on precision.</h2>
       <p class="lede" style="margin-top:18px;">Meridian Engineering Consultancy (MEC) is a multi-disciplinary consulting firm registered in Oman. To ensure outstanding professional services, MEC forms associations with specialized foreign firms from Europe, USA, Asia &amp; Africa as necessary.</p>
       <div class="chip-tags">
-        <span><i>◆</i>Quality</span><span><i>◆</i>Integrity</span><span><i>◆</i>Teamwork</span><span><i>◆</i>Staff Motivation</span><span><i>◆</i>Sustainability</span>
+        <div class="chip-row">
+          <span><svg class="hex-ico" viewBox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor"/></svg>Quality</span>
+          <span><svg class="hex-ico" viewBox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor"/></svg>Integrity</span>
+          <span><svg class="hex-ico" viewBox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor"/></svg>Teamwork</span>
+        </div>
+        <div class="chip-row">
+          <span><svg class="hex-ico" viewBox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor"/></svg>Staff Motivation</span>
+          <span><svg class="hex-ico" viewBox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor"/></svg>Sustainability</span>
+        </div>
       </div>
       <p style="margin-top:30px;">{arrow_link("More about us", "about.html")}</p>
     </div>
@@ -440,10 +426,10 @@ def page_home():
       </div>
       <div class="head-action">{arrow_link("All services", "services.html")}</div>
     </div>
-    <div class="cells grid-cells-4" data-reveal data-reveal-stagger>
+    <div class="cells grid-cells-4" id="services-grid">
 '''
     for i, (_key, name, icon_name, blurb, _tags) in enumerate(SERVICES, 1):
-        b += f'''        <div class="cell" data-reveal-child>
+        b += f'''        <div class="cell">
           <div class="cell-head">{ic(icon_name)}<span class="num-index">{i:02d}</span></div>
           <h3>{name}</h3>
           <p>{blurb}</p>
@@ -468,6 +454,7 @@ def page_home():
       <div class="feat-cell span-2" data-reveal-child>''' + proj_card(PROJECTS[3], "ratio-tall", chroma=True) + '''</div>
       <div class="feat-cell span-2" data-reveal-child>''' + proj_card(PROJECTS[4], "ratio-tall", chroma=True) + '''</div>
       <div class="feat-cell span-2" data-reveal-child>''' + proj_card(PROJECTS[5], "ratio-tall", chroma=True) + '''</div>
+      <div class="feat-cell span-4" data-reveal-child>''' + proj_card(PROJECTS[6], "ratio-wide", chroma=True) + '''</div>
     </div>
   </div>
 </section>
@@ -475,7 +462,7 @@ def page_home():
     b += project_modal()
     b += cta_band()
     b += "</main>"
-    b += footer('<script src="assets/js/drift-field.js?v=20260903a" defer></script>\n')
+    b += footer('<script src="assets/js/drift-field.js?v=20261011d" defer></script>\n')
     return b
 
 def page_about():
@@ -606,7 +593,7 @@ def page_about():
   </div>
 </section>
 '''
-    b += cta_band() + "</main>" + footer('<script src="assets/js/globe.js?v=20260903a" defer></script>\n')
+    b += cta_band() + "</main>" + footer('<script src="assets/js/globe.js?v=20261011b" defer></script>\n')
     return b
 
 def xrows(entries):
@@ -667,7 +654,7 @@ def page_projects():
                    "Selected projects across Oman — coastal developments, hotels, resorts, townships and hospitality venues.")
     b += header("projects.html")
     b += page_hero("Portfolio", "Selected Work.",
-                   "Real projects across Oman's public and private sectors — imagery shown is placeholder until client photography arrives.",
+                   "Explore architectural visualizations, public spaces and project documentation supplied by Meridian.",
                    "hero-projects.jpg", "Glass office towers against the sky", "03 — PORTFOLIO")
     b += '''<main id="top">
 <section class="section">
@@ -677,13 +664,16 @@ def page_projects():
       <button class="chip" data-filter="buildings" type="button">Buildings</button>
       <button class="chip" data-filter="hospitality" type="button">Hospitality</button>
       <button class="chip" data-filter="urban-planning" type="button">Urban Planning</button>
+      <button class="chip" data-filter="landscape" type="button">Landscape</button>
+      <button class="chip" data-filter="coastal" type="button">Coastal</button>
     </div>
-    <div class="projects-grid" data-reveal data-reveal-stagger>
+    <div class="projects-grid">
 '''
     spans = ["p-span-7 ratio-wide", "p-span-5 ratio-tall",
              "p-span-5 ratio-tall", "p-span-7 ratio-wide",
              "p-span-7 ratio-wide", "p-span-5 ratio-tall"]
-    for p, span in zip(PROJECTS, spans):
+    for i, p in enumerate(PROJECTS):
+        span = spans[i % len(spans)]
         b += "      " + proj_card(p, span) + "\n"
     b += '''    </div>
   </div>
@@ -828,10 +818,23 @@ PAGES = {
 }
 
 def main():
+    for folder in ('ar','en'):os.makedirs(os.path.join(ROOT,folder),exist_ok=True)
     for fname, fn in PAGES.items():
         path = os.path.join(ROOT, fname)
+        content=fn()
+        arabic=render_arabic(content,fname)
+        english=render_english(content,fname)
+        legacy=render_arabic(content,fname,asset_prefix='../',switch_prefix='../en/',page_prefix='../')
+        def language_links(html,ar,en,canonical):
+            html=html.replace('</head>',f'<link rel="alternate" hreflang="ar" href="{ar}"><link rel="alternate" hreflang="en" href="{en}"><link rel="alternate" hreflang="x-default" href="{ar}"><link rel="canonical" href="{canonical}"></head>')
+            return '\n'.join(line.rstrip() for line in html.split('\n'))
+        arabic=language_links(arabic,fname,'en/'+fname,fname)
+        english=language_links(english,'../'+fname,fname,fname)
+        legacy=language_links(legacy,'../'+fname,'../en/'+fname,'../'+fname)
         with open(path, "w", encoding="utf-8") as fh:
-            fh.write(fn())
+            fh.write(arabic)
+        with open(os.path.join(ROOT,'en',fname),'w',encoding='utf8') as fh:fh.write(english)
+        with open(os.path.join(ROOT,'ar',fname),'w',encoding='utf8') as fh:fh.write(legacy)
         print("built", fname, os.path.getsize(path), "bytes")
 
 if __name__ == "__main__":
