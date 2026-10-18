@@ -23,26 +23,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media=&#x27;all&#x27;">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"></noscript>
-<link rel="stylesheet" href="../assets/css/style.css?v=20261011f">
+<link rel="stylesheet" href="../assets/css/style.css?v=20261018b">
 <link rel="stylesheet" href="../assets/css/photo-grade.css?v=20261011d">
+<link rel="stylesheet" href="../assets/css/meeting-revision.css?v=20261018a">
 <link rel="alternate" hreflang="ar" href="../services.html"><link rel="alternate" hreflang="en" href="services.html"><link rel="alternate" hreflang="x-default" href="../services.html"><link rel="canonical" href="services.html"></head>
 <header class="site-header">
   <div class="wrap">
     <a href="index.html" class="brand" aria-label="Meridian Engineering Consultancy — Home">
-      <img src="../assets/media/logo.png" alt="Meridian Engineering Consultancy logo — amber hexagon with grey m and MERIDIAN wordmark" class="logo-img" width="34" height="46">
+      <span class="brand-mark" aria-hidden="true"><img src="../assets/media/logo.png" alt="" width="133" height="183"></span>
+      <span class="brand-wordmark" lang="en" dir="ltr">MERIDIAN</span>
     </a>
-    <nav class="main-nav" aria-label="Primary">
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
       <ul>
-        <li><a class="nav-link" href="index.html">Home</a></li>
-        <li><a class="nav-link" href="about.html">About Us</a></li>
-        <li><a class="nav-link" href="services.html" aria-current="page">Services</a></li>
-        <li><a class="nav-link" href="projects.html">Projects</a></li>
-        <li><a class="nav-link" href="disciplines.html">Disciplines</a></li>
-        <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+        <li><a class="nav-link" href="index.html"><span class="nav-link-text">Home</span></a></li>
+        <li><a class="nav-link" href="about.html"><span class="nav-link-text">About Us</span></a></li>
+        <li><a class="nav-link" href="services.html" aria-current="page"><span class="nav-link-text">Services</span></a></li>
+        <li><a class="nav-link" href="projects.html"><span class="nav-link-text">Projects</span></a></li>
+        <li><a class="nav-link" href="disciplines.html"><span class="nav-link-text">Disciplines</span></a></li>
+        <li><a class="nav-link" href="contact.html"><span class="nav-link-text">Contact Us</span></a></li>
       </ul>
     </nav>
     <a class="language-switch" href="../services.html" lang="ar" hreflang="ar" aria-label="عرض الموقع باللغة العربية">العربية</a>
-    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-controls="main-nav" aria-expanded="false"><span class="nav-toggle-label">Menu</span><span class="nav-toggle-icon" aria-hidden="true"><i></i><i></i></span></button>
   </div>
 </header>
 <section class="page-hero">
@@ -190,12 +192,22 @@
     </div>
   </div>
 </section>
-<div class="pmodal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project details">
-  <div class="pmodal-backdrop" data-pmodal-close></div>
+<dialog class="pmodal" id="project-modal" aria-hidden="true" aria-modal="true" aria-labelledby="pm-name">
   <div class="pmodal-panel" role="document">
-    <button class="pmodal-close" type="button" data-pmodal-close aria-label="Close project details">×</button>
+    <div class="pmodal-toolbar">
+      <div class="gallery-controls" hidden>
+        <button class="gallery-button gallery-prev" type="button" aria-label="Previous project image"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></button>
+        <span class="gallery-count" aria-live="polite"></span>
+        <button class="gallery-button gallery-next" type="button" aria-label="Next project image"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></button>
+      </div>
+      <p class="gallery-status" id="pm-gallery-status" role="status"></p>
+      <button class="pmodal-close" type="button" data-pmodal-close aria-label="Close project details" autofocus>×</button>
+    </div>
     <div class="pmodal-media">
-      <img id="pm-img" class="client-photo" alt="">
+      <!-- Gallery source is assigned on opening; no image is loaded while closed. -->
+      <img id="pm-img" class="client-photo" alt="" hidden>
+      <video id="pm-video" class="client-photo" controls playsinline preload="none" hidden></video>
+      <p class="gallery-error" role="status" hidden>Media unavailable. Please try another image.</p>
     </div>
     <div class="pmodal-body">
       <p class="pmodal-cat" id="pm-cat"></p>
@@ -205,21 +217,7 @@
       <p class="pmodal-note">Project imagery supplied by Meridian. Visualizations show design intent; they do not confirm construction status.</p>
     </div>
   </div>
-</div>
-<section class="section">
-  <div class="wrap">
-    <div class="cta-band" data-reveal>
-      <div>
-        <h2>Have a project in mind?</h2>
-        <p class="lede">From first feasibility study to final handover certificate — talk to a team that delivers across ten disciplines.</p>
-      </div>
-      <div style="display:flex;gap:14px;flex-wrap:wrap;">
-        <a class="btn btn--solid" href="contact.html"><span class="slide-txt"><span class="st-row">Contact Us</span><span class="st-row st-b" aria-hidden="true">Start a project</span></span><svg class="arr" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></a>
-        <a class="btn" href="tel:+96897004250"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z" /></svg> +968 9700 4250</a>
-      </div>
-    </div>
-  </div>
-</section>
+</dialog>
 </main><footer class="site-footer">
   <div class="wrap">
     <div class="footer-main">
@@ -254,6 +252,6 @@
 </footer>
 <script src="../assets/vendor/gsap.min.js?v=20261011b" defer></script>
 <script src="../assets/vendor/ScrollTrigger.min.js?v=20261011b" defer></script>
-<script src="../assets/js/main.js?v=20261011d" defer></script>
+<script src="../assets/js/main.js?v=20261018a" defer></script>
 </body>
 </html>

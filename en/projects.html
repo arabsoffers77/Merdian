@@ -23,26 +23,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media=&#x27;all&#x27;">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"></noscript>
-<link rel="stylesheet" href="../assets/css/style.css?v=20261011f">
+<link rel="stylesheet" href="../assets/css/style.css?v=20261018b">
 <link rel="stylesheet" href="../assets/css/photo-grade.css?v=20261011d">
+<link rel="stylesheet" href="../assets/css/meeting-revision.css?v=20261018a">
 <link rel="alternate" hreflang="ar" href="../projects.html"><link rel="alternate" hreflang="en" href="projects.html"><link rel="alternate" hreflang="x-default" href="../projects.html"><link rel="canonical" href="projects.html"></head>
 <header class="site-header">
   <div class="wrap">
     <a href="index.html" class="brand" aria-label="Meridian Engineering Consultancy — Home">
-      <img src="../assets/media/logo.png" alt="Meridian Engineering Consultancy logo — amber hexagon with grey m and MERIDIAN wordmark" class="logo-img" width="34" height="46">
+      <span class="brand-mark" aria-hidden="true"><img src="../assets/media/logo.png" alt="" width="133" height="183"></span>
+      <span class="brand-wordmark" lang="en" dir="ltr">MERIDIAN</span>
     </a>
-    <nav class="main-nav" aria-label="Primary">
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
       <ul>
-        <li><a class="nav-link" href="index.html">Home</a></li>
-        <li><a class="nav-link" href="about.html">About Us</a></li>
-        <li><a class="nav-link" href="services.html">Services</a></li>
-        <li><a class="nav-link" href="projects.html" aria-current="page">Projects</a></li>
-        <li><a class="nav-link" href="disciplines.html">Disciplines</a></li>
-        <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+        <li><a class="nav-link" href="index.html"><span class="nav-link-text">Home</span></a></li>
+        <li><a class="nav-link" href="about.html"><span class="nav-link-text">About Us</span></a></li>
+        <li><a class="nav-link" href="services.html"><span class="nav-link-text">Services</span></a></li>
+        <li><a class="nav-link" href="projects.html" aria-current="page"><span class="nav-link-text">Projects</span></a></li>
+        <li><a class="nav-link" href="disciplines.html"><span class="nav-link-text">Disciplines</span></a></li>
+        <li><a class="nav-link" href="contact.html"><span class="nav-link-text">Contact Us</span></a></li>
       </ul>
     </nav>
     <a class="language-switch" href="../projects.html" lang="ar" hreflang="ar" aria-label="عرض الموقع باللغة العربية">العربية</a>
-    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-controls="main-nav" aria-expanded="false"><span class="nav-toggle-label">Menu</span><span class="nav-toggle-icon" aria-hidden="true"><i></i><i></i></span></button>
   </div>
 </header>
 <section class="page-hero">
@@ -73,7 +75,7 @@
       <button class="chip" data-filter="coastal" type="button">Coastal</button>
     </div>
     <div class="projects-grid">
-      <a class="proj-card p-span-7 ratio-wide" id="proj-awqad-beach" href="#proj-awqad-beach" data-category="coastal landscape urban-planning" data-reveal data-name="Awqad Beach" data-client="Project visualization" data-cat-label="Coastal Landscape Urban Planning" data-desc="Sunset aerial view of the Awqad beachfront promenade. Imagery supplied by Meridian." data-full-image="../assets/media/awqad-beach-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-awqad-beach" href="#proj-awqad-beach" data-category="coastal landscape urban-planning" data-reveal data-name="Awqad Beach" data-client="Project visualization" data-cat-label="Coastal Landscape Urban Planning" data-desc="Sunset aerial view of the Awqad beachfront promenade. Imagery supplied by Meridian." data-full-image="../assets/media/awqad-beach-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/awqad-beach-1920.webp&quot;, &quot;alt&quot;: &quot;Sunset aerial view of the Awqad beachfront promenade.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/awqad-beach-800.webp" srcset="../assets/media/awqad-beach-480.webp 480w, ../assets/media/awqad-beach-800.webp 800w, ../assets/media/awqad-beach-1200.webp 1200w, ../assets/media/awqad-beach-1600.webp 1600w, ../assets/media/awqad-beach-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="3840" height="2160" alt="Sunset aerial view of the Awqad beachfront promenade." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -89,7 +91,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-al-bahja-hotel" href="#proj-al-bahja-hotel" data-category="buildings hospitality" data-reveal data-name="Al Bahja Hotel" data-client="Project visualization" data-cat-label="Buildings Hospitality" data-desc="Hotel exterior with blue facade accents and landscaped frontage. Imagery supplied by Meridian." data-full-image="../assets/media/al-bahja-hotel-1672.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-al-bahja-hotel" href="#proj-al-bahja-hotel" data-category="buildings hospitality" data-reveal data-name="Al Bahja Hotel" data-client="Project visualization" data-cat-label="Buildings Hospitality" data-desc="Hotel exterior with blue facade accents and landscaped frontage. Imagery supplied by Meridian." data-full-image="../assets/media/al-bahja-hotel-1672.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/al-bahja-hotel-1672.webp&quot;, &quot;alt&quot;: &quot;Hotel exterior with blue facade accents and landscaped frontage.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/al-bahja-hotel-800.webp" srcset="../assets/media/al-bahja-hotel-480.webp 480w, ../assets/media/al-bahja-hotel-800.webp 800w, ../assets/media/al-bahja-hotel-1200.webp 1200w, ../assets/media/al-bahja-hotel-1600.webp 1600w, ../assets/media/al-bahja-hotel-1672.webp 1672w" sizes="(max-width: 760px) 100vw, 60vw" width="1672" height="941" alt="Hotel exterior with blue facade accents and landscaped frontage." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -105,7 +107,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-grand-resort" href="#proj-grand-resort" data-category="buildings hospitality" data-reveal data-name="Grand Resort" data-client="Project visualization" data-cat-label="Buildings Hospitality" data-desc="Aerial view of the resort buildings, villas and entrance. Imagery supplied by Meridian." data-full-image="../assets/media/grand-resort-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-grand-resort" href="#proj-grand-resort" data-category="buildings hospitality" data-reveal data-name="Grand Resort" data-client="Project visualization" data-cat-label="Buildings Hospitality" data-desc="Aerial view of the resort buildings, villas and entrance. Imagery supplied by Meridian." data-full-image="../assets/media/grand-resort-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/grand-resort-1920.webp&quot;, &quot;alt&quot;: &quot;Aerial view of the resort buildings, villas and entrance.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/grand-resort-800.webp" srcset="../assets/media/grand-resort-480.webp 480w, ../assets/media/grand-resort-800.webp 800w, ../assets/media/grand-resort-1200.webp 1200w, ../assets/media/grand-resort-1600.webp 1600w, ../assets/media/grand-resort-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2734" height="1538" alt="Aerial view of the resort buildings, villas and entrance." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -121,7 +123,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-kids-library" href="#proj-kids-library" data-category="buildings" data-reveal data-name="Children’s Library" data-client="Project visualization" data-cat-label="Buildings" data-desc="A curved library building with landscaped outdoor spaces. Imagery supplied by Meridian." data-full-image="../assets/media/kids-library-1183.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-kids-library" href="#proj-kids-library" data-category="buildings" data-reveal data-name="Children’s Library" data-client="Project visualization" data-cat-label="Buildings" data-desc="A curved library building with landscaped outdoor spaces. Imagery supplied by Meridian." data-full-image="../assets/media/kids-library-1183.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/kids-library-1183.webp&quot;, &quot;alt&quot;: &quot;A curved library building with landscaped outdoor spaces.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/kids-library-800.webp" srcset="../assets/media/kids-library-480.webp 480w, ../assets/media/kids-library-800.webp 800w, ../assets/media/kids-library-1183.webp 1183w" sizes="(max-width: 760px) 100vw, 60vw" width="1183" height="660" alt="A curved library building with landscaped outdoor spaces." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -137,7 +139,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-gim-theatre" href="#proj-gim-theatre" data-category="buildings" data-reveal data-name="GIM Theatre" data-client="Project visualization" data-cat-label="Buildings" data-desc="Sculptural theatre exterior illuminated at dusk. Imagery supplied by Meridian." data-full-image="../assets/media/gim-theatre-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-gim-theatre" href="#proj-gim-theatre" data-category="buildings" data-reveal data-name="GIM Theatre" data-client="Project visualization" data-cat-label="Buildings" data-desc="Sculptural theatre exterior illuminated at dusk. Imagery supplied by Meridian." data-full-image="../assets/media/gim-theatre-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/gim-theatre-1920.webp&quot;, &quot;alt&quot;: &quot;Sculptural theatre exterior illuminated at dusk.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/gim-theatre-800.webp" srcset="../assets/media/gim-theatre-480.webp 480w, ../assets/media/gim-theatre-800.webp 800w, ../assets/media/gim-theatre-1200.webp 1200w, ../assets/media/gim-theatre-1600.webp 1600w, ../assets/media/gim-theatre-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2304" height="1280" alt="Sculptural theatre exterior illuminated at dusk." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -153,7 +155,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-tilal-district" href="#proj-tilal-district" data-category="urban-planning" data-reveal data-name="Tilal District" data-client="Project visualization" data-cat-label="Urban Planning" data-desc="Aerial masterplan visualization of a district beside a rocky landscape. Imagery supplied by Meridian." data-full-image="../assets/media/tilal-district-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-tilal-district" href="#proj-tilal-district" data-category="urban-planning" data-reveal data-name="Tilal District" data-client="Project visualization" data-cat-label="Urban Planning" data-desc="Aerial masterplan visualization of a district beside a rocky landscape. Imagery supplied by Meridian." data-full-image="../assets/media/tilal-district-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/tilal-district-1920.webp&quot;, &quot;alt&quot;: &quot;Aerial masterplan visualization of a district beside a rocky landscape.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/tilal-district-800.webp" srcset="../assets/media/tilal-district-480.webp 480w, ../assets/media/tilal-district-800.webp 800w, ../assets/media/tilal-district-1200.webp 1200w, ../assets/media/tilal-district-1600.webp 1600w, ../assets/media/tilal-district-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2752" height="1536" alt="Aerial masterplan visualization of a district beside a rocky landscape." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -169,7 +171,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-fic" href="#proj-fic" data-category="coastal buildings" data-reveal data-name="FIC" data-client="Project visualization" data-cat-label="Coastal Buildings" data-desc="Aerial visualization of a coastal industrial site and harbour. Imagery supplied by Meridian." data-full-image="../assets/media/fic-1672.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-fic" href="#proj-fic" data-category="coastal buildings" data-reveal data-name="FIC" data-client="Project visualization" data-cat-label="Coastal Buildings" data-desc="Aerial visualization of a coastal industrial site and harbour. Imagery supplied by Meridian." data-full-image="../assets/media/fic-1672.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/fic-1672.webp&quot;, &quot;alt&quot;: &quot;Aerial visualization of a coastal industrial site and harbour.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/fic-800.webp" srcset="../assets/media/fic-480.webp 480w, ../assets/media/fic-800.webp 800w, ../assets/media/fic-1200.webp 1200w, ../assets/media/fic-1600.webp 1600w, ../assets/media/fic-1672.webp 1672w" sizes="(max-width: 760px) 100vw, 60vw" width="1672" height="941" alt="Aerial visualization of a coastal industrial site and harbour." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -185,7 +187,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-al-dahareez-shops" href="#proj-al-dahareez-shops" data-category="buildings" data-reveal data-name="Al Dahareez Commercial Shops" data-client="Project visualization" data-cat-label="Buildings" data-desc="Retail frontage with shaded shop entrances and parking. Imagery supplied by Meridian." data-full-image="../assets/media/al-dahareez-shops-1280.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-al-dahareez-shops" href="#proj-al-dahareez-shops" data-category="buildings" data-reveal data-name="Al Dahareez Commercial Shops" data-client="Project visualization" data-cat-label="Buildings" data-desc="Retail frontage with shaded shop entrances and parking. Imagery supplied by Meridian." data-full-image="../assets/media/al-dahareez-shops-1280.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/al-dahareez-shops-1280.webp&quot;, &quot;alt&quot;: &quot;Retail frontage with shaded shop entrances and parking.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/al-dahareez-shops-800.webp" srcset="../assets/media/al-dahareez-shops-480.webp 480w, ../assets/media/al-dahareez-shops-800.webp 800w, ../assets/media/al-dahareez-shops-1200.webp 1200w, ../assets/media/al-dahareez-shops-1280.webp 1280w" sizes="(max-width: 760px) 100vw, 60vw" width="1280" height="720" alt="Retail frontage with shaded shop entrances and parking." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -201,7 +203,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-morjan-hall" href="#proj-morjan-hall" data-category="buildings hospitality" data-reveal data-name="Morjan Hall" data-client="Project visualization" data-cat-label="Buildings Hospitality" data-desc="Aerial sunset view of a landscaped hall complex. Imagery supplied by Meridian." data-full-image="../assets/media/morjan-hall-1536.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-morjan-hall" href="#proj-morjan-hall" data-category="buildings hospitality" data-reveal data-name="Morjan Hall" data-client="Project visualization" data-cat-label="Buildings Hospitality" data-desc="Aerial sunset view of a landscaped hall complex. Imagery supplied by Meridian." data-full-image="../assets/media/morjan-hall-1536.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/morjan-hall-1536.webp&quot;, &quot;alt&quot;: &quot;Aerial sunset view of a landscaped hall complex.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/morjan-hall-800.webp" srcset="../assets/media/morjan-hall-480.webp 480w, ../assets/media/morjan-hall-800.webp 800w, ../assets/media/morjan-hall-1200.webp 1200w, ../assets/media/morjan-hall-1536.webp 1536w" sizes="(max-width: 760px) 100vw, 60vw" width="1536" height="1024" alt="Aerial sunset view of a landscaped hall complex." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -217,7 +219,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-salalah-municipality" href="#proj-salalah-municipality" data-category="buildings" data-reveal data-name="Salalah Municipality Buildings" data-client="Project visualization" data-cat-label="Buildings" data-desc="Administrative and laboratory building exterior. Imagery supplied by Meridian." data-full-image="../assets/media/salalah-municipality-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-salalah-municipality" href="#proj-salalah-municipality" data-category="buildings" data-reveal data-name="Salalah Municipality Buildings" data-client="Project visualization" data-cat-label="Buildings" data-desc="Administrative and laboratory building exterior. Imagery supplied by Meridian." data-full-image="../assets/media/salalah-municipality-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/salalah-municipality-1920.webp&quot;, &quot;alt&quot;: &quot;Administrative and laboratory building exterior.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/salalah-municipality-800.webp" srcset="../assets/media/salalah-municipality-480.webp 480w, ../assets/media/salalah-municipality-800.webp 800w, ../assets/media/salalah-municipality-1200.webp 1200w, ../assets/media/salalah-municipality-1600.webp 1600w, ../assets/media/salalah-municipality-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="3840" height="2160" alt="Administrative and laboratory building exterior." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -233,7 +235,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-science-space-oasis" href="#proj-science-space-oasis" data-category="buildings" data-reveal data-name="Science and Space Oasis" data-client="Project visualization" data-cat-label="Buildings" data-desc="Science centre exterior with curved forms and patterned surfaces. Imagery supplied by Meridian." data-full-image="../assets/media/science-space-oasis-1551.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-science-space-oasis" href="#proj-science-space-oasis" data-category="buildings" data-reveal data-name="Science and Space Oasis" data-client="Project visualization" data-cat-label="Buildings" data-desc="Science centre exterior with curved forms and patterned surfaces. Imagery supplied by Meridian." data-full-image="../assets/media/science-space-oasis-1551.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/science-space-oasis-1551.webp&quot;, &quot;alt&quot;: &quot;Science centre exterior with curved forms and patterned surfaces.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/science-space-oasis-800.webp" srcset="../assets/media/science-space-oasis-480.webp 480w, ../assets/media/science-space-oasis-800.webp 800w, ../assets/media/science-space-oasis-1200.webp 1200w, ../assets/media/science-space-oasis-1551.webp 1551w" sizes="(max-width: 760px) 100vw, 60vw" width="1551" height="834" alt="Science centre exterior with curved forms and patterned surfaces." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -249,7 +251,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-training-center" href="#proj-training-center" data-category="buildings" data-reveal data-name="Training Center" data-client="Project visualization" data-cat-label="Buildings" data-desc="Aerial view of a curved training centre building. Imagery supplied by Meridian." data-full-image="../assets/media/training-center-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-training-center" href="#proj-training-center" data-category="buildings" data-reveal data-name="Training Center" data-client="Project visualization" data-cat-label="Buildings" data-desc="Aerial view of a curved training centre building. Imagery supplied by Meridian." data-full-image="../assets/media/training-center-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/training-center-1920.webp&quot;, &quot;alt&quot;: &quot;Aerial view of a curved training centre building.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/training-center-800.webp" srcset="../assets/media/training-center-480.webp 480w, ../assets/media/training-center-800.webp 800w, ../assets/media/training-center-1200.webp 1200w, ../assets/media/training-center-1600.webp 1600w, ../assets/media/training-center-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="5376" height="3072" alt="Aerial view of a curved training centre building." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -265,7 +267,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-wedding-hall" href="#proj-wedding-hall" data-category="buildings hospitality" data-reveal data-name="Wedding Hall" data-client="Project visualization" data-cat-label="Buildings Hospitality" data-desc="Formal hall frontage with a central entrance and landscaped approach. Imagery supplied by Meridian." data-full-image="../assets/media/wedding-hall-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-wedding-hall" href="#proj-wedding-hall" data-category="buildings hospitality" data-reveal data-name="Wedding Hall" data-client="Project visualization" data-cat-label="Buildings Hospitality" data-desc="Formal hall frontage with a central entrance and landscaped approach. Imagery supplied by Meridian." data-full-image="../assets/media/wedding-hall-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/wedding-hall-1920.webp&quot;, &quot;alt&quot;: &quot;Formal hall frontage with a central entrance and landscaped approach.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/wedding-hall-800.webp" srcset="../assets/media/wedding-hall-480.webp 480w, ../assets/media/wedding-hall-800.webp 800w, ../assets/media/wedding-hall-1200.webp 1200w, ../assets/media/wedding-hall-1600.webp 1600w, ../assets/media/wedding-hall-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="3840" height="2160" alt="Formal hall frontage with a central entrance and landscaped approach." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -281,7 +283,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-aftalkout-rock" href="#proj-aftalkout-rock" data-category="landscape coastal" data-reveal data-name="Aftalkout Rock" data-client="Project visualization" data-cat-label="Landscape Coastal" data-desc="A coastal overlook with paths and shaded viewing areas. Imagery supplied by Meridian." data-full-image="../assets/media/aftalkout-rock-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-aftalkout-rock" href="#proj-aftalkout-rock" data-category="landscape coastal" data-reveal data-name="Aftalkout Rock" data-client="Project visualization" data-cat-label="Landscape Coastal" data-desc="A coastal overlook with paths and shaded viewing areas. Imagery supplied by Meridian." data-full-image="../assets/media/aftalkout-rock-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/aftalkout-rock-1920.webp&quot;, &quot;alt&quot;: &quot;A coastal overlook with paths and shaded viewing areas.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/aftalkout-rock-800.webp" srcset="../assets/media/aftalkout-rock-480.webp 480w, ../assets/media/aftalkout-rock-800.webp 800w, ../assets/media/aftalkout-rock-1200.webp 1200w, ../assets/media/aftalkout-rock-1600.webp 1600w, ../assets/media/aftalkout-rock-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="3840" height="2160" alt="A coastal overlook with paths and shaded viewing areas." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -297,7 +299,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-aftalkout-viewpoint" href="#proj-aftalkout-viewpoint" data-category="landscape" data-reveal data-name="Aftalkout Viewpoint" data-client="Project visualization" data-cat-label="Landscape" data-desc="A circular public plaza with sculptural shade structures. Imagery supplied by Meridian." data-full-image="../assets/media/aftalkout-viewpoint-1205.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-aftalkout-viewpoint" href="#proj-aftalkout-viewpoint" data-category="landscape" data-reveal data-name="Aftalkout Viewpoint" data-client="Project visualization" data-cat-label="Landscape" data-desc="A circular public plaza with sculptural shade structures. Imagery supplied by Meridian." data-full-image="../assets/media/aftalkout-viewpoint-1205.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/aftalkout-viewpoint-1205.webp&quot;, &quot;alt&quot;: &quot;A circular public plaza with sculptural shade structures.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/aftalkout-viewpoint-800.webp" srcset="../assets/media/aftalkout-viewpoint-480.webp 480w, ../assets/media/aftalkout-viewpoint-800.webp 800w, ../assets/media/aftalkout-viewpoint-1200.webp 1200w, ../assets/media/aftalkout-viewpoint-1205.webp 1205w" sizes="(max-width: 760px) 100vw, 60vw" width="1205" height="678" alt="A circular public plaza with sculptural shade structures." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -313,7 +315,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-al-dahareez-beach" href="#proj-al-dahareez-beach" data-category="coastal landscape" data-reveal data-name="Al Dahareez Beach" data-client="Project visualization" data-cat-label="Coastal Landscape" data-desc="Aerial view of a landscaped beachfront and public promenade. Imagery supplied by Meridian." data-full-image="../assets/media/al-dahareez-beach-1080.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-al-dahareez-beach" href="#proj-al-dahareez-beach" data-category="coastal landscape" data-reveal data-name="Al Dahareez Beach" data-client="Project visualization" data-cat-label="Coastal Landscape" data-desc="Aerial view of a landscaped beachfront and public promenade. Imagery supplied by Meridian." data-full-image="../assets/media/al-dahareez-beach-1080.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/al-dahareez-beach-1080.webp&quot;, &quot;alt&quot;: &quot;Aerial view of a landscaped beachfront and public promenade.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/al-dahareez-beach-1080.webp" srcset="../assets/media/al-dahareez-beach-480.webp 480w, ../assets/media/al-dahareez-beach-800.webp 800w, ../assets/media/al-dahareez-beach-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 60vw" width="1080" height="607" alt="Aerial view of a landscaped beachfront and public promenade." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -329,7 +331,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-barkaa" href="#proj-barkaa" data-category="coastal landscape" data-reveal data-name="Barkaa" data-client="Project visualization" data-cat-label="Coastal Landscape" data-desc="Waterfront walkway with shaded seating and sculptural bridges. Imagery supplied by Meridian." data-full-image="../assets/media/barkaa-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-barkaa" href="#proj-barkaa" data-category="coastal landscape" data-reveal data-name="Barkaa" data-client="Project visualization" data-cat-label="Coastal Landscape" data-desc="Waterfront walkway with shaded seating and sculptural bridges. Imagery supplied by Meridian." data-full-image="../assets/media/barkaa-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/barkaa-1920.webp&quot;, &quot;alt&quot;: &quot;Waterfront walkway with shaded seating and sculptural bridges.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/barkaa-800.webp" srcset="../assets/media/barkaa-480.webp 480w, ../assets/media/barkaa-800.webp 800w, ../assets/media/barkaa-1200.webp 1200w, ../assets/media/barkaa-1600.webp 1600w, ../assets/media/barkaa-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2736" height="1536" alt="Waterfront walkway with shaded seating and sculptural bridges." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -345,7 +347,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-coastal-erosion" href="#proj-coastal-erosion" data-category="coastal" data-reveal data-name="Coastal Erosion" data-client="Survey photograph" data-cat-label="Coastal" data-desc="Survey drone photographed on a beach in the coastal erosion project materials. Imagery supplied by Meridian." data-full-image="../assets/media/coastal-erosion-817.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-coastal-erosion" href="#proj-coastal-erosion" data-category="coastal" data-reveal data-name="Coastal Erosion" data-client="Survey photograph" data-cat-label="Coastal" data-desc="Survey drone photographed on a beach in the coastal erosion project materials. Imagery supplied by Meridian." data-full-image="../assets/media/coastal-erosion-817.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/coastal-erosion-817.webp&quot;, &quot;alt&quot;: &quot;Survey drone photographed on a beach in the coastal erosion project materials.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/coastal-erosion-817.webp" srcset="../assets/media/coastal-erosion-480.webp 480w, ../assets/media/coastal-erosion-800.webp 800w, ../assets/media/coastal-erosion-817.webp 817w" sizes="(max-width: 760px) 100vw, 60vw" width="817" height="613" alt="Survey drone photographed on a beach in the coastal erosion project materials." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -361,7 +363,7 @@
     <span class="proj-client">Survey photograph</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-octagon-beach" href="#proj-octagon-beach" data-category="coastal landscape" data-reveal data-name="Octagon Beach Walkway" data-client="Project visualization" data-cat-label="Coastal Landscape" data-desc="Public walkway with geometric shade canopies and seating. Imagery supplied by Meridian." data-full-image="../assets/media/octagon-beach-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-octagon-beach" href="#proj-octagon-beach" data-category="coastal landscape" data-reveal data-name="Octagon Beach Walkway" data-client="Project visualization" data-cat-label="Coastal Landscape" data-desc="Public walkway with geometric shade canopies and seating. Imagery supplied by Meridian." data-full-image="../assets/media/octagon-beach-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/octagon-beach-1920.webp&quot;, &quot;alt&quot;: &quot;Public walkway with geometric shade canopies and seating.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/octagon-beach-800.webp" srcset="../assets/media/octagon-beach-480.webp 480w, ../assets/media/octagon-beach-800.webp 800w, ../assets/media/octagon-beach-1200.webp 1200w, ../assets/media/octagon-beach-1600.webp 1600w, ../assets/media/octagon-beach-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2734" height="1538" alt="Public walkway with geometric shade canopies and seating." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -377,7 +379,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-taqa-beach" href="#proj-taqa-beach" data-category="coastal landscape" data-reveal data-name="Taqa Beach" data-client="Project visualization" data-cat-label="Coastal Landscape" data-desc="Beachfront promenade with sculptural shade structures and palm trees. Imagery supplied by Meridian." data-full-image="../assets/media/taqa-beach-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-taqa-beach" href="#proj-taqa-beach" data-category="coastal landscape" data-reveal data-name="Taqa Beach" data-client="Project visualization" data-cat-label="Coastal Landscape" data-desc="Beachfront promenade with sculptural shade structures and palm trees. Imagery supplied by Meridian." data-full-image="../assets/media/taqa-beach-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/taqa-beach-1920.webp&quot;, &quot;alt&quot;: &quot;Beachfront promenade with sculptural shade structures and palm trees.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/taqa-beach-800.webp" srcset="../assets/media/taqa-beach-480.webp 480w, ../assets/media/taqa-beach-800.webp 800w, ../assets/media/taqa-beach-1200.webp 1200w, ../assets/media/taqa-beach-1600.webp 1600w, ../assets/media/taqa-beach-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2734" height="1538" alt="Beachfront promenade with sculptural shade structures and palm trees." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -393,7 +395,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-alfarouk-street" href="#proj-alfarouk-street" data-category="urban-planning landscape" data-reveal data-name="Alfarouk Street Proposal" data-client="Project visualization" data-cat-label="Urban Planning Landscape" data-desc="Linear public space with recreation areas and pedestrian paths. Imagery supplied by Meridian." data-full-image="../assets/media/alfarouk-street-1536.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-alfarouk-street" href="#proj-alfarouk-street" data-category="urban-planning landscape" data-reveal data-name="Alfarouk Street Proposal" data-client="Project visualization" data-cat-label="Urban Planning Landscape" data-desc="Linear public space with recreation areas and pedestrian paths. Imagery supplied by Meridian." data-full-image="../assets/media/alfarouk-street-1536.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/alfarouk-street-1536.webp&quot;, &quot;alt&quot;: &quot;Linear public space with recreation areas and pedestrian paths.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/alfarouk-street-800.webp" srcset="../assets/media/alfarouk-street-480.webp 480w, ../assets/media/alfarouk-street-800.webp 800w, ../assets/media/alfarouk-street-1200.webp 1200w, ../assets/media/alfarouk-street-1536.webp 1536w" sizes="(max-width: 760px) 100vw, 60vw" width="1536" height="1024" alt="Linear public space with recreation areas and pedestrian paths." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -409,7 +411,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-jawad-district" href="#proj-jawad-district" data-category="urban-planning buildings" data-reveal data-name="Jawad District" data-client="Project visualization" data-cat-label="Urban Planning Buildings" data-desc="Residential streetscape and public spaces around a central mosque. Imagery supplied by Meridian." data-full-image="../assets/media/jawad-district-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-jawad-district" href="#proj-jawad-district" data-category="urban-planning buildings" data-reveal data-name="Jawad District" data-client="Project visualization" data-cat-label="Urban Planning Buildings" data-desc="Residential streetscape and public spaces around a central mosque. Imagery supplied by Meridian." data-full-image="../assets/media/jawad-district-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/jawad-district-1920.webp&quot;, &quot;alt&quot;: &quot;Residential streetscape and public spaces around a central mosque.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/jawad-district-800.webp" srcset="../assets/media/jawad-district-480.webp 480w, ../assets/media/jawad-district-800.webp 800w, ../assets/media/jawad-district-1200.webp 1200w, ../assets/media/jawad-district-1600.webp 1600w, ../assets/media/jawad-district-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2904" height="1621" alt="Residential streetscape and public spaces around a central mosque." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -425,7 +427,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-sedra-district" href="#proj-sedra-district" data-category="urban-planning" data-reveal data-name="Sedra District" data-client="Project visualization" data-cat-label="Urban Planning" data-desc="Aerial masterplan visualization of a residential district. Imagery supplied by Meridian." data-full-image="../assets/media/sedra-district-1205.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-sedra-district" href="#proj-sedra-district" data-category="urban-planning" data-reveal data-name="Sedra District" data-client="Project visualization" data-cat-label="Urban Planning" data-desc="Aerial masterplan visualization of a residential district. Imagery supplied by Meridian." data-full-image="../assets/media/sedra-district-1205.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/sedra-district-1205.webp&quot;, &quot;alt&quot;: &quot;Aerial masterplan visualization of a residential district.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/sedra-district-800.webp" srcset="../assets/media/sedra-district-480.webp 480w, ../assets/media/sedra-district-800.webp 800w, ../assets/media/sedra-district-1200.webp 1200w, ../assets/media/sedra-district-1205.webp 1205w" sizes="(max-width: 760px) 100vw, 60vw" width="1205" height="678" alt="Aerial masterplan visualization of a residential district." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -441,7 +443,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-mrasi-alsaada-2" href="#proj-mrasi-alsaada-2" data-category="buildings" data-reveal data-name="Mrasi Al Saada 2" data-client="Project visualization" data-cat-label="Buildings" data-desc="Evening exterior visualization of a multi-storey building. Imagery supplied by Meridian." data-full-image="../assets/media/mrasi-alsaada-2-1596.webp" data-image-fit="contain">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-mrasi-alsaada-2" href="#proj-mrasi-alsaada-2" data-category="buildings" data-reveal data-name="Mrasi Al Saada 2" data-client="Project visualization" data-cat-label="Buildings" data-desc="Evening exterior visualization of a multi-storey building. Imagery supplied by Meridian." data-full-image="../assets/media/mrasi-alsaada-2-1596.webp" data-image-fit="contain" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/mrasi-alsaada-2-1596.webp&quot;, &quot;alt&quot;: &quot;Evening exterior visualization of a multi-storey building.&quot;}, {&quot;type&quot;: &quot;video&quot;, &quot;src&quot;: &quot;../assets/media/mrasi-alsaada-2-loop-desktop.mp4?v=20261018a&quot;, &quot;mobile&quot;: &quot;../assets/media/mrasi-alsaada-2-loop-mobile.mp4?v=20261018a&quot;, &quot;poster&quot;: &quot;../assets/media/mrasi-alsaada-2-loop-poster.webp&quot;, &quot;alt&quot;: &quot;Animated architectural visualization of Mrasi Al Saada 2 supplied by Meridian&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/mrasi-alsaada-2-800.webp" srcset="../assets/media/mrasi-alsaada-2-480.webp 480w, ../assets/media/mrasi-alsaada-2-800.webp 800w, ../assets/media/mrasi-alsaada-2-1200.webp 1200w, ../assets/media/mrasi-alsaada-2-1596.webp 1596w" sizes="(max-width: 760px) 100vw, 60vw" width="1596" height="1999" alt="Evening exterior visualization of a multi-storey building." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -457,7 +459,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-sas-building" href="#proj-sas-building" data-category="buildings" data-reveal data-name="SAS Building" data-client="Project visualization" data-cat-label="Buildings" data-desc="Multi-storey building exterior with a formal facade and retail frontage. Imagery supplied by Meridian." data-full-image="../assets/media/sas-building-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-sas-building" href="#proj-sas-building" data-category="buildings" data-reveal data-name="SAS Building" data-client="Project visualization" data-cat-label="Buildings" data-desc="Multi-storey building exterior with a formal facade and retail frontage. Imagery supplied by Meridian." data-full-image="../assets/media/sas-building-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/sas-building-1920.webp&quot;, &quot;alt&quot;: &quot;Multi-storey building exterior with a formal facade and retail frontage.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/sas-building-800.webp" srcset="../assets/media/sas-building-480.webp 480w, ../assets/media/sas-building-800.webp 800w, ../assets/media/sas-building-1200.webp 1200w, ../assets/media/sas-building-1600.webp 1600w, ../assets/media/sas-building-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="3840" height="2160" alt="Multi-storey building exterior with a formal facade and retail frontage." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -473,7 +475,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-al-shorouq" href="#proj-al-shorouq" data-category="urban-planning buildings" data-reveal data-name="Al Shorouq" data-client="Project visualization" data-cat-label="Urban Planning Buildings" data-desc="Daytime aerial visualization of the neighbourhood masterplan. Imagery supplied by Meridian." data-full-image="../assets/media/al-shorouq-1920.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-al-shorouq" href="#proj-al-shorouq" data-category="urban-planning buildings" data-reveal data-name="Al Shorouq" data-client="Project visualization" data-cat-label="Urban Planning Buildings" data-desc="Daytime aerial visualization of the neighbourhood masterplan. Imagery supplied by Meridian." data-full-image="../assets/media/al-shorouq-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/al-shorouq-1920.webp&quot;, &quot;alt&quot;: &quot;Daytime aerial visualization of the neighbourhood masterplan.&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/al-shorouq-800.webp" srcset="../assets/media/al-shorouq-480.webp 480w, ../assets/media/al-shorouq-800.webp 800w, ../assets/media/al-shorouq-1200.webp 1200w, ../assets/media/al-shorouq-1600.webp 1600w, ../assets/media/al-shorouq-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="7680" height="4320" alt="Daytime aerial visualization of the neighbourhood masterplan." loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -489,7 +491,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-mrasi-alsaada-1" href="#proj-mrasi-alsaada-1" data-category="buildings" data-reveal data-name="Mrasi Al Saada 1" data-client="Project visualization" data-cat-label="Buildings" data-desc="Building exterior visualization supplied in the Meridian project presentation." data-full-image="../assets/media/mrasi-alsaada-1-1920.webp" data-image-fit="contain">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-mrasi-alsaada-1" href="#proj-mrasi-alsaada-1" data-category="buildings" data-reveal data-name="Mrasi Al Saada 1" data-client="Project visualization" data-cat-label="Buildings" data-desc="Building exterior visualization supplied in the Meridian project presentation." data-full-image="../assets/media/mrasi-alsaada-1-1920.webp" data-image-fit="contain" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/mrasi-alsaada-1-1920.webp&quot;, &quot;alt&quot;: &quot;Mrasi Al Saada 1 — exterior visualization&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/mrasi-alsaada-1-800.webp" srcset="../assets/media/mrasi-alsaada-1-480.webp 480w, ../assets/media/mrasi-alsaada-1-800.webp 800w, ../assets/media/mrasi-alsaada-1-1200.webp 1200w, ../assets/media/mrasi-alsaada-1-1600.webp 1600w, ../assets/media/mrasi-alsaada-1-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2160" height="2700" alt="Mrasi Al Saada 1 — exterior visualization" loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -505,7 +507,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-al-dabus-building" href="#proj-al-dabus-building" data-category="buildings" data-reveal data-name="Al Dabus Building" data-client="Project visualization" data-cat-label="Buildings" data-desc="Building exterior visualization supplied in the Meridian project presentation." data-full-image="../assets/media/al-dabus-building-1920.webp" data-image-fit="contain">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-al-dabus-building" href="#proj-al-dabus-building" data-category="buildings" data-reveal data-name="Al Dabus Building" data-client="Project visualization" data-cat-label="Buildings" data-desc="Building exterior visualization supplied in the Meridian project presentation." data-full-image="../assets/media/al-dabus-building-1920.webp" data-image-fit="contain" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/al-dabus-building-1920.webp&quot;, &quot;alt&quot;: &quot;Al Dabus Building — exterior visualization&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/al-dabus-building-800.webp" srcset="../assets/media/al-dabus-building-480.webp 480w, ../assets/media/al-dabus-building-800.webp 800w, ../assets/media/al-dabus-building-1200.webp 1200w, ../assets/media/al-dabus-building-1600.webp 1600w, ../assets/media/al-dabus-building-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2160" height="3024" alt="Al Dabus Building — exterior visualization" loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -521,7 +523,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-7 ratio-wide" id="proj-hamed-alamri" href="#proj-hamed-alamri" data-category="buildings" data-reveal data-name="Hamed Alamri Building" data-client="Project visualization" data-cat-label="Buildings" data-desc="Building exterior visualization supplied in the Meridian project presentation." data-full-image="../assets/media/hamed-alamri-1080.webp" data-image-fit="contain">
+      <a class="proj-card p-span-7 ratio-wide" id="proj-hamed-alamri" href="#proj-hamed-alamri" data-category="buildings" data-reveal data-name="Hamed Alamri Building" data-client="Project visualization" data-cat-label="Buildings" data-desc="Building exterior visualization supplied in the Meridian project presentation." data-full-image="../assets/media/hamed-alamri-1080.webp" data-image-fit="contain" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/hamed-alamri-1080.webp&quot;, &quot;alt&quot;: &quot;Hamed Alamri Building — exterior visualization&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/hamed-alamri-1080.webp" srcset="../assets/media/hamed-alamri-480.webp 480w, ../assets/media/hamed-alamri-800.webp 800w, ../assets/media/hamed-alamri-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 60vw" width="1080" height="1350" alt="Hamed Alamri Building — exterior visualization" loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -537,7 +539,7 @@
     <span class="proj-client">Project visualization</span>
   </div>
 </a>
-      <a class="proj-card p-span-5 ratio-tall" id="proj-aftalqout-bridge" href="#proj-aftalqout-bridge" data-category="landscape" data-reveal data-name="Aftalqout Bridge" data-client="Project visualization" data-cat-label="Landscape" data-desc="Pedestrian bridge visualization supplied by Meridian; still extracted from the project film." data-full-image="../assets/media/aftalqout-bridge-1024.webp" data-image-fit="cover">
+      <a class="proj-card p-span-5 ratio-tall" id="proj-aftalqout-bridge" href="#proj-aftalqout-bridge" data-category="landscape" data-reveal data-name="Aftalqout Bridge" data-client="Project visualization" data-cat-label="Landscape" data-desc="Pedestrian bridge visualization supplied by Meridian; still extracted from the project film." data-full-image="../assets/media/aftalqout-bridge-1024.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/aftalqout-bridge-1024.webp&quot;, &quot;alt&quot;: &quot;Aftalqout pedestrian bridge visualization&quot;}]">
   <div class="proj-media">
     <img class="client-photo" src="../assets/media/aftalqout-bridge-1024.webp" srcset="../assets/media/aftalqout-bridge-480.webp 480w, ../assets/media/aftalqout-bridge-800.webp 800w, ../assets/media/aftalqout-bridge-1024.webp 1024w" sizes="(max-width: 760px) 100vw, 60vw" width="1024" height="576" alt="Aftalqout pedestrian bridge visualization" loading="lazy" decoding="async" style="object-position:50% 50%">
 
@@ -556,12 +558,22 @@
     </div>
   </div>
 </section>
-<div class="pmodal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project details">
-  <div class="pmodal-backdrop" data-pmodal-close></div>
+<dialog class="pmodal" id="project-modal" aria-hidden="true" aria-modal="true" aria-labelledby="pm-name">
   <div class="pmodal-panel" role="document">
-    <button class="pmodal-close" type="button" data-pmodal-close aria-label="Close project details">×</button>
+    <div class="pmodal-toolbar">
+      <div class="gallery-controls" hidden>
+        <button class="gallery-button gallery-prev" type="button" aria-label="Previous project image"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></button>
+        <span class="gallery-count" aria-live="polite"></span>
+        <button class="gallery-button gallery-next" type="button" aria-label="Next project image"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></button>
+      </div>
+      <p class="gallery-status" id="pm-gallery-status" role="status"></p>
+      <button class="pmodal-close" type="button" data-pmodal-close aria-label="Close project details" autofocus>×</button>
+    </div>
     <div class="pmodal-media">
-      <img id="pm-img" class="client-photo" alt="">
+      <!-- Gallery source is assigned on opening; no image is loaded while closed. -->
+      <img id="pm-img" class="client-photo" alt="" hidden>
+      <video id="pm-video" class="client-photo" controls playsinline preload="none" hidden></video>
+      <p class="gallery-error" role="status" hidden>Media unavailable. Please try another image.</p>
     </div>
     <div class="pmodal-body">
       <p class="pmodal-cat" id="pm-cat"></p>
@@ -571,21 +583,7 @@
       <p class="pmodal-note">Project imagery supplied by Meridian. Visualizations show design intent; they do not confirm construction status.</p>
     </div>
   </div>
-</div>
-<section class="section">
-  <div class="wrap">
-    <div class="cta-band" data-reveal>
-      <div>
-        <h2>Have a project in mind?</h2>
-        <p class="lede">From first feasibility study to final handover certificate — talk to a team that delivers across ten disciplines.</p>
-      </div>
-      <div style="display:flex;gap:14px;flex-wrap:wrap;">
-        <a class="btn btn--solid" href="contact.html"><span class="slide-txt"><span class="st-row">Contact Us</span><span class="st-row st-b" aria-hidden="true">Start a project</span></span><svg class="arr" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></a>
-        <a class="btn" href="tel:+96897004250"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z" /></svg> +968 9700 4250</a>
-      </div>
-    </div>
-  </div>
-</section>
+</dialog>
 </main><footer class="site-footer">
   <div class="wrap">
     <div class="footer-main">
@@ -620,6 +618,6 @@
 </footer>
 <script src="../assets/vendor/gsap.min.js?v=20261011b" defer></script>
 <script src="../assets/vendor/ScrollTrigger.min.js?v=20261011b" defer></script>
-<script src="../assets/js/main.js?v=20261011d" defer></script>
+<script src="../assets/js/main.js?v=20261018a" defer></script>
 </body>
 </html>

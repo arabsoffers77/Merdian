@@ -822,7 +822,7 @@ svg{flex-shrink:0}
 .language-switch{flex-shrink:0;font-size:14px;font-weight:700;text-decoration:none;border-inline-start:var(--hair);padding-inline-start:18px;margin-inline-start:20px;color:var(--ink-900)}
 .language-switch:hover{color:var(--amber-deep)}
 .language-switch:focus-visible{outline:2px solid var(--amber);outline-offset:6px}
-[dir="rtl"]{--font-display:"Noto Sans Arabic",Tahoma,sans-serif;--font-body:"Noto Sans Arabic",Tahoma,sans-serif}
+[dir="rtl"]{--font-display:"Alexandria",Tahoma,sans-serif;--font-body:"Alexandria",Tahoma,sans-serif}
 [dir="rtl"] body{line-height:1.8}
 [dir="rtl"] h1,[dir="rtl"] h2,[dir="rtl"] h3,[dir="rtl"] .eyebrow,[dir="rtl"] .btn,[dir="rtl"] .proj-cat,[dir="rtl"] .ph-meta,[dir="rtl"] .af-label{letter-spacing:0}
 [dir="rtl"] .display-xl{line-height:1.5;font-size:clamp(32px,4.8vw,64px)}
