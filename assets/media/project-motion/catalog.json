@@ -1,0 +1,245 @@
+[
+  {
+    "key": "al-dahareez-shops",
+    "source_id": "1MwYeqB9GixOswmNiy1KGLfnw0LRW8xZr",
+    "start": 40.15,
+    "duration": 4.5,
+    "reason_ar": "منظور أرضي متصل عند الغروب يوضح مدخل المجمع والواجهات التجارية.",
+    "source_path": "Client/01-Architecture & Interiors/aLDAHAREZ Commercial shops/video.mp4",
+    "source_width": 848,
+    "source_height": 478,
+    "outputs": {
+      "desktop": {
+        "width": 848,
+        "height": 478,
+        "bytes": 1244945,
+        "sha256": "7afd8960caac044f770cb1d2f9b4e7940559929ed1f528ad66a9d70e4acb1547"
+      },
+      "mobile": {
+        "width": 800,
+        "height": 450,
+        "bytes": 696529,
+        "sha256": "c75106c721c2650f02065d0ac87de7f55cf7112b3ab24bf5d0ac3ff0f77d8678"
+      }
+    },
+    "desktop": "assets/media/project-motion/al-dahareez-shops-desktop.mp4",
+    "mobile": "assets/media/project-motion/al-dahareez-shops-mobile.mp4",
+    "poster": "assets/media/project-motion/al-dahareez-shops-poster.webp"
+  },
+  {
+    "key": "kids-library",
+    "source_id": "1OsA1XpJnq2qek_sxXqT8BSMtGJ8hf5up",
+    "start": 4.1,
+    "duration": 2.6,
+    "reason_ar": "مرور قصير ومتصل أمام الواجهة يبرز الانحناء والتفاصيل والزجاج دون الانتقال إلى زاوية أخرى.",
+    "source_path": "Client/01-Architecture & Interiors/KIDS LIBRARY/Animation Video.mov",
+    "source_width": 1920,
+    "source_height": 1080,
+    "outputs": {
+      "desktop": {
+        "width": 1600,
+        "height": 900,
+        "bytes": 1295336,
+        "sha256": "deb86f6c1b0e54ce4b0a351e22aff83149936777db58d91699fbba920909d42d"
+      },
+      "mobile": {
+        "width": 800,
+        "height": 450,
+        "bytes": 417274,
+        "sha256": "b11be9e651b61e5fe1d393d978584c65c12ff3efda3f58c952160ce6eda61786"
+      }
+    },
+    "desktop": "assets/media/project-motion/kids-library-desktop.mp4",
+    "mobile": "assets/media/project-motion/kids-library-mobile.mp4",
+    "poster": "assets/media/project-motion/kids-library-poster.webp"
+  },
+  {
+    "key": "gim-theatre",
+    "source_id": "1u2y2uXyr2oWZXuLF6D8HPKX_GTbQ0W-e",
+    "start": 20.6,
+    "duration": 5,
+    "reason_ar": "لقطة خارجية مسائية بعد انتهاء الانتقال، تظهر التكوين النحتي كاملًا وإضاءته؛ شعار المصدر يبقى كما هو.",
+    "source_path": "Client/01-Architecture & Interiors/GYM THEATER/MERIDIAN.mp4",
+    "source_width": 3600,
+    "source_height": 2160,
+    "outputs": {
+      "desktop": {
+        "width": 1600,
+        "height": 960,
+        "bytes": 1315641,
+        "sha256": "09a53059532f9efe39f775a420715af5d44786b8881bf90186a1bb9225a4333e"
+      },
+      "mobile": {
+        "width": 800,
+        "height": 480,
+        "bytes": 401942,
+        "sha256": "134c442e4d001ad0c175995e9e63ed883db0a5b50b75a0d1a852a6f9624856ec"
+      }
+    },
+    "desktop": "assets/media/project-motion/gim-theatre-desktop.mp4",
+    "mobile": "assets/media/project-motion/gim-theatre-mobile.mp4",
+    "poster": "assets/media/project-motion/gim-theatre-poster.webp"
+  },
+  {
+    "key": "aftalqout-bridge",
+    "source_id": "1i8NCh2XaG00WPtZ_Z0BaBOC8CPtahG3O",
+    "start": 74.1,
+    "duration": 3.3,
+    "reason_ar": "حركة على سطح الجسر تُظهر الهيكل الأبيض والكابلات، دون سهم المدخل أو كتابة القياسات والعناوين.",
+    "source_path": "Client/02-Landscape & Public Realm/AFTALQOUT/tree bridge final.mp4",
+    "source_width": 1024,
+    "source_height": 576,
+    "outputs": {
+      "desktop": {
+        "width": 1024,
+        "height": 576,
+        "bytes": 767262,
+        "sha256": "b28439cd81c02e267dcc033f7b109f38753002d4071076da0006b27dc023aed3"
+      },
+      "mobile": {
+        "width": 800,
+        "height": 450,
+        "bytes": 543077,
+        "sha256": "eaaa7460397ada501eba478d4448c2a77a0ffebb3ccbcc3aa4236189124348a5"
+      }
+    },
+    "desktop": "assets/media/project-motion/aftalqout-bridge-desktop.mp4",
+    "mobile": "assets/media/project-motion/aftalqout-bridge-mobile.mp4",
+    "poster": "assets/media/project-motion/aftalqout-bridge-poster.webp"
+  },
+  {
+    "key": "awqad-beach",
+    "source_id": "1e1cjgVog_tS6tpAyC4rZZSoNWGRYfLk5",
+    "start": 164,
+    "duration": 8,
+    "reason_ar": "منظور واسع يوضح امتداد الممشى ومنطقة اللعب والتشجير ضمن المشروع.",
+    "source_path": "Client/03-Coastal & Marine/Awqad/AWQAD BEACH.mp4",
+    "source_width": 1920,
+    "source_height": 1080,
+    "outputs": {
+      "desktop": {
+        "width": 1600,
+        "height": 900,
+        "bytes": 3801323,
+        "sha256": "a3a6776630ce146b344c8cb3a5fbb092027a31400f536075532afca2fab2c89a"
+      },
+      "mobile": {
+        "width": 800,
+        "height": 450,
+        "bytes": 1202207,
+        "sha256": "8c3980e9583245080a9f84c394b82dc026a08314ba77effefad441b33ae6da78"
+      }
+    },
+    "desktop": "assets/media/project-motion/awqad-beach-desktop.mp4",
+    "mobile": "assets/media/project-motion/awqad-beach-mobile.mp4",
+    "poster": "assets/media/project-motion/awqad-beach-poster.webp"
+  },
+  {
+    "key": "taqa-beach",
+    "source_id": "11uWmzM7_tC-Tja_XLuRwJVuxwWYIXxth",
+    "start": 76,
+    "duration": 6,
+    "reason_ar": "منظور جوي واضح لمنطقة اللعب والواجهة الشاطئية بعد انتهاء الانتقال الأبيض.",
+    "source_path": "Client/03-Coastal & Marine/Taqa/taqa beach.mp4",
+    "source_width": 1920,
+    "source_height": 1080,
+    "outputs": {
+      "desktop": {
+        "width": 1600,
+        "height": 900,
+        "bytes": 2765085,
+        "sha256": "117342f09077000b72774517a249a1ffaae4b9a5d88087cabb73e978cfba033c"
+      },
+      "mobile": {
+        "width": 800,
+        "height": 450,
+        "bytes": 884280,
+        "sha256": "e0ada83c69768112c1ac7decf050587b8ab22a5db20f6a9a434410cac689cb23"
+      }
+    },
+    "desktop": "assets/media/project-motion/taqa-beach-desktop.mp4",
+    "mobile": "assets/media/project-motion/taqa-beach-mobile.mp4",
+    "poster": "assets/media/project-motion/taqa-beach-poster.webp"
+  },
+  {
+    "key": "al-shorouq",
+    "source_id": "1Wj4uj41m3s7kN4CUyQsDrEMyqk9PJfUG",
+    "start": 95.6,
+    "duration": 4.4,
+    "reason_ar": "مشهد شارع متصل عند الغروب يبرز جودة الفراغ العام والمباني؛ يكمّل المنظور العام المستخدم في الهيرو.",
+    "source_path": "Client/04-Urbanism & Masterplanning/Al Shorouq/ANIMATION- HD.mp4",
+    "source_width": 1920,
+    "source_height": 1080,
+    "outputs": {
+      "desktop": {
+        "width": 1600,
+        "height": 900,
+        "bytes": 2262989,
+        "sha256": "e3ddf13663d73fdbeda8e1cc200da27070f4216e2bfb4413b4200c8ffc8dbd6f"
+      },
+      "mobile": {
+        "width": 800,
+        "height": 450,
+        "bytes": 711047,
+        "sha256": "1d9b1f4b8531633e640fcd95aa08d589a473347e718a06c5d1f105549fe747ba"
+      }
+    },
+    "desktop": "assets/media/project-motion/al-shorouq-desktop.mp4",
+    "mobile": "assets/media/project-motion/al-shorouq-mobile.mp4",
+    "poster": "assets/media/project-motion/al-shorouq-poster.webp"
+  },
+  {
+    "key": "alfarouk-street",
+    "source_id": "1A8O6mnmNcRrhjaG65wQMRZqlY22-92ao",
+    "start": 80.1,
+    "duration": 5.8,
+    "reason_ar": "لقطة واضحة للساحة ومسارات المشاة والدراجات بعد انتهاء الانتقال الداكن؛ دون مقدمة الخريطة.",
+    "source_path": "Client/04-Urbanism & Masterplanning/ALFAROUK STREET - PORPOSAL/ansna 1.mp4",
+    "source_width": 1920,
+    "source_height": 1080,
+    "outputs": {
+      "desktop": {
+        "width": 1600,
+        "height": 900,
+        "bytes": 2594246,
+        "sha256": "48239c9e5233946c7b8b94f1db230a0d7459db39b0152dfb3022631c259304d2"
+      },
+      "mobile": {
+        "width": 800,
+        "height": 450,
+        "bytes": 817807,
+        "sha256": "4ece9483513e0845c9d9cbdf894dbdf76d946e6c88e090e62fdc8fb5ef4f0ef2"
+      }
+    },
+    "desktop": "assets/media/project-motion/alfarouk-street-desktop.mp4",
+    "mobile": "assets/media/project-motion/alfarouk-street-mobile.mp4",
+    "poster": "assets/media/project-motion/alfarouk-street-poster.webp"
+  },
+  {
+    "key": "mrasi-alsaada-2",
+    "source_id": "1aoRCMwcD4HQxn5Qil7uukMVkgXbDf1AP",
+    "start": 0.5,
+    "duration": 8,
+    "reason_ar": "المرور الأصلي أمام المبنى، دون الرجوع العكسي أو التوقف المضاف لنسخة الهيرو السابقة.",
+    "source_path": "Client/01-Architecture & Interiors/Buildings/02-MARRASI 2/night view 2.mp4",
+    "source_width": 3840,
+    "source_height": 2160,
+    "outputs": {
+      "desktop": {
+        "width": 1600,
+        "height": 900,
+        "bytes": 3747455,
+        "sha256": "6ca6bfcb438667815369260dbb7d0945de75b0183f6adb82d9cdf44d6d82ca94"
+      },
+      "mobile": {
+        "width": 800,
+        "height": 450,
+        "bytes": 1193536,
+        "sha256": "c1a39d97182c82b0e65faec54f335a9970ee6be720b752b104cb3f695dd76118"
+      }
+    },
+    "desktop": "assets/media/project-motion/mrasi-alsaada-2-desktop.mp4",
+    "mobile": "assets/media/project-motion/mrasi-alsaada-2-mobile.mp4",
+    "poster": "assets/media/project-motion/mrasi-alsaada-2-poster.webp"
+  }
+]

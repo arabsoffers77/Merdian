@@ -1,0 +1,38 @@
+/* A quiet film surface inside the existing project grid. */
+.project-scrub-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;display:none;pointer-events:none;z-index:1;transition:opacity .18s ease-out}
+.project-scrub-enabled .project-scrub-video{display:block}
+.is-scrub-ready .project-scrub-video{opacity:1}
+.proj-card[data-image-fit="contain"] .project-scrub-video{object-fit:contain}
+.project-scrub-rail{position:absolute;inset:auto 0 0;z-index:5;height:2px;background:rgba(255,255,255,.22);pointer-events:none;opacity:0;transition:opacity .18s ease-out;direction:ltr}
+.project-scrub-rail::after{content:"";display:block;width:100%;height:100%;transform:scaleX(var(--scrub-progress,.5));transform-origin:left;background:var(--amber-deep,#d98e0f)}
+.is-scrub-ready .project-scrub-rail{opacity:1}
+.proj-overlay{z-index:3;pointer-events:none}
+.proj-card.is-scrub-ready .chroma-veil{opacity:.12}
+.project-motion-note{max-width:65ch;color:var(--grey-600,#5a5a5a);font-size:12px;line-height:1.9;margin:14px 0 24px}
+.news-intro{max-width:76ch;padding-block:40px}
+.news-intro p{color:var(--grey-600);font-size:clamp(16px,1.7vw,20px);line-height:1.9}
+.news-empty{padding-block:clamp(40px,7vw,96px);border-block:var(--hair);display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(24px,6vw,80px);align-items:start}
+.news-empty h2{font-size:clamp(25px,3vw,40px);font-weight:500;line-height:1.5;margin:0}
+.news-empty p{max-width:48ch;color:var(--grey-600);margin:0 0 24px;line-height:1.95}
+.news-post{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:40px;padding-block:48px;border-block-start:var(--hair)}
+.news-post img{width:100%;height:auto;display:block}.news-post time{color:var(--grey-600);font-size:13px}
+.news-post h2{font-size:clamp(24px,3vw,38px);font-weight:500;line-height:1.5;margin-block:12px 20px}
+.news-post p{color:var(--grey-600);line-height:1.95;max-width:65ch}
+.news-post summary{cursor:pointer;text-underline-offset:5px;text-decoration:underline;padding-block:12px}
+.news-post summary:focus-visible{outline:2px solid var(--amber-deep);outline-offset:4px}
+@media(max-width:760px){.news-empty,.news-post{grid-template-columns:1fr}.project-motion-note{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.project-scrub-video,.project-scrub-rail{transition:none}}
+.news-page{padding-top:clamp(110px,12vw,170px);padding-bottom:clamp(50px,7vw,100px)}
+@media(max-width:760px){.pmodal-media video{aspect-ratio:auto}}
+
+/* The final client montage retains its supplied colour grade. */
+.hero-final>.client-photo{filter:none}
+
+/* Trim surplus foreground only on the two approved building previews.
+   Gallery originals and project films retain their full native frames. */
+.projects-grid #proj-al-dabus-building .proj-media{aspect-ratio:4/5}
+.projects-grid #proj-hamed-alamri .proj-media{aspect-ratio:2/3}
+.projects-grid #proj-al-dabus-building .proj-media>img,
+.projects-grid #proj-hamed-alamri .proj-media>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 0}
+.projects-grid #proj-al-dabus-building .project-scrub-video,
+.projects-grid #proj-hamed-alamri .project-scrub-video{object-fit:cover;object-position:50% 0}

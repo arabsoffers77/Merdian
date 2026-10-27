@@ -1,0 +1,39 @@
+{
+  "source_path": "_media_work/فيديو الهيرو/فيديو الهيرو.mp4",
+  "source_sha256": "41c5c38698854f062282f5a117490c429f883058334e00ecfdf50755135b0463",
+  "source_width": 1920,
+  "source_height": 1080,
+  "source_duration_seconds": 48.666667,
+  "duration_seconds": 48.666666666666664,
+  "label": "Meridian project film",
+  "alt": "Meridian architecture, urban planning and coastal projects",
+  "loop_treatment": "Client final montage played continuously; original frame order and timing retained",
+  "hold_seconds": 0,
+  "playback_speed": 1,
+  "revision": "20261026-final",
+  "desktop_fps": 24,
+  "mobile_fps": 24,
+  "poster_width": 1600,
+  "poster_height": 900,
+  "outputs": {
+    "desktop": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "frames": 1168,
+      "bytes": 37074554
+    },
+    "mobile": {
+      "width": 960,
+      "height": 540,
+      "fps": 24,
+      "frames": 1168,
+      "bytes": 11125650
+    }
+  },
+  "desktop": "assets/media/hero-final-20261026-desktop.mp4",
+  "mobile": "assets/media/hero-final-20261026-mobile.mp4",
+  "poster": "assets/media/hero-final-20261026-poster.webp",
+  "poster_mobile": "assets/media/hero-final-20261026-poster-mobile.webp",
+  "note": "1168 source frames retained at native 24fps. Full decode passed. No added cuts, holds, reversal or speed changes. Web derivatives are silent; the source movie and its audio remain untouched."
+}

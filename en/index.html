@@ -25,13 +25,25 @@
 <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="../assets/css/style.css?v=20261018b">
 <link rel="stylesheet" href="../assets/css/photo-grade.css?v=20261011d">
-<link rel="stylesheet" href="../assets/css/meeting-revision.css?v=20261018a">
+<link rel="stylesheet" href="../assets/css/meeting-revision.css?v=20261026a">
+<link rel="stylesheet" href="../assets/css/project-motion.css?v=20261026b">
+<link rel="stylesheet" href="../assets/css/portfolio.css?v=20261026a">
+<link rel="stylesheet" href="../assets/css/project-gallery.css?v=20261027a">
+<link rel="stylesheet" href="../assets/css/certifications-v2.css?v=20261027b">
 <link rel="alternate" hreflang="ar" href="../index.html"><link rel="alternate" hreflang="en" href="index.html"><link rel="alternate" hreflang="x-default" href="../index.html"><link rel="canonical" href="index.html"></head>
+<body>
+<!-- Project gallery direction, approved option 1.
+THESIS: Project images and films lead a full-screen cinematic viewer.
+OWN-WORLD: Existing Meridian typography, amber detail and rectangular controls; charcoal viewing room with a light facts drawer.
+STORY: Card opens into film, diverse authentic images follow, facts open on demand, close returns to the same card.
+FIRST VIEWPORT: Full-frame media, compact title and controls, a visible thumbnail filmstrip.
+FORM: Seed not applicable: precisely selected local extension of the established world (new-work sections 1, 3). Contain architecture without distortion; keyboard and touch navigation; responsive local files; reduced motion. Public card identity, factual data, hero and ISO exhibition remain authoritative.
+-->
 <header class="site-header">
   <div class="wrap">
     <a href="index.html" class="brand" aria-label="Meridian Engineering Consultancy — Home">
       <span class="brand-mark" aria-hidden="true"><img src="../assets/media/logo.png" alt="" width="133" height="183"></span>
-      <span class="brand-wordmark" lang="en" dir="ltr">MERIDIAN</span>
+      <span class="brand-name-group"><span class="brand-wordmark" lang="en" dir="ltr">MERIDIAN</span><span class="brand-descriptor">Engineering Consultancy</span></span>
     </a>
     <nav class="main-nav" id="main-nav" aria-label="Primary">
       <ul>
@@ -39,7 +51,7 @@
         <li><a class="nav-link" href="about.html"><span class="nav-link-text">About Us</span></a></li>
         <li><a class="nav-link" href="services.html"><span class="nav-link-text">Services</span></a></li>
         <li><a class="nav-link" href="projects.html"><span class="nav-link-text">Projects</span></a></li>
-        <li><a class="nav-link" href="disciplines.html"><span class="nav-link-text">Disciplines</span></a></li>
+        <li><a class="nav-link" href="news.html"><span class="nav-link-text">News</span></a></li>
         <li><a class="nav-link" href="contact.html"><span class="nav-link-text">Contact Us</span></a></li>
       </ul>
     </nav>
@@ -49,12 +61,10 @@
 </header>
 <main id="top">
 <section class="hero hero-screen" aria-label="Meridian Engineering Consultancy">
-  <figure class="hero-media hero-video">
-    <img class="hero-poster client-photo" src="../assets/media/mrasi-alsaada-2-loop-poster.webp" srcset="../assets/media/mrasi-alsaada-2-loop-poster-mobile.webp 800w, ../assets/media/mrasi-alsaada-2-loop-poster.webp 1600w" sizes="(max-width: 700px) 100vw, 85vw" width="1600" height="900" alt="Animated architectural visualization of Mrasi Al Saada 2 supplied by Meridian" fetchpriority="high" decoding="async">
-    <video id="hero-film" class="client-photo" muted loop playsinline preload="none" width="1920" height="1080" aria-label="Animated architectural visualization of Mrasi Al Saada 2 supplied by Meridian" data-src="../assets/media/mrasi-alsaada-2-loop-desktop.mp4?v=20261018a" data-src-mobile="../assets/media/mrasi-alsaada-2-loop-mobile.mp4?v=20261018a"></video>
-    <figcaption class="video-badge">Mrasi Al Saada 2 · Film</figcaption>
-    <button class="video-toggle" type="button" aria-controls="hero-film" aria-label="Play project film">Play film</button>
-    <noscript><video class="hero-film-manual" controls playsinline preload="none" poster="../assets/media/mrasi-alsaada-2-loop-poster.webp"><source src="../assets/media/mrasi-alsaada-2-loop-mobile.mp4?v=20261018a" type="video/mp4"></video></noscript>
+  <figure class="hero-media hero-video hero-final">
+    <img class="hero-poster client-photo" src="../assets/media/hero-final-20261026-poster.webp" srcset="../assets/media/hero-final-20261026-poster-mobile.webp 800w, ../assets/media/hero-final-20261026-poster.webp 1600w" sizes="(max-width: 700px) 100vw, 85vw" width="1600" height="900" alt="Meridian architecture, urban planning and coastal projects" fetchpriority="high" decoding="async">
+    <video id="hero-film" class="client-photo" muted loop playsinline preload="none" width="1920" height="1080" aria-label="Meridian architecture, urban planning and coastal projects" data-src="../assets/media/hero-final-20261026-desktop.mp4?v=20261026-final" data-src-mobile="../assets/media/hero-final-20261026-mobile.mp4?v=20261026-final"></video>
+    <noscript><video class="hero-film-manual" controls playsinline preload="none" poster="../assets/media/hero-final-20261026-poster.webp"><source src="../assets/media/hero-final-20261026-mobile.mp4?v=20261026-final" type="video/mp4"></video></noscript>
   </figure>
   <div class="wrap hero-inner">
     <div class="hero-head">
@@ -67,8 +77,8 @@
 <section class="ticker-section" aria-label="Disciplines ticker">
   <div class="ticker">
     <div class="ticker-track">
-      <ul class="ticker-seq"><li>Buildings</li><li>Roads &amp; Highways</li><li>Bridges</li><li>Tunnels</li><li>Airports</li><li>Railways</li><li>Water Supply &amp; Sanitation</li><li>Dams</li><li>Sewage</li><li>Oil &amp; Gas</li></ul>
-      <ul class="ticker-seq" aria-hidden="true"><li>Buildings</li><li>Roads &amp; Highways</li><li>Bridges</li><li>Tunnels</li><li>Airports</li><li>Railways</li><li>Water Supply &amp; Sanitation</li><li>Dams</li><li>Sewage</li><li>Oil &amp; Gas</li></ul>
+      <ul class="ticker-seq"><li>Urban Planning</li><li>Port &amp; Harbour Engineering</li><li>Coastal Studies &amp; Engineering</li><li>Infrastructure Engineering</li><li>Residential &amp; Tourism Development</li><li>Project Management</li><li>Environmental Studies</li><li>Construction Supervision</li></ul>
+      <ul class="ticker-seq" aria-hidden="true"><li>Urban Planning</li><li>Port &amp; Harbour Engineering</li><li>Coastal Studies &amp; Engineering</li><li>Infrastructure Engineering</li><li>Residential &amp; Tourism Development</li><li>Project Management</li><li>Environmental Studies</li><li>Construction Supervision</li></ul>
     </div>
   </div>
 </section>
@@ -79,20 +89,20 @@
   <div class="wrap">
     <div class="about-copy about-copy--panel" data-reveal>
       <p class="eyebrow">About Us</p>
-      <h2 class="display-lg">Engineering consultancy built on precision.</h2>
-      <p class="lede" style="margin-top:18px;">Meridian Engineering Consultancy (MEC) is a multi-disciplinary consulting firm registered in Oman. To ensure outstanding professional services, MEC forms associations with specialized foreign firms from Europe, USA, Asia &amp; Africa as necessary.</p>
+      <h2 class="display-lg">Designing Better Lives</h2>
+      <div class="reviewed-copy"><p class="lede">At Meridian Engineering Consultancy, we shape the built environment to enhance quality of life and respond to the evolving needs of cities and communities. Based in Oman, our practice brings architecture, engineering and planning together, combining a global outlook with a deep understanding of place.</p><p class="lede">We approach each project as an integrated system, aligning human needs with the demands of site, performance and resources. Through research, analysis and design, we establish a clear rationale for every decision and a practical path from concept to delivery.</p><p class="lede">We believe design quality is expressed in how a place is experienced, how effectively it performs and how well it endures. We unite ideas and ambition with engineering precision, assessing our decisions by the value they create for people, communities and the environment—today and throughout the life of each project.</p></div>
       <div class="chip-tags">
         <div class="chip-row">
-          <span><svg class="hex-ico" viewbox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor" /></svg>Quality</span>
-          <span><svg class="hex-ico" viewbox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor" /></svg>Integrity</span>
-          <span><svg class="hex-ico" viewbox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor" /></svg>Teamwork</span>
+          <span><svg class="hex-ico" viewbox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor" /></svg>Vision</span>
+          <span><svg class="hex-ico" viewbox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor" /></svg>Integration</span>
+          <span><svg class="hex-ico" viewbox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor" /></svg>Precision</span>
         </div>
         <div class="chip-row">
-          <span><svg class="hex-ico" viewbox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor" /></svg>Staff Motivation</span>
+          <span><svg class="hex-ico" viewbox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor" /></svg>Innovation</span>
           <span><svg class="hex-ico" viewbox="0 0 12 14" width="11" height="13" fill="none" aria-hidden="true"><path d="M6 0.8L11.2 3.8V10.2L6 13.2L0.8 10.2V3.8L6 0.8Z" fill="currentColor" /></svg>Sustainability</span>
         </div>
       </div>
-      <p style="margin-top:30px;"><a class="text-link" href="about.html">More about us<span class="arr"><svg class="arr" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></span></a></p>
+      <p style="margin-top:30px;"><a class="text-link" href="about.html#vision">Discover Our Vision<span class="arr"><svg class="arr" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></span></a></p>
     </div>
   </div>
 </section>
@@ -107,44 +117,44 @@
     </div>
     <div class="cells grid-cells-4" id="services-grid">
         <div class="cell">
-          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4.5" width="14" height="16.5" rx="2" /><path d="M9 4.5a3 3 0 0 1 6 0" /><path d="M9 13l2 2 4-4.5" /></svg><span class="num-index">01</span></div>
-          <h3>Feasibility Studies</h3>
-          <p>Technical and commercial viability established before capital is committed — so decisions rest on evidence, not assumption.</p>
-        </div>
-        <div class="cell">
-          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.2-4.2L16.6 4.4a2.1 2.1 0 0 1 3 3L8.2 18.8 4 20z" /><path d="M14.6 6.4l3 3" /></svg><span class="num-index">02</span></div>
-          <h3>Detailed Engineering Design</h3>
-          <p>Fully coordinated multidisciplinary design packages taken to construction readiness with complete tender documentation.</p>
-        </div>
-        <div class="cell">
-          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 16a7.5 7.5 0 0 1 15 0" /><path d="M2.8 16h18.4" /><path d="M12 8.5V6" /></svg><span class="num-index">03</span></div>
-          <h3>Construction Supervision</h3>
-          <p>Resident engineers on site safeguarding quality, safety, programme and contractor coordination through to handover.</p>
-        </div>
-        <div class="cell">
-          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="1" /><path d="M12 4v16M4 12h16" /></svg><span class="num-index">04</span></div>
+          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="1" /><path d="M12 4v16M4 12h16" /></svg><span class="num-index">01</span></div>
           <h3>Urban Planning</h3>
-          <p>Master plans that reconcile land use, movement, infrastructure and community needs into coherent, buildable frameworks.</p>
+          <p>We develop urban plans that integrate land use, mobility and infrastructure, creating connected places that respond to community needs and guide future growth.</p>
+        </div>
+        <div class="cell">
+          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v13M5 12H3a9 9 0 0 0 18 0h-2M8 21h8" /><circle cx="12" cy="5" r="3" /></svg><span class="num-index">02</span></div>
+          <h3>Port &amp; Harbour Engineering</h3>
+          <p>We plan and design port facilities and marine structures around navigational requirements, operational needs and site conditions, supporting efficient operations, structural safety and future expansion.</p>
+        </div>
+        <div class="cell">
+          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3v18" /><path d="M8.2 3v18" /><path d="M12.5 9c1.8 1.4 3.6 1.4 5.4 0 1.4-1.1 2.8-1.2 4.1-.3" /><path d="M12.5 14c1.8 1.4 3.6 1.4 5.4 0 1.4-1.1 2.8-1.2 4.1-.3" /><path d="M12.5 19c1.8 1.4 3.6 1.4 5.4 0 1.4-1.1 2.8-1.2 4.1-.3" /></svg><span class="num-index">03</span></div>
+          <h3>Coastal Studies &amp; Engineering</h3>
+          <p>We analyse waves, currents, sediment transport and shoreline change to develop coastal protection solutions that work with natural processes and balance development needs with the marine environment.</p>
+        </div>
+        <div class="cell">
+          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 21L10 3" /><path d="M18.5 21L14 3" /><path d="M12 6.5v2M12 11.5v2M12 16.5v2" /></svg><span class="num-index">04</span></div>
+          <h3>Infrastructure Engineering</h3>
+          <p>We design integrated road, water, drainage and utility networks, prioritising reliable performance, efficient operation and maintenance, and capacity for future growth.</p>
         </div>
         <div class="cell">
           <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="1" /><path d="M9 7h2m2 0h2M9 11h2m2 0h2M9 15h2m2 0h2" /><path d="M10.5 21v-3.5h3V21" /></svg><span class="num-index">05</span></div>
-          <h3>Architectural Design</h3>
-          <p>Context-driven building design developed from first sketches to detailed architectural packages ready for construction.</p>
+          <h3>Residential &amp; Tourism Development</h3>
+          <p>We design residential communities and tourism destinations that combine a strong sense of place with functional efficiency, drawing on each site’s character to enrich everyday living and the guest experience.</p>
         </div>
         <div class="cell">
           <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6.5h11M7 12h11M4 17.5h8" /><circle cx="4" cy="6.5" r=".9" fill="currentColor" stroke="none" /><circle cx="7" cy="12" r=".9" fill="currentColor" stroke="none" /><circle cx="4" cy="17.5" r=".9" fill="currentColor" stroke="none" /></svg><span class="num-index">06</span></div>
           <h3>Project Management</h3>
-          <p>End-to-end management of time, cost, scope and risk across every project phase, from briefing to closeout.</p>
+          <p>We manage project scope, programme, cost and risk, coordinating stakeholders to support informed decisions, maintain control of performance and achieve project objectives from planning through handover.</p>
         </div>
         <div class="cell">
-          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8.5" y="2.5" width="7" height="19" rx="3.5" /><circle cx="12" cy="7" r="1.3" fill="currentColor" stroke="none" /><circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none" /><circle cx="12" cy="17" r="1.3" fill="currentColor" stroke="none" /></svg><span class="num-index">07</span></div>
-          <h3>Traffic Impact Studies</h3>
-          <p>Evidence-based analysis of how a development affects the surrounding road network — with practical mitigation.</p>
+          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7.5" /><path d="m16 16 5 5M7.5 13.5l6-6M7.5 11c-.3-3 2.5-4 6-4 .2 4-1 7-4 7" /></svg><span class="num-index">07</span></div>
+          <h3>Environmental Studies</h3>
+          <p>We assess environmental impacts and site sensitivities, developing mitigation measures and management and monitoring plans to inform design decisions and support environmental compliance.</p>
         </div>
         <div class="cell">
-          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 21L9.8 3h4.4L17.5 21" /><path d="M12 7v2.2M12 12v2.2M12 17v2.2" /></svg><span class="num-index">08</span></div>
-          <h3>Road Safety Auditing</h3>
-          <p>Independent audits of road schemes at every design stage and after construction, focused on all road users.</p>
+          <div class="cell-head"><svg class="cell-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 16a7.5 7.5 0 0 1 15 0" /><path d="M2.8 16h18.4" /><path d="M12 8.5V6" /></svg><span class="num-index">08</span></div>
+          <h3>Construction Supervision</h3>
+          <p>We oversee site works to verify compliance with approved designs and specifications, monitor quality, progress and safety requirements, and address technical matters through to handover.</p>
         </div>
     </div>
   </div>
@@ -159,182 +169,254 @@
       <div class="head-action"><a class="text-link" href="projects.html">Full portfolio<span class="arr"><svg class="arr" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></span></a></div>
     </div>
     <div class="feat-grid">
-      <div class="feat-cell span-3" data-reveal-child><a class="proj-card chroma-card ratio-wide" id="proj-awqad-beach" href="#proj-awqad-beach" data-category="coastal landscape urban-planning" data-reveal-child data-name="Awqad Beach" data-client="Project visualization" data-cat-label="Coastal Landscape Urban Planning" data-desc="Sunset aerial view of the Awqad beachfront promenade. Imagery supplied by Meridian." data-full-image="../assets/media/awqad-beach-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/awqad-beach-1920.webp&quot;, &quot;alt&quot;: &quot;Sunset aerial view of the Awqad beachfront promenade.&quot;}]">
+      <div class="feat-cell span-3"><a class="proj-card chroma-card ratio-wide" id="proj-awqad-beach" href="#proj-awqad-beach" aria-label="Public beachfront development details" data-category="coastal landscape" data-scrub="../assets/media/project-motion-v3/awqad-beach-scrub.mp4" data-scrub-fps="30.0" data-duration="8.0" data-film-format="landscape" style="--project-ratio:1600/900" data-name="Public beachfront development" data-client="Waterfront / Beach development" data-cat-label="Coastal · Landscape" data-desc="A public waterfront development at Awqad Beach in Salalah, designed for Dhofar Municipality to provide a connected setting for recreation, relaxation and community activity. The design combines a curving beachfront promenade with palm-lined pedestrian routes, landscaped spaces, open plazas and shaded seating areas overlooking the sea. Distinctive geometric canopies, coordinated paving patterns and sculptural features establish a contemporary identity along the waterfront. Restaurants and outdoor dining areas introduce social gathering points, while roadside parking supports visitor arrival. A modern prayer facility complements the beach amenities, using simple architectural forms, decorative screens and integrated lighting.
+
+Our scope comprises architectural design, site planning, landscape design and mechanical, electrical and plumbing (MEP) design. Our approach coordinates the public spaces, visitor buildings and supporting services within a coherent beachfront layout, with attention to pedestrian movement, beach connections and the relationship between activity areas and quieter resting spaces. Landscape planting, shade structures and external lighting support the use of the waterfront throughout the day and into the evening, while a consistent architectural and landscape treatment links the individual facilities into a unified destination." data-full-image="../assets/media/awqad-beach-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;video&quot;, &quot;src&quot;: &quot;../assets/media/project-motion-v2/awqad-beach-desktop.mp4&quot;, &quot;mobile&quot;: &quot;../assets/media/project-motion-v2/awqad-beach-mobile.mp4&quot;, &quot;poster&quot;: &quot;../assets/media/project-motion-v3/awqad-beach-poster.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-motion-v3/awqad-beach-poster.webp&quot;, &quot;width&quot;: 1600, &quot;height&quot;: 900, &quot;alt&quot;: &quot;Project imagery: Public beachfront development&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/awqad-beach-1920.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/awqad-beach-800.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/awqad-beach-480.webp&quot;, &quot;width&quot;: 3840, &quot;height&quot;: 2160, &quot;alt&quot;: &quot;Project imagery: Public beachfront development&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/awqad-beach/1pHk7M5Li1myXRd2113lo1d9dxoG3jy9c.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/awqad-beach/1pHk7M5Li1myXRd2113lo1d9dxoG3jy9c-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/awqad-beach/1pHk7M5Li1myXRd2113lo1d9dxoG3jy9c-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1238, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/awqad-beach/1jaq-OjC7gzWUi4KJmSrZOdae7PG0_Z9F.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/awqad-beach/1jaq-OjC7gzWUi4KJmSrZOdae7PG0_Z9F-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/awqad-beach/1jaq-OjC7gzWUi4KJmSrZOdae7PG0_Z9F-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1238, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/awqad-beach/1nX49kVw1yoLDZcMwFKch6F-5GupLy7s3.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/awqad-beach/1nX49kVw1yoLDZcMwFKch6F-5GupLy7s3-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/awqad-beach/1nX49kVw1yoLDZcMwFKch6F-5GupLy7s3-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1238, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/awqad-beach/1fHn3s49VwJAOAlmAconLccN9-EygLuu8.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/awqad-beach/1fHn3s49VwJAOAlmAconLccN9-EygLuu8-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/awqad-beach/1fHn3s49VwJAOAlmAconLccN9-EygLuu8-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1238, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/awqad-beach/1Zm1xuEulNSR3mnI14ppgx8tV9b9GKMZW.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/awqad-beach/1Zm1xuEulNSR3mnI14ppgx8tV9b9GKMZW-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/awqad-beach/1Zm1xuEulNSR3mnI14ppgx8tV9b9GKMZW-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1238, &quot;alt&quot;: &quot;Project image&quot;}]" data-project-details="[{&quot;label&quot;: &quot;Client&quot;, &quot;value&quot;: &quot;Dhofar Municipality&quot;}, {&quot;label&quot;: &quot;Project type&quot;, &quot;value&quot;: &quot;Waterfront / Beach development&quot;}, {&quot;label&quot;: &quot;Project area&quot;, &quot;value&quot;: &quot;280000 m²&quot;}, {&quot;label&quot;: &quot;Project cost&quot;, &quot;value&quot;: &quot;4,450,000 OMR&quot;}, {&quot;label&quot;: &quot;Project date&quot;, &quot;value&quot;: &quot;2024 – Completed&quot;}, {&quot;label&quot;: &quot;Scope of work&quot;, &quot;value&quot;: &quot;Architectural, Site Plan, Landscape, MEP&quot;}]">
   <div class="proj-media">
-    <img class="client-photo" src="../assets/media/awqad-beach-800.webp" srcset="../assets/media/awqad-beach-480.webp 480w, ../assets/media/awqad-beach-800.webp 800w, ../assets/media/awqad-beach-1200.webp 1200w, ../assets/media/awqad-beach-1600.webp 1600w, ../assets/media/awqad-beach-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="3840" height="2160" alt="Sunset aerial view of the Awqad beachfront promenade." loading="eager" decoding="async" style="object-position:50% 50%">
-    <div class="chroma-veil"></div>
-    <div class="proj-overlay">
-      <span class="proj-cat">Coastal Landscape Urban Planning</span>
-      <h3>Awqad Beach</h3>
-      <span class="proj-line"></span>
-      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">Sunset aerial view of the Awqad beachfront promenade.</p>
+    <img class="client-photo" src="../assets/media/project-motion-v3/awqad-beach-poster.webp" width="1600" height="900" alt="Project imagery: Public beachfront development" loading="eager" decoding="async">
+    <video class="project-scrub-video" muted playsinline preload="none" aria-hidden="true"></video><span class="project-scrub-rail" aria-hidden="true"></span>
+    <div class="chroma-veil" aria-hidden="true"></div>
+    <div class="proj-overlay" aria-hidden="true">
+      <span class="proj-cat">Coastal · Landscape</span>
+      <h3>Public beachfront development</h3>
+      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">An integrated beachfront promenade with recreation spaces, visitor facilities and landscape.</p>
     </div>
   </div>
   <div class="proj-meta">
-    <span class="proj-title-line"><h3>Awqad Beach</h3></span>
-    <span class="proj-client">Project visualization</span>
+    <span class="proj-title-line"><h3>Public beachfront development</h3></span>
+    <span class="proj-client">Waterfront / Beach development</span>
   </div>
 </a></div>
-      <div class="feat-cell span-3" data-reveal-child><a class="proj-card chroma-card ratio-wide" id="proj-al-bahja-hotel" href="#proj-al-bahja-hotel" data-category="buildings hospitality" data-reveal-child data-name="Al Bahja Hotel" data-client="Project visualization" data-cat-label="Buildings Hospitality" data-desc="Hotel exterior with blue facade accents and landscaped frontage. Imagery supplied by Meridian." data-full-image="../assets/media/al-bahja-hotel-1672.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/al-bahja-hotel-1672.webp&quot;, &quot;alt&quot;: &quot;Hotel exterior with blue facade accents and landscaped frontage.&quot;}]">
+      <div class="feat-cell span-3"><a class="proj-card chroma-card ratio-wide" id="proj-al-bahja-hotel" href="#proj-al-bahja-hotel" aria-label="Hotel design details" data-category="buildings hospitality" data-scrub="../assets/media/project-motion-v3/al-bahja-hotel-scrub.mp4" data-scrub-fps="24.0" data-duration="10.0" data-film-format="landscape" style="--project-ratio:1920/1080" data-name="Hotel design" data-client="Hotel" data-cat-label="Buildings · Hospitality" data-desc="This  Hotel is a contemporary hospitality development, with a stated project area of 3,000 m². The architectural design features sculpted white façade bands, curved corners, extensive glazing, recessed balconies, and contrasting dark vertical screens and warm-toned accents. Glazed lower levels create an open frontage, while the repeated upper-floor openings establish a consistent rhythm across the elevations. Integrated façade lighting highlights the building’s form after dark.
+
+The supplied interior concepts combine neutral finishes, warm timber elements, glass balustrades, and layered lighting to create bright, welcoming spaces. The project scope comprises full design and site supervision, supporting the development of the design and its implementation on site, with attention to functional planning, coordinated detailing, material finishes, and the overall quality of the guest environment." data-full-image="../assets/media/al-bahja-hotel-1672.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;video&quot;, &quot;src&quot;: &quot;../assets/media/project-motion-v3/al-bahja-hotel-desktop.mp4&quot;, &quot;mobile&quot;: &quot;../assets/media/project-motion-v3/al-bahja-hotel-mobile.mp4&quot;, &quot;poster&quot;: &quot;../assets/media/project-motion-v3/al-bahja-hotel-poster.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-motion-v3/al-bahja-hotel-poster.webp&quot;, &quot;width&quot;: 1920, &quot;height&quot;: 1080, &quot;alt&quot;: &quot;Project imagery: Hotel design&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/al-bahja-hotel-1672.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/al-bahja-hotel-800.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/al-bahja-hotel-480.webp&quot;, &quot;width&quot;: 1672, &quot;height&quot;: 941, &quot;alt&quot;: &quot;Project imagery: Hotel design&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/al-bahja-hotel/1KBDwysMYUxLoPshusasJNVSHluuEGIxy.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/al-bahja-hotel/1KBDwysMYUxLoPshusasJNVSHluuEGIxy-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/al-bahja-hotel/1KBDwysMYUxLoPshusasJNVSHluuEGIxy-thumb.webp&quot;, &quot;width&quot;: 1672, &quot;height&quot;: 940, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/al-bahja-hotel/1X-ZvSmazZF_RqhJsTAKEiwVphf113Y9g.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/al-bahja-hotel/1X-ZvSmazZF_RqhJsTAKEiwVphf113Y9g-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/al-bahja-hotel/1X-ZvSmazZF_RqhJsTAKEiwVphf113Y9g-thumb.webp&quot;, &quot;width&quot;: 732, &quot;height&quot;: 412, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/al-bahja-hotel/16MaHEveNle7GQ5wA7v7T5O-SfnalmRzf.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/al-bahja-hotel/16MaHEveNle7GQ5wA7v7T5O-SfnalmRzf-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/al-bahja-hotel/16MaHEveNle7GQ5wA7v7T5O-SfnalmRzf-thumb.webp&quot;, &quot;width&quot;: 732, &quot;height&quot;: 468, &quot;alt&quot;: &quot;Project image&quot;}]" data-project-details="[{&quot;label&quot;: &quot;Project type&quot;, &quot;value&quot;: &quot;Hotel&quot;}, {&quot;label&quot;: &quot;Project area&quot;, &quot;value&quot;: &quot;3000 m²&quot;}, {&quot;label&quot;: &quot;Project cost&quot;, &quot;value&quot;: &quot;2,870,000 OMR&quot;}, {&quot;label&quot;: &quot;Project date&quot;, &quot;value&quot;: &quot;2025 – Completed&quot;}, {&quot;label&quot;: &quot;Scope of work&quot;, &quot;value&quot;: &quot;Full Design, Site Supervision&quot;}]">
   <div class="proj-media">
-    <img class="client-photo" src="../assets/media/al-bahja-hotel-800.webp" srcset="../assets/media/al-bahja-hotel-480.webp 480w, ../assets/media/al-bahja-hotel-800.webp 800w, ../assets/media/al-bahja-hotel-1200.webp 1200w, ../assets/media/al-bahja-hotel-1600.webp 1600w, ../assets/media/al-bahja-hotel-1672.webp 1672w" sizes="(max-width: 760px) 100vw, 60vw" width="1672" height="941" alt="Hotel exterior with blue facade accents and landscaped frontage." loading="lazy" decoding="async" style="object-position:50% 50%">
-    <div class="chroma-veil"></div>
-    <div class="proj-overlay">
-      <span class="proj-cat">Buildings Hospitality</span>
-      <h3>Al Bahja Hotel</h3>
-      <span class="proj-line"></span>
-      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">Hotel exterior with blue facade accents and landscaped frontage.</p>
+    <img class="client-photo" src="../assets/media/project-motion-v3/al-bahja-hotel-poster.webp" width="1920" height="1080" alt="Project imagery: Hotel design" loading="lazy" decoding="async">
+    <video class="project-scrub-video" muted playsinline preload="none" aria-hidden="true"></video><span class="project-scrub-rail" aria-hidden="true"></span>
+    <div class="chroma-veil" aria-hidden="true"></div>
+    <div class="proj-overlay" aria-hidden="true">
+      <span class="proj-cat">Buildings · Hospitality</span>
+      <h3>Hotel design</h3>
+      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">Contemporary hotel architecture, full design and site supervision.</p>
     </div>
   </div>
   <div class="proj-meta">
-    <span class="proj-title-line"><h3>Al Bahja Hotel</h3></span>
-    <span class="proj-client">Project visualization</span>
+    <span class="proj-title-line"><h3>Hotel design</h3></span>
+    <span class="proj-client">Hotel</span>
   </div>
 </a></div>
-      <div class="feat-cell span-2" data-reveal-child><a class="proj-card chroma-card ratio-tall" id="proj-grand-resort" href="#proj-grand-resort" data-category="buildings hospitality" data-reveal-child data-name="Grand Resort" data-client="Project visualization" data-cat-label="Buildings Hospitality" data-desc="Aerial view of the resort buildings, villas and entrance. Imagery supplied by Meridian." data-full-image="../assets/media/grand-resort-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/grand-resort-1920.webp&quot;, &quot;alt&quot;: &quot;Aerial view of the resort buildings, villas and entrance.&quot;}]">
+      <div class="feat-cell span-2"><a class="proj-card chroma-card ratio-tall" id="proj-grand-resort" href="#proj-grand-resort" aria-label="Resort development details" data-category="buildings hospitality" data-scrub="../assets/media/project-motion-v3/grand-resort-scrub.mp4" data-scrub-fps="24.0" data-duration="10.0" data-film-format="landscape" style="--project-ratio:1920/1080" data-name="Resort development" data-client="Resort" data-cat-label="Buildings · Hospitality" data-desc="Grand Resort is a residential property development for Shaher United, with a project area of 20,000 m². The scheme combines a main reception and public facilities building with low-rise guest accommodation arranged around landscaped pedestrian routes and courtyards. The architectural design brings together contemporary geometric forms and traditional arched features, using light-coloured surfaces, stone textures, contrasting façade frames, and generous glazing to establish a coordinated resort identity. A prominent entrance, guest arrival forecourt, and parking areas define the approach to the main building.
+
+The accommodation concepts include guest rooms and villa-style units with private outdoor spaces and swimming pools. Interior designs feature a spacious reception lobby, lounge seating, decorative screens, warm neutral finishes, and layered lighting, creating a welcoming setting for guests. Landscaped courtyards, palm planting, terraces, and water features connect the buildings and provide spaces for relaxation while supporting privacy within the accommodation areas. The consultancy scope comprises architectural and structural design, mechanical, electrical and plumbing design, coordinating the buildings, services, and external works throughout design development and construction." data-full-image="../assets/media/grand-resort-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;video&quot;, &quot;src&quot;: &quot;../assets/media/project-motion-v3/grand-resort-desktop.mp4&quot;, &quot;mobile&quot;: &quot;../assets/media/project-motion-v3/grand-resort-mobile.mp4&quot;, &quot;poster&quot;: &quot;../assets/media/project-motion-v3/grand-resort-poster.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-motion-v3/grand-resort-poster.webp&quot;, &quot;width&quot;: 1920, &quot;height&quot;: 1080, &quot;alt&quot;: &quot;Project imagery: Resort development&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/grand-resort-1920.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/grand-resort-800.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/grand-resort-480.webp&quot;, &quot;width&quot;: 2734, &quot;height&quot;: 1538, &quot;alt&quot;: &quot;Project imagery: Resort development&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/grand-resort/1w_5MgEtxexPjIRhPFCQsqz66vPMT2FGh.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/grand-resort/1w_5MgEtxexPjIRhPFCQsqz66vPMT2FGh-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/grand-resort/1w_5MgEtxexPjIRhPFCQsqz66vPMT2FGh-thumb.webp&quot;, &quot;width&quot;: 1202, &quot;height&quot;: 676, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/grand-resort/1Zsb7P5YzXmHE0vPQjllR23aBaqdn-gUl.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/grand-resort/1Zsb7P5YzXmHE0vPQjllR23aBaqdn-gUl-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/grand-resort/1Zsb7P5YzXmHE0vPQjllR23aBaqdn-gUl-thumb.webp&quot;, &quot;width&quot;: 1203, &quot;height&quot;: 677, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/grand-resort/1ZxILBtTvHUpb4HlC4LVYYcyfJdcaUfdJ.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/grand-resort/1ZxILBtTvHUpb4HlC4LVYYcyfJdcaUfdJ-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/grand-resort/1ZxILBtTvHUpb4HlC4LVYYcyfJdcaUfdJ-thumb.webp&quot;, &quot;width&quot;: 1200, &quot;height&quot;: 774, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/grand-resort/1tjkVka03AQrnpVyQcLtgTjHoAWY3cNtI.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/grand-resort/1tjkVka03AQrnpVyQcLtgTjHoAWY3cNtI-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/grand-resort/1tjkVka03AQrnpVyQcLtgTjHoAWY3cNtI-thumb.webp&quot;, &quot;width&quot;: 1200, &quot;height&quot;: 677, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/grand-resort/1hWpkjb5Oc4jF5YfZ3Hnre69tMZ1_IkCv.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/grand-resort/1hWpkjb5Oc4jF5YfZ3Hnre69tMZ1_IkCv-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/grand-resort/1hWpkjb5Oc4jF5YfZ3Hnre69tMZ1_IkCv-thumb.webp&quot;, &quot;width&quot;: 1000, &quot;height&quot;: 750, &quot;alt&quot;: &quot;Project image&quot;}]" data-project-details="[{&quot;label&quot;: &quot;Client&quot;, &quot;value&quot;: &quot;Shaher United&quot;}, {&quot;label&quot;: &quot;Project type&quot;, &quot;value&quot;: &quot;Resort&quot;}, {&quot;label&quot;: &quot;Project area&quot;, &quot;value&quot;: &quot;20000 m²&quot;}, {&quot;label&quot;: &quot;Project cost&quot;, &quot;value&quot;: &quot;5,870,650 OMR&quot;}, {&quot;label&quot;: &quot;Project date&quot;, &quot;value&quot;: &quot;2024 – Completed&quot;}, {&quot;label&quot;: &quot;Scope of work&quot;, &quot;value&quot;: &quot;Architectural, Structural Design, MEP.&quot;}]">
   <div class="proj-media">
-    <img class="client-photo" src="../assets/media/grand-resort-800.webp" srcset="../assets/media/grand-resort-480.webp 480w, ../assets/media/grand-resort-800.webp 800w, ../assets/media/grand-resort-1200.webp 1200w, ../assets/media/grand-resort-1600.webp 1600w, ../assets/media/grand-resort-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2734" height="1538" alt="Aerial view of the resort buildings, villas and entrance." loading="lazy" decoding="async" style="object-position:50% 50%">
-    <div class="chroma-veil"></div>
-    <div class="proj-overlay">
-      <span class="proj-cat">Buildings Hospitality</span>
-      <h3>Grand Resort</h3>
-      <span class="proj-line"></span>
-      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">Aerial view of the resort buildings, villas and entrance.</p>
+    <img class="client-photo" src="../assets/media/project-motion-v3/grand-resort-poster.webp" width="1920" height="1080" alt="Project imagery: Resort development" loading="lazy" decoding="async">
+    <video class="project-scrub-video" muted playsinline preload="none" aria-hidden="true"></video><span class="project-scrub-rail" aria-hidden="true"></span>
+    <div class="chroma-veil" aria-hidden="true"></div>
+    <div class="proj-overlay" aria-hidden="true">
+      <span class="proj-cat">Buildings · Hospitality</span>
+      <h3>Resort development</h3>
+      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">Guest accommodation and landscaped courtyards with integrated building design.</p>
     </div>
   </div>
   <div class="proj-meta">
-    <span class="proj-title-line"><h3>Grand Resort</h3></span>
-    <span class="proj-client">Project visualization</span>
+    <span class="proj-title-line"><h3>Resort development</h3></span>
+    <span class="proj-client">Resort</span>
   </div>
 </a></div>
-      <div class="feat-cell span-2" data-reveal-child><a class="proj-card chroma-card ratio-tall" id="proj-kids-library" href="#proj-kids-library" data-category="buildings" data-reveal-child data-name="Children’s Library" data-client="Project visualization" data-cat-label="Buildings" data-desc="A curved library building with landscaped outdoor spaces. Imagery supplied by Meridian." data-full-image="../assets/media/kids-library-1183.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/kids-library-1183.webp&quot;, &quot;alt&quot;: &quot;A curved library building with landscaped outdoor spaces.&quot;}]">
+      <div class="feat-cell span-2"><a class="proj-card chroma-card ratio-tall" id="proj-kids-library" href="#proj-kids-library" aria-label="Children’s library details" data-category="buildings" data-scrub="../assets/media/project-motion-v4/kids-library-scrub.mp4" data-scrub-fps="25.0" data-duration="3.6" data-film-format="landscape" style="--project-ratio:1920/1080" data-name="Children’s library" data-client="Public / Educational building" data-cat-label="Buildings" data-desc="Kids Library is a public educational development in Salalah for Dhofar Municipality, with a project area of 4,500 m². Conceived as a welcoming destination for children and families, the building supports reading, learning, and engagement with books and culture. Its architectural identity combines flowing, curved building forms with extensive glazing and decorative Arabic calligraphy across the façades, expressing the relationship between language, knowledge, and the built environment. Light-coloured exterior surfaces and integrated lighting emphasise the curved elevations and calligraphic details during both daytime and evening use.
+
+The building frames a landscaped arrival plaza with stepped terraces, seating edges, planted areas, and pedestrian routes that connect the entrances with the surrounding grounds. These outdoor spaces provide opportunities for informal gathering and complement the library’s educational role. Broad glazed frontages establish visual connections between the interior and the landscape, while the overall site arrangement incorporates parking and vehicle access alongside the pedestrian approaches. The consultancy scope comprises detailed design, developing the architectural layout, façade treatment, and interfaces between the building and external spaces." data-full-image="../assets/media/kids-library-1183.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;video&quot;, &quot;src&quot;: &quot;../assets/media/project-motion-v4/kids-library-desktop.mp4&quot;, &quot;mobile&quot;: &quot;../assets/media/project-motion-v4/kids-library-mobile.mp4&quot;, &quot;poster&quot;: &quot;../assets/media/project-motion-v4/kids-library-poster.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-motion-v4/kids-library-poster.webp&quot;, &quot;width&quot;: 1920, &quot;height&quot;: 1080, &quot;alt&quot;: &quot;Project imagery: Children’s library&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/kids-library-1183.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/kids-library-800.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/kids-library-480.webp&quot;, &quot;width&quot;: 1183, &quot;height&quot;: 660, &quot;alt&quot;: &quot;Project imagery: Children’s library&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/kids-library/1Yntt47BytBtP3WBAw3pwgVT3ZnhzA6tE.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/kids-library/1Yntt47BytBtP3WBAw3pwgVT3ZnhzA6tE-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/kids-library/1Yntt47BytBtP3WBAw3pwgVT3ZnhzA6tE-thumb.webp&quot;, &quot;width&quot;: 1200, &quot;height&quot;: 896, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/kids-library/1bPM9ZMCmSLlP-CGBQzg_bRY1RdoegL7B.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/kids-library/1bPM9ZMCmSLlP-CGBQzg_bRY1RdoegL7B-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/kids-library/1bPM9ZMCmSLlP-CGBQzg_bRY1RdoegL7B-thumb.webp&quot;, &quot;width&quot;: 1200, &quot;height&quot;: 808, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/kids-library/1gunSB-oEGQr70FiIobajBE1AkJRgPx6l.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/kids-library/1gunSB-oEGQr70FiIobajBE1AkJRgPx6l-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/kids-library/1gunSB-oEGQr70FiIobajBE1AkJRgPx6l-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1228, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/kids-library/1oG11I1MPS5wWZL2Oi5tK47-ct1s9Btb9.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/kids-library/1oG11I1MPS5wWZL2Oi5tK47-ct1s9Btb9-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/kids-library/1oG11I1MPS5wWZL2Oi5tK47-ct1s9Btb9-thumb.webp&quot;, &quot;width&quot;: 1185, &quot;height&quot;: 661, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/kids-library/11Un96756pxdqmPaYNW3gW5qwQV92km7j.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/kids-library/11Un96756pxdqmPaYNW3gW5qwQV92km7j-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/kids-library/11Un96756pxdqmPaYNW3gW5qwQV92km7j-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1413, &quot;alt&quot;: &quot;Project image&quot;}]" data-project-details="[{&quot;label&quot;: &quot;Client&quot;, &quot;value&quot;: &quot;Dhofar Municipality&quot;}, {&quot;label&quot;: &quot;Project type&quot;, &quot;value&quot;: &quot;Public / Educational building&quot;}, {&quot;label&quot;: &quot;Project area&quot;, &quot;value&quot;: &quot;4500 m²&quot;}, {&quot;label&quot;: &quot;Project cost&quot;, &quot;value&quot;: &quot;3,850,000 OMR&quot;}, {&quot;label&quot;: &quot;Project date&quot;, &quot;value&quot;: &quot;2026&quot;}, {&quot;label&quot;: &quot;Scope of work&quot;, &quot;value&quot;: &quot;Detail Design&quot;}]">
   <div class="proj-media">
-    <img class="client-photo" src="../assets/media/kids-library-800.webp" srcset="../assets/media/kids-library-480.webp 480w, ../assets/media/kids-library-800.webp 800w, ../assets/media/kids-library-1183.webp 1183w" sizes="(max-width: 760px) 100vw, 60vw" width="1183" height="660" alt="A curved library building with landscaped outdoor spaces." loading="lazy" decoding="async" style="object-position:50% 50%">
-    <div class="chroma-veil"></div>
-    <div class="proj-overlay">
+    <img class="client-photo" src="../assets/media/project-motion-v4/kids-library-poster.webp" width="1920" height="1080" alt="Project imagery: Children’s library" loading="lazy" decoding="async">
+    <video class="project-scrub-video" muted playsinline preload="none" aria-hidden="true"></video><span class="project-scrub-rail" aria-hidden="true"></span>
+    <div class="chroma-veil" aria-hidden="true"></div>
+    <div class="proj-overlay" aria-hidden="true">
       <span class="proj-cat">Buildings</span>
-      <h3>Children’s Library</h3>
-      <span class="proj-line"></span>
-      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">A curved library building with landscaped outdoor spaces.</p>
+      <h3>Children’s library</h3>
+      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">A public educational destination with curved façades and Arabic calligraphy.</p>
     </div>
   </div>
   <div class="proj-meta">
-    <span class="proj-title-line"><h3>Children’s Library</h3></span>
-    <span class="proj-client">Project visualization</span>
+    <span class="proj-title-line"><h3>Children’s library</h3></span>
+    <span class="proj-client">Public / Educational building</span>
   </div>
 </a></div>
-      <div class="feat-cell span-2" data-reveal-child><a class="proj-card chroma-card ratio-tall" id="proj-gim-theatre" href="#proj-gim-theatre" data-category="buildings" data-reveal-child data-name="GIM Theatre" data-client="Project visualization" data-cat-label="Buildings" data-desc="Sculptural theatre exterior illuminated at dusk. Imagery supplied by Meridian." data-full-image="../assets/media/gim-theatre-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/gim-theatre-1920.webp&quot;, &quot;alt&quot;: &quot;Sculptural theatre exterior illuminated at dusk.&quot;}]">
+      <div class="feat-cell span-2"><a class="proj-card chroma-card ratio-tall" id="proj-gim-theatre" href="#proj-gim-theatre" aria-label="Theatre concept details" data-category="buildings" data-scrub="../assets/media/project-motion-v3/gim-theatre-scrub.mp4" data-scrub-fps="25.0" data-duration="5.0" data-film-format="landscape" style="--project-ratio:1600/960" data-name="Theatre concept" data-client="Cultural building / Theatre" data-cat-label="Buildings" data-desc="GIM Theater is a cultural and performing arts concept developed for Dhofar Municipality, with a stated project area of 10,000 m². The design takes inspiration from the Gim, a traditional Omani musical instrument made from a conch shell, translating this cultural reference into a sculptural building with flowing curves and overlapping shell-like forms. White exterior surfaces, patterned openings, sweeping glazed façades, and integrated lighting establish a distinctive architectural identity rooted in Oman’s musical heritage.
+
+The concept includes an auditorium with a performance stage, tiered audience seating, and curved balcony levels. Sculpted interior surfaces and layered lighting extend the flowing architectural language into the performance space. Glazed public areas connect visually with the surrounding plazas, while landscaped spaces, pedestrian approaches, and reflecting pools shape the arrival experience and provide places for gathering before and after events. Our scope comprised concept design, establishing the architectural vision, overall building form, and spatial relationships between the performance venue, public areas, and external setting." data-full-image="../assets/media/gim-theatre-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;video&quot;, &quot;src&quot;: &quot;../assets/media/project-motion-v2/gim-theatre-desktop.mp4&quot;, &quot;mobile&quot;: &quot;../assets/media/project-motion-v2/gim-theatre-mobile.mp4&quot;, &quot;poster&quot;: &quot;../assets/media/project-motion-v3/gim-theatre-poster.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-motion-v3/gim-theatre-poster.webp&quot;, &quot;width&quot;: 1600, &quot;height&quot;: 960, &quot;alt&quot;: &quot;Project imagery: Theatre concept&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/gim-theatre-1920.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/gim-theatre-800.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/gim-theatre-480.webp&quot;, &quot;width&quot;: 2304, &quot;height&quot;: 1280, &quot;alt&quot;: &quot;Project imagery: Theatre concept&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/gim-theatre/11v3mitrP9mj9X5wmAWpKpFd3iLAFgPlU.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/gim-theatre/11v3mitrP9mj9X5wmAWpKpFd3iLAFgPlU-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/gim-theatre/11v3mitrP9mj9X5wmAWpKpFd3iLAFgPlU-thumb.webp&quot;, &quot;width&quot;: 2064, &quot;height&quot;: 1161, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/gim-theatre/1nuZPQQhVJQnO3hICjXo8QXmwfMuIR2hQ.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/gim-theatre/1nuZPQQhVJQnO3hICjXo8QXmwfMuIR2hQ-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/gim-theatre/1nuZPQQhVJQnO3hICjXo8QXmwfMuIR2hQ-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1238, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/gim-theatre/18bdRj72BeSJPOQIIheI8AWrv2IliSrIX.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/gim-theatre/18bdRj72BeSJPOQIIheI8AWrv2IliSrIX-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/gim-theatre/18bdRj72BeSJPOQIIheI8AWrv2IliSrIX-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1222, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/gim-theatre/1s0cOPrzZVQPEpO-2A_iixKErg71MsN-9.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/gim-theatre/1s0cOPrzZVQPEpO-2A_iixKErg71MsN-9-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/gim-theatre/1s0cOPrzZVQPEpO-2A_iixKErg71MsN-9-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1233, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/gim-theatre/1U6pYMO6DCp04iNl1l7NtGMlv2371gg9u.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/gim-theatre/1U6pYMO6DCp04iNl1l7NtGMlv2371gg9u-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/gim-theatre/1U6pYMO6DCp04iNl1l7NtGMlv2371gg9u-thumb.webp&quot;, &quot;width&quot;: 1204, &quot;height&quot;: 675, &quot;alt&quot;: &quot;Project image&quot;}]" data-project-details="[{&quot;label&quot;: &quot;Client&quot;, &quot;value&quot;: &quot;Dhofar Municipality&quot;}, {&quot;label&quot;: &quot;Project type&quot;, &quot;value&quot;: &quot;Cultural building / Theatre&quot;}, {&quot;label&quot;: &quot;Project area&quot;, &quot;value&quot;: &quot;10000 m²&quot;}, {&quot;label&quot;: &quot;Project cost&quot;, &quot;value&quot;: &quot;7,850,000 OMR&quot;}, {&quot;label&quot;: &quot;Project date&quot;, &quot;value&quot;: &quot;2024 – Completed&quot;}, {&quot;label&quot;: &quot;Scope of work&quot;, &quot;value&quot;: &quot;Concept Design&quot;}]">
   <div class="proj-media">
-    <img class="client-photo" src="../assets/media/gim-theatre-800.webp" srcset="../assets/media/gim-theatre-480.webp 480w, ../assets/media/gim-theatre-800.webp 800w, ../assets/media/gim-theatre-1200.webp 1200w, ../assets/media/gim-theatre-1600.webp 1600w, ../assets/media/gim-theatre-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2304" height="1280" alt="Sculptural theatre exterior illuminated at dusk." loading="lazy" decoding="async" style="object-position:50% 50%">
-    <div class="chroma-veil"></div>
-    <div class="proj-overlay">
+    <img class="client-photo" src="../assets/media/project-motion-v3/gim-theatre-poster.webp" width="1600" height="960" alt="Project imagery: Theatre concept" loading="lazy" decoding="async">
+    <video class="project-scrub-video" muted playsinline preload="none" aria-hidden="true"></video><span class="project-scrub-rail" aria-hidden="true"></span>
+    <div class="chroma-veil" aria-hidden="true"></div>
+    <div class="proj-overlay" aria-hidden="true">
       <span class="proj-cat">Buildings</span>
-      <h3>GIM Theatre</h3>
-      <span class="proj-line"></span>
-      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">Sculptural theatre exterior illuminated at dusk.</p>
+      <h3>Theatre concept</h3>
+      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">A performing arts concept inspired by the traditional Omani Gim instrument.</p>
     </div>
   </div>
   <div class="proj-meta">
-    <span class="proj-title-line"><h3>GIM Theatre</h3></span>
-    <span class="proj-client">Project visualization</span>
+    <span class="proj-title-line"><h3>Theatre concept</h3></span>
+    <span class="proj-client">Cultural building / Theatre</span>
   </div>
 </a></div>
-      <div class="feat-cell span-2" data-reveal-child><a class="proj-card chroma-card ratio-tall" id="proj-tilal-district" href="#proj-tilal-district" data-category="urban-planning" data-reveal-child data-name="Tilal District" data-client="Project visualization" data-cat-label="Urban Planning" data-desc="Aerial masterplan visualization of a district beside a rocky landscape. Imagery supplied by Meridian." data-full-image="../assets/media/tilal-district-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/tilal-district-1920.webp&quot;, &quot;alt&quot;: &quot;Aerial masterplan visualization of a district beside a rocky landscape.&quot;}]">
+      <div class="feat-cell span-2"><a class="proj-card chroma-card ratio-tall" id="proj-tilal-district" href="#proj-tilal-district" aria-label="Coastal residential masterplan details" data-category="urban-planning coastal" data-scrub="../assets/media/project-motion-v3/tilal-district-scrub.mp4" data-scrub-fps="24.0" data-duration="8.0" data-film-format="landscape" style="--project-ratio:1920/1080" data-name="Coastal residential masterplan" data-client="Residential district / Urban planning" data-cat-label="Urban Planning · Coastal" data-desc="Tilal District, a distinctive residential development for the Ministry of Housing and Urban Planning in the Sultanate of Oman. Covering an area of approximately 210,000 m², with an estimated project value of OMR 12.56 million, the development presents an innovative approach to integrated urban living within a remarkable coastal setting. Our master planning concept embraces the site&#x27;s natural surroundings, combining contemporary residential neighborhoods with an organically arranged urban layout, interconnected road networks, landscaped green corridors, and pedestrian-friendly environments. The development features carefully planned residential clusters surrounding a central landscaped park, with a landmark mosque serving as a prominent architectural and cultural focal point. The overall design promotes community connectivity, residential privacy, and an enhanced quality of life while establishing a strong relationship between the built environment and the surrounding coastal landscape.
+
+Our architectural vision for Tilal District emphasizes a harmonious integration of modern residential architecture, Omani cultural character, and sustainable urban planning principles. The residential units feature elegant geometric forms, natural earth-toned façades, shaded balconies, and thoughtfully designed private outdoor spaces, creating a cohesive architectural identity throughout the district. A central green spine incorporates landscaped gardens, recreational spaces, walking trails, and dedicated cycling paths, encouraging active lifestyles and social interaction. Along the coastal edge, a vibrant mixed-use promenade featuring commercial establishments, cafés, restaurants, and landscaped gathering spaces is envisioned to create an attractive destination that celebrates the site&#x27;s dramatic natural coastline. Completed in 2026." data-full-image="../assets/media/tilal-district-1920.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;video&quot;, &quot;src&quot;: &quot;../assets/media/project-motion-v3/tilal-district-desktop.mp4&quot;, &quot;mobile&quot;: &quot;../assets/media/project-motion-v3/tilal-district-mobile.mp4&quot;, &quot;poster&quot;: &quot;../assets/media/project-motion-v3/tilal-district-poster.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-motion-v3/tilal-district-poster.webp&quot;, &quot;width&quot;: 1920, &quot;height&quot;: 1080, &quot;alt&quot;: &quot;Project imagery: Coastal residential masterplan&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/tilal-district-1920.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/tilal-district-800.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/tilal-district-480.webp&quot;, &quot;width&quot;: 4030, &quot;height&quot;: 2268, &quot;alt&quot;: &quot;Project imagery: Coastal residential masterplan&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/tilal-district/1SYrlK89kFGLjgroM-IQnecCKFrL6zhzb.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/tilal-district/1SYrlK89kFGLjgroM-IQnecCKFrL6zhzb-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/tilal-district/1SYrlK89kFGLjgroM-IQnecCKFrL6zhzb-thumb.webp&quot;, &quot;width&quot;: 1642, &quot;height&quot;: 2200, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/tilal-district/17Wi8gdTGeoZl05RUVu1AGJiGS993Xk8z.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/tilal-district/17Wi8gdTGeoZl05RUVu1AGJiGS993Xk8z-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/tilal-district/17Wi8gdTGeoZl05RUVu1AGJiGS993Xk8z-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1228, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/tilal-district/1UXiQ2oow7Jih0cyw-UC8Dd3kBZp8WB8y.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/tilal-district/1UXiQ2oow7Jih0cyw-UC8Dd3kBZp8WB8y-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/tilal-district/1UXiQ2oow7Jih0cyw-UC8Dd3kBZp8WB8y-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1228, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/tilal-district/1NX09Eq8ok5QTnP463byFSrpjAIxoOoVJ.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/tilal-district/1NX09Eq8ok5QTnP463byFSrpjAIxoOoVJ-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/tilal-district/1NX09Eq8ok5QTnP463byFSrpjAIxoOoVJ-thumb.webp&quot;, &quot;width&quot;: 2200, &quot;height&quot;: 1228, &quot;alt&quot;: &quot;Project image&quot;}]" data-project-details="[{&quot;label&quot;: &quot;Client&quot;, &quot;value&quot;: &quot;Ministry of Housing and Urban Planning&quot;}, {&quot;label&quot;: &quot;Project type&quot;, &quot;value&quot;: &quot;Residential district / Urban planning&quot;}, {&quot;label&quot;: &quot;Project area&quot;, &quot;value&quot;: &quot;210,000 m²&quot;}, {&quot;label&quot;: &quot;Project cost&quot;, &quot;value&quot;: &quot;12,560,000 OMR&quot;}, {&quot;label&quot;: &quot;Project date&quot;, &quot;value&quot;: &quot;2026 – Completed&quot;}, {&quot;label&quot;: &quot;Scope of work&quot;, &quot;value&quot;: &quot;Urban Planning, Architectural Design (Concept design).&quot;}]">
   <div class="proj-media">
-    <img class="client-photo" src="../assets/media/tilal-district-800.webp" srcset="../assets/media/tilal-district-480.webp 480w, ../assets/media/tilal-district-800.webp 800w, ../assets/media/tilal-district-1200.webp 1200w, ../assets/media/tilal-district-1600.webp 1600w, ../assets/media/tilal-district-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" width="2752" height="1536" alt="Aerial masterplan visualization of a district beside a rocky landscape." loading="lazy" decoding="async" style="object-position:50% 50%">
-    <div class="chroma-veil"></div>
-    <div class="proj-overlay">
-      <span class="proj-cat">Urban Planning</span>
-      <h3>Tilal District</h3>
-      <span class="proj-line"></span>
-      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">Aerial masterplan visualization of a district beside a rocky landscape.</p>
+    <img class="client-photo" src="../assets/media/project-motion-v3/tilal-district-poster.webp" width="1920" height="1080" alt="Project imagery: Coastal residential masterplan" loading="lazy" decoding="async">
+    <video class="project-scrub-video" muted playsinline preload="none" aria-hidden="true"></video><span class="project-scrub-rail" aria-hidden="true"></span>
+    <div class="chroma-veil" aria-hidden="true"></div>
+    <div class="proj-overlay" aria-hidden="true">
+      <span class="proj-cat">Urban Planning · Coastal</span>
+      <h3>Coastal residential masterplan</h3>
+      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">A coastal residential concept with a central park, connected neighbourhoods and a mixed-use promenade.</p>
     </div>
   </div>
   <div class="proj-meta">
-    <span class="proj-title-line"><h3>Tilal District</h3></span>
-    <span class="proj-client">Project visualization</span>
+    <span class="proj-title-line"><h3>Coastal residential masterplan</h3></span>
+    <span class="proj-client">Residential district / Urban planning</span>
   </div>
 </a></div>
-      <div class="feat-cell span-4" data-reveal-child><a class="proj-card chroma-card ratio-wide" id="proj-fic" href="#proj-fic" data-category="coastal buildings" data-reveal-child data-name="FIC" data-client="Project visualization" data-cat-label="Coastal Buildings" data-desc="Aerial visualization of a coastal industrial site and harbour. Imagery supplied by Meridian." data-full-image="../assets/media/fic-1672.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/fic-1672.webp&quot;, &quot;alt&quot;: &quot;Aerial visualization of a coastal industrial site and harbour.&quot;}]">
+      <div class="feat-cell span-4"><a class="proj-card chroma-card ratio-wide" id="proj-fic" href="#proj-fic" aria-label="Fisheries industrial masterplan details" data-category="urban-planning coastal" data-scrub="../assets/media/project-motion-v3/fic-scrub.mp4" data-scrub-fps="24.0" data-duration="10.0" data-film-format="landscape" style="--project-ratio:1920/1080" data-name="Fisheries industrial masterplan" data-client="Industrial" data-cat-label="Urban Planning · Coastal" data-desc="The fisheries sector is one of the principal non-oil pillars of the national economy and a priority area under Oman Vision 2040, supported by an extensive coastline, productive fishing grounds and a strategic position on established export routes. Consistent with this direction, the Ministry is moving the sector beyond primary landing and first-sale activity towards an integrated industrial model, in which fishing, processing, cold chain, aquaculture support, logistics and export services are consolidated within a single planned and serviced location.
+
+The Fishery Industrial City in Qurun has been conceived in response to this direction. It is intended to operate as an integrated industrial and logistics platform serving the fishing fleet, the processing industries and aquaculture production, and to attract private capital through a public–private partnership delivery model.
+
+The total planned area, including the extension, is approximately 6.4 square kilometres." data-full-image="../assets/media/fic-1672.webp" data-image-fit="cover" data-gallery="[{&quot;type&quot;: &quot;video&quot;, &quot;src&quot;: &quot;../assets/media/project-motion-v3/fic-desktop.mp4&quot;, &quot;mobile&quot;: &quot;../assets/media/project-motion-v3/fic-mobile.mp4&quot;, &quot;poster&quot;: &quot;../assets/media/project-motion-v3/fic-poster.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-motion-v3/fic-poster.webp&quot;, &quot;width&quot;: 1920, &quot;height&quot;: 1080, &quot;alt&quot;: &quot;Project imagery: Fisheries industrial masterplan&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/fic-1672.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/fic-800.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/fic-480.webp&quot;, &quot;width&quot;: 1672, &quot;height&quot;: 941, &quot;alt&quot;: &quot;Project imagery: Fisheries industrial masterplan&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/fic/1tU3AfzMrEcthVjvKQsSsx389OV3RO0sr.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/fic/1tU3AfzMrEcthVjvKQsSsx389OV3RO0sr-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/fic/1tU3AfzMrEcthVjvKQsSsx389OV3RO0sr-thumb.webp&quot;, &quot;width&quot;: 1672, &quot;height&quot;: 941, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/fic/1WL6fx6tw563JWTKBVl6uerfiCo4maQxW.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/fic/1WL6fx6tw563JWTKBVl6uerfiCo4maQxW-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/fic/1WL6fx6tw563JWTKBVl6uerfiCo4maQxW-thumb.webp&quot;, &quot;width&quot;: 1659, &quot;height&quot;: 948, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/fic/1RIkM-zqMRipS2ixsjAQx9g8p8SiCbVx6.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/fic/1RIkM-zqMRipS2ixsjAQx9g8p8SiCbVx6-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/fic/1RIkM-zqMRipS2ixsjAQx9g8p8SiCbVx6-thumb.webp&quot;, &quot;width&quot;: 1672, &quot;height&quot;: 941, &quot;alt&quot;: &quot;Project image&quot;}, {&quot;type&quot;: &quot;image&quot;, &quot;src&quot;: &quot;../assets/media/project-gallery/fic/12Yh0jFPs_Pcr4UqxmXNI1oUDjTcFVjtW.webp&quot;, &quot;mobile&quot;: &quot;../assets/media/project-gallery/fic/12Yh0jFPs_Pcr4UqxmXNI1oUDjTcFVjtW-mobile.webp&quot;, &quot;thumb&quot;: &quot;../assets/media/project-gallery/fic/12Yh0jFPs_Pcr4UqxmXNI1oUDjTcFVjtW-thumb.webp&quot;, &quot;width&quot;: 1672, &quot;height&quot;: 941, &quot;alt&quot;: &quot;Project image&quot;}]" data-project-details="[{&quot;label&quot;: &quot;Client&quot;, &quot;value&quot;: &quot;Ash Sharqiyah South Governor&#x27;s Office&quot;}, {&quot;label&quot;: &quot;Project type&quot;, &quot;value&quot;: &quot;Industrial&quot;}, {&quot;label&quot;: &quot;Project area&quot;, &quot;value&quot;: &quot;Approx. 6.4 km² including extension&quot;}, {&quot;label&quot;: &quot;Project cost&quot;, &quot;value&quot;: &quot;50M OMR&quot;}, {&quot;label&quot;: &quot;Project date&quot;, &quot;value&quot;: &quot;2026 – In progress&quot;}, {&quot;label&quot;: &quot;Scope of work&quot;, &quot;value&quot;: &quot;Full Design, Details and supervision&quot;}]">
   <div class="proj-media">
-    <img class="client-photo" src="../assets/media/fic-800.webp" srcset="../assets/media/fic-480.webp 480w, ../assets/media/fic-800.webp 800w, ../assets/media/fic-1200.webp 1200w, ../assets/media/fic-1600.webp 1600w, ../assets/media/fic-1672.webp 1672w" sizes="(max-width: 760px) 100vw, 60vw" width="1672" height="941" alt="Aerial visualization of a coastal industrial site and harbour." loading="lazy" decoding="async" style="object-position:50% 50%">
-    <div class="chroma-veil"></div>
-    <div class="proj-overlay">
-      <span class="proj-cat">Coastal Buildings</span>
-      <h3>FIC</h3>
-      <span class="proj-line"></span>
-      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">Aerial visualization of a coastal industrial site and harbour.</p>
+    <img class="client-photo" src="../assets/media/project-motion-v3/fic-poster.webp" width="1920" height="1080" alt="Project imagery: Fisheries industrial masterplan" loading="lazy" decoding="async">
+    <video class="project-scrub-video" muted playsinline preload="none" aria-hidden="true"></video><span class="project-scrub-rail" aria-hidden="true"></span>
+    <div class="chroma-veil" aria-hidden="true"></div>
+    <div class="proj-overlay" aria-hidden="true">
+      <span class="proj-cat">Urban Planning · Coastal</span>
+      <h3>Fisheries industrial masterplan</h3>
+      <p style="color:rgba(255,255,255,.85);font-size:13.5px;">An integrated fisheries industrial and logistics platform with harbour and marine facilities.</p>
     </div>
   </div>
   <div class="proj-meta">
-    <span class="proj-title-line"><h3>FIC</h3></span>
-    <span class="proj-client">Project visualization</span>
+    <span class="proj-title-line"><h3>Fisheries industrial masterplan</h3></span>
+    <span class="proj-client">Industrial</span>
   </div>
 </a></div>
     </div>
   </div>
 </section>
-<dialog class="pmodal" id="project-modal" aria-hidden="true" aria-modal="true" aria-labelledby="pm-name">
-  <div class="pmodal-panel" role="document">
+<dialog class="pmodal cinema-gallery" id="project-modal" aria-hidden="true" aria-modal="true" aria-labelledby="pm-name">
+  <div class="pmodal-panel cinema-shell">
     <div class="pmodal-toolbar">
-      <div class="gallery-controls" hidden>
-        <button class="gallery-button gallery-prev" type="button" aria-label="Previous project image"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></button>
-        <span class="gallery-count" aria-live="polite"></span>
-        <button class="gallery-button gallery-next" type="button" aria-label="Next project image"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></button>
+      <div class="cinema-title"><h2 id="pm-name"></h2><p class="gallery-status" role="status"></p></div>
+      <div class="cinema-actions">
+        <button class="cinema-button" type="button" data-gallery-info aria-controls="pm-info" aria-expanded="false" aria-label="Project information"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5" /><path d="M12 8h.01M12 11.2V16" /></svg><span class="button-label">Project information</span></button>
+        <button class="cinema-button" type="button" data-gallery-zoom aria-pressed="false" aria-label="Zoom image"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7" /><path d="m16 16 5 5M7 10.5h7M10.5 7v7" /></svg></button>
+        <button class="cinema-button" type="button" data-gallery-share aria-label="Copy project link"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 15 15 9M8 8l2-2a4.2 4.2 0 0 1 6 6l-2 2M10 10l-2 2a4.2 4.2 0 0 0 6 6l2-2" /></svg></button>
+        <button class="cinema-button pmodal-close" type="button" data-pmodal-close aria-label="Close project details" autofocus><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6" /></svg></button>
       </div>
-      <p class="gallery-status" id="pm-gallery-status" role="status"></p>
-      <button class="pmodal-close" type="button" data-pmodal-close aria-label="Close project details" autofocus>×</button>
     </div>
-    <div class="pmodal-media">
-      <!-- Gallery source is assigned on opening; no image is loaded while closed. -->
-      <img id="pm-img" class="client-photo" alt="" hidden>
-      <video id="pm-video" class="client-photo" controls playsinline preload="none" hidden></video>
-      <p class="gallery-error" role="status" hidden>Media unavailable. Please try another image.</p>
+    <div class="pmodal-media" id="pm-stage" role="tabpanel" aria-busy="false">
+      <!-- Sources are assigned on opening; the gallery is idle while closed. -->
+      <img id="pm-img" class="cinema-image" alt="" hidden draggable="false">
+      <img id="pm-img-next" class="cinema-image" alt="" hidden draggable="false">
+      <video id="pm-video" controls playsinline preload="none" hidden></video>
+      <button class="gallery-button gallery-prev" type="button" aria-label="Previous project image"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></button>
+      <button class="gallery-button gallery-next" type="button" aria-label="Next project image"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12h14" /><path d="M13 6.5l5.5 5.5-5.5 5.5" /></svg></button>
+      <p class="gallery-loading" role="status" hidden>Loading media…</p>
+      <div class="gallery-error" role="status" hidden><p>Media unavailable. Please try another image.</p><button class="gallery-retry" type="button">Try again</button></div>
     </div>
-    <div class="pmodal-body">
+    <div class="cinema-footer">
+      <span class="gallery-count" dir="ltr" aria-live="polite"></span>
+      <div class="gallery-thumbs" role="tablist" aria-label="Project images and film"></div>
+    </div>
+    <aside class="pmodal-body" id="pm-info" aria-hidden="true" inert>
+      <div class="cinema-info-head"><h3>Project information</h3><button class="cinema-button" type="button" data-gallery-info-close aria-label="Close project information"><svg class="" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6" /></svg></button></div>
       <p class="pmodal-cat" id="pm-cat"></p>
-      <h3 id="pm-name"></h3>
-      <p class="pmodal-client" id="pm-client"></p>
       <p class="pmodal-desc" id="pm-desc"></p>
-      <p class="pmodal-note">Project imagery supplied by Meridian. Visualizations show design intent; they do not confirm construction status.</p>
-    </div>
+      <dl class="project-details" id="pm-details"></dl>
+    </aside>
+    <p class="cinema-toast" role="status" hidden></p>
   </div>
 </dialog>
+<section class="certifications cert-exhibition" id="certifications" aria-labelledby="certifications-title">
+  <div class="wrap">
+    <div class="cert-exhibition-header">
+      <h2 id="certifications-title">Certifications &amp; accreditations.</h2>
+      <p>Management system certifications for quality, the environment and occupational safety, alongside the IAF logo.</p>
+    </div>
+    <div id="certification-app">
+    <ul class="certifications-list" aria-label="Certifications and accreditations">
+      <li class="certification" data-certificate="9001">
+        <span class="certification-seal iso-cut iso-cut--9001"><img src="../assets/media/certifications/iso-9001.webp" alt="ISO 9001 certification mark" width="640" height="640" loading="lazy" decoding="async"></span>
+        <div class="certification-caption">
+          <h3 lang="en" dir="ltr">ISO 9001</h3>
+          <p>Quality management</p>
+          <p class="cert-description">A framework for consistent processes, quality management and continuous improvement.</p>
+        </div>
+      </li>
+      <li class="certification" data-certificate="14001">
+        <span class="certification-seal iso-cut iso-cut--14001"><img src="../assets/media/certifications/iso-14001.webp" alt="ISO 14001 certification mark" width="640" height="660" loading="lazy" decoding="async"></span>
+        <div class="certification-caption">
+          <h3 lang="en" dir="ltr">ISO 14001</h3>
+          <p>Environmental management</p>
+          <p class="cert-description">A systematic approach to environmental responsibilities, resource use and managing environmental impacts.</p>
+        </div>
+      </li>
+      <li class="certification" data-certificate="45001">
+        <span class="certification-seal iso-cut iso-cut--45001"><img src="../assets/media/certifications/iso-45001.webp" alt="ISO 45001 certification mark as supplied" width="640" height="660" loading="lazy" decoding="async"></span>
+        <div class="certification-caption">
+          <h3 lang="en" dir="ltr">ISO 45001</h3>
+          <p>Occupational health and safety</p>
+          <p class="cert-description">A management framework for workplace health, occupational safety and the prevention of work-related risks.</p>
+        </div>
+      </li>
+      <li class="certification" data-certificate="iaf">
+        <span class="certification-seal iso-cut iso-cut--iaf"><img src="../assets/media/certifications/iaf.webp" alt="International Accreditation Forum logo" width="320" height="199" loading="lazy" decoding="async"></span>
+        <div class="certification-caption">
+          <h3 lang="en" dir="ltr">IAF</h3>
+          <p>International Accreditation Forum</p>
+          <p class="cert-description">The International Accreditation Forum logo, distinct from an ISO management-system certificate.</p>
+        </div>
+      </li>
+    </ul>
+    </div>
+  </div>
+</section>
 </main><footer class="site-footer">
   <div class="wrap">
     <div class="footer-main">
-      <div>
-        <img src="../assets/media/logo.png" alt="Meridian Engineering Consultancy logo" class="logo-img" width="30" height="42" loading="lazy">
-        <p style="margin-top:16px;">Multi-disciplinary engineering consultancy registered in Oman — delivering innovative engineering and lasting solutions.</p>
+      <div class="footer-profile">
+        <a class="footer-identity" href="index.html" aria-label="Meridian Engineering Consultancy — Home">
+          <img src="../assets/media/logo.png" alt="Meridian Engineering Consultancy logo" class="footer-logo" width="133" height="183" loading="lazy">
+          <span><strong>Meridian Engineering Consultancy</strong><span>Multi-disciplinary engineering consultancy registered in Oman — delivering innovative engineering and lasting solutions.</span></span>
+        </a>
 <div class="socials" aria-label="Meridian on social media">
-<a href="#" aria-label="Meridian on LinkedIn" title="LinkedIn" rel="noopener"><!-- PLACEHOLDER: add real social URL --><svg viewbox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V9h4v1.3A5 5 0 0 1 16 8z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg></a>
-<a href="#" aria-label="Meridian on X" title="X" rel="noopener"><!-- PLACEHOLDER: add real social URL --><svg viewbox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M17.7 3H21l-7.2 8.3L22.2 21h-6.6l-5.2-6.1L4.6 21H1.3l7.7-8.9L1.8 3h6.8l4.7 5.6L17.7 3zm-1.2 16h1.8L7.6 4.9H5.7L16.5 19z" /></svg></a>
-<a href="#" aria-label="Meridian on Instagram" title="Instagram" rel="noopener"><!-- PLACEHOLDER: add real social URL --><svg viewbox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none" /></svg></a>
-<a href="#" aria-label="Meridian on Facebook" title="Facebook" rel="noopener"><!-- PLACEHOLDER: add real social URL --><svg viewbox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.5 1.6-1.5h1.3V4.9c-.6-.1-1.4-.2-2.3-.2-2.3 0-3.8 1.4-3.8 3.9V11H8v3h2.3v7z" /></svg></a>
+<a href="https://www.linkedin.com/company/meridian-engineering-oman/" aria-label="Meridian on LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer"><svg viewbox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V9h4v1.3A5 5 0 0 1 16 8z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg></a>
+<a href="https://www.instagram.com/meridian.office?vrfl=MTA2a3Awb3o4Y3RoeQ==" aria-label="Meridian on Instagram" title="Instagram" target="_blank" rel="noopener noreferrer"><svg viewbox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none" /></svg></a>
 </div>
       </div>
       <div>
         <h4>Explore</h4>
         <ul class="footer-links">
-          <li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="projects.html">Projects</a></li><li><a href="disciplines.html">Disciplines</a></li><li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="projects.html">Projects</a></li><li><a href="news.html">News</a></li><li><a href="contact.html">Contact Us</a></li>
         </ul>
       </div>
       <div>
         <h4>Contact</h4>
-        <address>Ehssan Street, Road 3904, Block 439, Building 234, Al Amerat, Muscat, Oman</address>
-        <p style="margin-top:12px;"><a href="mailto:info@meridianengconsultants.com">info@meridianengconsultants.com</a><br>
-        <a href="tel:+96897004250">+968 9700 4250</a></p>
+        <div class="office-entry"><strong>Head Office</strong><address><a href="https://maps.app.goo.gl/kDh5WjjsNqL6htcf9?g_st=iw" target="_blank" rel="noopener">Muscat — Al Khuwair</a></address></div><div class="office-entry"><strong>First Branch</strong><address><a href="https://maps.app.goo.gl/kDrXgpf6BU4rgSGX9?g_st=iw" target="_blank" rel="noopener">Muscat — Al Amerat</a></address></div><div class="office-entry"><strong>Second Branch</strong><address><a href="https://maps.app.goo.gl/vfzaVN3VSwE9ajQK9?g_st=iw" target="_blank" rel="noopener">Salalah — New Salalah</a></address></div>
+        <div class="footer-email-list"><div class="email-entry"><h3>Inquiries</h3><a href="mailto:info@meridianengconsultants.com" dir="ltr">info@meridianengconsultants.com</a></div><div class="email-entry"><h3>Tenders</h3><a href="mailto:tenders@meridianengconsultants.com" dir="ltr">tenders@meridianengconsultants.com</a></div><div class="email-entry"><h3>Careers</h3><a href="mailto:Careers@meridianengconsultants.com" dir="ltr">Careers@meridianengconsultants.com</a></div></div>
+        <div class="phone-links"><a href="tel:+96891354954" dir="ltr">00968 91354954</a><a href="tel:+96891313541" dir="ltr">00968 91313541</a></div>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© <span data-year>2026</span> Meridian Engineering Consultancy. All rights reserved.</span>
-      <span class="crumbs"><span>Muscat · Al Amerat, Oman</span><a href="#top">Back to top</a></span>
+      <span class="crumbs"><span>Muscat · Salalah, Oman</span><a href="#top">Back to top</a></span>
     </div>
   </div>
 </footer>
 <script src="../assets/vendor/gsap.min.js?v=20261011b" defer></script>
 <script src="../assets/vendor/ScrollTrigger.min.js?v=20261011b" defer></script>
-<script src="../assets/js/main.js?v=20261018a" defer></script>
+<script src="../assets/js/main.js?v=20261027a" defer></script>
+<script src="../assets/js/project-motion.js?v=20261026a" defer></script>
+<script src="../assets/js/project-layout.js?v=20261027a" defer></script>
+<script src="../assets/js/project-gallery.js?v=20261027a" defer></script>
 <script src="../assets/js/drift-field.js?v=20261011d" defer></script>
+<script src="../assets/js/iso-exhibition-loader.js?v=20261027b" defer></script>
 </body>
 </html>

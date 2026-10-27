@@ -1,0 +1,1186 @@
+[
+  {
+    "id": "PM01",
+    "key": "al-bahja-hotel",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM01.mp4",
+    "source_sha256": "9b91fa485d439a317b9904e82129ff69ce3165284fccf5aaee237f1773c989b0",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/al-bahja-hotel-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/al-bahja-hotel-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/al-bahja-hotel-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/al-bahja-hotel-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 2736914,
+        "sha256": "4c05c1ce6bead4fdd2d65f5a1f563628977a6598661c48f3c218344786d13975"
+      },
+      "mobile": {
+        "bytes": 822110,
+        "sha256": "2814b590d46fe8d524268babad07bc5213a5ee797b953de69f88c2e476468268"
+      },
+      "scrub": {
+        "bytes": 5829863,
+        "sha256": "4e96bbb49ad2a35082ed331b4b890f1cd2dd37219df6f774de7823505433ddf8"
+      }
+    }
+  },
+  {
+    "id": "PM02",
+    "key": "al-dahareez-shops",
+    "method": "existing_video",
+    "source": "assets/media/project-motion-v2/al-dahareez-shops-desktop.mp4",
+    "source_sha256": "596c20d8c22d9742cc4ba4065da410ebfb5b35a526f3a51a35493f6eb33044d6",
+    "source_duration": 4.50006,
+    "trim_start": 0,
+    "duration": 4.50006,
+    "fps": 29.9996,
+    "preview_fps": 29.9996,
+    "width": 848,
+    "height": 478,
+    "desktop": "assets/media/project-motion-v2/al-dahareez-shops-desktop.mp4",
+    "mobile": "assets/media/project-motion-v2/al-dahareez-shops-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/al-dahareez-shops-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/al-dahareez-shops-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 1220804,
+        "sha256": "596c20d8c22d9742cc4ba4065da410ebfb5b35a526f3a51a35493f6eb33044d6"
+      },
+      "mobile": {
+        "bytes": 725726,
+        "sha256": "4432eb234b844b346eb0fe60326dc01db629eeddcae707d4188390d23bc24c33"
+      },
+      "scrub": {
+        "bytes": 2383739,
+        "sha256": "c5c57d713b50bafe70cb1906a254adcbee5ee850d44b66e06d2430cf01707e79"
+      }
+    }
+  },
+  {
+    "id": "PM03",
+    "key": "kids-library",
+    "method": "existing_video",
+    "source": "_media_work/originals/1OsA1XpJnq2qek_sxXqT8BSMtGJ8hf5up.mov",
+    "source_sha256": "66cc017a3c99acf7f1e90fe5ac03eb22b10a400c4f458c7d903c09b4786d6b5b",
+    "source_duration": 23.891995,
+    "trim_start": 11.1,
+    "duration": 3.6,
+    "fps": 50.0,
+    "preview_fps": 25.0,
+    "width": 1920,
+    "height": 1080,
+    "outputs": {
+      "desktop": {
+        "bytes": 1215378,
+        "sha256": "1ca018cb8f109173037033675718b4b4c19ee0a95161a2918c8fa581f7e55aa7"
+      },
+      "mobile": {
+        "bytes": 248632,
+        "sha256": "0215ab9af0f26b474122452c4a799929f77875b0630526c9bcb2f648f57aa387"
+      },
+      "scrub": {
+        "bytes": 1582743,
+        "sha256": "90b20d58c0ee52ed0dc64b9188c8d5a8aba6fb28538f656d99b27c7573828999"
+      }
+    },
+    "desktop": "assets/media/project-motion-v4/kids-library-desktop.mp4",
+    "mobile": "assets/media/project-motion-v4/kids-library-mobile.mp4",
+    "scrub": "assets/media/project-motion-v4/kids-library-scrub.mp4",
+    "poster": "assets/media/project-motion-v4/kids-library-poster.webp"
+  },
+  {
+    "id": "PM04",
+    "key": "gim-theatre",
+    "method": "existing_video",
+    "source": "assets/media/project-motion-v2/gim-theatre-desktop.mp4",
+    "source_sha256": "2c87c0c2bb99edc2762eba892ea9d371809cbd6bfe1ade927c4c35091f21e843",
+    "source_duration": 5.0,
+    "trim_start": 0,
+    "duration": 5.0,
+    "fps": 50.0,
+    "preview_fps": 25.0,
+    "width": 1600,
+    "height": 960,
+    "desktop": "assets/media/project-motion-v2/gim-theatre-desktop.mp4",
+    "mobile": "assets/media/project-motion-v2/gim-theatre-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/gim-theatre-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/gim-theatre-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 1326222,
+        "sha256": "2c87c0c2bb99edc2762eba892ea9d371809cbd6bfe1ade927c4c35091f21e843"
+      },
+      "mobile": {
+        "bytes": 391593,
+        "sha256": "2952ff42d807c6be1ed29c91f1fb6f3d742b5c44723560d9e5e8e624c006a6d1"
+      },
+      "scrub": {
+        "bytes": 1847088,
+        "sha256": "495cf1d8120b911744ebb249569b5dc1cb846a7effd172a5a2884f4d13d17811"
+      }
+    }
+  },
+  {
+    "id": "PM05",
+    "key": "grand-resort",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM05.mp4",
+    "source_sha256": "03a1c21fa627f0a5d00d50a495959bb9b5914128e1f07e363049022715e78bf5",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/grand-resort-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/grand-resort-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/grand-resort-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/grand-resort-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 3475958,
+        "sha256": "e931702880217f677964b0949a278c49f3959404dfe770f3dc43053a2da61b71"
+      },
+      "mobile": {
+        "bytes": 1039720,
+        "sha256": "c0724e2addd683690c65dadbb31eca1432219a06018b0b5b0ac1fb2b0887afec"
+      },
+      "scrub": {
+        "bytes": 7179501,
+        "sha256": "b34c47c59d8ca63e75cd2a4b8e0357f1b9804ddb6be721f33d9a83964422ab0a"
+      }
+    }
+  },
+  {
+    "id": "PM06",
+    "key": "morjan-hall",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM06.mp4",
+    "source_sha256": "0d35587b427edf34d4527e21e9655d412b965a569bdf620ec329fad90f0bd30c",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/morjan-hall-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/morjan-hall-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/morjan-hall-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/morjan-hall-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 5074861,
+        "sha256": "fb848f107645780a53d7c654f87b9eee2a634803c1af679abbd4743c0bd47f7c"
+      },
+      "mobile": {
+        "bytes": 1330033,
+        "sha256": "5bf473d3acdde0fe2523b87c87989d7fc691428ce8c9d4d5008f366067cb6091"
+      },
+      "scrub": {
+        "bytes": 7537042,
+        "sha256": "06c47f6be55c527f3a21cc9d768feec22992429753b2bb78e483d7c0d246a370"
+      }
+    }
+  },
+  {
+    "id": "PM07",
+    "key": "salalah-municipality",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM07.mp4",
+    "source_sha256": "9db00bc39de3867d9d69ae607e3c2c70eeceb3417df162be11aef4b2e4133391",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/salalah-municipality-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/salalah-municipality-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/salalah-municipality-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/salalah-municipality-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 4151664,
+        "sha256": "51f408d63b71a95014ee4bfe4fafe86dd6b29a8c77ab8ced2bde0232a4cd81e0"
+      },
+      "mobile": {
+        "bytes": 1008388,
+        "sha256": "892014ba73a40f16c652473869fcd9214dd96aa22cc1c5d0ba488d89ebc8d479"
+      },
+      "scrub": {
+        "bytes": 6801328,
+        "sha256": "237824cd0672aa1da293e6d28897047499d2f9c0872d029b9e07150de74e3235"
+      }
+    }
+  },
+  {
+    "id": "PM08",
+    "key": "science-space-oasis",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM08.mp4",
+    "source_sha256": "bec6f4908acaa1414f763cc64d89ecebeddbd64472b11787cd3d00ace42344fc",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/science-space-oasis-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/science-space-oasis-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/science-space-oasis-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/science-space-oasis-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 2066748,
+        "sha256": "7ece24e73347975cc0d5d331f78f459569a26055dfb32e0c728eaab70e1d68a8"
+      },
+      "mobile": {
+        "bytes": 521377,
+        "sha256": "0e8f1aa3edf1e49794819b41c752186b87f90cde4036254d2e2a45bcdaedabc4"
+      },
+      "scrub": {
+        "bytes": 4185221,
+        "sha256": "81b2014df2f0473cca6150cdc6c023658301efcfb10f4c6019eb77395437d927"
+      }
+    }
+  },
+  {
+    "id": "PM09",
+    "key": "training-center",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM09.mp4",
+    "source_sha256": "f6f979374ddb7e8ae3fcc9f6fb9fc5cf38a6d9f001bc7ce2fdae4b45264a0f3a",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/training-center-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/training-center-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/training-center-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/training-center-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 3536761,
+        "sha256": "eeb72c321a850e6a81af568c5769065bd78d5a9cb6030533998a02e35338423d"
+      },
+      "mobile": {
+        "bytes": 908294,
+        "sha256": "e444bc79c89e992a842972bd0ac4aaf2f2505b9100cc1b9801eabdc979602ef5"
+      },
+      "scrub": {
+        "bytes": 5827669,
+        "sha256": "8428ee8c30351f7b9608fa9e5479af6cf4fb90812a46ce7018d2abe7e746add6"
+      }
+    }
+  },
+  {
+    "id": "PM10",
+    "key": "wedding-hall",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM10.mp4",
+    "source_sha256": "6bd23aea1256438d98aea1eae5899df7f9e97c719b214da3f0cf94222f99372f",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/wedding-hall-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/wedding-hall-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/wedding-hall-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/wedding-hall-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 3652415,
+        "sha256": "ac41e337931ac3de4678ea421cd856f6c626791e7d928c23d57880ff0c657ab4"
+      },
+      "mobile": {
+        "bytes": 743481,
+        "sha256": "0c6d4635ed4dc7d87f795f712af624437caa488cc88a53236c5168ad66a441c1"
+      },
+      "scrub": {
+        "bytes": 4966346,
+        "sha256": "368d7c25bf812de2c749f3acb62ac3bf3f436df606e0d9cb400b620785a0fc26"
+      }
+    }
+  },
+  {
+    "id": "PM11",
+    "key": "aftalkout-rock",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM11.mp4",
+    "source_sha256": "b5a29ac86186ee83a715d2bae2d0caba7dac8f1251a05fb4dfa9c1222fea59ee",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/aftalkout-rock-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/aftalkout-rock-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/aftalkout-rock-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/aftalkout-rock-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 2072953,
+        "sha256": "0d0d5d9a87f0c3d5810c38e98fc50d44d7d257cc941afbe9ace9c5a27bf38376"
+      },
+      "mobile": {
+        "bytes": 446647,
+        "sha256": "75e4cf8d0157ed2b12411a4c17aff3eeff25c57feef36369a9b3d250250f9daa"
+      },
+      "scrub": {
+        "bytes": 4011884,
+        "sha256": "39f1413583700fc271118479d83734e023e2c54434570f1906798b192b234584"
+      }
+    }
+  },
+  {
+    "id": "PM12",
+    "key": "aftalkout-viewpoint",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM12.mp4",
+    "source_sha256": "a8fdfe07d76a59fc03d7bb067f9ed93803a4584b574d614d3741f0edfb1b3490",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/aftalkout-viewpoint-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/aftalkout-viewpoint-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/aftalkout-viewpoint-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/aftalkout-viewpoint-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 3347374,
+        "sha256": "52203a3a05eeb040aff71c279c98e9affafd9af886446b3357a652b1630abeed"
+      },
+      "mobile": {
+        "bytes": 879799,
+        "sha256": "cad66df6950f494e940981402f9fb20a55ef5ee12123cf5104ff89c2eddc6de4"
+      },
+      "scrub": {
+        "bytes": 4871983,
+        "sha256": "0f51d52a175c45f1d51facdcf2ddfcd8db24d5eccda5b4cd78bcc3e420d21ac3"
+      }
+    }
+  },
+  {
+    "id": "PM13",
+    "key": "al-dahareez-beach",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM13.mp4",
+    "source_sha256": "6384914dbfc449a5bb367f2f228bd9d5f6198eb24bb24017c4ef6e8bdfc934e6",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/al-dahareez-beach-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/al-dahareez-beach-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/al-dahareez-beach-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/al-dahareez-beach-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 3657120,
+        "sha256": "23704d12fa618d7a88ed72a3791919af740d91ad81e32c094c0bbc2afe195cd7"
+      },
+      "mobile": {
+        "bytes": 1202677,
+        "sha256": "c0f9ba66d23b2faf4b6411d7c1cc37838e04623215bf5f60efa3331f106e65cb"
+      },
+      "scrub": {
+        "bytes": 7489989,
+        "sha256": "d08a22f4794f9c62076618a7c6c29e9122346fda7c4090cfb616423ef422c625"
+      }
+    }
+  },
+  {
+    "id": "PM14",
+    "key": "awqad-beach",
+    "method": "existing_video",
+    "source": "assets/media/project-motion-v2/awqad-beach-desktop.mp4",
+    "source_sha256": "4ddb71c59d90e310734a99887c0d4bceb9042c9f3d2b5f08a3f566696ccdf564",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 30.0,
+    "preview_fps": 30.0,
+    "width": 1600,
+    "height": 900,
+    "desktop": "assets/media/project-motion-v2/awqad-beach-desktop.mp4",
+    "mobile": "assets/media/project-motion-v2/awqad-beach-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/awqad-beach-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/awqad-beach-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 3842699,
+        "sha256": "4ddb71c59d90e310734a99887c0d4bceb9042c9f3d2b5f08a3f566696ccdf564"
+      },
+      "mobile": {
+        "bytes": 1213067,
+        "sha256": "56bafa4a006dc979640983f891f827ffea70eecc4834fe510ccfc59d17b37fd0"
+      },
+      "scrub": {
+        "bytes": 5108284,
+        "sha256": "75e102984a8c32849016e9a40614a8470a51ffea4243505bf4e633188a326fa3"
+      }
+    }
+  },
+  {
+    "id": "PM15",
+    "key": "barkaa",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM15.mp4",
+    "source_sha256": "6269e6cc3444b5858b10163f708cbe27f250a18939a2a66b2f9f4ccb1bf3ff18",
+    "source_duration": 6.0,
+    "trim_start": 1.75,
+    "duration": 4.25,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/barkaa-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/barkaa-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/barkaa-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/barkaa-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 1998043,
+        "sha256": "9bc5b9b9e4039e1a834705da801baab3122ff5f2a6efc148c4842ca90cd15fa6"
+      },
+      "mobile": {
+        "bytes": 446852,
+        "sha256": "8d883b858ed2cde12af4a90b6128fa1ae643b06fcde22dfed9a029a663f1ba61"
+      },
+      "scrub": {
+        "bytes": 2179515,
+        "sha256": "56dfa17eeedcb3b82feab1d7e9380066b2b77581ac959dc4fddc640139ed3522"
+      }
+    }
+  },
+  {
+    "id": "PM16",
+    "key": "coastal-erosion",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM16.mp4",
+    "source_sha256": "bbd5475ab47804854623f3dcce40bc6273d6f87ca380c1bb929002200d542a52",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/coastal-erosion-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/coastal-erosion-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/coastal-erosion-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/coastal-erosion-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 2055339,
+        "sha256": "0ec97102882083200ce1cbdc8997d1e70612afb3e2558fa61d46ab38237df88c"
+      },
+      "mobile": {
+        "bytes": 605453,
+        "sha256": "ce42b16ae9804add569c02d86eb01f51e0b708c9483adea33fb5b0628d5fa5f5"
+      },
+      "scrub": {
+        "bytes": 4713349,
+        "sha256": "acac9934678005688ca2fdd188b20f638d9f208f8f25c82afdb0a19ecaa63534"
+      }
+    }
+  },
+  {
+    "id": "PM17",
+    "key": "fic",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM17.mp4",
+    "source_sha256": "72a47ec9bc397b647a74f72f6f508b703d634a3000733a7071da66aa3eae06ff",
+    "source_duration": 10.0,
+    "trim_start": 0,
+    "duration": 10.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/fic-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/fic-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/fic-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/fic-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 6511028,
+        "sha256": "093444b841eae760500646daedf7a68573e6855f36f061a355d1a5c0214fc342"
+      },
+      "mobile": {
+        "bytes": 1703705,
+        "sha256": "0ed2e9ea5f487ef1d2643e715880d652ebc8752c155176ecec4371f8b3d9e69a"
+      },
+      "scrub": {
+        "bytes": 12454445,
+        "sha256": "74f70258397f3c4b803284fe8a7998fe9177efd6a66cb29a8187beb7d2736ef4"
+      }
+    }
+  },
+  {
+    "id": "PM18",
+    "key": "octagon-beach",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM18.mp4",
+    "source_sha256": "ebd02a8bda4fdef19f661a0672b9d5451f8463798399b8eb87c9110ce3d8a7ae",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/octagon-beach-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/octagon-beach-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/octagon-beach-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/octagon-beach-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 5081048,
+        "sha256": "c85974c9fbe74cc47ff0312a4c6696e1e57ccccd1d9631c6d0494f46cdbb5b3a"
+      },
+      "mobile": {
+        "bytes": 1148061,
+        "sha256": "4ce759f8224d618dd073c4e2807c9c1e666a5f4113999c24d2071010ec6dbc92"
+      },
+      "scrub": {
+        "bytes": 5448908,
+        "sha256": "a10f92e7db25ff5b18e2d3474034d754bf46cafcc9e4c36d11c05792a5b5dd02"
+      }
+    }
+  },
+  {
+    "id": "PM19",
+    "key": "taqa-beach",
+    "method": "existing_video",
+    "source": "assets/media/project-motion-v2/taqa-beach-desktop.mp4",
+    "source_sha256": "52f61e3210a3d8a1b5d473ea33b386fbc45afc52b127f3c55280784c878852ef",
+    "source_duration": 6.0,
+    "trim_start": 0,
+    "duration": 6.0,
+    "fps": 60.0,
+    "preview_fps": 30.0,
+    "width": 1600,
+    "height": 900,
+    "desktop": "assets/media/project-motion-v2/taqa-beach-desktop.mp4",
+    "mobile": "assets/media/project-motion-v2/taqa-beach-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/taqa-beach-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/taqa-beach-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 2958185,
+        "sha256": "52f61e3210a3d8a1b5d473ea33b386fbc45afc52b127f3c55280784c878852ef"
+      },
+      "mobile": {
+        "bytes": 920735,
+        "sha256": "379ce0728d2d8c4382ea544c169bc039737a2254bd1acd1c6eaf37dd893ef5b5"
+      },
+      "scrub": {
+        "bytes": 5299505,
+        "sha256": "977fef3fb7cd4512f3415494aae0c3a948abdc7f3d67d686985de0580bf8ee5e"
+      }
+    }
+  },
+  {
+    "id": "PM20",
+    "key": "alfarouk-street",
+    "method": "existing_video",
+    "source": "assets/media/project-motion-v2/alfarouk-street-desktop.mp4",
+    "source_sha256": "cbc5bba8ad779ce01d1070fcbfeec28fba1a4943c2dd032fdc5e88fa2b9e217d",
+    "source_duration": 5.8,
+    "trim_start": 0,
+    "duration": 5.8,
+    "fps": 30.0,
+    "preview_fps": 30.0,
+    "width": 1600,
+    "height": 900,
+    "desktop": "assets/media/project-motion-v2/alfarouk-street-desktop.mp4",
+    "mobile": "assets/media/project-motion-v2/alfarouk-street-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/alfarouk-street-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/alfarouk-street-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 2844772,
+        "sha256": "cbc5bba8ad779ce01d1070fcbfeec28fba1a4943c2dd032fdc5e88fa2b9e217d"
+      },
+      "mobile": {
+        "bytes": 884824,
+        "sha256": "9c249651c28afcd870aef8bbf53bdc807f31754f67503a05b2059cb3fc66fe77"
+      },
+      "scrub": {
+        "bytes": 4169233,
+        "sha256": "93b37ea55b4283a459784769edc24ee4025a401192f5ac3b9bffc4a7a4b691e9"
+      }
+    }
+  },
+  {
+    "id": "PM21",
+    "key": "jawad-district",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM21.mp4",
+    "source_sha256": "e322216b88a152730ff974929236a512ba7836fe3e7d456b6060125ca2e1c052",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/jawad-district-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/jawad-district-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/jawad-district-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/jawad-district-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 4139013,
+        "sha256": "12c5851c82bd055518a0776f46a698cb85bffeb4ba3bd5214ad404e1eb974060"
+      },
+      "mobile": {
+        "bytes": 1061537,
+        "sha256": "75ee8d8567541e80494d11e237c95d2af73c9aa54673fbafec24549fcf878368"
+      },
+      "scrub": {
+        "bytes": 5477622,
+        "sha256": "443b41c6ed8dc841f03fa333df42e6c7a747dbcbd85df1048d695afe076b35d3"
+      }
+    }
+  },
+  {
+    "id": "PM22",
+    "key": "sedra-district",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM22.mp4",
+    "source_sha256": "4321281fd884cbe2898a964b288421676e474541d370271fa1766ec131eda864",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/sedra-district-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/sedra-district-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/sedra-district-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/sedra-district-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 4298236,
+        "sha256": "0e9361c25daa3a87d7a2b533678c929a34296fa46a3f49e87d1360fff5be7c17"
+      },
+      "mobile": {
+        "bytes": 1436856,
+        "sha256": "905917aa7aea610c743f383b5d31fb9629053c121c992bca3f4d2ddc54c3161a"
+      },
+      "scrub": {
+        "bytes": 8455247,
+        "sha256": "591f8a18386fe2f0b64a7ae0b2b4033fbd828b2b8961d658c73356d13d20ce86"
+      }
+    }
+  },
+  {
+    "id": "PM23",
+    "key": "tilal-district",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM23.mp4",
+    "source_sha256": "04b94c59727bde55503cab06d1447eda3c7bd5c9922f1e25038e0d08fa244b3b",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/tilal-district-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/tilal-district-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/tilal-district-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/tilal-district-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 3699971,
+        "sha256": "6480e58c91203c2cbd0fa73bdebf393fb26d073224b0c98819ef86ca45fc9bf7"
+      },
+      "mobile": {
+        "bytes": 1207699,
+        "sha256": "dce7bdccad422c7e881f1048f309c67800791d5d122b778aeddb547971bf9d30"
+      },
+      "scrub": {
+        "bytes": 7234573,
+        "sha256": "7428867a59ae49199e5339e4d26494b17bee0e3f7d1abf6307409d8b1e434d88"
+      }
+    }
+  },
+  {
+    "id": "PM24",
+    "key": "mrasi-alsaada-2",
+    "method": "existing_video",
+    "source": "assets/media/project-motion-v2/mrasi-alsaada-2-desktop.mp4",
+    "source_sha256": "83af038c14bda617acf88dc3221b5e40d95e510f3b143db4f1cadc31492b96e5",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1600,
+    "height": 900,
+    "desktop": "assets/media/project-motion-v2/mrasi-alsaada-2-desktop.mp4",
+    "mobile": "assets/media/project-motion-v2/mrasi-alsaada-2-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/mrasi-alsaada-2-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/mrasi-alsaada-2-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 3824134,
+        "sha256": "83af038c14bda617acf88dc3221b5e40d95e510f3b143db4f1cadc31492b96e5"
+      },
+      "mobile": {
+        "bytes": 1205106,
+        "sha256": "272777860c09b34e491a0d726c0ce9c9e9849f440c4178578f0ec48dd062dc08"
+      },
+      "scrub": {
+        "bytes": 3468983,
+        "sha256": "a0113baf47e44d8bc0e8c0cc1b6dff6fa2aacc2533f4f6e7bb803accae94b862"
+      }
+    }
+  },
+  {
+    "id": "PM25",
+    "key": "sas-building",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM25.mp4",
+    "source_sha256": "fbec66fbb6d7be44c61535a229591f7ca1e31754684dd3eac9f70b7ec7de5984",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/sas-building-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/sas-building-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/sas-building-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/sas-building-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 4213639,
+        "sha256": "7895da15d18fe338630f7e65cbc4aa5dec26fb3b31e944e0b781acd3aa042ab7"
+      },
+      "mobile": {
+        "bytes": 1187384,
+        "sha256": "adcb23afe272b8888a3744693001f5afdb1d8afbae07fc28c31183fc62a6a889"
+      },
+      "scrub": {
+        "bytes": 6517108,
+        "sha256": "2930f88813507c6e425729bc0a57d83e75f14e8ffa9e0ac2cfccd736abe07b35"
+      }
+    }
+  },
+  {
+    "id": "PM26",
+    "key": "al-shorouq",
+    "method": "existing_video",
+    "source": "assets/media/project-motion-v2/al-shorouq-desktop.mp4",
+    "source_sha256": "2f0dca3a0ff6a78f5feda8635711f56872268e64ea0aa74ca6167e3c5bf5f2cd",
+    "source_duration": 4.4,
+    "trim_start": 0,
+    "duration": 4.4,
+    "fps": 60.0,
+    "preview_fps": 30.0,
+    "width": 1600,
+    "height": 900,
+    "desktop": "assets/media/project-motion-v2/al-shorouq-desktop.mp4",
+    "mobile": "assets/media/project-motion-v2/al-shorouq-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/al-shorouq-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/al-shorouq-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 2267508,
+        "sha256": "2f0dca3a0ff6a78f5feda8635711f56872268e64ea0aa74ca6167e3c5bf5f2cd"
+      },
+      "mobile": {
+        "bytes": 716053,
+        "sha256": "50e26f738caa427b230a66772a9d06c4e1c2739a9fb42ec44a32ef80054f1d22"
+      },
+      "scrub": {
+        "bytes": 2917413,
+        "sha256": "416a385ebda0c696ee5ddfa5e80ca098d5dc5bbbc15604da9d90592125a46c2a"
+      }
+    }
+  },
+  {
+    "id": "PM27",
+    "key": "mrasi-alsaada-1",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM27.mp4",
+    "source_sha256": "7846096b5c14cf7e8af05ada21e4f322b8664f00427c67d1135057476d535902",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1080,
+    "height": 1920,
+    "desktop": "assets/media/project-motion-v3/mrasi-alsaada-1-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/mrasi-alsaada-1-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/mrasi-alsaada-1-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/mrasi-alsaada-1-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 5129904,
+        "sha256": "7865a8c27d3d651af256bd8401ebd27643e9a13b6bfffd6feb9ec2442c42acd7"
+      },
+      "mobile": {
+        "bytes": 1990961,
+        "sha256": "0eb0d7c96fceac3026c4be45632713ca2fe34ed82ac727300a96214bbb60f2ba"
+      },
+      "scrub": {
+        "bytes": 4892396,
+        "sha256": "bd23f0cdfba3db7df71ff36c4780bbdf964db3489fba025cff70572a697c1e9a"
+      }
+    }
+  },
+  {
+    "id": "PM28",
+    "key": "al-dabus-building",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM28.mp4",
+    "source_sha256": "c66b020f490d21567de6ea97e6791ab91af477dd79ee703714775fc06989e511",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1080,
+    "height": 1920,
+    "desktop": "assets/media/project-motion-v3/al-dabus-building-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/al-dabus-building-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/al-dabus-building-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/al-dabus-building-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 3081983,
+        "sha256": "0611e4c646c87dc2c8e87992d647cc796abf1981e250892ce3cb928dec610358"
+      },
+      "mobile": {
+        "bytes": 1214759,
+        "sha256": "ab653e103730687bff1adf61b734a9c82e1c2abfdd522b5326874d84c658d2b5"
+      },
+      "scrub": {
+        "bytes": 3524473,
+        "sha256": "5f4d6ba6bf5840d6e27253650c344e8614fa634efe5a8858a19882f5a1d7473d"
+      }
+    }
+  },
+  {
+    "id": "PM29",
+    "key": "hamed-alamri",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM29.mp4",
+    "source_sha256": "7800a447a7f235a2da7c02a18adc885c01f91d4fe2a46875156205fe3dc8b736",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1080,
+    "height": 1920,
+    "desktop": "assets/media/project-motion-v3/hamed-alamri-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/hamed-alamri-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/hamed-alamri-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/hamed-alamri-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 1494271,
+        "sha256": "eadf133593ccaffc4e3d54454fd3c18e5d2f5695619738463a92ea4b96c7549d"
+      },
+      "mobile": {
+        "bytes": 523776,
+        "sha256": "ffde5976018fdff8390ee7c6216a7a8f28f12f94bae4857c08c0c7367df4cd35"
+      },
+      "scrub": {
+        "bytes": 2447740,
+        "sha256": "75ec96eb54e37e19c03d1e9cf62fcd4021ce86afa48122063a5b950416fd9226"
+      }
+    }
+  },
+  {
+    "id": "PM30",
+    "key": "aftalqout-bridge",
+    "method": "existing_video",
+    "source": "assets/media/project-motion-v2/aftalqout-bridge-desktop.mp4",
+    "source_sha256": "489dc7b04a0deb279b63fd474acdbf048f608664951cf8de91496f39905c5861",
+    "source_duration": 3.291667,
+    "trim_start": 0,
+    "duration": 3.291667,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1024,
+    "height": 576,
+    "desktop": "assets/media/project-motion-v2/aftalqout-bridge-desktop.mp4",
+    "mobile": "assets/media/project-motion-v2/aftalqout-bridge-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/aftalqout-bridge-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/aftalqout-bridge-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 810837,
+        "sha256": "489dc7b04a0deb279b63fd474acdbf048f608664951cf8de91496f39905c5861"
+      },
+      "mobile": {
+        "bytes": 560518,
+        "sha256": "d521fa2cd3cbdec5a562c26630453b105aa18c6a89b031c6b246096c32dcc6c5"
+      },
+      "scrub": {
+        "bytes": 1457928,
+        "sha256": "09023f021bdb91fd3025af1e4a5cba3054e6d9cf84dc1607b5a7d33814cd1b1a"
+      }
+    }
+  },
+  {
+    "id": "PM31",
+    "key": "boulevard-commercial-centre",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM31.mp4",
+    "source_sha256": "29e89a5da5655cd54fca0b7f3332408890d25819da73ac659f23d179ef9fc7a8",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/boulevard-commercial-centre-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/boulevard-commercial-centre-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/boulevard-commercial-centre-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/boulevard-commercial-centre-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 4417273,
+        "sha256": "55298841a4ff114675d4eb60bff6fc6e32ac63e00f0348ce40ce5f1fcc519952"
+      },
+      "mobile": {
+        "bytes": 886757,
+        "sha256": "d55c728521280264322c9adee6ad2201f77a49c957007648eef5ce8559adab1e"
+      },
+      "scrub": {
+        "bytes": 4850693,
+        "sha256": "410ac0a2bd0b9e841d0ae107dc71873dfdfd8ffcdf141ff7444f590c6bd35a25"
+      }
+    }
+  },
+  {
+    "id": "PM32",
+    "key": "boushar-building",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM32.mp4",
+    "source_sha256": "cc2dfe1445e9514490ae0af7211be510bd11f7835ad168eeab8816c1702d14e7",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/boushar-building-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/boushar-building-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/boushar-building-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/boushar-building-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 1442657,
+        "sha256": "dc5bf03caf916c9b6431b4494db4fcb41a6bcc859bd86403202ba029b451ae9b"
+      },
+      "mobile": {
+        "bytes": 441833,
+        "sha256": "a4552be32eb54372234608ec247744681f247b7889dba581ceb584524c7c8dba"
+      },
+      "scrub": {
+        "bytes": 3280704,
+        "sha256": "8741b53b48dd88218f83ac863a065f7b68e2c9e07c8e5a07c9c72fb6e9ce05fb"
+      }
+    }
+  },
+  {
+    "id": "PM33",
+    "key": "residential-building-4",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM33.mp4",
+    "source_sha256": "6c58f3dd122fe1bd02ee73738cd931b656338c6f4eedcf25cbe4465991b2f520",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/residential-building-4-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/residential-building-4-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/residential-building-4-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/residential-building-4-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 2038058,
+        "sha256": "83b3f5391fcea49cdc1e3d2f56613b9b93ee53ac2ad9d7f7ad4f21dbfb8b8125"
+      },
+      "mobile": {
+        "bytes": 615976,
+        "sha256": "ed50130a63e5051641b519af6c10fe03e6a514988a91a762a21df8d42beb1bd8"
+      },
+      "scrub": {
+        "bytes": 4180649,
+        "sha256": "31d20a0252f099e0193a41ac60af2a8a97f4d7347b91edf6865224b5fa5f0075"
+      }
+    }
+  },
+  {
+    "id": "PM34",
+    "key": "residential-villa-1",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM34.mp4",
+    "source_sha256": "c9f2e3b1b695f9a442c3c9f447c06262ffde17102f55867f3bd97fb0b4f41cc8",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/residential-villa-1-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/residential-villa-1-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/residential-villa-1-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/residential-villa-1-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 1516845,
+        "sha256": "3ad8c27514057c6bda43f9f9f2c10d874d216945064a7794c5b9ab2ac3b16e12"
+      },
+      "mobile": {
+        "bytes": 282999,
+        "sha256": "18859150d56253d807bacab6b8fed76a2dfd66a151fb316dfe60ae3f15750733"
+      },
+      "scrub": {
+        "bytes": 2280441,
+        "sha256": "e5c02eb02dc9d26db9ec84809bc90f5d549ccd0159c4d0d757e377dc275ae1a8"
+      }
+    }
+  },
+  {
+    "id": "PM35",
+    "key": "residential-villa-2",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM35.mp4",
+    "source_sha256": "1b37a845039f2f4f2096a9ba49390aeccb8b45a8c2ae6f44f4edd5e652cf6a73",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/residential-villa-2-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/residential-villa-2-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/residential-villa-2-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/residential-villa-2-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 1480105,
+        "sha256": "9a26fe25d9d99188705fa21472a001cffac9994300e6f9e9af80f0a28998020f"
+      },
+      "mobile": {
+        "bytes": 381910,
+        "sha256": "6a768f05296181a88a60560b81f687686fdbef7dccdd23b5dc4d9bef78678b6d"
+      },
+      "scrub": {
+        "bytes": 2421119,
+        "sha256": "93f3d835ece629ee0dc075cbf5900155099baa9afa483c442b211b38f39cddb7"
+      }
+    }
+  },
+  {
+    "id": "PM36",
+    "key": "residential-villa-3",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM36.mp4",
+    "source_sha256": "a520054692cec2819f6580b2a5a47ff8817b7b92beb1c1af3964b24f1e801a8b",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/residential-villa-3-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/residential-villa-3-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/residential-villa-3-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/residential-villa-3-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 1073791,
+        "sha256": "4a8426c6a6f6c6b87cfabf1f122731baf605d56149066eb5cdd177fe564a8052"
+      },
+      "mobile": {
+        "bytes": 278894,
+        "sha256": "bcee00f27f1ba0e89bd2bcbacc52df6cd2b839a8b0e1f8484ddc558a4adb839c"
+      },
+      "scrub": {
+        "bytes": 1814347,
+        "sha256": "ae90556704a93d927a82d9b9661c6b2f86485e6192633afe3eb69e336531815a"
+      }
+    }
+  },
+  {
+    "id": "PM37",
+    "key": "residential-villa-4",
+    "method": "client_generated",
+    "source": "_media_work/فيدوهات مشاريع/PM37.mp4",
+    "source_sha256": "e73a4e909e3654aef59080b8d05bfb184f858e2bdedcbe35d9d4e8d377c9af96",
+    "source_duration": 8.0,
+    "trim_start": 0,
+    "duration": 8.0,
+    "fps": 24.0,
+    "preview_fps": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "desktop": "assets/media/project-motion-v3/residential-villa-4-desktop.mp4",
+    "mobile": "assets/media/project-motion-v3/residential-villa-4-mobile.mp4",
+    "scrub": "assets/media/project-motion-v3/residential-villa-4-scrub.mp4",
+    "poster": "assets/media/project-motion-v3/residential-villa-4-poster.webp",
+    "outputs": {
+      "desktop": {
+        "bytes": 2791388,
+        "sha256": "4416c061fc60a726908ae2dccf18e3ba907dc83b61faf75dfff7fff483695381"
+      },
+      "mobile": {
+        "bytes": 803386,
+        "sha256": "e60915259323b7ce2fd02143bda9b39d0c61656a9ecd84fb44a9b3c129cbf39b"
+      },
+      "scrub": {
+        "bytes": 4322244,
+        "sha256": "d0c0ea3a4439f81491931b2352587285217e15aad991543f15191d604edf05c1"
+      }
+    }
+  }
+]

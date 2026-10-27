@@ -1,0 +1,3508 @@
+{
+  "version": "20261026",
+  "projects": {
+    "al-bahja-hotel": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-bahja-hotel/1KBDwysMYUxLoPshusasJNVSHluuEGIxy.webp",
+        "mobile": "assets/media/project-gallery/al-bahja-hotel/1KBDwysMYUxLoPshusasJNVSHluuEGIxy-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-bahja-hotel/1KBDwysMYUxLoPshusasJNVSHluuEGIxy-thumb.webp",
+        "width": 1672,
+        "height": 940,
+        "source_id": "1KBDwysMYUxLoPshusasJNVSHluuEGIxy",
+        "source_path": "Client/01-Architecture & Interiors/Hotel/24, 2026, 01_56_40 PM.png",
+        "source_dimensions": [
+          1672,
+          940
+        ],
+        "source_url": "https://drive.google.com/file/d/1KBDwysMYUxLoPshusasJNVSHluuEGIxy/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1KBDwysMYUxLoPshusasJNVSHluuEGIxy&sz=w2200",
+        "sha256": "8d790f15b3d7b700f152f62f4641d00487f295483fb04cb9772aae99fb25eeee",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-bahja-hotel/1X-ZvSmazZF_RqhJsTAKEiwVphf113Y9g.webp",
+        "mobile": "assets/media/project-gallery/al-bahja-hotel/1X-ZvSmazZF_RqhJsTAKEiwVphf113Y9g-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-bahja-hotel/1X-ZvSmazZF_RqhJsTAKEiwVphf113Y9g-thumb.webp",
+        "width": 732,
+        "height": 412,
+        "source_id": "1X-ZvSmazZF_RqhJsTAKEiwVphf113Y9g",
+        "source_path": "Client/01-Architecture & Interiors/Hotel/3.jpg",
+        "source_dimensions": [
+          732,
+          412
+        ],
+        "source_url": "https://drive.google.com/file/d/1X-ZvSmazZF_RqhJsTAKEiwVphf113Y9g/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1X-ZvSmazZF_RqhJsTAKEiwVphf113Y9g&sz=w2200",
+        "sha256": "2ebe25283d7efac478619db101c87be3a0bd23432525ae0c861bf08aa0a80dbc",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-bahja-hotel/16MaHEveNle7GQ5wA7v7T5O-SfnalmRzf.webp",
+        "mobile": "assets/media/project-gallery/al-bahja-hotel/16MaHEveNle7GQ5wA7v7T5O-SfnalmRzf-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-bahja-hotel/16MaHEveNle7GQ5wA7v7T5O-SfnalmRzf-thumb.webp",
+        "width": 732,
+        "height": 468,
+        "source_id": "16MaHEveNle7GQ5wA7v7T5O-SfnalmRzf",
+        "source_path": "Client/01-Architecture & Interiors/Hotel/4.jpg",
+        "source_dimensions": [
+          732,
+          468
+        ],
+        "source_url": "https://drive.google.com/file/d/16MaHEveNle7GQ5wA7v7T5O-SfnalmRzf/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=16MaHEveNle7GQ5wA7v7T5O-SfnalmRzf&sz=w2200",
+        "sha256": "3c3ba1581fcb5badf698f4d3aa919fb0560a2ee8c69f3e2a8fecbaf2425e0d7c",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "al-dahareez-shops": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dahareez-shops/1dryWuEyFCjOg_Ym-unLHx-3b-vowO1Im.webp",
+        "mobile": "assets/media/project-gallery/al-dahareez-shops/1dryWuEyFCjOg_Ym-unLHx-3b-vowO1Im-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dahareez-shops/1dryWuEyFCjOg_Ym-unLHx-3b-vowO1Im-thumb.webp",
+        "width": 1280,
+        "height": 720,
+        "source_id": "1dryWuEyFCjOg_Ym-unLHx-3b-vowO1Im",
+        "source_path": "Client/01-Architecture & Interiors/Commercial shops/WhatsApp Image 2024-05-29 at 1.37.43 PM (2).jpeg",
+        "source_dimensions": [
+          1280,
+          720
+        ],
+        "source_url": "https://drive.google.com/file/d/1dryWuEyFCjOg_Ym-unLHx-3b-vowO1Im/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1dryWuEyFCjOg_Ym-unLHx-3b-vowO1Im&sz=w2200",
+        "sha256": "3c3d08ef479835d584a0cbf53d2602052db94e9496540089bb7531f00eabcd44",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dahareez-shops/11aW5gZwaiSn_1_iv6ADsjJvfyniORL_v.webp",
+        "mobile": "assets/media/project-gallery/al-dahareez-shops/11aW5gZwaiSn_1_iv6ADsjJvfyniORL_v-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dahareez-shops/11aW5gZwaiSn_1_iv6ADsjJvfyniORL_v-thumb.webp",
+        "width": 1280,
+        "height": 720,
+        "source_id": "11aW5gZwaiSn_1_iv6ADsjJvfyniORL_v",
+        "source_path": "Client/01-Architecture & Interiors/Commercial shops/WhatsApp Image 2024-05-29 at 1.37.43 PM (3).jpeg",
+        "source_dimensions": [
+          1280,
+          720
+        ],
+        "source_url": "https://drive.google.com/file/d/11aW5gZwaiSn_1_iv6ADsjJvfyniORL_v/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=11aW5gZwaiSn_1_iv6ADsjJvfyniORL_v&sz=w2200",
+        "sha256": "c34fb2e5df96263131b77b8221b79717bafb294ae6416571a73493b6665d1ef4",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dahareez-shops/1DVqjTiuEB3MmFP98dtGZPcNp1Pbj-I1k.webp",
+        "mobile": "assets/media/project-gallery/al-dahareez-shops/1DVqjTiuEB3MmFP98dtGZPcNp1Pbj-I1k-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dahareez-shops/1DVqjTiuEB3MmFP98dtGZPcNp1Pbj-I1k-thumb.webp",
+        "width": 1280,
+        "height": 720,
+        "source_id": "1DVqjTiuEB3MmFP98dtGZPcNp1Pbj-I1k",
+        "source_path": "Client/01-Architecture & Interiors/Commercial shops/WhatsApp Image 2024-05-29 at 1.37.41 PM.jpeg",
+        "source_dimensions": [
+          1280,
+          720
+        ],
+        "source_url": "https://drive.google.com/file/d/1DVqjTiuEB3MmFP98dtGZPcNp1Pbj-I1k/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1DVqjTiuEB3MmFP98dtGZPcNp1Pbj-I1k&sz=w2200",
+        "sha256": "b235b50dcc9115beffeca88e309f0836e209f773ff479094380c8dca102f3147",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dahareez-shops/1mDXjS7R7WuYRVe0Jf2OTojMQdKPa4qJs.webp",
+        "mobile": "assets/media/project-gallery/al-dahareez-shops/1mDXjS7R7WuYRVe0Jf2OTojMQdKPa4qJs-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dahareez-shops/1mDXjS7R7WuYRVe0Jf2OTojMQdKPa4qJs-thumb.webp",
+        "width": 1280,
+        "height": 720,
+        "source_id": "1mDXjS7R7WuYRVe0Jf2OTojMQdKPa4qJs",
+        "source_path": "Client/01-Architecture & Interiors/Commercial shops/WhatsApp Image 2024-05-29 at 1.37.42 PM.jpeg",
+        "source_dimensions": [
+          1280,
+          720
+        ],
+        "source_url": "https://drive.google.com/file/d/1mDXjS7R7WuYRVe0Jf2OTojMQdKPa4qJs/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1mDXjS7R7WuYRVe0Jf2OTojMQdKPa4qJs&sz=w2200",
+        "sha256": "90cfbaf28a832cb524db70920cb12d497f241b1f6fcac6dda7e19a982f266e2e",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "kids-library": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/kids-library/1Yntt47BytBtP3WBAw3pwgVT3ZnhzA6tE.webp",
+        "mobile": "assets/media/project-gallery/kids-library/1Yntt47BytBtP3WBAw3pwgVT3ZnhzA6tE-mobile.webp",
+        "thumb": "assets/media/project-gallery/kids-library/1Yntt47BytBtP3WBAw3pwgVT3ZnhzA6tE-thumb.webp",
+        "width": 1200,
+        "height": 896,
+        "source_id": "1Yntt47BytBtP3WBAw3pwgVT3ZnhzA6tE",
+        "source_path": "Client/01-Architecture & Interiors/KIDS LIBRARY/shot 2, day.png",
+        "source_dimensions": [
+          1200,
+          896
+        ],
+        "source_url": "https://drive.google.com/file/d/1Yntt47BytBtP3WBAw3pwgVT3ZnhzA6tE/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1Yntt47BytBtP3WBAw3pwgVT3ZnhzA6tE&sz=w2200",
+        "sha256": "6b87379eca46ad52cc8f14d0e52ca6293a29432c51c1ea8b8aacad58021a4d3a",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/kids-library/1bPM9ZMCmSLlP-CGBQzg_bRY1RdoegL7B.webp",
+        "mobile": "assets/media/project-gallery/kids-library/1bPM9ZMCmSLlP-CGBQzg_bRY1RdoegL7B-mobile.webp",
+        "thumb": "assets/media/project-gallery/kids-library/1bPM9ZMCmSLlP-CGBQzg_bRY1RdoegL7B-thumb.webp",
+        "width": 1200,
+        "height": 808,
+        "source_id": "1bPM9ZMCmSLlP-CGBQzg_bRY1RdoegL7B",
+        "source_path": "Client/01-Architecture & Interiors/KIDS LIBRARY/shot 3 , night.png",
+        "source_dimensions": [
+          1200,
+          808
+        ],
+        "source_url": "https://drive.google.com/file/d/1bPM9ZMCmSLlP-CGBQzg_bRY1RdoegL7B/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1bPM9ZMCmSLlP-CGBQzg_bRY1RdoegL7B&sz=w2200",
+        "sha256": "22c881ef8cdb6508bec6069c78c6acbc7c4dd2168a7d50248cf7bab4f58f49db",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/kids-library/1gunSB-oEGQr70FiIobajBE1AkJRgPx6l.webp",
+        "mobile": "assets/media/project-gallery/kids-library/1gunSB-oEGQr70FiIobajBE1AkJRgPx6l-mobile.webp",
+        "thumb": "assets/media/project-gallery/kids-library/1gunSB-oEGQr70FiIobajBE1AkJRgPx6l-thumb.webp",
+        "width": 2200,
+        "height": 1228,
+        "source_id": "1gunSB-oEGQr70FiIobajBE1AkJRgPx6l",
+        "source_path": "Client/01-Architecture & Interiors/KIDS LIBRARY/children liberary/slide15_image39.jpg",
+        "source_dimensions": [
+          2200,
+          1228
+        ],
+        "source_url": "https://drive.google.com/file/d/1gunSB-oEGQr70FiIobajBE1AkJRgPx6l/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1gunSB-oEGQr70FiIobajBE1AkJRgPx6l&sz=w2200",
+        "sha256": "2ec93861e14beedf5279eda6c9e8c8612f0ba3a39690daddebcf286bc75f2fa0",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/kids-library/1oG11I1MPS5wWZL2Oi5tK47-ct1s9Btb9.webp",
+        "mobile": "assets/media/project-gallery/kids-library/1oG11I1MPS5wWZL2Oi5tK47-ct1s9Btb9-mobile.webp",
+        "thumb": "assets/media/project-gallery/kids-library/1oG11I1MPS5wWZL2Oi5tK47-ct1s9Btb9-thumb.webp",
+        "width": 1185,
+        "height": 661,
+        "source_id": "1oG11I1MPS5wWZL2Oi5tK47-ct1s9Btb9",
+        "source_path": "Client/01-Architecture & Interiors/KIDS LIBRARY/children liberary/slide16_image45.jpg",
+        "source_dimensions": [
+          1185,
+          661
+        ],
+        "source_url": "https://drive.google.com/file/d/1oG11I1MPS5wWZL2Oi5tK47-ct1s9Btb9/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1oG11I1MPS5wWZL2Oi5tK47-ct1s9Btb9&sz=w2200",
+        "sha256": "0ccfb977f2deb75b5eadf1785e9b9e115d74112ea78ef987681826e9965865fb",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/kids-library/11Un96756pxdqmPaYNW3gW5qwQV92km7j.webp",
+        "mobile": "assets/media/project-gallery/kids-library/11Un96756pxdqmPaYNW3gW5qwQV92km7j-mobile.webp",
+        "thumb": "assets/media/project-gallery/kids-library/11Un96756pxdqmPaYNW3gW5qwQV92km7j-thumb.webp",
+        "width": 2200,
+        "height": 1413,
+        "source_id": "11Un96756pxdqmPaYNW3gW5qwQV92km7j",
+        "source_path": "Client/01-Architecture & Interiors/KIDS LIBRARY/Shots/wind flow analysis on layout.png",
+        "source_dimensions": [
+          2200,
+          1413
+        ],
+        "source_url": "https://drive.google.com/file/d/11Un96756pxdqmPaYNW3gW5qwQV92km7j/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=11Un96756pxdqmPaYNW3gW5qwQV92km7j&sz=w2200",
+        "sha256": "06d3586d3c6f066f713af2b3977dc7617b789f2745a274fd64e316e898c5c940",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "gim-theatre": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/gim-theatre/11v3mitrP9mj9X5wmAWpKpFd3iLAFgPlU.webp",
+        "mobile": "assets/media/project-gallery/gim-theatre/11v3mitrP9mj9X5wmAWpKpFd3iLAFgPlU-mobile.webp",
+        "thumb": "assets/media/project-gallery/gim-theatre/11v3mitrP9mj9X5wmAWpKpFd3iLAFgPlU-thumb.webp",
+        "width": 2064,
+        "height": 1161,
+        "source_id": "11v3mitrP9mj9X5wmAWpKpFd3iLAFgPlU",
+        "source_path": "Client/01-Architecture & Interiors/GIM THEATER/01-.jpg",
+        "source_dimensions": [
+          2064,
+          1161
+        ],
+        "source_url": "https://drive.google.com/file/d/11v3mitrP9mj9X5wmAWpKpFd3iLAFgPlU/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=11v3mitrP9mj9X5wmAWpKpFd3iLAFgPlU&sz=w2200",
+        "sha256": "d2157e565a2fc97d30fb9f4dc36c9276ce565f46e940300e7b6d3635e265409f",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/gim-theatre/1nuZPQQhVJQnO3hICjXo8QXmwfMuIR2hQ.webp",
+        "mobile": "assets/media/project-gallery/gim-theatre/1nuZPQQhVJQnO3hICjXo8QXmwfMuIR2hQ-mobile.webp",
+        "thumb": "assets/media/project-gallery/gim-theatre/1nuZPQQhVJQnO3hICjXo8QXmwfMuIR2hQ-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1nuZPQQhVJQnO3hICjXo8QXmwfMuIR2hQ",
+        "source_path": "Client/01-Architecture & Interiors/GIM THEATER/04.png",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1nuZPQQhVJQnO3hICjXo8QXmwfMuIR2hQ/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1nuZPQQhVJQnO3hICjXo8QXmwfMuIR2hQ&sz=w2200",
+        "sha256": "aded2a738a5e5b1016d960c05bf90a31f659e618b7230ecb529f986d050d2eb3",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/gim-theatre/18bdRj72BeSJPOQIIheI8AWrv2IliSrIX.webp",
+        "mobile": "assets/media/project-gallery/gim-theatre/18bdRj72BeSJPOQIIheI8AWrv2IliSrIX-mobile.webp",
+        "thumb": "assets/media/project-gallery/gim-theatre/18bdRj72BeSJPOQIIheI8AWrv2IliSrIX-thumb.webp",
+        "width": 2200,
+        "height": 1222,
+        "source_id": "18bdRj72BeSJPOQIIheI8AWrv2IliSrIX",
+        "source_path": "Client/01-Architecture & Interiors/GIM THEATER/07.jpg",
+        "source_dimensions": [
+          2200,
+          1222
+        ],
+        "source_url": "https://drive.google.com/file/d/18bdRj72BeSJPOQIIheI8AWrv2IliSrIX/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=18bdRj72BeSJPOQIIheI8AWrv2IliSrIX&sz=w2200",
+        "sha256": "a0fa1a1eb79b661b2503e25f53ec6fec820a3d118a115e735c299b767df8616a",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/gim-theatre/1s0cOPrzZVQPEpO-2A_iixKErg71MsN-9.webp",
+        "mobile": "assets/media/project-gallery/gim-theatre/1s0cOPrzZVQPEpO-2A_iixKErg71MsN-9-mobile.webp",
+        "thumb": "assets/media/project-gallery/gim-theatre/1s0cOPrzZVQPEpO-2A_iixKErg71MsN-9-thumb.webp",
+        "width": 2200,
+        "height": 1233,
+        "source_id": "1s0cOPrzZVQPEpO-2A_iixKErg71MsN-9",
+        "source_path": "Client/01-Architecture & Interiors/GIM THEATER/Concert Interios  Hall (1).png",
+        "source_dimensions": [
+          2200,
+          1233
+        ],
+        "source_url": "https://drive.google.com/file/d/1s0cOPrzZVQPEpO-2A_iixKErg71MsN-9/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1s0cOPrzZVQPEpO-2A_iixKErg71MsN-9&sz=w2200",
+        "sha256": "2742bf6dbff9e16ca4dfd632c2d198a56603b6aa3f2ef0f238fe8b3e36092a2c",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/gim-theatre/1U6pYMO6DCp04iNl1l7NtGMlv2371gg9u.webp",
+        "mobile": "assets/media/project-gallery/gim-theatre/1U6pYMO6DCp04iNl1l7NtGMlv2371gg9u-mobile.webp",
+        "thumb": "assets/media/project-gallery/gim-theatre/1U6pYMO6DCp04iNl1l7NtGMlv2371gg9u-thumb.webp",
+        "width": 1204,
+        "height": 675,
+        "source_id": "1U6pYMO6DCp04iNl1l7NtGMlv2371gg9u",
+        "source_path": "Client/01-Architecture & Interiors/GIM THEATER/slide21_image60.jpg",
+        "source_dimensions": [
+          1204,
+          675
+        ],
+        "source_url": "https://drive.google.com/file/d/1U6pYMO6DCp04iNl1l7NtGMlv2371gg9u/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1U6pYMO6DCp04iNl1l7NtGMlv2371gg9u&sz=w2200",
+        "sha256": "d0e5d0c25d4eef769b1e29f2dbf3cda4145f9bd16fc9d9ca1b57010ca47996ea",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "grand-resort": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/grand-resort/1w_5MgEtxexPjIRhPFCQsqz66vPMT2FGh.webp",
+        "mobile": "assets/media/project-gallery/grand-resort/1w_5MgEtxexPjIRhPFCQsqz66vPMT2FGh-mobile.webp",
+        "thumb": "assets/media/project-gallery/grand-resort/1w_5MgEtxexPjIRhPFCQsqz66vPMT2FGh-thumb.webp",
+        "width": 1202,
+        "height": 676,
+        "source_id": "1w_5MgEtxexPjIRhPFCQsqz66vPMT2FGh",
+        "source_path": "Client/01-Architecture & Interiors/Grand Resort/slide33_image91.jpg",
+        "source_dimensions": [
+          1202,
+          676
+        ],
+        "source_url": "https://drive.google.com/file/d/1w_5MgEtxexPjIRhPFCQsqz66vPMT2FGh/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1w_5MgEtxexPjIRhPFCQsqz66vPMT2FGh&sz=w2200",
+        "sha256": "ebdbda8910600fe135b96614da71451479e870b6e9c7874849e0c74ac467df89",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/grand-resort/1Zsb7P5YzXmHE0vPQjllR23aBaqdn-gUl.webp",
+        "mobile": "assets/media/project-gallery/grand-resort/1Zsb7P5YzXmHE0vPQjllR23aBaqdn-gUl-mobile.webp",
+        "thumb": "assets/media/project-gallery/grand-resort/1Zsb7P5YzXmHE0vPQjllR23aBaqdn-gUl-thumb.webp",
+        "width": 1203,
+        "height": 677,
+        "source_id": "1Zsb7P5YzXmHE0vPQjllR23aBaqdn-gUl",
+        "source_path": "Client/01-Architecture & Interiors/Grand Resort/slide33_image92.jpg",
+        "source_dimensions": [
+          1203,
+          677
+        ],
+        "source_url": "https://drive.google.com/file/d/1Zsb7P5YzXmHE0vPQjllR23aBaqdn-gUl/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1Zsb7P5YzXmHE0vPQjllR23aBaqdn-gUl&sz=w2200",
+        "sha256": "c8ca2a9d10a8bfec54bbfac615b240ca52986499bafcde63c325dd4b603477a0",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/grand-resort/1ZxILBtTvHUpb4HlC4LVYYcyfJdcaUfdJ.webp",
+        "mobile": "assets/media/project-gallery/grand-resort/1ZxILBtTvHUpb4HlC4LVYYcyfJdcaUfdJ-mobile.webp",
+        "thumb": "assets/media/project-gallery/grand-resort/1ZxILBtTvHUpb4HlC4LVYYcyfJdcaUfdJ-thumb.webp",
+        "width": 1200,
+        "height": 774,
+        "source_id": "1ZxILBtTvHUpb4HlC4LVYYcyfJdcaUfdJ",
+        "source_path": "Client/01-Architecture & Interiors/Grand Resort/slide34_image94.jpg",
+        "source_dimensions": [
+          1200,
+          774
+        ],
+        "source_url": "https://drive.google.com/file/d/1ZxILBtTvHUpb4HlC4LVYYcyfJdcaUfdJ/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1ZxILBtTvHUpb4HlC4LVYYcyfJdcaUfdJ&sz=w2200",
+        "sha256": "f0424082f3d33328147143407806090b5d44e4ce18804e86fb07f99c4741bff4",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/grand-resort/1tjkVka03AQrnpVyQcLtgTjHoAWY3cNtI.webp",
+        "mobile": "assets/media/project-gallery/grand-resort/1tjkVka03AQrnpVyQcLtgTjHoAWY3cNtI-mobile.webp",
+        "thumb": "assets/media/project-gallery/grand-resort/1tjkVka03AQrnpVyQcLtgTjHoAWY3cNtI-thumb.webp",
+        "width": 1200,
+        "height": 677,
+        "source_id": "1tjkVka03AQrnpVyQcLtgTjHoAWY3cNtI",
+        "source_path": "Client/01-Architecture & Interiors/Grand Resort/slide34_image95.jpg",
+        "source_dimensions": [
+          1200,
+          677
+        ],
+        "source_url": "https://drive.google.com/file/d/1tjkVka03AQrnpVyQcLtgTjHoAWY3cNtI/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1tjkVka03AQrnpVyQcLtgTjHoAWY3cNtI&sz=w2200",
+        "sha256": "33df9239a416944d0934b6d8fa0d10aaef566e93a45d66fe7697ce148536c799",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/grand-resort/1hWpkjb5Oc4jF5YfZ3Hnre69tMZ1_IkCv.webp",
+        "mobile": "assets/media/project-gallery/grand-resort/1hWpkjb5Oc4jF5YfZ3Hnre69tMZ1_IkCv-mobile.webp",
+        "thumb": "assets/media/project-gallery/grand-resort/1hWpkjb5Oc4jF5YfZ3Hnre69tMZ1_IkCv-thumb.webp",
+        "width": 1000,
+        "height": 750,
+        "source_id": "1hWpkjb5Oc4jF5YfZ3Hnre69tMZ1_IkCv",
+        "source_path": "Client/01-Architecture & Interiors/Grand Resort/slide34_image97.jpg",
+        "source_dimensions": [
+          1000,
+          750
+        ],
+        "source_url": "https://drive.google.com/file/d/1hWpkjb5Oc4jF5YfZ3Hnre69tMZ1_IkCv/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1hWpkjb5Oc4jF5YfZ3Hnre69tMZ1_IkCv&sz=w2200",
+        "sha256": "0eca952adf72e77703ce36acbd44439e455197111eceb9ac4e68a00769268a4b",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "morjan-hall": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/morjan-hall/1lpAPSGdNheWN_H73hdmNZNkNMVcaNHaT.webp",
+        "mobile": "assets/media/project-gallery/morjan-hall/1lpAPSGdNheWN_H73hdmNZNkNMVcaNHaT-mobile.webp",
+        "thumb": "assets/media/project-gallery/morjan-hall/1lpAPSGdNheWN_H73hdmNZNkNMVcaNHaT-thumb.webp",
+        "width": 1536,
+        "height": 1024,
+        "source_id": "1lpAPSGdNheWN_H73hdmNZNkNMVcaNHaT",
+        "source_path": "Client/01-Architecture & Interiors/Multi Purpose Hall/slide10_image25.png",
+        "source_dimensions": [
+          1536,
+          1024
+        ],
+        "source_url": "https://drive.google.com/file/d/1lpAPSGdNheWN_H73hdmNZNkNMVcaNHaT/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1lpAPSGdNheWN_H73hdmNZNkNMVcaNHaT&sz=w2200",
+        "sha256": "d49b6b000137a5d0b52707e04e9734d48c68a6d1d7772dbb7296fde5c63eb044",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/morjan-hall/1DHy6lFR7axfG5b7JBhDepOsv5a9oN7ft.webp",
+        "mobile": "assets/media/project-gallery/morjan-hall/1DHy6lFR7axfG5b7JBhDepOsv5a9oN7ft-mobile.webp",
+        "thumb": "assets/media/project-gallery/morjan-hall/1DHy6lFR7axfG5b7JBhDepOsv5a9oN7ft-thumb.webp",
+        "width": 1536,
+        "height": 1024,
+        "source_id": "1DHy6lFR7axfG5b7JBhDepOsv5a9oN7ft",
+        "source_path": "Client/01-Architecture & Interiors/Multi Purpose Hall/slide11_image27.png",
+        "source_dimensions": [
+          1536,
+          1024
+        ],
+        "source_url": "https://drive.google.com/file/d/1DHy6lFR7axfG5b7JBhDepOsv5a9oN7ft/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1DHy6lFR7axfG5b7JBhDepOsv5a9oN7ft&sz=w2200",
+        "sha256": "6fc822683ba9ccd4c719fa261297226b4943a141d27f8053b7dc93b8e502675c",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/morjan-hall/1sHq0YTVraUXC8rDvhHCTqJklFtRXDk_F.webp",
+        "mobile": "assets/media/project-gallery/morjan-hall/1sHq0YTVraUXC8rDvhHCTqJklFtRXDk_F-mobile.webp",
+        "thumb": "assets/media/project-gallery/morjan-hall/1sHq0YTVraUXC8rDvhHCTqJklFtRXDk_F-thumb.webp",
+        "width": 1536,
+        "height": 1024,
+        "source_id": "1sHq0YTVraUXC8rDvhHCTqJklFtRXDk_F",
+        "source_path": "Client/01-Architecture & Interiors/Multi Purpose Hall/slide11_image28.png",
+        "source_dimensions": [
+          1536,
+          1024
+        ],
+        "source_url": "https://drive.google.com/file/d/1sHq0YTVraUXC8rDvhHCTqJklFtRXDk_F/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1sHq0YTVraUXC8rDvhHCTqJklFtRXDk_F&sz=w2200",
+        "sha256": "fa1c6017ffe90c1942cfe2b8bc1713fb9803b709bd54d1b3d21b718149ccb97e",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/morjan-hall/1sMlL85XxCVXBXz-pX9KBTe3FFaJV_NKW.webp",
+        "mobile": "assets/media/project-gallery/morjan-hall/1sMlL85XxCVXBXz-pX9KBTe3FFaJV_NKW-mobile.webp",
+        "thumb": "assets/media/project-gallery/morjan-hall/1sMlL85XxCVXBXz-pX9KBTe3FFaJV_NKW-thumb.webp",
+        "width": 1536,
+        "height": 1024,
+        "source_id": "1sMlL85XxCVXBXz-pX9KBTe3FFaJV_NKW",
+        "source_path": "Client/01-Architecture & Interiors/Multi Purpose Hall/slide11_image29.png",
+        "source_dimensions": [
+          1536,
+          1024
+        ],
+        "source_url": "https://drive.google.com/file/d/1sMlL85XxCVXBXz-pX9KBTe3FFaJV_NKW/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1sMlL85XxCVXBXz-pX9KBTe3FFaJV_NKW&sz=w2200",
+        "sha256": "85adfb0599c558bf6a7273deab61013d2029b6d02523ee42d3918c545bafaa37",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "salalah-municipality": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/salalah-municipality/11xfRHDPEJD6VIPfIn7eLMAMOCJUxeq6x.webp",
+        "mobile": "assets/media/project-gallery/salalah-municipality/11xfRHDPEJD6VIPfIn7eLMAMOCJUxeq6x-mobile.webp",
+        "thumb": "assets/media/project-gallery/salalah-municipality/11xfRHDPEJD6VIPfIn7eLMAMOCJUxeq6x-thumb.webp",
+        "width": 2200,
+        "height": 2200,
+        "source_id": "11xfRHDPEJD6VIPfIn7eLMAMOCJUxeq6x",
+        "source_path": "Client/01-Architecture & Interiors/Salalah Municipality/Admin Building + Lab Building Views_page-0001.jpg",
+        "source_dimensions": [
+          2200,
+          2200
+        ],
+        "source_url": "https://drive.google.com/file/d/11xfRHDPEJD6VIPfIn7eLMAMOCJUxeq6x/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=11xfRHDPEJD6VIPfIn7eLMAMOCJUxeq6x&sz=w2200",
+        "sha256": "0875a2e7c572067d1fd1acc8c478f91597343d588c2b1923019a33819603d387",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/salalah-municipality/17zDDmL3MTJ70ITHeUu_RY9gsTi7-sh-u.webp",
+        "mobile": "assets/media/project-gallery/salalah-municipality/17zDDmL3MTJ70ITHeUu_RY9gsTi7-sh-u-mobile.webp",
+        "thumb": "assets/media/project-gallery/salalah-municipality/17zDDmL3MTJ70ITHeUu_RY9gsTi7-sh-u-thumb.webp",
+        "width": 2200,
+        "height": 1237,
+        "source_id": "17zDDmL3MTJ70ITHeUu_RY9gsTi7-sh-u",
+        "source_path": "Client/01-Architecture & Interiors/Salalah Municipality/Admin Building + Lab Building Views_page-0006.jpg",
+        "source_dimensions": [
+          2200,
+          1237
+        ],
+        "source_url": "https://drive.google.com/file/d/17zDDmL3MTJ70ITHeUu_RY9gsTi7-sh-u/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=17zDDmL3MTJ70ITHeUu_RY9gsTi7-sh-u&sz=w2200",
+        "sha256": "c4396488de8c92191ce93df94eb681341d86adfb6863d4da9cdbef1ee9b647e4",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/salalah-municipality/1dcS05MJkDXH3O509WjDY9KFTDEOnMXaa.webp",
+        "mobile": "assets/media/project-gallery/salalah-municipality/1dcS05MJkDXH3O509WjDY9KFTDEOnMXaa-mobile.webp",
+        "thumb": "assets/media/project-gallery/salalah-municipality/1dcS05MJkDXH3O509WjDY9KFTDEOnMXaa-thumb.webp",
+        "width": 2200,
+        "height": 2200,
+        "source_id": "1dcS05MJkDXH3O509WjDY9KFTDEOnMXaa",
+        "source_path": "Client/01-Architecture & Interiors/Salalah Municipality/Admin Building + Lab Building Views_page-0014.jpg",
+        "source_dimensions": [
+          2200,
+          2200
+        ],
+        "source_url": "https://drive.google.com/file/d/1dcS05MJkDXH3O509WjDY9KFTDEOnMXaa/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1dcS05MJkDXH3O509WjDY9KFTDEOnMXaa&sz=w2200",
+        "sha256": "81580c6557a88a3431f59eeec3e05704c08614b606b8cfc45f2bb79f380aae50",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/salalah-municipality/1TQugF8jCeIEwM08l1TktM8k5cVuJmn-B.webp",
+        "mobile": "assets/media/project-gallery/salalah-municipality/1TQugF8jCeIEwM08l1TktM8k5cVuJmn-B-mobile.webp",
+        "thumb": "assets/media/project-gallery/salalah-municipality/1TQugF8jCeIEwM08l1TktM8k5cVuJmn-B-thumb.webp",
+        "width": 2200,
+        "height": 1237,
+        "source_id": "1TQugF8jCeIEwM08l1TktM8k5cVuJmn-B",
+        "source_path": "Client/01-Architecture & Interiors/Salalah Municipality/Admin Building + Lab Building Views_page-0030.jpg",
+        "source_dimensions": [
+          2200,
+          1237
+        ],
+        "source_url": "https://drive.google.com/file/d/1TQugF8jCeIEwM08l1TktM8k5cVuJmn-B/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1TQugF8jCeIEwM08l1TktM8k5cVuJmn-B&sz=w2200",
+        "sha256": "7b2f6a963aab3986ddf3a83a271fd177c698db3bfe3275c15ebca574d0addf0f",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/salalah-municipality/1Q5LLiUXt048PfGpIupJTfRTFlhqSqi4J.webp",
+        "mobile": "assets/media/project-gallery/salalah-municipality/1Q5LLiUXt048PfGpIupJTfRTFlhqSqi4J-mobile.webp",
+        "thumb": "assets/media/project-gallery/salalah-municipality/1Q5LLiUXt048PfGpIupJTfRTFlhqSqi4J-thumb.webp",
+        "width": 2200,
+        "height": 1759,
+        "source_id": "1Q5LLiUXt048PfGpIupJTfRTFlhqSqi4J",
+        "source_path": "Client/01-Architecture & Interiors/Salalah Municipality/Admin Building + Lab Building Views_page-0032.jpg",
+        "source_dimensions": [
+          2200,
+          1759
+        ],
+        "source_url": "https://drive.google.com/file/d/1Q5LLiUXt048PfGpIupJTfRTFlhqSqi4J/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1Q5LLiUXt048PfGpIupJTfRTFlhqSqi4J&sz=w2200",
+        "sha256": "e35b7a071a87f6e9aa540b56aa833bab7986b15403dbe630d7131ad5cc0b1561",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "science-space-oasis": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/science-space-oasis/1Jy0km1VImhc89QSWDIzTW2aBxnv-L0Fl.webp",
+        "mobile": "assets/media/project-gallery/science-space-oasis/1Jy0km1VImhc89QSWDIzTW2aBxnv-L0Fl-mobile.webp",
+        "thumb": "assets/media/project-gallery/science-space-oasis/1Jy0km1VImhc89QSWDIzTW2aBxnv-L0Fl-thumb.webp",
+        "width": 1207,
+        "height": 679,
+        "source_id": "1Jy0km1VImhc89QSWDIzTW2aBxnv-L0Fl",
+        "source_path": "Client/01-Architecture & Interiors/Science and Space Oasis/slide13_image32.jpg",
+        "source_dimensions": [
+          1207,
+          679
+        ],
+        "source_url": "https://drive.google.com/file/d/1Jy0km1VImhc89QSWDIzTW2aBxnv-L0Fl/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1Jy0km1VImhc89QSWDIzTW2aBxnv-L0Fl&sz=w2200",
+        "sha256": "973f9b97ee0293e38249d5d290b5fe57854f4f66c9078ff2463929465285e803",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/science-space-oasis/12TnBHhyAOGAHnwkVLRNvQjoShrxfiJd6.webp",
+        "mobile": "assets/media/project-gallery/science-space-oasis/12TnBHhyAOGAHnwkVLRNvQjoShrxfiJd6-mobile.webp",
+        "thumb": "assets/media/project-gallery/science-space-oasis/12TnBHhyAOGAHnwkVLRNvQjoShrxfiJd6-thumb.webp",
+        "width": 1205,
+        "height": 678,
+        "source_id": "12TnBHhyAOGAHnwkVLRNvQjoShrxfiJd6",
+        "source_path": "Client/01-Architecture & Interiors/Science and Space Oasis/slide13_image33.jpg",
+        "source_dimensions": [
+          1205,
+          678
+        ],
+        "source_url": "https://drive.google.com/file/d/12TnBHhyAOGAHnwkVLRNvQjoShrxfiJd6/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=12TnBHhyAOGAHnwkVLRNvQjoShrxfiJd6&sz=w2200",
+        "sha256": "018d3bc1a92634e6f5841f4a8249caceefe2de7c16ab3edb773d85a3b60050ca",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/science-space-oasis/1q2SQq8NgTwIl_zw1-ciKekkr5KVC2O-r.webp",
+        "mobile": "assets/media/project-gallery/science-space-oasis/1q2SQq8NgTwIl_zw1-ciKekkr5KVC2O-r-mobile.webp",
+        "thumb": "assets/media/project-gallery/science-space-oasis/1q2SQq8NgTwIl_zw1-ciKekkr5KVC2O-r-thumb.webp",
+        "width": 1567,
+        "height": 871,
+        "source_id": "1q2SQq8NgTwIl_zw1-ciKekkr5KVC2O-r",
+        "source_path": "Client/01-Architecture & Interiors/Science and Space Oasis/slide14_image35.jpg",
+        "source_dimensions": [
+          1567,
+          871
+        ],
+        "source_url": "https://drive.google.com/file/d/1q2SQq8NgTwIl_zw1-ciKekkr5KVC2O-r/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1q2SQq8NgTwIl_zw1-ciKekkr5KVC2O-r&sz=w2200",
+        "sha256": "e2be82061bf9a3cafdfadfa21a8827948b8a903115e3a7245e88f38914e33512",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/science-space-oasis/1mqmCavtJGXF0-9u7bykhtZEyr5JDdHB8.webp",
+        "mobile": "assets/media/project-gallery/science-space-oasis/1mqmCavtJGXF0-9u7bykhtZEyr5JDdHB8-mobile.webp",
+        "thumb": "assets/media/project-gallery/science-space-oasis/1mqmCavtJGXF0-9u7bykhtZEyr5JDdHB8-thumb.webp",
+        "width": 1204,
+        "height": 661,
+        "source_id": "1mqmCavtJGXF0-9u7bykhtZEyr5JDdHB8",
+        "source_path": "Client/01-Architecture & Interiors/Science and Space Oasis/slide14_image36.jpg",
+        "source_dimensions": [
+          1204,
+          661
+        ],
+        "source_url": "https://drive.google.com/file/d/1mqmCavtJGXF0-9u7bykhtZEyr5JDdHB8/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1mqmCavtJGXF0-9u7bykhtZEyr5JDdHB8&sz=w2200",
+        "sha256": "4ba224862382c0d39c27e1c0f0003c5b3c05b3f34203c51edd78410ef09aa65c",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/science-space-oasis/1ZT9zxzrsf0i2mWCGL7uVUNjvnHWlXR1k.webp",
+        "mobile": "assets/media/project-gallery/science-space-oasis/1ZT9zxzrsf0i2mWCGL7uVUNjvnHWlXR1k-mobile.webp",
+        "thumb": "assets/media/project-gallery/science-space-oasis/1ZT9zxzrsf0i2mWCGL7uVUNjvnHWlXR1k-thumb.webp",
+        "width": 1205,
+        "height": 649,
+        "source_id": "1ZT9zxzrsf0i2mWCGL7uVUNjvnHWlXR1k",
+        "source_path": "Client/01-Architecture & Interiors/Science and Space Oasis/slide14_image37.jpg",
+        "source_dimensions": [
+          1205,
+          649
+        ],
+        "source_url": "https://drive.google.com/file/d/1ZT9zxzrsf0i2mWCGL7uVUNjvnHWlXR1k/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1ZT9zxzrsf0i2mWCGL7uVUNjvnHWlXR1k&sz=w2200",
+        "sha256": "8392a00a3ae4a98af14cc6f36f8b2891b5acb927e605bbd6449fb577ab8d89af",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "training-center": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/training-center/1j7i5QW-KIhXaTJGyN87p86GFNtdbdhIS.webp",
+        "mobile": "assets/media/project-gallery/training-center/1j7i5QW-KIhXaTJGyN87p86GFNtdbdhIS-mobile.webp",
+        "thumb": "assets/media/project-gallery/training-center/1j7i5QW-KIhXaTJGyN87p86GFNtdbdhIS-thumb.webp",
+        "width": 2200,
+        "height": 1257,
+        "source_id": "1j7i5QW-KIhXaTJGyN87p86GFNtdbdhIS",
+        "source_path": "Client/01-Architecture & Interiors/Training Center/slide18_image48.jpg",
+        "source_dimensions": [
+          2200,
+          1257
+        ],
+        "source_url": "https://drive.google.com/file/d/1j7i5QW-KIhXaTJGyN87p86GFNtdbdhIS/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1j7i5QW-KIhXaTJGyN87p86GFNtdbdhIS&sz=w2200",
+        "sha256": "f7f73e091127853cc3cad8d5c98b60606781a6b5851b53e128c8b80d74adf28b",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/training-center/1mbAm5YCAJl4AfS9dRHgVRlM0JwuEt1Xb.webp",
+        "mobile": "assets/media/project-gallery/training-center/1mbAm5YCAJl4AfS9dRHgVRlM0JwuEt1Xb-mobile.webp",
+        "thumb": "assets/media/project-gallery/training-center/1mbAm5YCAJl4AfS9dRHgVRlM0JwuEt1Xb-thumb.webp",
+        "width": 1183,
+        "height": 676,
+        "source_id": "1mbAm5YCAJl4AfS9dRHgVRlM0JwuEt1Xb",
+        "source_path": "Client/01-Architecture & Interiors/Training Center/slide18_image49.jpg",
+        "source_dimensions": [
+          1183,
+          676
+        ],
+        "source_url": "https://drive.google.com/file/d/1mbAm5YCAJl4AfS9dRHgVRlM0JwuEt1Xb/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1mbAm5YCAJl4AfS9dRHgVRlM0JwuEt1Xb&sz=w2200",
+        "sha256": "7f9add9bb28c874a8a1698dbbe903eef8d4eae8f31593ba0c9fbb6227f4d8147",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/training-center/1mvf1dOcHk_xbIjTH-aLVwQThtAexhEeN.webp",
+        "mobile": "assets/media/project-gallery/training-center/1mvf1dOcHk_xbIjTH-aLVwQThtAexhEeN-mobile.webp",
+        "thumb": "assets/media/project-gallery/training-center/1mvf1dOcHk_xbIjTH-aLVwQThtAexhEeN-thumb.webp",
+        "width": 1185,
+        "height": 677,
+        "source_id": "1mvf1dOcHk_xbIjTH-aLVwQThtAexhEeN",
+        "source_path": "Client/01-Architecture & Interiors/Training Center/slide18_image50.jpg",
+        "source_dimensions": [
+          1185,
+          677
+        ],
+        "source_url": "https://drive.google.com/file/d/1mvf1dOcHk_xbIjTH-aLVwQThtAexhEeN/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1mvf1dOcHk_xbIjTH-aLVwQThtAexhEeN&sz=w2200",
+        "sha256": "ad3b1ab65b6cdbfada3db80eaf0ac2b03822986d962e0baa63fa156b29903e34",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/training-center/1XkhalRDKJnxSDjQsuOLlVPmarWPvWXi-.webp",
+        "mobile": "assets/media/project-gallery/training-center/1XkhalRDKJnxSDjQsuOLlVPmarWPvWXi--mobile.webp",
+        "thumb": "assets/media/project-gallery/training-center/1XkhalRDKJnxSDjQsuOLlVPmarWPvWXi--thumb.webp",
+        "width": 1183,
+        "height": 676,
+        "source_id": "1XkhalRDKJnxSDjQsuOLlVPmarWPvWXi-",
+        "source_path": "Client/01-Architecture & Interiors/Training Center/slide18_image51.jpg",
+        "source_dimensions": [
+          1183,
+          676
+        ],
+        "source_url": "https://drive.google.com/file/d/1XkhalRDKJnxSDjQsuOLlVPmarWPvWXi-/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1XkhalRDKJnxSDjQsuOLlVPmarWPvWXi-&sz=w2200",
+        "sha256": "7e9de4fd93c2c952a62e06571385fe116dd31966f5ff1a760ea3c057f87fab70",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "wedding-hall": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/wedding-hall/1t-3tjNQVU5MCI6vT_828EHzZAaCbYyro.webp",
+        "mobile": "assets/media/project-gallery/wedding-hall/1t-3tjNQVU5MCI6vT_828EHzZAaCbYyro-mobile.webp",
+        "thumb": "assets/media/project-gallery/wedding-hall/1t-3tjNQVU5MCI6vT_828EHzZAaCbYyro-thumb.webp",
+        "width": 2200,
+        "height": 1361,
+        "source_id": "1t-3tjNQVU5MCI6vT_828EHzZAaCbYyro",
+        "source_path": "Client/01-Architecture & Interiors/WEDDING HALL/1_23 - Photo.jpg",
+        "source_dimensions": [
+          2200,
+          1361
+        ],
+        "source_url": "https://drive.google.com/file/d/1t-3tjNQVU5MCI6vT_828EHzZAaCbYyro/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1t-3tjNQVU5MCI6vT_828EHzZAaCbYyro&sz=w2200",
+        "sha256": "6ff7ab2ac28e6978aa8f6654e350fd023483c06703ba98c6b1395ef5dc5d98bf",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/wedding-hall/1LZxtSY8ORnTdVCwp2Hm5fb9F9qS8gyuQ.webp",
+        "mobile": "assets/media/project-gallery/wedding-hall/1LZxtSY8ORnTdVCwp2Hm5fb9F9qS8gyuQ-mobile.webp",
+        "thumb": "assets/media/project-gallery/wedding-hall/1LZxtSY8ORnTdVCwp2Hm5fb9F9qS8gyuQ-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1LZxtSY8ORnTdVCwp2Hm5fb9F9qS8gyuQ",
+        "source_path": "Client/01-Architecture & Interiors/WEDDING HALL/1_27 - Photo.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1LZxtSY8ORnTdVCwp2Hm5fb9F9qS8gyuQ/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1LZxtSY8ORnTdVCwp2Hm5fb9F9qS8gyuQ&sz=w2200",
+        "sha256": "79abab830f67bfa35bb0e5ed14684a8e17f10a562f6c1879458196f720ac705c",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/wedding-hall/1RkvvIR6jva4_UxHBSZtVhuJUC3VSAizw.webp",
+        "mobile": "assets/media/project-gallery/wedding-hall/1RkvvIR6jva4_UxHBSZtVhuJUC3VSAizw-mobile.webp",
+        "thumb": "assets/media/project-gallery/wedding-hall/1RkvvIR6jva4_UxHBSZtVhuJUC3VSAizw-thumb.webp",
+        "width": 2200,
+        "height": 2200,
+        "source_id": "1RkvvIR6jva4_UxHBSZtVhuJUC3VSAizw",
+        "source_path": "Client/01-Architecture & Interiors/WEDDING HALL/Multi-purpose Halls Complex_page-0001.jpg",
+        "source_dimensions": [
+          2200,
+          2200
+        ],
+        "source_url": "https://drive.google.com/file/d/1RkvvIR6jva4_UxHBSZtVhuJUC3VSAizw/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1RkvvIR6jva4_UxHBSZtVhuJUC3VSAizw&sz=w2200",
+        "sha256": "3853b47280c294d85e680f3c1dcf500d1f6e5a7eef14eab51c018fb35870c57a",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/wedding-hall/1CBQG7cQWyHm3yDGAnHmZmm154hiu0P2u.webp",
+        "mobile": "assets/media/project-gallery/wedding-hall/1CBQG7cQWyHm3yDGAnHmZmm154hiu0P2u-mobile.webp",
+        "thumb": "assets/media/project-gallery/wedding-hall/1CBQG7cQWyHm3yDGAnHmZmm154hiu0P2u-thumb.webp",
+        "width": 2200,
+        "height": 2200,
+        "source_id": "1CBQG7cQWyHm3yDGAnHmZmm154hiu0P2u",
+        "source_path": "Client/01-Architecture & Interiors/WEDDING HALL/Multi-purpose Halls Complex_page-0005.jpg",
+        "source_dimensions": [
+          2200,
+          2200
+        ],
+        "source_url": "https://drive.google.com/file/d/1CBQG7cQWyHm3yDGAnHmZmm154hiu0P2u/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1CBQG7cQWyHm3yDGAnHmZmm154hiu0P2u&sz=w2200",
+        "sha256": "96e602b292ff4085f92b9c092a85020bbe5fff2b3e2322021eab7332ddc2b003",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/wedding-hall/1CfiXimGosBz9Lo7Hi0K_DbaYRpV_m0-6.webp",
+        "mobile": "assets/media/project-gallery/wedding-hall/1CfiXimGosBz9Lo7Hi0K_DbaYRpV_m0-6-mobile.webp",
+        "thumb": "assets/media/project-gallery/wedding-hall/1CfiXimGosBz9Lo7Hi0K_DbaYRpV_m0-6-thumb.webp",
+        "width": 2200,
+        "height": 2200,
+        "source_id": "1CfiXimGosBz9Lo7Hi0K_DbaYRpV_m0-6",
+        "source_path": "Client/01-Architecture & Interiors/WEDDING HALL/Multi-purpose Halls Complex_page-0018.jpg",
+        "source_dimensions": [
+          2200,
+          2200
+        ],
+        "source_url": "https://drive.google.com/file/d/1CfiXimGosBz9Lo7Hi0K_DbaYRpV_m0-6/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1CfiXimGosBz9Lo7Hi0K_DbaYRpV_m0-6&sz=w2200",
+        "sha256": "5b52f19837bc3e97b18e31d648e1be28c693fcfdf806cfc6a48cf43033efebf2",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "aftalkout-rock": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/aftalkout-rock/18H7itar_UaXaSKgUhznP58X79paEPyOY.webp",
+        "mobile": "assets/media/project-gallery/aftalkout-rock/18H7itar_UaXaSKgUhznP58X79paEPyOY-mobile.webp",
+        "thumb": "assets/media/project-gallery/aftalkout-rock/18H7itar_UaXaSKgUhznP58X79paEPyOY-thumb.webp",
+        "width": 1205,
+        "height": 678,
+        "source_id": "18H7itar_UaXaSKgUhznP58X79paEPyOY",
+        "source_path": "Client/02-Landscape & Public Realm/Aftalkout Rock/slide19_image50.jpg",
+        "source_dimensions": [
+          1205,
+          678
+        ],
+        "source_url": "https://drive.google.com/file/d/18H7itar_UaXaSKgUhznP58X79paEPyOY/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=18H7itar_UaXaSKgUhznP58X79paEPyOY&sz=w2200",
+        "sha256": "5fdffceefc3c95e6006af58a5371e91c593075d31a2325d2c9401c1ad4fc1337",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/aftalkout-rock/1LZww_9jhTovU-Y-HUk4v8AyF5iMIXfSW.webp",
+        "mobile": "assets/media/project-gallery/aftalkout-rock/1LZww_9jhTovU-Y-HUk4v8AyF5iMIXfSW-mobile.webp",
+        "thumb": "assets/media/project-gallery/aftalkout-rock/1LZww_9jhTovU-Y-HUk4v8AyF5iMIXfSW-thumb.webp",
+        "width": 1203,
+        "height": 677,
+        "source_id": "1LZww_9jhTovU-Y-HUk4v8AyF5iMIXfSW",
+        "source_path": "Client/02-Landscape & Public Realm/Aftalkout Rock/slide19_image52.jpg",
+        "source_dimensions": [
+          1203,
+          677
+        ],
+        "source_url": "https://drive.google.com/file/d/1LZww_9jhTovU-Y-HUk4v8AyF5iMIXfSW/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1LZww_9jhTovU-Y-HUk4v8AyF5iMIXfSW&sz=w2200",
+        "sha256": "e8feb164158d0069f67056519e313c49a216703abfc64cfb26d669116db82fdc",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/aftalkout-rock/16cO90y4SbbfYxMTaGRQBDsBYh0EEg-9O.webp",
+        "mobile": "assets/media/project-gallery/aftalkout-rock/16cO90y4SbbfYxMTaGRQBDsBYh0EEg-9O-mobile.webp",
+        "thumb": "assets/media/project-gallery/aftalkout-rock/16cO90y4SbbfYxMTaGRQBDsBYh0EEg-9O-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "16cO90y4SbbfYxMTaGRQBDsBYh0EEg-9O",
+        "source_path": "Client/02-Landscape & Public Realm/Aftalkout Rock/slide19_image53.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/16cO90y4SbbfYxMTaGRQBDsBYh0EEg-9O/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=16cO90y4SbbfYxMTaGRQBDsBYh0EEg-9O&sz=w2200",
+        "sha256": "df71bd7e001d89bc8340175b457f0348132771b448d9c89b08fc75cf56767522",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/aftalkout-rock/1qeapVzFFNUYcEwI_f51-WXAm7bNuYTPt.webp",
+        "mobile": "assets/media/project-gallery/aftalkout-rock/1qeapVzFFNUYcEwI_f51-WXAm7bNuYTPt-mobile.webp",
+        "thumb": "assets/media/project-gallery/aftalkout-rock/1qeapVzFFNUYcEwI_f51-WXAm7bNuYTPt-thumb.webp",
+        "width": 1200,
+        "height": 675,
+        "source_id": "1qeapVzFFNUYcEwI_f51-WXAm7bNuYTPt",
+        "source_path": "Client/02-Landscape & Public Realm/Aftalkout Rock/slide20_image55.jpg",
+        "source_dimensions": [
+          1200,
+          675
+        ],
+        "source_url": "https://drive.google.com/file/d/1qeapVzFFNUYcEwI_f51-WXAm7bNuYTPt/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1qeapVzFFNUYcEwI_f51-WXAm7bNuYTPt&sz=w2200",
+        "sha256": "0cb20d554cea792a65336ef8df0a77278f1aca8925c8c67047b6a04ecce06d35",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "aftalkout-viewpoint": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/aftalkout-viewpoint/16Ri4F03qOnVp5LPCDODNm47airEJG1El.webp",
+        "mobile": "assets/media/project-gallery/aftalkout-viewpoint/16Ri4F03qOnVp5LPCDODNm47airEJG1El-mobile.webp",
+        "thumb": "assets/media/project-gallery/aftalkout-viewpoint/16Ri4F03qOnVp5LPCDODNm47airEJG1El-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "16Ri4F03qOnVp5LPCDODNm47airEJG1El",
+        "source_path": "Client/02-Landscape & Public Realm/Aftalkout Viewpoint/slide15_image40.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/16Ri4F03qOnVp5LPCDODNm47airEJG1El/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=16Ri4F03qOnVp5LPCDODNm47airEJG1El&sz=w2200",
+        "sha256": "c406867847e86199e4cc1269dfe66e2a118b1a2047f173ef01d8384a4a0126e4",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/aftalkout-viewpoint/1x-DgaHqO0ziWH-WypIsJidRiPK8UjETb.webp",
+        "mobile": "assets/media/project-gallery/aftalkout-viewpoint/1x-DgaHqO0ziWH-WypIsJidRiPK8UjETb-mobile.webp",
+        "thumb": "assets/media/project-gallery/aftalkout-viewpoint/1x-DgaHqO0ziWH-WypIsJidRiPK8UjETb-thumb.webp",
+        "width": 1202,
+        "height": 676,
+        "source_id": "1x-DgaHqO0ziWH-WypIsJidRiPK8UjETb",
+        "source_path": "Client/02-Landscape & Public Realm/Aftalkout Viewpoint/slide16_image42.jpg",
+        "source_dimensions": [
+          1202,
+          676
+        ],
+        "source_url": "https://drive.google.com/file/d/1x-DgaHqO0ziWH-WypIsJidRiPK8UjETb/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1x-DgaHqO0ziWH-WypIsJidRiPK8UjETb&sz=w2200",
+        "sha256": "b497445e95b8ac812dae28a3c8e00893ef444d6473830202197ec85af3078301",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/aftalkout-viewpoint/1hqigdk2SniK_nLGqhuTmOYpOW8T4pMCm.webp",
+        "mobile": "assets/media/project-gallery/aftalkout-viewpoint/1hqigdk2SniK_nLGqhuTmOYpOW8T4pMCm-mobile.webp",
+        "thumb": "assets/media/project-gallery/aftalkout-viewpoint/1hqigdk2SniK_nLGqhuTmOYpOW8T4pMCm-thumb.webp",
+        "width": 1205,
+        "height": 678,
+        "source_id": "1hqigdk2SniK_nLGqhuTmOYpOW8T4pMCm",
+        "source_path": "Client/02-Landscape & Public Realm/Aftalkout Viewpoint/slide17_image45.jpg",
+        "source_dimensions": [
+          1205,
+          678
+        ],
+        "source_url": "https://drive.google.com/file/d/1hqigdk2SniK_nLGqhuTmOYpOW8T4pMCm/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1hqigdk2SniK_nLGqhuTmOYpOW8T4pMCm&sz=w2200",
+        "sha256": "1049e18958e16fb65219bebccc377bc9a4bdc523a09f773b4f19f5a7df2a3383",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/aftalkout-viewpoint/1EzMzR8CIe2Te568BbRHd1CES3-92w_ZW.webp",
+        "mobile": "assets/media/project-gallery/aftalkout-viewpoint/1EzMzR8CIe2Te568BbRHd1CES3-92w_ZW-mobile.webp",
+        "thumb": "assets/media/project-gallery/aftalkout-viewpoint/1EzMzR8CIe2Te568BbRHd1CES3-92w_ZW-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1EzMzR8CIe2Te568BbRHd1CES3-92w_ZW",
+        "source_path": "Client/02-Landscape & Public Realm/Aftalkout Viewpoint/slide17_image48.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1EzMzR8CIe2Te568BbRHd1CES3-92w_ZW/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1EzMzR8CIe2Te568BbRHd1CES3-92w_ZW&sz=w2200",
+        "sha256": "733eb0a7594259b898e605125def4fada4a8c890301228ccb74e5b7922c76ba6",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "al-dahareez-beach": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dahareez-beach/1EnmEZ_mOkyQ5gEcX_QcRsrcjTSnRZmGF.webp",
+        "mobile": "assets/media/project-gallery/al-dahareez-beach/1EnmEZ_mOkyQ5gEcX_QcRsrcjTSnRZmGF-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dahareez-beach/1EnmEZ_mOkyQ5gEcX_QcRsrcjTSnRZmGF-thumb.webp",
+        "width": 1080,
+        "height": 607,
+        "source_id": "1EnmEZ_mOkyQ5gEcX_QcRsrcjTSnRZmGF",
+        "source_path": "Client/03-Coastal & Marine/Al Dahareez Beach/slide22_image61.jpg",
+        "source_dimensions": [
+          1080,
+          607
+        ],
+        "source_url": "https://drive.google.com/file/d/1EnmEZ_mOkyQ5gEcX_QcRsrcjTSnRZmGF/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1EnmEZ_mOkyQ5gEcX_QcRsrcjTSnRZmGF&sz=w2200",
+        "sha256": "53ce1e9dcd8b3e716cd26e5947e768f6ade32fd919ac996dee94fd5d6e3f688b",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dahareez-beach/1eSYt_SM8eDEC6JEDIWDvgnbTLjjT_Mmr.webp",
+        "mobile": "assets/media/project-gallery/al-dahareez-beach/1eSYt_SM8eDEC6JEDIWDvgnbTLjjT_Mmr-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dahareez-beach/1eSYt_SM8eDEC6JEDIWDvgnbTLjjT_Mmr-thumb.webp",
+        "width": 1080,
+        "height": 607,
+        "source_id": "1eSYt_SM8eDEC6JEDIWDvgnbTLjjT_Mmr",
+        "source_path": "Client/03-Coastal & Marine/Al Dahareez Beach/slide23_image63.jpg",
+        "source_dimensions": [
+          1080,
+          607
+        ],
+        "source_url": "https://drive.google.com/file/d/1eSYt_SM8eDEC6JEDIWDvgnbTLjjT_Mmr/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1eSYt_SM8eDEC6JEDIWDvgnbTLjjT_Mmr&sz=w2200",
+        "sha256": "edcbb27b04793c3617ac7e0381e52475c01041b09a03a6dec3eb6656ca8b73f6",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dahareez-beach/1b3HQrYblMnf0-xKffRe_QoccCazw4OzJ.webp",
+        "mobile": "assets/media/project-gallery/al-dahareez-beach/1b3HQrYblMnf0-xKffRe_QoccCazw4OzJ-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dahareez-beach/1b3HQrYblMnf0-xKffRe_QoccCazw4OzJ-thumb.webp",
+        "width": 1080,
+        "height": 607,
+        "source_id": "1b3HQrYblMnf0-xKffRe_QoccCazw4OzJ",
+        "source_path": "Client/03-Coastal & Marine/Al Dahareez Beach/slide24_image66.jpg",
+        "source_dimensions": [
+          1080,
+          607
+        ],
+        "source_url": "https://drive.google.com/file/d/1b3HQrYblMnf0-xKffRe_QoccCazw4OzJ/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1b3HQrYblMnf0-xKffRe_QoccCazw4OzJ&sz=w2200",
+        "sha256": "4e4992e846e1f7c984c016d3b8ea23c1404921eb814f6126f7759b45301feab1",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dahareez-beach/1-gEhGnx2zbpXqU2nBK08yRPi5gXPbcMy.webp",
+        "mobile": "assets/media/project-gallery/al-dahareez-beach/1-gEhGnx2zbpXqU2nBK08yRPi5gXPbcMy-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dahareez-beach/1-gEhGnx2zbpXqU2nBK08yRPi5gXPbcMy-thumb.webp",
+        "width": 1080,
+        "height": 607,
+        "source_id": "1-gEhGnx2zbpXqU2nBK08yRPi5gXPbcMy",
+        "source_path": "Client/03-Coastal & Marine/Al Dahareez Beach/slide24_image68.jpg",
+        "source_dimensions": [
+          1080,
+          607
+        ],
+        "source_url": "https://drive.google.com/file/d/1-gEhGnx2zbpXqU2nBK08yRPi5gXPbcMy/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1-gEhGnx2zbpXqU2nBK08yRPi5gXPbcMy&sz=w2200",
+        "sha256": "e90be3d5234a3aa8e5c806d6abc98214badb6ac6cff3d0cc3042f402d4805b89",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "awqad-beach": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/awqad-beach/1pHk7M5Li1myXRd2113lo1d9dxoG3jy9c.webp",
+        "mobile": "assets/media/project-gallery/awqad-beach/1pHk7M5Li1myXRd2113lo1d9dxoG3jy9c-mobile.webp",
+        "thumb": "assets/media/project-gallery/awqad-beach/1pHk7M5Li1myXRd2113lo1d9dxoG3jy9c-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1pHk7M5Li1myXRd2113lo1d9dxoG3jy9c",
+        "source_path": "Client/03-Coastal & Marine/Awqad/FINAL_12 - Photo.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1pHk7M5Li1myXRd2113lo1d9dxoG3jy9c/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1pHk7M5Li1myXRd2113lo1d9dxoG3jy9c&sz=w2200",
+        "sha256": "0ad7317f9ec68e54fa61d165a5ef99ffed93677e56c0fb75ff8484a4aef84320",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/awqad-beach/1jaq-OjC7gzWUi4KJmSrZOdae7PG0_Z9F.webp",
+        "mobile": "assets/media/project-gallery/awqad-beach/1jaq-OjC7gzWUi4KJmSrZOdae7PG0_Z9F-mobile.webp",
+        "thumb": "assets/media/project-gallery/awqad-beach/1jaq-OjC7gzWUi4KJmSrZOdae7PG0_Z9F-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1jaq-OjC7gzWUi4KJmSrZOdae7PG0_Z9F",
+        "source_path": "Client/03-Coastal & Marine/Awqad/FINAL_19 - Photo.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1jaq-OjC7gzWUi4KJmSrZOdae7PG0_Z9F/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1jaq-OjC7gzWUi4KJmSrZOdae7PG0_Z9F&sz=w2200",
+        "sha256": "20cd5b07ef1af8abb727413513ec7c89a6b9204de8652a729fc481cd4a8bebdf",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/awqad-beach/1nX49kVw1yoLDZcMwFKch6F-5GupLy7s3.webp",
+        "mobile": "assets/media/project-gallery/awqad-beach/1nX49kVw1yoLDZcMwFKch6F-5GupLy7s3-mobile.webp",
+        "thumb": "assets/media/project-gallery/awqad-beach/1nX49kVw1yoLDZcMwFKch6F-5GupLy7s3-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1nX49kVw1yoLDZcMwFKch6F-5GupLy7s3",
+        "source_path": "Client/03-Coastal & Marine/Awqad/FINAL_25 - Photo.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1nX49kVw1yoLDZcMwFKch6F-5GupLy7s3/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1nX49kVw1yoLDZcMwFKch6F-5GupLy7s3&sz=w2200",
+        "sha256": "d1fdb393b10daa20e708c46402c97ef050142a779f64cb11333568e97126567e",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/awqad-beach/1fHn3s49VwJAOAlmAconLccN9-EygLuu8.webp",
+        "mobile": "assets/media/project-gallery/awqad-beach/1fHn3s49VwJAOAlmAconLccN9-EygLuu8-mobile.webp",
+        "thumb": "assets/media/project-gallery/awqad-beach/1fHn3s49VwJAOAlmAconLccN9-EygLuu8-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1fHn3s49VwJAOAlmAconLccN9-EygLuu8",
+        "source_path": "Client/03-Coastal & Marine/Awqad/FINAL_31 - Photo.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1fHn3s49VwJAOAlmAconLccN9-EygLuu8/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1fHn3s49VwJAOAlmAconLccN9-EygLuu8&sz=w2200",
+        "sha256": "21e138d94a57b00dd1fbcb49a1d017dfc6db66a69d16515c99d2aeebaed707c2",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/awqad-beach/1Zm1xuEulNSR3mnI14ppgx8tV9b9GKMZW.webp",
+        "mobile": "assets/media/project-gallery/awqad-beach/1Zm1xuEulNSR3mnI14ppgx8tV9b9GKMZW-mobile.webp",
+        "thumb": "assets/media/project-gallery/awqad-beach/1Zm1xuEulNSR3mnI14ppgx8tV9b9GKMZW-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1Zm1xuEulNSR3mnI14ppgx8tV9b9GKMZW",
+        "source_path": "Client/03-Coastal & Marine/Awqad/FINAL_41 - Photo.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1Zm1xuEulNSR3mnI14ppgx8tV9b9GKMZW/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1Zm1xuEulNSR3mnI14ppgx8tV9b9GKMZW&sz=w2200",
+        "sha256": "9d8518620ef969258179294fcb91525c408d8613b1fd954ef9bc23dfded1c57d",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "barkaa": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/barkaa/1GAXheF0hsGj2SkXBAwfKTiJPFR6SQ01t.webp",
+        "mobile": "assets/media/project-gallery/barkaa/1GAXheF0hsGj2SkXBAwfKTiJPFR6SQ01t-mobile.webp",
+        "thumb": "assets/media/project-gallery/barkaa/1GAXheF0hsGj2SkXBAwfKTiJPFR6SQ01t-thumb.webp",
+        "width": 2200,
+        "height": 1235,
+        "source_id": "1GAXheF0hsGj2SkXBAwfKTiJPFR6SQ01t",
+        "source_path": "Client/03-Coastal & Marine/Barkaa/slide01_image2.jpg",
+        "source_dimensions": [
+          2200,
+          1235
+        ],
+        "source_url": "https://drive.google.com/file/d/1GAXheF0hsGj2SkXBAwfKTiJPFR6SQ01t/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1GAXheF0hsGj2SkXBAwfKTiJPFR6SQ01t&sz=w2200",
+        "sha256": "a3a9e750061a249a968bae7d2c091b7241b395b8b2881549559d3fc0085bc1e4",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/barkaa/1wUEe2zr2zAV8D98rFqyDzikeEVfAYR8T.webp",
+        "mobile": "assets/media/project-gallery/barkaa/1wUEe2zr2zAV8D98rFqyDzikeEVfAYR8T-mobile.webp",
+        "thumb": "assets/media/project-gallery/barkaa/1wUEe2zr2zAV8D98rFqyDzikeEVfAYR8T-thumb.webp",
+        "width": 1201,
+        "height": 674,
+        "source_id": "1wUEe2zr2zAV8D98rFqyDzikeEVfAYR8T",
+        "source_path": "Client/03-Coastal & Marine/Barkaa/slide02_image4.jpg",
+        "source_dimensions": [
+          1201,
+          674
+        ],
+        "source_url": "https://drive.google.com/file/d/1wUEe2zr2zAV8D98rFqyDzikeEVfAYR8T/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1wUEe2zr2zAV8D98rFqyDzikeEVfAYR8T&sz=w2200",
+        "sha256": "1249aff1845e10aa7a0bebc24331fb9ab62c3c23c1c56a7c04e14c5c9217e5a5",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/barkaa/1mn3LVJYf_DkYc0aYQqoQVTd6YGbwvNuO.webp",
+        "mobile": "assets/media/project-gallery/barkaa/1mn3LVJYf_DkYc0aYQqoQVTd6YGbwvNuO-mobile.webp",
+        "thumb": "assets/media/project-gallery/barkaa/1mn3LVJYf_DkYc0aYQqoQVTd6YGbwvNuO-thumb.webp",
+        "width": 1199,
+        "height": 673,
+        "source_id": "1mn3LVJYf_DkYc0aYQqoQVTd6YGbwvNuO",
+        "source_path": "Client/03-Coastal & Marine/Barkaa/slide02_image6.jpg",
+        "source_dimensions": [
+          1199,
+          673
+        ],
+        "source_url": "https://drive.google.com/file/d/1mn3LVJYf_DkYc0aYQqoQVTd6YGbwvNuO/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1mn3LVJYf_DkYc0aYQqoQVTd6YGbwvNuO&sz=w2200",
+        "sha256": "097cf9e9c07e666dfc1e1351fbac8c4bc80c6782bd7da39f1542cba79218f825",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/barkaa/1GlrfD70XFukxkJW3uHspcoxDj1_FsLF-.webp",
+        "mobile": "assets/media/project-gallery/barkaa/1GlrfD70XFukxkJW3uHspcoxDj1_FsLF--mobile.webp",
+        "thumb": "assets/media/project-gallery/barkaa/1GlrfD70XFukxkJW3uHspcoxDj1_FsLF--thumb.webp",
+        "width": 1201,
+        "height": 674,
+        "source_id": "1GlrfD70XFukxkJW3uHspcoxDj1_FsLF-",
+        "source_path": "Client/03-Coastal & Marine/Barkaa/slide02_image7.jpg",
+        "source_dimensions": [
+          1201,
+          674
+        ],
+        "source_url": "https://drive.google.com/file/d/1GlrfD70XFukxkJW3uHspcoxDj1_FsLF-/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1GlrfD70XFukxkJW3uHspcoxDj1_FsLF-&sz=w2200",
+        "sha256": "565955acf79962bc0298e470437a3bf54ea30e621b71cdafa74228058062fbaa",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/barkaa/17GNwtFlF-T-oFw0oErLBCiok2v9_XmlL.webp",
+        "mobile": "assets/media/project-gallery/barkaa/17GNwtFlF-T-oFw0oErLBCiok2v9_XmlL-mobile.webp",
+        "thumb": "assets/media/project-gallery/barkaa/17GNwtFlF-T-oFw0oErLBCiok2v9_XmlL-thumb.webp",
+        "width": 1199,
+        "height": 673,
+        "source_id": "17GNwtFlF-T-oFw0oErLBCiok2v9_XmlL",
+        "source_path": "Client/03-Coastal & Marine/Barkaa/slide03_image11.jpg",
+        "source_dimensions": [
+          1199,
+          673
+        ],
+        "source_url": "https://drive.google.com/file/d/17GNwtFlF-T-oFw0oErLBCiok2v9_XmlL/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=17GNwtFlF-T-oFw0oErLBCiok2v9_XmlL&sz=w2200",
+        "sha256": "6a0bfa59d678e98b69abf63407be23275f5127aee6ff654f74addb8eb2211a38",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "coastal-erosion": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/coastal-erosion/1-5ZyQTD2OBHveIAXpc_mRserRQfKdnyG.webp",
+        "mobile": "assets/media/project-gallery/coastal-erosion/1-5ZyQTD2OBHveIAXpc_mRserRQfKdnyG-mobile.webp",
+        "thumb": "assets/media/project-gallery/coastal-erosion/1-5ZyQTD2OBHveIAXpc_mRserRQfKdnyG-thumb.webp",
+        "width": 815,
+        "height": 834,
+        "source_id": "1-5ZyQTD2OBHveIAXpc_mRserRQfKdnyG",
+        "source_path": "Client/03-Coastal & Marine/Costal Erosion/4.jpg",
+        "source_dimensions": [
+          815,
+          834
+        ],
+        "source_url": "https://drive.google.com/file/d/1-5ZyQTD2OBHveIAXpc_mRserRQfKdnyG/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1-5ZyQTD2OBHveIAXpc_mRserRQfKdnyG&sz=w2200",
+        "sha256": "aa92953bbc834df0ee04513979b901c8cca62acef47126104b3de50c4f15889d",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/coastal-erosion/1FJr8V1W0qjU4JsnB36DGreLsG087v4Zr.webp",
+        "mobile": "assets/media/project-gallery/coastal-erosion/1FJr8V1W0qjU4JsnB36DGreLsG087v4Zr-mobile.webp",
+        "thumb": "assets/media/project-gallery/coastal-erosion/1FJr8V1W0qjU4JsnB36DGreLsG087v4Zr-thumb.webp",
+        "width": 2200,
+        "height": 1361,
+        "source_id": "1FJr8V1W0qjU4JsnB36DGreLsG087v4Zr",
+        "source_path": "Client/03-Coastal & Marine/Costal Erosion/slide05_image16.jpg",
+        "source_dimensions": [
+          2200,
+          1361
+        ],
+        "source_url": "https://drive.google.com/file/d/1FJr8V1W0qjU4JsnB36DGreLsG087v4Zr/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1FJr8V1W0qjU4JsnB36DGreLsG087v4Zr&sz=w2200",
+        "sha256": "142c419a6858048e327df79ad80f600fb316b51ef8cc4a40deb81699d0979567",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/coastal-erosion/1PXOnzPiESmH72rHS3UuYWze1pt2FYFGj.webp",
+        "mobile": "assets/media/project-gallery/coastal-erosion/1PXOnzPiESmH72rHS3UuYWze1pt2FYFGj-mobile.webp",
+        "thumb": "assets/media/project-gallery/coastal-erosion/1PXOnzPiESmH72rHS3UuYWze1pt2FYFGj-thumb.webp",
+        "width": 1800,
+        "height": 1268,
+        "source_id": "1PXOnzPiESmH72rHS3UuYWze1pt2FYFGj",
+        "source_path": "Client/03-Coastal & Marine/Costal Erosion/2.jpg",
+        "source_dimensions": [
+          1800,
+          1268
+        ],
+        "source_url": "https://drive.google.com/file/d/1PXOnzPiESmH72rHS3UuYWze1pt2FYFGj/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1PXOnzPiESmH72rHS3UuYWze1pt2FYFGj&sz=w2200",
+        "sha256": "2368abcddad42f824a2a9365f7c6b6ea1f22090f674cb8a98fa915ba1933d8f5",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "fic": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/fic/1tU3AfzMrEcthVjvKQsSsx389OV3RO0sr.webp",
+        "mobile": "assets/media/project-gallery/fic/1tU3AfzMrEcthVjvKQsSsx389OV3RO0sr-mobile.webp",
+        "thumb": "assets/media/project-gallery/fic/1tU3AfzMrEcthVjvKQsSsx389OV3RO0sr-thumb.webp",
+        "width": 1672,
+        "height": 941,
+        "source_id": "1tU3AfzMrEcthVjvKQsSsx389OV3RO0sr",
+        "source_path": "Client/03-Coastal & Marine/FIC/المخازن.png",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "source_url": "https://drive.google.com/file/d/1tU3AfzMrEcthVjvKQsSsx389OV3RO0sr/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1tU3AfzMrEcthVjvKQsSsx389OV3RO0sr&sz=w2200",
+        "sha256": "bead7d55ac728fa09a32d6840b80369ef3f76dd32938fb2fa4e0d046c53a2f6f",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/fic/1WL6fx6tw563JWTKBVl6uerfiCo4maQxW.webp",
+        "mobile": "assets/media/project-gallery/fic/1WL6fx6tw563JWTKBVl6uerfiCo4maQxW-mobile.webp",
+        "thumb": "assets/media/project-gallery/fic/1WL6fx6tw563JWTKBVl6uerfiCo4maQxW-thumb.webp",
+        "width": 1659,
+        "height": 948,
+        "source_id": "1WL6fx6tw563JWTKBVl6uerfiCo4maQxW",
+        "source_path": "Client/03-Coastal & Marine/FIC/سكن موظفين وعمال.png",
+        "source_dimensions": [
+          1659,
+          948
+        ],
+        "source_url": "https://drive.google.com/file/d/1WL6fx6tw563JWTKBVl6uerfiCo4maQxW/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1WL6fx6tw563JWTKBVl6uerfiCo4maQxW&sz=w2200",
+        "sha256": "36357017143cf49e2fa7ab56621e4434bf31560af78d6d426c29a520200f1745",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/fic/1RIkM-zqMRipS2ixsjAQx9g8p8SiCbVx6.webp",
+        "mobile": "assets/media/project-gallery/fic/1RIkM-zqMRipS2ixsjAQx9g8p8SiCbVx6-mobile.webp",
+        "thumb": "assets/media/project-gallery/fic/1RIkM-zqMRipS2ixsjAQx9g8p8SiCbVx6-thumb.webp",
+        "width": 1672,
+        "height": 941,
+        "source_id": "1RIkM-zqMRipS2ixsjAQx9g8p8SiCbVx6",
+        "source_path": "Client/03-Coastal & Marine/FIC/صيانة السفن.png",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "source_url": "https://drive.google.com/file/d/1RIkM-zqMRipS2ixsjAQx9g8p8SiCbVx6/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1RIkM-zqMRipS2ixsjAQx9g8p8SiCbVx6&sz=w2200",
+        "sha256": "4be0ba795479623728c8a51cff03c1c44f611ef3120aa97ff952135c578b8443",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/fic/12Yh0jFPs_Pcr4UqxmXNI1oUDjTcFVjtW.webp",
+        "mobile": "assets/media/project-gallery/fic/12Yh0jFPs_Pcr4UqxmXNI1oUDjTcFVjtW-mobile.webp",
+        "thumb": "assets/media/project-gallery/fic/12Yh0jFPs_Pcr4UqxmXNI1oUDjTcFVjtW-thumb.webp",
+        "width": 1672,
+        "height": 941,
+        "source_id": "12Yh0jFPs_Pcr4UqxmXNI1oUDjTcFVjtW",
+        "source_path": "Client/03-Coastal & Marine/FIC/مركز اداري.png",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "source_url": "https://drive.google.com/file/d/12Yh0jFPs_Pcr4UqxmXNI1oUDjTcFVjtW/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=12Yh0jFPs_Pcr4UqxmXNI1oUDjTcFVjtW&sz=w2200",
+        "sha256": "74870b2cf350f65144bcd0ad3c4fd450b6b120a4ffb79c255a69ff909306298e",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "octagon-beach": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/octagon-beach/1vcDodDk4rQUoVFOvzHCtfKToTMlNnEaq.webp",
+        "mobile": "assets/media/project-gallery/octagon-beach/1vcDodDk4rQUoVFOvzHCtfKToTMlNnEaq-mobile.webp",
+        "thumb": "assets/media/project-gallery/octagon-beach/1vcDodDk4rQUoVFOvzHCtfKToTMlNnEaq-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1vcDodDk4rQUoVFOvzHCtfKToTMlNnEaq",
+        "source_path": "Client/03-Coastal & Marine/Octagon Beach Walkway/slide29_image80.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1vcDodDk4rQUoVFOvzHCtfKToTMlNnEaq/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1vcDodDk4rQUoVFOvzHCtfKToTMlNnEaq&sz=w2200",
+        "sha256": "f8c22faa5c981b65643aeb2bdb0404a0757018c681f6a881c82e623da57ea680",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/octagon-beach/1REpiHx80sbWAkqqVKfYCR96YdguAB0ns.webp",
+        "mobile": "assets/media/project-gallery/octagon-beach/1REpiHx80sbWAkqqVKfYCR96YdguAB0ns-mobile.webp",
+        "thumb": "assets/media/project-gallery/octagon-beach/1REpiHx80sbWAkqqVKfYCR96YdguAB0ns-thumb.webp",
+        "width": 1202,
+        "height": 676,
+        "source_id": "1REpiHx80sbWAkqqVKfYCR96YdguAB0ns",
+        "source_path": "Client/03-Coastal & Marine/Octagon Beach Walkway/slide30_image82.jpg",
+        "source_dimensions": [
+          1202,
+          676
+        ],
+        "source_url": "https://drive.google.com/file/d/1REpiHx80sbWAkqqVKfYCR96YdguAB0ns/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1REpiHx80sbWAkqqVKfYCR96YdguAB0ns&sz=w2200",
+        "sha256": "cc6f2d4634a8d36c83ff6999a13de381ad062f39339b25006c0c08365e063f43",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/octagon-beach/1JPaeiRLBV3ocuGkN-rf_Unk2xLhw9nxr.webp",
+        "mobile": "assets/media/project-gallery/octagon-beach/1JPaeiRLBV3ocuGkN-rf_Unk2xLhw9nxr-mobile.webp",
+        "thumb": "assets/media/project-gallery/octagon-beach/1JPaeiRLBV3ocuGkN-rf_Unk2xLhw9nxr-thumb.webp",
+        "width": 1200,
+        "height": 675,
+        "source_id": "1JPaeiRLBV3ocuGkN-rf_Unk2xLhw9nxr",
+        "source_path": "Client/03-Coastal & Marine/Octagon Beach Walkway/slide31_image86.jpg",
+        "source_dimensions": [
+          1200,
+          675
+        ],
+        "source_url": "https://drive.google.com/file/d/1JPaeiRLBV3ocuGkN-rf_Unk2xLhw9nxr/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1JPaeiRLBV3ocuGkN-rf_Unk2xLhw9nxr&sz=w2200",
+        "sha256": "20e9392bb587cdf815262adb6b7d17789fae53b4105293e19e67b7adee8dce19",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/octagon-beach/1EyXRS0bqEFWKEkdnzSaG-ckpht0hC0aa.webp",
+        "mobile": "assets/media/project-gallery/octagon-beach/1EyXRS0bqEFWKEkdnzSaG-ckpht0hC0aa-mobile.webp",
+        "thumb": "assets/media/project-gallery/octagon-beach/1EyXRS0bqEFWKEkdnzSaG-ckpht0hC0aa-thumb.webp",
+        "width": 1200,
+        "height": 675,
+        "source_id": "1EyXRS0bqEFWKEkdnzSaG-ckpht0hC0aa",
+        "source_path": "Client/03-Coastal & Marine/Octagon Beach Walkway/slide31_image87.jpg",
+        "source_dimensions": [
+          1200,
+          675
+        ],
+        "source_url": "https://drive.google.com/file/d/1EyXRS0bqEFWKEkdnzSaG-ckpht0hC0aa/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1EyXRS0bqEFWKEkdnzSaG-ckpht0hC0aa&sz=w2200",
+        "sha256": "99e7342e8620829746ea02fbeb4a440864d4372141a98b06e66d057f19480fec",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "taqa-beach": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/taqa-beach/1FXIheuxoxDObvpsFvOzxRkSqekK3brxk.webp",
+        "mobile": "assets/media/project-gallery/taqa-beach/1FXIheuxoxDObvpsFvOzxRkSqekK3brxk-mobile.webp",
+        "thumb": "assets/media/project-gallery/taqa-beach/1FXIheuxoxDObvpsFvOzxRkSqekK3brxk-thumb.webp",
+        "width": 1200,
+        "height": 765,
+        "source_id": "1FXIheuxoxDObvpsFvOzxRkSqekK3brxk",
+        "source_path": "Client/03-Coastal & Marine/Taqa/slide10_image23.jpg",
+        "source_dimensions": [
+          1200,
+          765
+        ],
+        "source_url": "https://drive.google.com/file/d/1FXIheuxoxDObvpsFvOzxRkSqekK3brxk/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1FXIheuxoxDObvpsFvOzxRkSqekK3brxk&sz=w2200",
+        "sha256": "9db9837107a876539f455afd4f543cae12b9ca75786097807bafc6869aa2d052",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/taqa-beach/1lO2oxpHRo1R9wqdzs6EryKMXcj6NONRZ.webp",
+        "mobile": "assets/media/project-gallery/taqa-beach/1lO2oxpHRo1R9wqdzs6EryKMXcj6NONRZ-mobile.webp",
+        "thumb": "assets/media/project-gallery/taqa-beach/1lO2oxpHRo1R9wqdzs6EryKMXcj6NONRZ-thumb.webp",
+        "width": 1202,
+        "height": 676,
+        "source_id": "1lO2oxpHRo1R9wqdzs6EryKMXcj6NONRZ",
+        "source_path": "Client/03-Coastal & Marine/Taqa/slide10_image24.jpg",
+        "source_dimensions": [
+          1202,
+          676
+        ],
+        "source_url": "https://drive.google.com/file/d/1lO2oxpHRo1R9wqdzs6EryKMXcj6NONRZ/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1lO2oxpHRo1R9wqdzs6EryKMXcj6NONRZ&sz=w2200",
+        "sha256": "22dd1738d10d9db759e24df5e7a3e7a2ef616ce3d4649bedd67346f024309e0f",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/taqa-beach/1ANRuMBsdZzPxmWvfrC63-PIIb9YrAyY9.webp",
+        "mobile": "assets/media/project-gallery/taqa-beach/1ANRuMBsdZzPxmWvfrC63-PIIb9YrAyY9-mobile.webp",
+        "thumb": "assets/media/project-gallery/taqa-beach/1ANRuMBsdZzPxmWvfrC63-PIIb9YrAyY9-thumb.webp",
+        "width": 1201,
+        "height": 677,
+        "source_id": "1ANRuMBsdZzPxmWvfrC63-PIIb9YrAyY9",
+        "source_path": "Client/03-Coastal & Marine/Taqa/slide11_image27.jpg",
+        "source_dimensions": [
+          1201,
+          677
+        ],
+        "source_url": "https://drive.google.com/file/d/1ANRuMBsdZzPxmWvfrC63-PIIb9YrAyY9/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1ANRuMBsdZzPxmWvfrC63-PIIb9YrAyY9&sz=w2200",
+        "sha256": "7c43b1cc527fc25e925ea96d6e867f3ab86350063bc44b5ad01c420be259deb2",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/taqa-beach/14sFj_K5LqqybfYzyHGdiXfLAIKEVZFsM.webp",
+        "mobile": "assets/media/project-gallery/taqa-beach/14sFj_K5LqqybfYzyHGdiXfLAIKEVZFsM-mobile.webp",
+        "thumb": "assets/media/project-gallery/taqa-beach/14sFj_K5LqqybfYzyHGdiXfLAIKEVZFsM-thumb.webp",
+        "width": 1204,
+        "height": 834,
+        "source_id": "14sFj_K5LqqybfYzyHGdiXfLAIKEVZFsM",
+        "source_path": "Client/03-Coastal & Marine/Taqa/slide11_image28.jpg",
+        "source_dimensions": [
+          1204,
+          834
+        ],
+        "source_url": "https://drive.google.com/file/d/14sFj_K5LqqybfYzyHGdiXfLAIKEVZFsM/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=14sFj_K5LqqybfYzyHGdiXfLAIKEVZFsM&sz=w2200",
+        "sha256": "323c872340793fd2bdae0bf8c47424f644f6a2602fa85a3b3bc560311d1f7aef",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "alfarouk-street": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/alfarouk-street/1Zp5PpHsIa3MYmZ_PJ6SdwV7y-BzEbz6w.webp",
+        "mobile": "assets/media/project-gallery/alfarouk-street/1Zp5PpHsIa3MYmZ_PJ6SdwV7y-BzEbz6w-mobile.webp",
+        "thumb": "assets/media/project-gallery/alfarouk-street/1Zp5PpHsIa3MYmZ_PJ6SdwV7y-BzEbz6w-thumb.webp",
+        "width": 1536,
+        "height": 1024,
+        "source_id": "1Zp5PpHsIa3MYmZ_PJ6SdwV7y-BzEbz6w",
+        "source_path": "Client/04-Urbanism & Masterplanning/AL Farouk Street/1 (30).png",
+        "source_dimensions": [
+          1536,
+          1024
+        ],
+        "source_url": "https://drive.google.com/file/d/1Zp5PpHsIa3MYmZ_PJ6SdwV7y-BzEbz6w/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1Zp5PpHsIa3MYmZ_PJ6SdwV7y-BzEbz6w&sz=w2200",
+        "sha256": "081df8c2e434b032f1d861ee0668e5978f854e1d70c18337687d3443b12e4650",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/alfarouk-street/1YFfzMQPHEyu1M9IOQg3OD5J4cS37lWsV.webp",
+        "mobile": "assets/media/project-gallery/alfarouk-street/1YFfzMQPHEyu1M9IOQg3OD5J4cS37lWsV-mobile.webp",
+        "thumb": "assets/media/project-gallery/alfarouk-street/1YFfzMQPHEyu1M9IOQg3OD5J4cS37lWsV-thumb.webp",
+        "width": 1024,
+        "height": 1024,
+        "source_id": "1YFfzMQPHEyu1M9IOQg3OD5J4cS37lWsV",
+        "source_path": "Client/04-Urbanism & Masterplanning/AL Farouk Street/1 (32).png",
+        "source_dimensions": [
+          1024,
+          1024
+        ],
+        "source_url": "https://drive.google.com/file/d/1YFfzMQPHEyu1M9IOQg3OD5J4cS37lWsV/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1YFfzMQPHEyu1M9IOQg3OD5J4cS37lWsV&sz=w2200",
+        "sha256": "6d1f5fb46d2e6b9359b032486fec34f246dbf127fb6607f23fbe0be63739d081",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/alfarouk-street/19xQcDLJtSWUrywo9qFFSbModVIsLkMqb.webp",
+        "mobile": "assets/media/project-gallery/alfarouk-street/19xQcDLJtSWUrywo9qFFSbModVIsLkMqb-mobile.webp",
+        "thumb": "assets/media/project-gallery/alfarouk-street/19xQcDLJtSWUrywo9qFFSbModVIsLkMqb-thumb.webp",
+        "width": 1536,
+        "height": 1024,
+        "source_id": "19xQcDLJtSWUrywo9qFFSbModVIsLkMqb",
+        "source_path": "Client/04-Urbanism & Masterplanning/AL Farouk Street/1 (38).png",
+        "source_dimensions": [
+          1536,
+          1024
+        ],
+        "source_url": "https://drive.google.com/file/d/19xQcDLJtSWUrywo9qFFSbModVIsLkMqb/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=19xQcDLJtSWUrywo9qFFSbModVIsLkMqb&sz=w2200",
+        "sha256": "bfcf82343a52cadcd1f6c88bbfe306ec45106df58af3a2e78b109a071402bc62",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/alfarouk-street/1QTZ8i9oybbGw804kITYHbrGq73k-qOzZ.webp",
+        "mobile": "assets/media/project-gallery/alfarouk-street/1QTZ8i9oybbGw804kITYHbrGq73k-qOzZ-mobile.webp",
+        "thumb": "assets/media/project-gallery/alfarouk-street/1QTZ8i9oybbGw804kITYHbrGq73k-qOzZ-thumb.webp",
+        "width": 1206,
+        "height": 679,
+        "source_id": "1QTZ8i9oybbGw804kITYHbrGq73k-qOzZ",
+        "source_path": "Client/04-Urbanism & Masterplanning/AL Farouk Street/slide26_hdphoto10_HD.png",
+        "source_dimensions": [
+          1206,
+          679
+        ],
+        "source_url": "https://drive.google.com/file/d/1QTZ8i9oybbGw804kITYHbrGq73k-qOzZ/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1QTZ8i9oybbGw804kITYHbrGq73k-qOzZ&sz=w2200",
+        "sha256": "3f09ce4f431e3d27cbe3723df78cd78439ac4774bdbf4ddffcc59fb47afff5fe",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/alfarouk-street/1TP7XfxgUrPaMh29NmzbkspecELN1HOl7.webp",
+        "mobile": "assets/media/project-gallery/alfarouk-street/1TP7XfxgUrPaMh29NmzbkspecELN1HOl7-mobile.webp",
+        "thumb": "assets/media/project-gallery/alfarouk-street/1TP7XfxgUrPaMh29NmzbkspecELN1HOl7-thumb.webp",
+        "width": 1203,
+        "height": 677,
+        "source_id": "1TP7XfxgUrPaMh29NmzbkspecELN1HOl7",
+        "source_path": "Client/04-Urbanism & Masterplanning/AL Farouk Street/slide26_image73.jpg",
+        "source_dimensions": [
+          1203,
+          677
+        ],
+        "source_url": "https://drive.google.com/file/d/1TP7XfxgUrPaMh29NmzbkspecELN1HOl7/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1TP7XfxgUrPaMh29NmzbkspecELN1HOl7&sz=w2200",
+        "sha256": "2705bb1f2020ca65b0f594fce0a464de814c6e83ac38b928cc73401d1a9a1505",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "jawad-district": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/jawad-district/1X4ToUWHvtsCStEujbVPqiiMO2aV7ByXr.webp",
+        "mobile": "assets/media/project-gallery/jawad-district/1X4ToUWHvtsCStEujbVPqiiMO2aV7ByXr-mobile.webp",
+        "thumb": "assets/media/project-gallery/jawad-district/1X4ToUWHvtsCStEujbVPqiiMO2aV7ByXr-thumb.webp",
+        "width": 2200,
+        "height": 1228,
+        "source_id": "1X4ToUWHvtsCStEujbVPqiiMO2aV7ByXr",
+        "source_path": "Client/04-Urbanism & Masterplanning/Jawad district/slide01_image1.png",
+        "source_dimensions": [
+          2200,
+          1228
+        ],
+        "source_url": "https://drive.google.com/file/d/1X4ToUWHvtsCStEujbVPqiiMO2aV7ByXr/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1X4ToUWHvtsCStEujbVPqiiMO2aV7ByXr&sz=w2200",
+        "sha256": "556af2840dfeb7ddfacdbe7663d033f20d51f49a9c479a244db0144faffef0fb",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/jawad-district/1z4equE0a0wzdh3ENBbQuhVe2szwfcTa0.webp",
+        "mobile": "assets/media/project-gallery/jawad-district/1z4equE0a0wzdh3ENBbQuhVe2szwfcTa0-mobile.webp",
+        "thumb": "assets/media/project-gallery/jawad-district/1z4equE0a0wzdh3ENBbQuhVe2szwfcTa0-thumb.webp",
+        "width": 2200,
+        "height": 1228,
+        "source_id": "1z4equE0a0wzdh3ENBbQuhVe2szwfcTa0",
+        "source_path": "Client/04-Urbanism & Masterplanning/Jawad district/slide02_image3.jpg",
+        "source_dimensions": [
+          2200,
+          1228
+        ],
+        "source_url": "https://drive.google.com/file/d/1z4equE0a0wzdh3ENBbQuhVe2szwfcTa0/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1z4equE0a0wzdh3ENBbQuhVe2szwfcTa0&sz=w2200",
+        "sha256": "370b70cd0626d353852dcb2498fbc9758d093da448c7e959929a71428ff2b1fa",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/jawad-district/1LcRQFqDXR3-03A22Ngjz1AsayBXspoDV.webp",
+        "mobile": "assets/media/project-gallery/jawad-district/1LcRQFqDXR3-03A22Ngjz1AsayBXspoDV-mobile.webp",
+        "thumb": "assets/media/project-gallery/jawad-district/1LcRQFqDXR3-03A22Ngjz1AsayBXspoDV-thumb.webp",
+        "width": 1138,
+        "height": 635,
+        "source_id": "1LcRQFqDXR3-03A22Ngjz1AsayBXspoDV",
+        "source_path": "Client/04-Urbanism & Masterplanning/Jawad district/slide03_image7.jpg",
+        "source_dimensions": [
+          1138,
+          635
+        ],
+        "source_url": "https://drive.google.com/file/d/1LcRQFqDXR3-03A22Ngjz1AsayBXspoDV/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1LcRQFqDXR3-03A22Ngjz1AsayBXspoDV&sz=w2200",
+        "sha256": "e89626f746d1abb62094b4b2852d27c02fa7ddf7397ded51f774c643b4331f6c",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/jawad-district/17B8wPTDOJBS6q5_uLrfHeTPtnOx_uY5y.webp",
+        "mobile": "assets/media/project-gallery/jawad-district/17B8wPTDOJBS6q5_uLrfHeTPtnOx_uY5y-mobile.webp",
+        "thumb": "assets/media/project-gallery/jawad-district/17B8wPTDOJBS6q5_uLrfHeTPtnOx_uY5y-thumb.webp",
+        "width": 1138,
+        "height": 635,
+        "source_id": "17B8wPTDOJBS6q5_uLrfHeTPtnOx_uY5y",
+        "source_path": "Client/04-Urbanism & Masterplanning/Jawad district/slide03_image8.jpg",
+        "source_dimensions": [
+          1138,
+          635
+        ],
+        "source_url": "https://drive.google.com/file/d/17B8wPTDOJBS6q5_uLrfHeTPtnOx_uY5y/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=17B8wPTDOJBS6q5_uLrfHeTPtnOx_uY5y&sz=w2200",
+        "sha256": "c2d6619adcb9582d64c82bf542a3056ef603b43759b8f105f88567e79c243529",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/jawad-district/1STOP-qd5bIDOYfYwW87m31GADmOfqx4L.webp",
+        "mobile": "assets/media/project-gallery/jawad-district/1STOP-qd5bIDOYfYwW87m31GADmOfqx4L-mobile.webp",
+        "thumb": "assets/media/project-gallery/jawad-district/1STOP-qd5bIDOYfYwW87m31GADmOfqx4L-thumb.webp",
+        "width": 1138,
+        "height": 635,
+        "source_id": "1STOP-qd5bIDOYfYwW87m31GADmOfqx4L",
+        "source_path": "Client/04-Urbanism & Masterplanning/Jawad district/slide03_image9.png",
+        "source_dimensions": [
+          1138,
+          635
+        ],
+        "source_url": "https://drive.google.com/file/d/1STOP-qd5bIDOYfYwW87m31GADmOfqx4L/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1STOP-qd5bIDOYfYwW87m31GADmOfqx4L&sz=w2200",
+        "sha256": "ff13b0a8120f99b3b185d767ae04e8ee7aa85d187751683caa2bbfd7b6ff756b",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "sedra-district": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/sedra-district/1OApwnbCw08JCkHQ4ZsnPKpOTFAHGLeSL.webp",
+        "mobile": "assets/media/project-gallery/sedra-district/1OApwnbCw08JCkHQ4ZsnPKpOTFAHGLeSL-mobile.webp",
+        "thumb": "assets/media/project-gallery/sedra-district/1OApwnbCw08JCkHQ4ZsnPKpOTFAHGLeSL-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1OApwnbCw08JCkHQ4ZsnPKpOTFAHGLeSL",
+        "source_path": "Client/04-Urbanism & Masterplanning/Sedra district/slide07_image15.png",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1OApwnbCw08JCkHQ4ZsnPKpOTFAHGLeSL/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1OApwnbCw08JCkHQ4ZsnPKpOTFAHGLeSL&sz=w2200",
+        "sha256": "3a09e68135c3a4ba3d23415c8503287e81ce0c02949f26d06e31b1d723a1adc1",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/sedra-district/1XesvRKl-9oJeE0qFR8CkuHys__gFtKiB.webp",
+        "mobile": "assets/media/project-gallery/sedra-district/1XesvRKl-9oJeE0qFR8CkuHys__gFtKiB-mobile.webp",
+        "thumb": "assets/media/project-gallery/sedra-district/1XesvRKl-9oJeE0qFR8CkuHys__gFtKiB-thumb.webp",
+        "width": 1205,
+        "height": 678,
+        "source_id": "1XesvRKl-9oJeE0qFR8CkuHys__gFtKiB",
+        "source_path": "Client/04-Urbanism & Masterplanning/Sedra district/slide08_image17.jpg",
+        "source_dimensions": [
+          1205,
+          678
+        ],
+        "source_url": "https://drive.google.com/file/d/1XesvRKl-9oJeE0qFR8CkuHys__gFtKiB/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1XesvRKl-9oJeE0qFR8CkuHys__gFtKiB&sz=w2200",
+        "sha256": "5adb36daea1a0d242ef8257a66f854632da1b9e9fa983719ca39e3426a1384b1",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/sedra-district/1rSNGMjfstQZaUXQ9wfV3PCvlkUkkJurh.webp",
+        "mobile": "assets/media/project-gallery/sedra-district/1rSNGMjfstQZaUXQ9wfV3PCvlkUkkJurh-mobile.webp",
+        "thumb": "assets/media/project-gallery/sedra-district/1rSNGMjfstQZaUXQ9wfV3PCvlkUkkJurh-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1rSNGMjfstQZaUXQ9wfV3PCvlkUkkJurh",
+        "source_path": "Client/04-Urbanism & Masterplanning/Sedra district/slide09_hdphoto3_HD.png",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1rSNGMjfstQZaUXQ9wfV3PCvlkUkkJurh/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1rSNGMjfstQZaUXQ9wfV3PCvlkUkkJurh&sz=w2200",
+        "sha256": "9ada726c70c52d01da2bbe4c7d09d2c97944437a49d87048a7c11336f6b7d4e9",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/sedra-district/1cinyddRj5KyBFZRsUc5Y2eQ8umcS6Pqh.webp",
+        "mobile": "assets/media/project-gallery/sedra-district/1cinyddRj5KyBFZRsUc5Y2eQ8umcS6Pqh-mobile.webp",
+        "thumb": "assets/media/project-gallery/sedra-district/1cinyddRj5KyBFZRsUc5Y2eQ8umcS6Pqh-thumb.webp",
+        "width": 1205,
+        "height": 678,
+        "source_id": "1cinyddRj5KyBFZRsUc5Y2eQ8umcS6Pqh",
+        "source_path": "Client/04-Urbanism & Masterplanning/Sedra district/slide09_hdphoto6_HD.png",
+        "source_dimensions": [
+          1205,
+          678
+        ],
+        "source_url": "https://drive.google.com/file/d/1cinyddRj5KyBFZRsUc5Y2eQ8umcS6Pqh/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1cinyddRj5KyBFZRsUc5Y2eQ8umcS6Pqh&sz=w2200",
+        "sha256": "288c66578d897789759e3a34a2f8b33dc0962b2d04137ef254ed63c5c4add92e",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "tilal-district": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/tilal-district/1SYrlK89kFGLjgroM-IQnecCKFrL6zhzb.webp",
+        "mobile": "assets/media/project-gallery/tilal-district/1SYrlK89kFGLjgroM-IQnecCKFrL6zhzb-mobile.webp",
+        "thumb": "assets/media/project-gallery/tilal-district/1SYrlK89kFGLjgroM-IQnecCKFrL6zhzb-thumb.webp",
+        "width": 1642,
+        "height": 2200,
+        "source_id": "1SYrlK89kFGLjgroM-IQnecCKFrL6zhzb",
+        "source_path": "Client/04-Urbanism & Masterplanning/Tilal District/000 .jpg",
+        "source_dimensions": [
+          1693,
+          2268
+        ],
+        "source_url": "https://drive.google.com/file/d/1SYrlK89kFGLjgroM-IQnecCKFrL6zhzb/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1SYrlK89kFGLjgroM-IQnecCKFrL6zhzb&sz=w2200",
+        "sha256": "de5869eda6bd7e7bebb7e87d2840afe2bb8d453d0adde9753c5af12f944841b2",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/tilal-district/17Wi8gdTGeoZl05RUVu1AGJiGS993Xk8z.webp",
+        "mobile": "assets/media/project-gallery/tilal-district/17Wi8gdTGeoZl05RUVu1AGJiGS993Xk8z-mobile.webp",
+        "thumb": "assets/media/project-gallery/tilal-district/17Wi8gdTGeoZl05RUVu1AGJiGS993Xk8z-thumb.webp",
+        "width": 2200,
+        "height": 1228,
+        "source_id": "17Wi8gdTGeoZl05RUVu1AGJiGS993Xk8z",
+        "source_path": "Client/04-Urbanism & Masterplanning/Tilal District/006.png",
+        "source_dimensions": [
+          2200,
+          1228
+        ],
+        "source_url": "https://drive.google.com/file/d/17Wi8gdTGeoZl05RUVu1AGJiGS993Xk8z/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=17Wi8gdTGeoZl05RUVu1AGJiGS993Xk8z&sz=w2200",
+        "sha256": "6738784e433ced87947838a57bfa978e52dc3d11d60675f852a4f6a0c9f1710e",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/tilal-district/1UXiQ2oow7Jih0cyw-UC8Dd3kBZp8WB8y.webp",
+        "mobile": "assets/media/project-gallery/tilal-district/1UXiQ2oow7Jih0cyw-UC8Dd3kBZp8WB8y-mobile.webp",
+        "thumb": "assets/media/project-gallery/tilal-district/1UXiQ2oow7Jih0cyw-UC8Dd3kBZp8WB8y-thumb.webp",
+        "width": 2200,
+        "height": 1228,
+        "source_id": "1UXiQ2oow7Jih0cyw-UC8Dd3kBZp8WB8y",
+        "source_path": "Client/04-Urbanism & Masterplanning/Tilal District/015.jpeg",
+        "source_dimensions": [
+          2200,
+          1228
+        ],
+        "source_url": "https://drive.google.com/file/d/1UXiQ2oow7Jih0cyw-UC8Dd3kBZp8WB8y/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1UXiQ2oow7Jih0cyw-UC8Dd3kBZp8WB8y&sz=w2200",
+        "sha256": "b6bb5598b1ae9c4d4d4641d079ca021b163cb791ab6af7d939111c18b7c044fd",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/tilal-district/1NX09Eq8ok5QTnP463byFSrpjAIxoOoVJ.webp",
+        "mobile": "assets/media/project-gallery/tilal-district/1NX09Eq8ok5QTnP463byFSrpjAIxoOoVJ-mobile.webp",
+        "thumb": "assets/media/project-gallery/tilal-district/1NX09Eq8ok5QTnP463byFSrpjAIxoOoVJ-thumb.webp",
+        "width": 2200,
+        "height": 1228,
+        "source_id": "1NX09Eq8ok5QTnP463byFSrpjAIxoOoVJ",
+        "source_path": "Client/04-Urbanism & Masterplanning/Tilal District/023.png",
+        "source_dimensions": [
+          2200,
+          1228
+        ],
+        "source_url": "https://drive.google.com/file/d/1NX09Eq8ok5QTnP463byFSrpjAIxoOoVJ/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1NX09Eq8ok5QTnP463byFSrpjAIxoOoVJ&sz=w2200",
+        "sha256": "f67215fbee93358487db8dc4c1e2cee9df50dfacb534088fee9e414f66de8936",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "mrasi-alsaada-2": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/mrasi-alsaada-2/1V0c7fOMFUFnka3704Jc4vzXQSoTgYij6.webp",
+        "mobile": "assets/media/project-gallery/mrasi-alsaada-2/1V0c7fOMFUFnka3704Jc4vzXQSoTgYij6-mobile.webp",
+        "thumb": "assets/media/project-gallery/mrasi-alsaada-2/1V0c7fOMFUFnka3704Jc4vzXQSoTgYij6-thumb.webp",
+        "width": 1758,
+        "height": 2200,
+        "source_id": "1V0c7fOMFUFnka3704Jc4vzXQSoTgYij6",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/02-Commercial building/slide21_image58.jpg",
+        "source_dimensions": [
+          1978,
+          2476
+        ],
+        "source_url": "https://drive.google.com/file/d/1V0c7fOMFUFnka3704Jc4vzXQSoTgYij6/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1V0c7fOMFUFnka3704Jc4vzXQSoTgYij6&sz=w2200",
+        "sha256": "5a058b44563c7fe6f14cc2129b3da93421fecc48bc699ba94b321b9144159dcc",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/mrasi-alsaada-2/1cwKkAXPjJBeT_6xx6mu6r3wLu8ZS9g3p.webp",
+        "mobile": "assets/media/project-gallery/mrasi-alsaada-2/1cwKkAXPjJBeT_6xx6mu6r3wLu8ZS9g3p-mobile.webp",
+        "thumb": "assets/media/project-gallery/mrasi-alsaada-2/1cwKkAXPjJBeT_6xx6mu6r3wLu8ZS9g3p-thumb.webp",
+        "width": 761,
+        "height": 954,
+        "source_id": "1cwKkAXPjJBeT_6xx6mu6r3wLu8ZS9g3p",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/02-Commercial building/slide22_image60.jpg",
+        "source_dimensions": [
+          761,
+          954
+        ],
+        "source_url": "https://drive.google.com/file/d/1cwKkAXPjJBeT_6xx6mu6r3wLu8ZS9g3p/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1cwKkAXPjJBeT_6xx6mu6r3wLu8ZS9g3p&sz=w2200",
+        "sha256": "751cb2b35c3ad7b5bea50aa39d155ed35c3e1e509157eb16402f457f0f8b8cc0",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/mrasi-alsaada-2/1Vs0n56uiJvo1ZRceB7U0TWzEqX4nt_-D.webp",
+        "mobile": "assets/media/project-gallery/mrasi-alsaada-2/1Vs0n56uiJvo1ZRceB7U0TWzEqX4nt_-D-mobile.webp",
+        "thumb": "assets/media/project-gallery/mrasi-alsaada-2/1Vs0n56uiJvo1ZRceB7U0TWzEqX4nt_-D-thumb.webp",
+        "width": 768,
+        "height": 962,
+        "source_id": "1Vs0n56uiJvo1ZRceB7U0TWzEqX4nt_-D",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/02-Commercial building/slide22_image61.jpg",
+        "source_dimensions": [
+          768,
+          962
+        ],
+        "source_url": "https://drive.google.com/file/d/1Vs0n56uiJvo1ZRceB7U0TWzEqX4nt_-D/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1Vs0n56uiJvo1ZRceB7U0TWzEqX4nt_-D&sz=w2200",
+        "sha256": "d8d3b5271c6b73e98e610b48cc69a0385ba87250592486fee0df4038c3054f78",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/mrasi-alsaada-2/1hBC8rvnrRZOYfKiJnupwjHJhNcZJY1vX.webp",
+        "mobile": "assets/media/project-gallery/mrasi-alsaada-2/1hBC8rvnrRZOYfKiJnupwjHJhNcZJY1vX-mobile.webp",
+        "thumb": "assets/media/project-gallery/mrasi-alsaada-2/1hBC8rvnrRZOYfKiJnupwjHJhNcZJY1vX-thumb.webp",
+        "width": 768,
+        "height": 962,
+        "source_id": "1hBC8rvnrRZOYfKiJnupwjHJhNcZJY1vX",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/02-Commercial building/slide22_image62.jpg",
+        "source_dimensions": [
+          768,
+          962
+        ],
+        "source_url": "https://drive.google.com/file/d/1hBC8rvnrRZOYfKiJnupwjHJhNcZJY1vX/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1hBC8rvnrRZOYfKiJnupwjHJhNcZJY1vX&sz=w2200",
+        "sha256": "5baafbd6b0a7523c81727f9a9da7d7da0594164679fae9f71c658c29751c9689",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/mrasi-alsaada-2/1mGoh17dcl-XRJYXeoT2wv3lcM1AuWEI3.webp",
+        "mobile": "assets/media/project-gallery/mrasi-alsaada-2/1mGoh17dcl-XRJYXeoT2wv3lcM1AuWEI3-mobile.webp",
+        "thumb": "assets/media/project-gallery/mrasi-alsaada-2/1mGoh17dcl-XRJYXeoT2wv3lcM1AuWEI3-thumb.webp",
+        "width": 768,
+        "height": 962,
+        "source_id": "1mGoh17dcl-XRJYXeoT2wv3lcM1AuWEI3",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/02-Commercial building/slide22_image63.jpg",
+        "source_dimensions": [
+          768,
+          962
+        ],
+        "source_url": "https://drive.google.com/file/d/1mGoh17dcl-XRJYXeoT2wv3lcM1AuWEI3/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1mGoh17dcl-XRJYXeoT2wv3lcM1AuWEI3&sz=w2200",
+        "sha256": "28e2b85ff960ec5726d92c8fcd23baf0cc724f17ff2a66a42ac788fff586f62c",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "sas-building": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/sas-building/1qtPMArQQ4GZWS1G9KqVb2OT1yruzAw3F.webp",
+        "mobile": "assets/media/project-gallery/sas-building/1qtPMArQQ4GZWS1G9KqVb2OT1yruzAw3F-mobile.webp",
+        "thumb": "assets/media/project-gallery/sas-building/1qtPMArQQ4GZWS1G9KqVb2OT1yruzAw3F-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1qtPMArQQ4GZWS1G9KqVb2OT1yruzAw3F",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/03-Commercial building/ (2).jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1qtPMArQQ4GZWS1G9KqVb2OT1yruzAw3F/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1qtPMArQQ4GZWS1G9KqVb2OT1yruzAw3F&sz=w2200",
+        "sha256": "ef1edda7e022862d83b02451ea3eb683c48c645307b034e41cb4ef61612956de",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/sas-building/11Ldj3YfmlU6rHLIi6Bys8oMIqr3805uS.webp",
+        "mobile": "assets/media/project-gallery/sas-building/11Ldj3YfmlU6rHLIi6Bys8oMIqr3805uS-mobile.webp",
+        "thumb": "assets/media/project-gallery/sas-building/11Ldj3YfmlU6rHLIi6Bys8oMIqr3805uS-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "11Ldj3YfmlU6rHLIi6Bys8oMIqr3805uS",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/03-Commercial building/ (7).jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/11Ldj3YfmlU6rHLIi6Bys8oMIqr3805uS/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=11Ldj3YfmlU6rHLIi6Bys8oMIqr3805uS&sz=w2200",
+        "sha256": "438996563206f05ffc7cb4595098b52f70e8067add6291779e115094c2597240",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/sas-building/1zMzOKtjIqPuL455QWLlXWQDIPIeF1E_S.webp",
+        "mobile": "assets/media/project-gallery/sas-building/1zMzOKtjIqPuL455QWLlXWQDIPIeF1E_S-mobile.webp",
+        "thumb": "assets/media/project-gallery/sas-building/1zMzOKtjIqPuL455QWLlXWQDIPIeF1E_S-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1zMzOKtjIqPuL455QWLlXWQDIPIeF1E_S",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/03-Commercial building/(6).jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1zMzOKtjIqPuL455QWLlXWQDIPIeF1E_S/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1zMzOKtjIqPuL455QWLlXWQDIPIeF1E_S&sz=w2200",
+        "sha256": "a132723d10f392ed019a6c414496ce17185188588d0a1f1e1242952c0f174bf4",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/sas-building/1rP4TomShdho6dU42jSKT8apNBZ2nbsES.webp",
+        "mobile": "assets/media/project-gallery/sas-building/1rP4TomShdho6dU42jSKT8apNBZ2nbsES-mobile.webp",
+        "thumb": "assets/media/project-gallery/sas-building/1rP4TomShdho6dU42jSKT8apNBZ2nbsES-thumb.webp",
+        "width": 1672,
+        "height": 940,
+        "source_id": "1rP4TomShdho6dU42jSKT8apNBZ2nbsES",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/03-Commercial building/(2).png",
+        "source_dimensions": [
+          1672,
+          940
+        ],
+        "source_url": "https://drive.google.com/file/d/1rP4TomShdho6dU42jSKT8apNBZ2nbsES/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1rP4TomShdho6dU42jSKT8apNBZ2nbsES&sz=w2200",
+        "sha256": "d84a69adcb4d525287bd5de581847a6d8c34b51848e4863066a6596271dd60c0",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "al-shorouq": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-shorouq/1kGOTztLKVnwxBGnbCsB_uGdpcFkcgvfo.webp",
+        "mobile": "assets/media/project-gallery/al-shorouq/1kGOTztLKVnwxBGnbCsB_uGdpcFkcgvfo-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-shorouq/1kGOTztLKVnwxBGnbCsB_uGdpcFkcgvfo-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1kGOTztLKVnwxBGnbCsB_uGdpcFkcgvfo",
+        "source_path": "Client/04-Urbanism & Masterplanning/Al Shorouq District/3D/final_3 - Photo.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1kGOTztLKVnwxBGnbCsB_uGdpcFkcgvfo/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1kGOTztLKVnwxBGnbCsB_uGdpcFkcgvfo&sz=w2200",
+        "sha256": "f2295a8b5cfeb237eebaeec4a7d54826bb94d6b6d77ea2ed0097cad53a18090e",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-shorouq/16zrE4SQJtX2VVocpKuMV6ng5lCzg-Nab.webp",
+        "mobile": "assets/media/project-gallery/al-shorouq/16zrE4SQJtX2VVocpKuMV6ng5lCzg-Nab-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-shorouq/16zrE4SQJtX2VVocpKuMV6ng5lCzg-Nab-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "16zrE4SQJtX2VVocpKuMV6ng5lCzg-Nab",
+        "source_path": "Client/04-Urbanism & Masterplanning/Al Shorouq District/3D/fnal_26 - Photo.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/16zrE4SQJtX2VVocpKuMV6ng5lCzg-Nab/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=16zrE4SQJtX2VVocpKuMV6ng5lCzg-Nab&sz=w2200",
+        "sha256": "938a51f098fe6e1de1f64dbca90d4b645bb824cfaa0e503227b2ecbc973fd6ff",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-shorouq/11uRX8ADBIXtPE94Y57k_Kk_vLTiCEUtr.webp",
+        "mobile": "assets/media/project-gallery/al-shorouq/11uRX8ADBIXtPE94Y57k_Kk_vLTiCEUtr-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-shorouq/11uRX8ADBIXtPE94Y57k_Kk_vLTiCEUtr-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "11uRX8ADBIXtPE94Y57k_Kk_vLTiCEUtr",
+        "source_path": "Client/04-Urbanism & Masterplanning/Al Shorouq District/3D/global003.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/11uRX8ADBIXtPE94Y57k_Kk_vLTiCEUtr/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=11uRX8ADBIXtPE94Y57k_Kk_vLTiCEUtr&sz=w2200",
+        "sha256": "8326200256d078e20c112c957b56943995b528e668edc11e877e06ead7ecc4b5",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-shorouq/1JXnabe4PzJS7JskRzFu0LAah1iNfw9_-.webp",
+        "mobile": "assets/media/project-gallery/al-shorouq/1JXnabe4PzJS7JskRzFu0LAah1iNfw9_--mobile.webp",
+        "thumb": "assets/media/project-gallery/al-shorouq/1JXnabe4PzJS7JskRzFu0LAah1iNfw9_--thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1JXnabe4PzJS7JskRzFu0LAah1iNfw9_-",
+        "source_path": "Client/04-Urbanism & Masterplanning/Al Shorouq District/3D/global_42 - Photo.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1JXnabe4PzJS7JskRzFu0LAah1iNfw9_-/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1JXnabe4PzJS7JskRzFu0LAah1iNfw9_-&sz=w2200",
+        "sha256": "f122282669b015a0673b9c9b140b15aef07044147133ab425172cebfd31e6cc2",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "mrasi-alsaada-1": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/mrasi-alsaada-1/1XGYSKuu9WCFacyPI9e7DawclpZGQoEeU.webp",
+        "mobile": "assets/media/project-gallery/mrasi-alsaada-1/1XGYSKuu9WCFacyPI9e7DawclpZGQoEeU-mobile.webp",
+        "thumb": "assets/media/project-gallery/mrasi-alsaada-1/1XGYSKuu9WCFacyPI9e7DawclpZGQoEeU-thumb.webp",
+        "width": 1760,
+        "height": 2200,
+        "source_id": "1XGYSKuu9WCFacyPI9e7DawclpZGQoEeU",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/01-Commercial building/BUILDING_page-0002.jpg",
+        "source_dimensions": [
+          2200,
+          2750
+        ],
+        "source_url": "https://drive.google.com/file/d/1XGYSKuu9WCFacyPI9e7DawclpZGQoEeU/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1XGYSKuu9WCFacyPI9e7DawclpZGQoEeU&sz=w2200",
+        "sha256": "82b2060d937d7ead76b1b02b31aa2704d5604484cc701d8fc7aa80024fd7d242",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/mrasi-alsaada-1/12S2AerZsMB-opBuY2bqhX3sxtvhiUbt8.webp",
+        "mobile": "assets/media/project-gallery/mrasi-alsaada-1/12S2AerZsMB-opBuY2bqhX3sxtvhiUbt8-mobile.webp",
+        "thumb": "assets/media/project-gallery/mrasi-alsaada-1/12S2AerZsMB-opBuY2bqhX3sxtvhiUbt8-thumb.webp",
+        "width": 1760,
+        "height": 2200,
+        "source_id": "12S2AerZsMB-opBuY2bqhX3sxtvhiUbt8",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/01-Commercial building/BUILDING_page-0005.jpg",
+        "source_dimensions": [
+          2200,
+          2750
+        ],
+        "source_url": "https://drive.google.com/file/d/12S2AerZsMB-opBuY2bqhX3sxtvhiUbt8/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=12S2AerZsMB-opBuY2bqhX3sxtvhiUbt8&sz=w2200",
+        "sha256": "572d08055fb57983a2ffd01fae2a7b422bfabf6cba704aa086cb624bdb322e55",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/mrasi-alsaada-1/11tRhJhfhSOfaKDkryId7pNFdvVLpF0E1.webp",
+        "mobile": "assets/media/project-gallery/mrasi-alsaada-1/11tRhJhfhSOfaKDkryId7pNFdvVLpF0E1-mobile.webp",
+        "thumb": "assets/media/project-gallery/mrasi-alsaada-1/11tRhJhfhSOfaKDkryId7pNFdvVLpF0E1-thumb.webp",
+        "width": 1760,
+        "height": 2200,
+        "source_id": "11tRhJhfhSOfaKDkryId7pNFdvVLpF0E1",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/01-Commercial building/BUILDING_page-0013.jpg",
+        "source_dimensions": [
+          2200,
+          2750
+        ],
+        "source_url": "https://drive.google.com/file/d/11tRhJhfhSOfaKDkryId7pNFdvVLpF0E1/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=11tRhJhfhSOfaKDkryId7pNFdvVLpF0E1&sz=w2200",
+        "sha256": "908ea3b28e17f2293db9a7ba00ba9d2aa52c96d3ce4763b4af5a1f5eea13da02",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/mrasi-alsaada-1/1HtMGdEILKwqMnNI4pUnQCygNZESMHST9.webp",
+        "mobile": "assets/media/project-gallery/mrasi-alsaada-1/1HtMGdEILKwqMnNI4pUnQCygNZESMHST9-mobile.webp",
+        "thumb": "assets/media/project-gallery/mrasi-alsaada-1/1HtMGdEILKwqMnNI4pUnQCygNZESMHST9-thumb.webp",
+        "width": 2200,
+        "height": 1237,
+        "source_id": "1HtMGdEILKwqMnNI4pUnQCygNZESMHST9",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/01-Commercial building/BUILDING_page-0019.jpg",
+        "source_dimensions": [
+          2200,
+          1237
+        ],
+        "source_url": "https://drive.google.com/file/d/1HtMGdEILKwqMnNI4pUnQCygNZESMHST9/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1HtMGdEILKwqMnNI4pUnQCygNZESMHST9&sz=w2200",
+        "sha256": "7f0ca90b4fe88e76f47773159b460c5eb6f95588ffac97874e616f288fce0b47",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/mrasi-alsaada-1/16mIcO3DyGN3QjlOwk08MrbXNYQy9czUP.webp",
+        "mobile": "assets/media/project-gallery/mrasi-alsaada-1/16mIcO3DyGN3QjlOwk08MrbXNYQy9czUP-mobile.webp",
+        "thumb": "assets/media/project-gallery/mrasi-alsaada-1/16mIcO3DyGN3QjlOwk08MrbXNYQy9czUP-thumb.webp",
+        "width": 1760,
+        "height": 2200,
+        "source_id": "16mIcO3DyGN3QjlOwk08MrbXNYQy9czUP",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/01-Commercial building/BUILDING_page-0018.jpg",
+        "source_dimensions": [
+          2200,
+          2750
+        ],
+        "source_url": "https://drive.google.com/file/d/16mIcO3DyGN3QjlOwk08MrbXNYQy9czUP/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=16mIcO3DyGN3QjlOwk08MrbXNYQy9czUP&sz=w2200",
+        "sha256": "bcb951ceb9d09ecfce46b2e6594fc010a2d0c1d425835f8aa556faa4d2439503",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "al-dabus-building": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dabus-building/1_ZrikXFR259gXC9ncxtx-fCtb2K1Q4dm.webp",
+        "mobile": "assets/media/project-gallery/al-dabus-building/1_ZrikXFR259gXC9ncxtx-fCtb2K1Q4dm-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dabus-building/1_ZrikXFR259gXC9ncxtx-fCtb2K1Q4dm-thumb.webp",
+        "width": 1572,
+        "height": 2200,
+        "source_id": "1_ZrikXFR259gXC9ncxtx-fCtb2K1Q4dm",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/04-building 1/Al Dahareez Building (1)_page-0002.jpg",
+        "source_dimensions": [
+          2200,
+          3079
+        ],
+        "source_url": "https://drive.google.com/file/d/1_ZrikXFR259gXC9ncxtx-fCtb2K1Q4dm/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1_ZrikXFR259gXC9ncxtx-fCtb2K1Q4dm&sz=w2200",
+        "sha256": "90189eaca61abf3fc097c357bd6f5f9781ca53f5143a822c6083335279adb819",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dabus-building/1J7_EkiAheYGYWEAsSTUq0ltE3ljaDHL9.webp",
+        "mobile": "assets/media/project-gallery/al-dabus-building/1J7_EkiAheYGYWEAsSTUq0ltE3ljaDHL9-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dabus-building/1J7_EkiAheYGYWEAsSTUq0ltE3ljaDHL9-thumb.webp",
+        "width": 1237,
+        "height": 2200,
+        "source_id": "1J7_EkiAheYGYWEAsSTUq0ltE3ljaDHL9",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/04-building 1/Al Dahareez Building (1)_page-0003.jpg",
+        "source_dimensions": [
+          1976,
+          3513
+        ],
+        "source_url": "https://drive.google.com/file/d/1J7_EkiAheYGYWEAsSTUq0ltE3ljaDHL9/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1J7_EkiAheYGYWEAsSTUq0ltE3ljaDHL9&sz=w2200",
+        "sha256": "95f35ff45a18b68e6ef3a9e50b50c1225db7c4dba6f308ca331258456f2fcb5d",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dabus-building/1YK6h3nKBSpzNaSW9fybKoAc2D6SDOh96.webp",
+        "mobile": "assets/media/project-gallery/al-dabus-building/1YK6h3nKBSpzNaSW9fybKoAc2D6SDOh96-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dabus-building/1YK6h3nKBSpzNaSW9fybKoAc2D6SDOh96-thumb.webp",
+        "width": 1572,
+        "height": 2200,
+        "source_id": "1YK6h3nKBSpzNaSW9fybKoAc2D6SDOh96",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/04-building 1/Al Dahareez Building (1)_page-0004.jpg",
+        "source_dimensions": [
+          2200,
+          3079
+        ],
+        "source_url": "https://drive.google.com/file/d/1YK6h3nKBSpzNaSW9fybKoAc2D6SDOh96/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1YK6h3nKBSpzNaSW9fybKoAc2D6SDOh96&sz=w2200",
+        "sha256": "d16a2fdb8a2daf1c9ae01569cc80840cf80336cb6e614efb0143e7cb82161bf5",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/al-dabus-building/1Vhvozxc4Puga_0clCYEqZ2Bagw-kHvEh.webp",
+        "mobile": "assets/media/project-gallery/al-dabus-building/1Vhvozxc4Puga_0clCYEqZ2Bagw-kHvEh-mobile.webp",
+        "thumb": "assets/media/project-gallery/al-dabus-building/1Vhvozxc4Puga_0clCYEqZ2Bagw-kHvEh-thumb.webp",
+        "width": 1572,
+        "height": 2200,
+        "source_id": "1Vhvozxc4Puga_0clCYEqZ2Bagw-kHvEh",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/04-building 1/Al Dahareez Building (1)_page-0011.jpg",
+        "source_dimensions": [
+          2200,
+          3079
+        ],
+        "source_url": "https://drive.google.com/file/d/1Vhvozxc4Puga_0clCYEqZ2Bagw-kHvEh/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1Vhvozxc4Puga_0clCYEqZ2Bagw-kHvEh&sz=w2200",
+        "sha256": "c1f27be1b4f2632aac369b36203e6f0f33fec0dddcda12a75a0d4dcf30116718",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "hamed-alamri": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/hamed-alamri/1itekloo0jqni6WxfbzRou8VAcynEpcfk.webp",
+        "mobile": "assets/media/project-gallery/hamed-alamri/1itekloo0jqni6WxfbzRou8VAcynEpcfk-mobile.webp",
+        "thumb": "assets/media/project-gallery/hamed-alamri/1itekloo0jqni6WxfbzRou8VAcynEpcfk-thumb.webp",
+        "width": 2200,
+        "height": 2200,
+        "source_id": "1itekloo0jqni6WxfbzRou8VAcynEpcfk",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/05- Building 2/Residential Building (3D)_page-0002.jpg",
+        "source_dimensions": [
+          2200,
+          2200
+        ],
+        "source_url": "https://drive.google.com/file/d/1itekloo0jqni6WxfbzRou8VAcynEpcfk/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1itekloo0jqni6WxfbzRou8VAcynEpcfk&sz=w2200",
+        "sha256": "8dd81c813c4f8d10f0aa1c7f6f749a3cb44b889f0b3f678c0a5c22ed3cc57449",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/hamed-alamri/1ZXJMBwqQgqy1LUNItKKvtwCIF27sXWCH.webp",
+        "mobile": "assets/media/project-gallery/hamed-alamri/1ZXJMBwqQgqy1LUNItKKvtwCIF27sXWCH-mobile.webp",
+        "thumb": "assets/media/project-gallery/hamed-alamri/1ZXJMBwqQgqy1LUNItKKvtwCIF27sXWCH-thumb.webp",
+        "width": 2200,
+        "height": 2200,
+        "source_id": "1ZXJMBwqQgqy1LUNItKKvtwCIF27sXWCH",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/05- Building 2/Residential Building (3D)_page-0003.jpg",
+        "source_dimensions": [
+          2200,
+          2200
+        ],
+        "source_url": "https://drive.google.com/file/d/1ZXJMBwqQgqy1LUNItKKvtwCIF27sXWCH/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1ZXJMBwqQgqy1LUNItKKvtwCIF27sXWCH&sz=w2200",
+        "sha256": "78bff4c15dd81412be5eb32f3cff59ec03b6a716d34180632ccaa59caaaeb470",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/hamed-alamri/1sgailcpjbV9jJ7yELGRmIcqVp8WAE03q.webp",
+        "mobile": "assets/media/project-gallery/hamed-alamri/1sgailcpjbV9jJ7yELGRmIcqVp8WAE03q-mobile.webp",
+        "thumb": "assets/media/project-gallery/hamed-alamri/1sgailcpjbV9jJ7yELGRmIcqVp8WAE03q-thumb.webp",
+        "width": 2200,
+        "height": 2200,
+        "source_id": "1sgailcpjbV9jJ7yELGRmIcqVp8WAE03q",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/05- Building 2/Residential Building (3D)_page-0008.jpg",
+        "source_dimensions": [
+          2200,
+          2200
+        ],
+        "source_url": "https://drive.google.com/file/d/1sgailcpjbV9jJ7yELGRmIcqVp8WAE03q/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1sgailcpjbV9jJ7yELGRmIcqVp8WAE03q&sz=w2200",
+        "sha256": "be1be0d3053258e2bf4b7cd0a65413f582077236228a96d9c120ec5ecfb15a4d",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/hamed-alamri/1SDSEcqe54jY4xqypQzaWPqA9hS4GbLFt.webp",
+        "mobile": "assets/media/project-gallery/hamed-alamri/1SDSEcqe54jY4xqypQzaWPqA9hS4GbLFt-mobile.webp",
+        "thumb": "assets/media/project-gallery/hamed-alamri/1SDSEcqe54jY4xqypQzaWPqA9hS4GbLFt-thumb.webp",
+        "width": 2200,
+        "height": 2200,
+        "source_id": "1SDSEcqe54jY4xqypQzaWPqA9hS4GbLFt",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/05- Building 2/Residential Building (3D)_page-0011.jpg",
+        "source_dimensions": [
+          2200,
+          2200
+        ],
+        "source_url": "https://drive.google.com/file/d/1SDSEcqe54jY4xqypQzaWPqA9hS4GbLFt/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1SDSEcqe54jY4xqypQzaWPqA9hS4GbLFt&sz=w2200",
+        "sha256": "fe940ca66e5748cafccf91e97be40c9e6aa838862a05c60a5fada133072eb559",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "aftalqout-bridge": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/aftalqout-bridge/aerial-from-client-film.webp",
+        "mobile": "assets/media/project-gallery/aftalqout-bridge/aerial-from-client-film.webp",
+        "thumb": "assets/media/project-gallery/aftalqout-bridge/aerial-from-client-film-thumb.webp",
+        "width": 640,
+        "height": 360,
+        "alt": "Project film still",
+        "source_id": "1i8NCh2XaG00WPtZ_Z0BaBOC8CPtahG3O",
+        "source_path": "Client/02-Landscape & Public Realm/AFTALQOUT tree bridge/tree bridge final.mp4",
+        "source_frame_file": "_media_work/video-frames/1i8NCh2XaG00WPtZ_Z0BaBOC8CPtahG3O/2.jpg",
+        "sha256": "73d3154a8b1a10e59781d9304ba2a118489d39ba619b1befa4ccef7669b84afa",
+        "caption": {
+          "ar": "لقطة شاملة من فيديو المشروع",
+          "en": "Aerial frame from the project film"
+        }
+      }
+    ],
+    "boulevard-commercial-centre": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/boulevard-commercial-centre/1CEH9N6Lgd3oTgNrrsfps5bpV5yd3loYu.webp",
+        "mobile": "assets/media/project-gallery/boulevard-commercial-centre/1CEH9N6Lgd3oTgNrrsfps5bpV5yd3loYu-mobile.webp",
+        "thumb": "assets/media/project-gallery/boulevard-commercial-centre/1CEH9N6Lgd3oTgNrrsfps5bpV5yd3loYu-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1CEH9N6Lgd3oTgNrrsfps5bpV5yd3loYu",
+        "source_path": "Client/01-Architecture & Interiors/Boulivard commercial centre/SHOWROOM (1)-1-5_page-0001.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1CEH9N6Lgd3oTgNrrsfps5bpV5yd3loYu/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1CEH9N6Lgd3oTgNrrsfps5bpV5yd3loYu&sz=w2200",
+        "sha256": "5f36a673740ad3167abe5c323d8936f031d05c5182e8ce9f70e9bf95a96c2cd7",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/boulevard-commercial-centre/1FNtosjYZEc81AOIoSr6H9FUjyawvXv70.webp",
+        "mobile": "assets/media/project-gallery/boulevard-commercial-centre/1FNtosjYZEc81AOIoSr6H9FUjyawvXv70-mobile.webp",
+        "thumb": "assets/media/project-gallery/boulevard-commercial-centre/1FNtosjYZEc81AOIoSr6H9FUjyawvXv70-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1FNtosjYZEc81AOIoSr6H9FUjyawvXv70",
+        "source_path": "Client/01-Architecture & Interiors/Boulivard commercial centre/SHOWROOM (1)-1-5_page-0005.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1FNtosjYZEc81AOIoSr6H9FUjyawvXv70/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1FNtosjYZEc81AOIoSr6H9FUjyawvXv70&sz=w2200",
+        "sha256": "4fa3caaf07d4630cdcf9d90bea06dee827e70d1c46730a20e0b658b753c13e87",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/boulevard-commercial-centre/1q0TRReDDMe4wE2HV3ur1Ga_racQvANdi.webp",
+        "mobile": "assets/media/project-gallery/boulevard-commercial-centre/1q0TRReDDMe4wE2HV3ur1Ga_racQvANdi-mobile.webp",
+        "thumb": "assets/media/project-gallery/boulevard-commercial-centre/1q0TRReDDMe4wE2HV3ur1Ga_racQvANdi-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1q0TRReDDMe4wE2HV3ur1Ga_racQvANdi",
+        "source_path": "Client/01-Architecture & Interiors/Boulivard commercial centre/SHOWROOM (1)-16-22-1-4_page-0001.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1q0TRReDDMe4wE2HV3ur1Ga_racQvANdi/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1q0TRReDDMe4wE2HV3ur1Ga_racQvANdi&sz=w2200",
+        "sha256": "9a67d6203879259a32cc46540e184f150cca41e886f1f9f5e5a3e1b49a51603e",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/boulevard-commercial-centre/1ZE6xgtIFCbgJWPEiLN53M0LVGqfoSzQk.webp",
+        "mobile": "assets/media/project-gallery/boulevard-commercial-centre/1ZE6xgtIFCbgJWPEiLN53M0LVGqfoSzQk-mobile.webp",
+        "thumb": "assets/media/project-gallery/boulevard-commercial-centre/1ZE6xgtIFCbgJWPEiLN53M0LVGqfoSzQk-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "1ZE6xgtIFCbgJWPEiLN53M0LVGqfoSzQk",
+        "source_path": "Client/01-Architecture & Interiors/Boulivard commercial centre/SHOWROOM (1)-16-22-5-7_page-0002.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/1ZE6xgtIFCbgJWPEiLN53M0LVGqfoSzQk/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1ZE6xgtIFCbgJWPEiLN53M0LVGqfoSzQk&sz=w2200",
+        "sha256": "7c50ca09fdc118c99502c1c6288a774027466ca7d51533c39a8faa87a8e6bf64",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/boulevard-commercial-centre/18JlZM-7HdxjI3k7SDm8oo7ou6qwnVRY2.webp",
+        "mobile": "assets/media/project-gallery/boulevard-commercial-centre/18JlZM-7HdxjI3k7SDm8oo7ou6qwnVRY2-mobile.webp",
+        "thumb": "assets/media/project-gallery/boulevard-commercial-centre/18JlZM-7HdxjI3k7SDm8oo7ou6qwnVRY2-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "18JlZM-7HdxjI3k7SDm8oo7ou6qwnVRY2",
+        "source_path": "Client/01-Architecture & Interiors/Boulivard commercial centre/SHOWROOM (1)-16-22-5-7_page-0001.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/18JlZM-7HdxjI3k7SDm8oo7ou6qwnVRY2/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=18JlZM-7HdxjI3k7SDm8oo7ou6qwnVRY2&sz=w2200",
+        "sha256": "22cbc6e7ebc20acfc65518c7e505ee4794e39202710bb03efff94cdb3b978380",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "boushar-building": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/boushar-building/1rok5CWMlrCaurI6h6jKyF-ZVTjEJaWUm.webp",
+        "mobile": "assets/media/project-gallery/boushar-building/1rok5CWMlrCaurI6h6jKyF-ZVTjEJaWUm-mobile.webp",
+        "thumb": "assets/media/project-gallery/boushar-building/1rok5CWMlrCaurI6h6jKyF-ZVTjEJaWUm-thumb.webp",
+        "width": 1757,
+        "height": 2200,
+        "source_id": "1rok5CWMlrCaurI6h6jKyF-ZVTjEJaWUm",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/06-Building 3/1.png",
+        "source_dimensions": [
+          2200,
+          2755
+        ],
+        "source_url": "https://drive.google.com/file/d/1rok5CWMlrCaurI6h6jKyF-ZVTjEJaWUm/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1rok5CWMlrCaurI6h6jKyF-ZVTjEJaWUm&sz=w2200",
+        "sha256": "80e2b6b25113edf57ff1b3af09ebc8ad18d90660462b32604685aee53d4e2c06",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/boushar-building/1NuCoIJBlAEnLoDX-mlJQrUyS0Dg14W_3.webp",
+        "mobile": "assets/media/project-gallery/boushar-building/1NuCoIJBlAEnLoDX-mlJQrUyS0Dg14W_3-mobile.webp",
+        "thumb": "assets/media/project-gallery/boushar-building/1NuCoIJBlAEnLoDX-mlJQrUyS0Dg14W_3-thumb.webp",
+        "width": 1757,
+        "height": 2200,
+        "source_id": "1NuCoIJBlAEnLoDX-mlJQrUyS0Dg14W_3",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/06-Building 3/2.png",
+        "source_dimensions": [
+          2200,
+          2755
+        ],
+        "source_url": "https://drive.google.com/file/d/1NuCoIJBlAEnLoDX-mlJQrUyS0Dg14W_3/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1NuCoIJBlAEnLoDX-mlJQrUyS0Dg14W_3&sz=w2200",
+        "sha256": "ddc893045c5829425af868e4950aab4e83bf7b70feb1baee8006a01b0c540fbc",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/boushar-building/17kunbPjKiygnf_Xba8Xl9rJA2q698v66.webp",
+        "mobile": "assets/media/project-gallery/boushar-building/17kunbPjKiygnf_Xba8Xl9rJA2q698v66-mobile.webp",
+        "thumb": "assets/media/project-gallery/boushar-building/17kunbPjKiygnf_Xba8Xl9rJA2q698v66-thumb.webp",
+        "width": 1757,
+        "height": 2200,
+        "source_id": "17kunbPjKiygnf_Xba8Xl9rJA2q698v66",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/06-Building 3/3.png",
+        "source_dimensions": [
+          2200,
+          2755
+        ],
+        "source_url": "https://drive.google.com/file/d/17kunbPjKiygnf_Xba8Xl9rJA2q698v66/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=17kunbPjKiygnf_Xba8Xl9rJA2q698v66&sz=w2200",
+        "sha256": "f5e5f92e3ba7dbcf6998cbea771c363d939e9d66859aa48c024a9e42b1522c7a",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/boushar-building/1HMLOq8uleRWoHNsWnoDc_9ocJvOtfzs5.webp",
+        "mobile": "assets/media/project-gallery/boushar-building/1HMLOq8uleRWoHNsWnoDc_9ocJvOtfzs5-mobile.webp",
+        "thumb": "assets/media/project-gallery/boushar-building/1HMLOq8uleRWoHNsWnoDc_9ocJvOtfzs5-thumb.webp",
+        "width": 1757,
+        "height": 2200,
+        "source_id": "1HMLOq8uleRWoHNsWnoDc_9ocJvOtfzs5",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/06-Building 3/6.5.png",
+        "source_dimensions": [
+          2200,
+          2755
+        ],
+        "source_url": "https://drive.google.com/file/d/1HMLOq8uleRWoHNsWnoDc_9ocJvOtfzs5/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1HMLOq8uleRWoHNsWnoDc_9ocJvOtfzs5&sz=w2200",
+        "sha256": "9a19d08eb95cdcd9cafb2aa5daf75c3a4d84fa80838e39b18888da5ff06fcd99",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/boushar-building/1M5WFxDWuK3Ub9lxcHR8SR-TScSWx4EDl.webp",
+        "mobile": "assets/media/project-gallery/boushar-building/1M5WFxDWuK3Ub9lxcHR8SR-TScSWx4EDl-mobile.webp",
+        "thumb": "assets/media/project-gallery/boushar-building/1M5WFxDWuK3Ub9lxcHR8SR-TScSWx4EDl-thumb.webp",
+        "width": 1757,
+        "height": 2200,
+        "source_id": "1M5WFxDWuK3Ub9lxcHR8SR-TScSWx4EDl",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/06-Building 3/6.png",
+        "source_dimensions": [
+          2200,
+          2755
+        ],
+        "source_url": "https://drive.google.com/file/d/1M5WFxDWuK3Ub9lxcHR8SR-TScSWx4EDl/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1M5WFxDWuK3Ub9lxcHR8SR-TScSWx4EDl&sz=w2200",
+        "sha256": "91161f3b752014503d550de994846398b159519ce71420f38b419f0dcfa99b3f",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "residential-building-4": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-building-4/18UiQzIW4MMopK9bmKOWCxiWdRbDbBmDY.webp",
+        "mobile": "assets/media/project-gallery/residential-building-4/18UiQzIW4MMopK9bmKOWCxiWdRbDbBmDY-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-building-4/18UiQzIW4MMopK9bmKOWCxiWdRbDbBmDY-thumb.webp",
+        "width": 1600,
+        "height": 1555,
+        "source_id": "18UiQzIW4MMopK9bmKOWCxiWdRbDbBmDY",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/07-Building 4/WhatsApp Image 2024-03-04 at 7.08.50 PM (1).jpeg",
+        "source_dimensions": [
+          1600,
+          1555
+        ],
+        "source_url": "https://drive.google.com/file/d/18UiQzIW4MMopK9bmKOWCxiWdRbDbBmDY/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=18UiQzIW4MMopK9bmKOWCxiWdRbDbBmDY&sz=w2200",
+        "sha256": "343c7ec94e2225df535fbd24d5c616e0c7aa70f2dd01215510f8cff551ff2e67",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-building-4/1fYnX0u5hkoCUdrUMENynm8X7MabNa0dd.webp",
+        "mobile": "assets/media/project-gallery/residential-building-4/1fYnX0u5hkoCUdrUMENynm8X7MabNa0dd-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-building-4/1fYnX0u5hkoCUdrUMENynm8X7MabNa0dd-thumb.webp",
+        "width": 1600,
+        "height": 1576,
+        "source_id": "1fYnX0u5hkoCUdrUMENynm8X7MabNa0dd",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/07-Building 4/WhatsApp Image 2024-03-04 at 7.08.50 PM.jpeg",
+        "source_dimensions": [
+          1600,
+          1576
+        ],
+        "source_url": "https://drive.google.com/file/d/1fYnX0u5hkoCUdrUMENynm8X7MabNa0dd/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1fYnX0u5hkoCUdrUMENynm8X7MabNa0dd&sz=w2200",
+        "sha256": "747d2a381ff51a0a21d61c8ab387a1f954442b055bdf619d95397d4a186eea6b",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-building-4/1tR3UTL_fJCvcokjpFxDy88PZoX9o7H11.webp",
+        "mobile": "assets/media/project-gallery/residential-building-4/1tR3UTL_fJCvcokjpFxDy88PZoX9o7H11-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-building-4/1tR3UTL_fJCvcokjpFxDy88PZoX9o7H11-thumb.webp",
+        "width": 1592,
+        "height": 1600,
+        "source_id": "1tR3UTL_fJCvcokjpFxDy88PZoX9o7H11",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/07-Building 4/WhatsApp Image 2024-03-04 at 7.08.51 PM.jpeg",
+        "source_dimensions": [
+          1592,
+          1600
+        ],
+        "source_url": "https://drive.google.com/file/d/1tR3UTL_fJCvcokjpFxDy88PZoX9o7H11/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1tR3UTL_fJCvcokjpFxDy88PZoX9o7H11&sz=w2200",
+        "sha256": "ad4ba9b8e5be5a1ae7e5b1e758b0928d6c39375aa928a986e9ef467d9e8e77cf",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "residential-villa-1": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-1/1DgP6F-rpUvT7xMy89K-2bpW0QD9wvLrd.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-1/1DgP6F-rpUvT7xMy89K-2bpW0QD9wvLrd-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-1/1DgP6F-rpUvT7xMy89K-2bpW0QD9wvLrd-thumb.webp",
+        "width": 2200,
+        "height": 1090,
+        "source_id": "1DgP6F-rpUvT7xMy89K-2bpW0QD9wvLrd",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (01)/Elevation Design-1-10-1-5_page-0002.jpg",
+        "source_dimensions": [
+          2200,
+          1090
+        ],
+        "source_url": "https://drive.google.com/file/d/1DgP6F-rpUvT7xMy89K-2bpW0QD9wvLrd/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1DgP6F-rpUvT7xMy89K-2bpW0QD9wvLrd&sz=w2200",
+        "sha256": "19e8ef8c2df359bdbd7694d63f8af57f8b31c1801cf0171928d7e7069c63fb7a",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-1/1mXlFP9CnzwKFxj0XMF2HdLm5MjDzBy71.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-1/1mXlFP9CnzwKFxj0XMF2HdLm5MjDzBy71-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-1/1mXlFP9CnzwKFxj0XMF2HdLm5MjDzBy71-thumb.webp",
+        "width": 2200,
+        "height": 2200,
+        "source_id": "1mXlFP9CnzwKFxj0XMF2HdLm5MjDzBy71",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (01)/Elevation Design-1-10-5-10_page-0005.jpg",
+        "source_dimensions": [
+          2200,
+          2200
+        ],
+        "source_url": "https://drive.google.com/file/d/1mXlFP9CnzwKFxj0XMF2HdLm5MjDzBy71/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1mXlFP9CnzwKFxj0XMF2HdLm5MjDzBy71&sz=w2200",
+        "sha256": "6ec6231d186182b559447daab46d8a1f76c271b242efec6eb6f027392a66978b",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-1/1wTtnYTYMALBwz1yOfffpNCJHj9pxQnRy.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-1/1wTtnYTYMALBwz1yOfffpNCJHj9pxQnRy-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-1/1wTtnYTYMALBwz1yOfffpNCJHj9pxQnRy-thumb.webp",
+        "width": 2200,
+        "height": 1125,
+        "source_id": "1wTtnYTYMALBwz1yOfffpNCJHj9pxQnRy",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (01)/Elevation Design-1-10-5-10_page-0002.jpg",
+        "source_dimensions": [
+          2200,
+          1125
+        ],
+        "source_url": "https://drive.google.com/file/d/1wTtnYTYMALBwz1yOfffpNCJHj9pxQnRy/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1wTtnYTYMALBwz1yOfffpNCJHj9pxQnRy&sz=w2200",
+        "sha256": "8ec2682c6c1c5c669df4c1cd977b4158892736fb290dd2272f54cdf77e13a60d",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-1/1KPrzQynK3__PK1m5SxPvKcOAT_J0jBrq.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-1/1KPrzQynK3__PK1m5SxPvKcOAT_J0jBrq-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-1/1KPrzQynK3__PK1m5SxPvKcOAT_J0jBrq-thumb.webp",
+        "width": 2200,
+        "height": 2200,
+        "source_id": "1KPrzQynK3__PK1m5SxPvKcOAT_J0jBrq",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (01)/Elevation Design-1-10-5-10_page-0006.jpg",
+        "source_dimensions": [
+          2200,
+          2200
+        ],
+        "source_url": "https://drive.google.com/file/d/1KPrzQynK3__PK1m5SxPvKcOAT_J0jBrq/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1KPrzQynK3__PK1m5SxPvKcOAT_J0jBrq&sz=w2200",
+        "sha256": "08024c4d0698143b7fd7aaf453ee6a8faad313f499d7717dc645b7e6d65b0428",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "residential-villa-2": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-2/1TZtyiv75B51eDfHhYBtr4kVKX5QHnxbF.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-2/1TZtyiv75B51eDfHhYBtr4kVKX5QHnxbF-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-2/1TZtyiv75B51eDfHhYBtr4kVKX5QHnxbF-thumb.webp",
+        "width": 1760,
+        "height": 2200,
+        "source_id": "1TZtyiv75B51eDfHhYBtr4kVKX5QHnxbF",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (02)/villa rev6-1-4_page-0003.jpg",
+        "source_dimensions": [
+          2200,
+          2750
+        ],
+        "source_url": "https://drive.google.com/file/d/1TZtyiv75B51eDfHhYBtr4kVKX5QHnxbF/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1TZtyiv75B51eDfHhYBtr4kVKX5QHnxbF&sz=w2200",
+        "sha256": "69c2bedbd17cfef5b95d5764127935f6ade1f0c878fe2956f0d745781ad8ff40",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-2/1MevBALE6AXaYqrvCxxTEK7KuiI9nSWi-.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-2/1MevBALE6AXaYqrvCxxTEK7KuiI9nSWi--mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-2/1MevBALE6AXaYqrvCxxTEK7KuiI9nSWi--thumb.webp",
+        "width": 1760,
+        "height": 2200,
+        "source_id": "1MevBALE6AXaYqrvCxxTEK7KuiI9nSWi-",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (02)/villa rev6-1-4_page-0004.jpg",
+        "source_dimensions": [
+          2200,
+          2750
+        ],
+        "source_url": "https://drive.google.com/file/d/1MevBALE6AXaYqrvCxxTEK7KuiI9nSWi-/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1MevBALE6AXaYqrvCxxTEK7KuiI9nSWi-&sz=w2200",
+        "sha256": "8224e8762198c7f79b5b5f5208118626dae97571a6dc69d7cf7b3476e2633ce8",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-2/1YX0r_2TKHM8_dPL4z099RKYTPuqPwrj_.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-2/1YX0r_2TKHM8_dPL4z099RKYTPuqPwrj_-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-2/1YX0r_2TKHM8_dPL4z099RKYTPuqPwrj_-thumb.webp",
+        "width": 1760,
+        "height": 2200,
+        "source_id": "1YX0r_2TKHM8_dPL4z099RKYTPuqPwrj_",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (02)/villa rev6-5-8_page-0002.jpg",
+        "source_dimensions": [
+          2200,
+          2750
+        ],
+        "source_url": "https://drive.google.com/file/d/1YX0r_2TKHM8_dPL4z099RKYTPuqPwrj_/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1YX0r_2TKHM8_dPL4z099RKYTPuqPwrj_&sz=w2200",
+        "sha256": "5685099182228062af08e167179358d34242033b8b62f9f8f20636ac9c6018ed",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "residential-villa-3": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-3/1AylNb7UJoJPjDOrd9Cs-jNID0EuCmxaN.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-3/1AylNb7UJoJPjDOrd9Cs-jNID0EuCmxaN-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-3/1AylNb7UJoJPjDOrd9Cs-jNID0EuCmxaN-thumb.webp",
+        "width": 1760,
+        "height": 2200,
+        "source_id": "1AylNb7UJoJPjDOrd9Cs-jNID0EuCmxaN",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (03)/S Villa - Elevations-1-4_page-0001.jpg",
+        "source_dimensions": [
+          2200,
+          2750
+        ],
+        "source_url": "https://drive.google.com/file/d/1AylNb7UJoJPjDOrd9Cs-jNID0EuCmxaN/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1AylNb7UJoJPjDOrd9Cs-jNID0EuCmxaN&sz=w2200",
+        "sha256": "e5f1221fad9ad82e37314e6640b6986133487255eff7ccf1cc99a8696bb71882",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-3/1hzfTVmNn15PRSSOodqwssstYeyr2JNHM.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-3/1hzfTVmNn15PRSSOodqwssstYeyr2JNHM-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-3/1hzfTVmNn15PRSSOodqwssstYeyr2JNHM-thumb.webp",
+        "width": 1760,
+        "height": 2200,
+        "source_id": "1hzfTVmNn15PRSSOodqwssstYeyr2JNHM",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (03)/S Villa - Elevations-1-4_page-0004.jpg",
+        "source_dimensions": [
+          2200,
+          2750
+        ],
+        "source_url": "https://drive.google.com/file/d/1hzfTVmNn15PRSSOodqwssstYeyr2JNHM/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1hzfTVmNn15PRSSOodqwssstYeyr2JNHM&sz=w2200",
+        "sha256": "44508b28a55cf0bb3fe8e5b0f5a0d42a2d9b5687ac9bc182f0ed87fe1d83f09c",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-3/11YMx6q3WIcZcEsFoDXAeMrmWFB_PPo-r.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-3/11YMx6q3WIcZcEsFoDXAeMrmWFB_PPo-r-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-3/11YMx6q3WIcZcEsFoDXAeMrmWFB_PPo-r-thumb.webp",
+        "width": 1760,
+        "height": 2200,
+        "source_id": "11YMx6q3WIcZcEsFoDXAeMrmWFB_PPo-r",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (03)/S Villa - Elevations-13-15_page-0001.jpg",
+        "source_dimensions": [
+          2200,
+          2750
+        ],
+        "source_url": "https://drive.google.com/file/d/11YMx6q3WIcZcEsFoDXAeMrmWFB_PPo-r/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=11YMx6q3WIcZcEsFoDXAeMrmWFB_PPo-r&sz=w2200",
+        "sha256": "9b08caae71dee176a9353c2f6644ed4b3fe05a7c78ffc7f4c3745b189c67b5ea",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-3/18nfSoi4D4ia8M7MOim55VlimZ-EusUwV.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-3/18nfSoi4D4ia8M7MOim55VlimZ-EusUwV-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-3/18nfSoi4D4ia8M7MOim55VlimZ-EusUwV-thumb.webp",
+        "width": 2200,
+        "height": 1238,
+        "source_id": "18nfSoi4D4ia8M7MOim55VlimZ-EusUwV",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (03)/S Villa - Elevations-13-15_page-0002.jpg",
+        "source_dimensions": [
+          2200,
+          1238
+        ],
+        "source_url": "https://drive.google.com/file/d/18nfSoi4D4ia8M7MOim55VlimZ-EusUwV/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=18nfSoi4D4ia8M7MOim55VlimZ-EusUwV&sz=w2200",
+        "sha256": "81609f6d58bfc4d0cef17522e38c77b5cd292eb44ad4318c4891efb89f7813fd",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-3/1cck8uUZYVDweCXV59UBxs0Xz8eXLohMo.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-3/1cck8uUZYVDweCXV59UBxs0Xz8eXLohMo-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-3/1cck8uUZYVDweCXV59UBxs0Xz8eXLohMo-thumb.webp",
+        "width": 1238,
+        "height": 2200,
+        "source_id": "1cck8uUZYVDweCXV59UBxs0Xz8eXLohMo",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (03)/S Villa - Elevations-9-12_page-0002.jpg",
+        "source_dimensions": [
+          2200,
+          3911
+        ],
+        "source_url": "https://drive.google.com/file/d/1cck8uUZYVDweCXV59UBxs0Xz8eXLohMo/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1cck8uUZYVDweCXV59UBxs0Xz8eXLohMo&sz=w2200",
+        "sha256": "3d6e6aff10bce586f76cfee706ecacbd2bbc30d2536ac36889302447fd2329f9",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ],
+    "residential-villa-4": [
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-4/1OEesZImPrbNo5YVvEST1ZPhXVyLlzOoK.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-4/1OEesZImPrbNo5YVvEST1ZPhXVyLlzOoK-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-4/1OEesZImPrbNo5YVvEST1ZPhXVyLlzOoK-thumb.webp",
+        "width": 1600,
+        "height": 900,
+        "source_id": "1OEesZImPrbNo5YVvEST1ZPhXVyLlzOoK",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (04)/1 (1).jpeg",
+        "source_dimensions": [
+          1600,
+          900
+        ],
+        "source_url": "https://drive.google.com/file/d/1OEesZImPrbNo5YVvEST1ZPhXVyLlzOoK/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1OEesZImPrbNo5YVvEST1ZPhXVyLlzOoK&sz=w2200",
+        "sha256": "48737b00b21aefb2b946511c64348098e586aa7776a51f4b7f5792a603d3f8f2",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-4/1nZ4HmzccOQGApmHhWZRMDIHc78ZWh-aX.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-4/1nZ4HmzccOQGApmHhWZRMDIHc78ZWh-aX-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-4/1nZ4HmzccOQGApmHhWZRMDIHc78ZWh-aX-thumb.webp",
+        "width": 1600,
+        "height": 900,
+        "source_id": "1nZ4HmzccOQGApmHhWZRMDIHc78ZWh-aX",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (04)/1 (2).jpeg",
+        "source_dimensions": [
+          1600,
+          900
+        ],
+        "source_url": "https://drive.google.com/file/d/1nZ4HmzccOQGApmHhWZRMDIHc78ZWh-aX/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1nZ4HmzccOQGApmHhWZRMDIHc78ZWh-aX&sz=w2200",
+        "sha256": "5e0689c4a43d5cb0881b8a2823316e3666470501498d55b81423977f19ce2087",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-4/1t0P4nbmsIfAWp4hQpre_kfjJq0ddTDXr.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-4/1t0P4nbmsIfAWp4hQpre_kfjJq0ddTDXr-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-4/1t0P4nbmsIfAWp4hQpre_kfjJq0ddTDXr-thumb.webp",
+        "width": 1600,
+        "height": 900,
+        "source_id": "1t0P4nbmsIfAWp4hQpre_kfjJq0ddTDXr",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (04)/1 (4).jpeg",
+        "source_dimensions": [
+          1600,
+          900
+        ],
+        "source_url": "https://drive.google.com/file/d/1t0P4nbmsIfAWp4hQpre_kfjJq0ddTDXr/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1t0P4nbmsIfAWp4hQpre_kfjJq0ddTDXr&sz=w2200",
+        "sha256": "496ae37f3791c73edecb96f494f48c2c9b42d0919b5d85db94b3a475edfcdf12",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      },
+      {
+        "type": "image",
+        "src": "assets/media/project-gallery/residential-villa-4/1hu0P0vkBXVkQWIwOrVYj6SyD7VgYaUQg.webp",
+        "mobile": "assets/media/project-gallery/residential-villa-4/1hu0P0vkBXVkQWIwOrVYj6SyD7VgYaUQg-mobile.webp",
+        "thumb": "assets/media/project-gallery/residential-villa-4/1hu0P0vkBXVkQWIwOrVYj6SyD7VgYaUQg-thumb.webp",
+        "width": 1600,
+        "height": 900,
+        "source_id": "1hu0P0vkBXVkQWIwOrVYj6SyD7VgYaUQg",
+        "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (04)/1 (5).jpeg",
+        "source_dimensions": [
+          1600,
+          900
+        ],
+        "source_url": "https://drive.google.com/file/d/1hu0P0vkBXVkQWIwOrVYj6SyD7VgYaUQg/view",
+        "rendition_url": "https://drive.google.com/thumbnail?id=1hu0P0vkBXVkQWIwOrVYj6SyD7VgYaUQg&sz=w2200",
+        "sha256": "7d29e69376a77ba329cacad48d69648930d042da25dfd7f913bf7fb9832e7366",
+        "alt": "Project image",
+        "caption": {
+          "ar": "من صور المشروع",
+          "en": "Project view"
+        }
+      }
+    ]
+  },
+  "errors": [],
+  "note": "Client-supplied project images, selected by visual review. Full frames retained; responsive copies are not enlarged. Each project also retains its primary image and existing film."
+}

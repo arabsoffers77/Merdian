@@ -31,18 +31,16 @@
        until the film approaches the viewport. Works on static Hostinger hosting. */
     (function () {
       var film = document.getElementById('hero-film');
-      var button = document.querySelector('.video-toggle');
-      if (!film || !button) return;
+      if (!film) return;
+      if (film.closest('.hero-carousel')) return;
       var connection = navigator.connection || {};
       var automatic = !REDUCED && !connection.saveData;
-      var userPaused = !automatic;
       var visible = false;
       var loaded = false;
-      function label(playing) {
-        button.textContent = AR ? (playing ? 'إيقاف مؤقت' : 'تشغيل الفيديو') : (playing ? 'Pause film' : 'Play film');
-        button.setAttribute('aria-label', AR ? (playing ? 'إيقاف فيديو المشروع مؤقتًا' : 'تشغيل فيديو المشروع') : (playing ? 'Pause project film' : 'Play project film'));
-      }
+      var failed = false;
+      var suspended = false;
       function play() {
+        if (!automatic || failed || suspended || document.hidden) return;
         if (!loaded) {
           film.src = film.getAttribute(window.innerWidth <= 760 ? 'data-src-mobile' : 'data-src');
           film.muted = true;
@@ -50,29 +48,31 @@
           film.load();
         }
         var promise = film.play();
-        if (promise && promise.catch) promise.catch(function () { label(false); });
+        if (promise && promise.catch) promise.catch(function () {
+          /* Keep the poster if the browser refuses background playback. */
+          if (film.paused) film.classList.remove('is-playing');
+        });
       }
-      film.addEventListener('playing', function () { film.classList.add('is-playing'); label(true); });
-      film.addEventListener('pause', function () { label(false); });
+      var hero = film.closest('.hero-video');
+      hero.heroPlayback = {
+        suspend: function () { suspended = true; film.pause(); },
+        resume: function () { suspended = false; if (visible) play(); }
+      };
+      film.addEventListener('playing', function () { film.classList.add('is-playing'); });
       film.addEventListener('error', function () {
+        failed = true;
         film.classList.remove('is-playing');
-        button.textContent = AR ? 'الفيديو غير متاح' : 'Film unavailable';
-        button.disabled = true;
-      });
-      button.addEventListener('click', function () {
-        if (!film.paused) { userPaused = true; film.pause(); }
-        else { userPaused = false; play(); }
       });
       if ('IntersectionObserver' in window) {
         new IntersectionObserver(function (entries) {
           visible = entries[0].isIntersecting;
-          if (visible && !userPaused && !document.hidden) play();
+          if (visible) play();
           else film.pause();
         }, { threshold: .05 }).observe(film);
       } else if (automatic) { visible = true; play(); }
       document.addEventListener('visibilitychange', function () {
         if (document.hidden) film.pause();
-        else if (visible && !userPaused) play();
+        else if (visible) play();
       });
     })();
 
@@ -135,118 +135,7 @@
     /* ============================================================
        PROJECT DETAILS MODAL — cards open it via data-* attributes
        ============================================================ */
-    var pmodal = document.getElementById('project-modal');
-    if (pmodal) {
-      var pmImg = document.getElementById('pm-img');
-      var pmName = document.getElementById('pm-name');
-      var pmClient = document.getElementById('pm-client');
-      var pmCat = document.getElementById('pm-cat');
-      var pmDesc = document.getElementById('pm-desc');
-      var pmVideo = document.getElementById('pm-video');
-      var galleryControls = pmodal.querySelector('.gallery-controls');
-      var galleryCount = pmodal.querySelector('.gallery-count');
-      var galleryStatus = pmodal.querySelector('.gallery-status');
-      var galleryError = pmodal.querySelector('.gallery-error');
-      var gallery = [], galleryIndex = 0, lastCard = null, modalOverflow = '';
-      var resumeHero = false;
-
-      function showGallery(index) {
-        galleryIndex = (index + gallery.length) % gallery.length;
-        var media = gallery[galleryIndex];
-        pmVideo.pause();
-        pmVideo.removeAttribute('src');
-        pmVideo.load();
-        var isVideo = media.type === 'video';
-        pmImg.hidden = isVideo;
-        pmVideo.hidden = !isVideo;
-        galleryError.hidden = true;
-        if (isVideo) {
-          pmVideo.src = window.innerWidth <= 760 && media.mobile ? media.mobile : media.src;
-          pmVideo.poster = media.poster || '';
-          pmVideo.setAttribute('aria-label', media.alt || pmName.textContent);
-        } else {
-          pmImg.src = media.src;
-          pmImg.alt = media.alt || pmName.textContent;
-        }
-        galleryControls.hidden = gallery.length < 2;
-        galleryCount.textContent = String(galleryIndex+1).padStart(2,'0') + ' / ' + String(gallery.length).padStart(2,'0');
-        galleryStatus.textContent = (isVideo ? (AR ? 'فيديو' : 'Film') : (AR ? 'صورة' : 'Image')) + ' · ' + pmName.textContent;
-      }
-
-      function openPmodal(card) {
-        if (!card) return;
-        var imgEl = card.querySelector('.proj-media img');
-        if (pmName) pmName.textContent = card.getAttribute('data-name') || '';
-        if (pmClient) pmClient.textContent = card.getAttribute('data-client') || '';
-        if (pmCat) pmCat.textContent = card.getAttribute('data-cat-label') || '';
-        if (pmDesc) pmDesc.textContent = card.getAttribute('data-desc') || '';
-        try { gallery = JSON.parse(card.getAttribute('data-gallery') || '[]'); } catch (e) { gallery = []; }
-        if (!gallery.length && imgEl) gallery = [{type:'image',src:card.getAttribute('data-full-image') || imgEl.currentSrc || imgEl.src,alt:imgEl.alt}];
-        if (!gallery.length) return;
-        lastCard = card;
-        modalOverflow = document.body.style.overflow;
-        showGallery(0);
-        pmodal.setAttribute('aria-hidden', 'false');
-        pmodal.showModal();
-        document.body.style.overflow = 'hidden';
-        var heroFilm = document.getElementById('hero-film');
-        resumeHero = !!heroFilm && !heroFilm.paused;
-        if (resumeHero) heroFilm.pause();
-      }
-      function closePmodal() {
-        if (!pmodal.open) return;
-        pmVideo.pause();
-        pmVideo.removeAttribute('src');
-        pmVideo.load();
-        pmodal.close();
-        pmodal.setAttribute('aria-hidden', 'true');
-        document.body.style.overflow = modalOverflow;
-        if (lastCard) lastCard.focus({preventScroll:true});
-        var heroFilm = document.getElementById('hero-film');
-        if (resumeHero && heroFilm && !document.hidden) heroFilm.play().catch(function () {});
-        resumeHero = false;
-      }
-
-      document.querySelectorAll('.proj-card').forEach(function (card) {
-        card.addEventListener('click', function (ev) {
-          ev.preventDefault();
-          ev.stopPropagation();
-          openPmodal(card);
-        });
-      });
-      pmodal.querySelectorAll('[data-pmodal-close]').forEach(function (el) {
-        el.addEventListener('click', closePmodal);
-      });
-      pmodal.querySelector('.gallery-prev').addEventListener('click', function () { showGallery(galleryIndex-1); });
-      pmodal.querySelector('.gallery-next').addEventListener('click', function () { showGallery(galleryIndex+1); });
-      pmodal.addEventListener('cancel', function (ev) { ev.preventDefault(); closePmodal(); });
-      function mediaError() { galleryError.hidden = false; }
-      pmImg.addEventListener('error', mediaError);
-      pmVideo.addEventListener('error', function () { if (pmVideo.hasAttribute('src')) mediaError(); });
-      var touchStart = null;
-      pmodal.querySelector('.pmodal-media').addEventListener('touchstart', function (ev) {
-        if (!pmVideo.hidden || ev.touches.length !== 1) return;
-        touchStart = {x:ev.touches[0].clientX,y:ev.touches[0].clientY};
-      }, {passive:true});
-      pmodal.querySelector('.pmodal-media').addEventListener('touchend', function (ev) {
-        if (!touchStart || !ev.changedTouches.length) return;
-        var dx = ev.changedTouches[0].clientX-touchStart.x;
-        var dy = ev.changedTouches[0].clientY-touchStart.y;
-        touchStart = null;
-        if (gallery.length > 1 && Math.abs(dx)>60 && Math.abs(dy)<Math.abs(dx)*.5) showGallery(galleryIndex + (dx<0 ? (AR ? -1 : 1) : (AR ? 1 : -1)));
-      }, {passive:true});
-      document.addEventListener('keydown', function (ev) {
-        if (ev.key === 'Escape' && pmodal.getAttribute('aria-hidden') === 'false') {
-          ev.preventDefault();
-          closePmodal();
-        }
-        if (pmodal.open && gallery.length > 1 && ev.target.tagName !== 'VIDEO' && (ev.key === 'ArrowRight' || ev.key === 'ArrowLeft')) {
-          ev.preventDefault();
-          showGallery(galleryIndex + (ev.key === 'ArrowRight' ? (AR ? -1 : 1) : (AR ? 1 : -1)));
-        }
-      });
-      window.addEventListener('pageshow', function () { closePmodal(); });
-    }
+    // Full-screen project media is owned by project-gallery.js.
 
     /* ============================================================
        3D FLIP CARDS — tap toggles (mobile), Enter/Space toggle,
@@ -416,15 +305,15 @@
     var featGrid = document.querySelector('.feat-grid');
     if (featGrid && ST) {
       gsap.from(featGrid, {
-        opacity: 0, y: 24, duration: .8, ease: 'power2.out',
-        clearProps: 'opacity,transform',
+        y: 24, duration: .8, ease: 'power2.out',
+        clearProps: 'transform',
         scrollTrigger: { trigger: featGrid,
           start: function () {
             var top = featGrid.getBoundingClientRect().top +
                       (window.pageYOffset || 0);
             return Math.max(0, Math.min(top - window.innerHeight * 0.9,
                      ScrollTrigger.maxScroll(window) - 2));
-          }, once: true }
+          }, toggleActions: 'play none none none' }
       });
     }
     if (!REDUCED && window.matchMedia && matchMedia('(hover:hover)').matches) {
@@ -439,7 +328,7 @@
       /* ---- chroma lens: damped colour-reveal following the cursor ---- */
       (function () {
         var grid = document.querySelector('.feat-grid');
-        if (!grid) return;
+        if (!grid || grid.classList.contains('project-gallery')) return;
         var test = document.createElement('div');
         test.style.cssText = 'backdrop-filter:grayscale(1)';
         if (!('backdropFilter' in test.style) && !('webkitBackdropFilter' in test.style)) return;
@@ -488,6 +377,11 @@
     var gsap = window.gsap;
     try { gsap.registerPlugin(window.ScrollTrigger); } catch (e) {}
     var ST = window.ScrollTrigger;
+
+    /* Keep completed triggers registered: GSAP 3.12's once:true can remove
+       earlier triggers during a restored-scroll refresh while new ones are
+       being created. Explicit play/none actions preserve a single entrance
+       without mutating that refresh list. Page navigation releases them. */
 
     /* ============================================================
        HERO ENTRANCE — absolute timeline positions only
@@ -570,7 +464,7 @@
             { opacity: 0, yPercent: 70, scale: .85 },
             {
               opacity: 1, yPercent: 0, scale: 1, duration: .55, stagger: 0.018, ease: 'power2.out',
-              scrollTrigger: { trigger: h, start: 'top 88%', once: true }
+              scrollTrigger: { trigger: h, start: 'top 88%', toggleActions: 'play none none none' }
             });
         });
       } else {
@@ -608,7 +502,7 @@
         var aboutWords = aboutH2 ? splitWords(aboutH2) : [];
 
         var aboutTL = gsap.timeline({
-          scrollTrigger: { trigger: aboutPanel, start: 'top 85%', once: true }
+          scrollTrigger: { trigger: aboutPanel, start: 'top 85%', toggleActions: 'play none none none' }
         });
 
         // 1. Eyebrow fades in first
@@ -658,7 +552,7 @@
           { rotateX: -75, y: 26, opacity: 0, transformOrigin: '50% 100%' },
           {
             rotateX: 0, y: 0, opacity: 1, duration: 1.3, stagger: 0.13, ease: 'power3.out',
-            scrollTrigger: { trigger: h, start: 'top 88%', once: true }
+            scrollTrigger: { trigger: h, start: 'top 88%', toggleActions: 'play none none none' }
           });
       });
     }
@@ -684,7 +578,7 @@
         scrollTrigger: {
           trigger: serviceGrid,
           start: 'top 60%', // triggers when the grid is in the middle of the viewport
-          once: true
+          toggleActions: 'play none none none'
         }
       });
 
@@ -758,8 +652,9 @@
       var cards = document.querySelectorAll('.proj-card');
       if (!cards.length) return;
       cards.forEach(function (card) {
+        if (card.closest('.project-gallery')) return;
         var gentle = !!card.closest('.projects-grid');
-        var media = card.querySelector('.proj-media img');
+        var media = card.querySelectorAll('.proj-media > img, .proj-media > video');
         var meta = card.querySelector('.proj-meta');
         var overlay = card.querySelector('.proj-overlay');
         if (overlay) {
@@ -818,7 +713,7 @@
     }
 
     /* ============================================================
-       SCROLL REVEALS — once:true, threshold ~ top 86%
+       SCROLL REVEALS — play once without rewind, threshold ~ top 86%
        ============================================================ */
     /* Reveal targets: skip containers double-gated by an ancestor */
     var revealEls = Array.prototype.filter.call(
@@ -859,7 +754,7 @@
         gsap.fromTo(kid, { opacity: 0, y: 26 },
           {
             opacity: 1, y: 0, duration: .7, ease: 'power2.out',
-            scrollTrigger: { trigger: kid, start: 'top 90%', once: true },
+            scrollTrigger: { trigger: kid, start: 'top 90%', toggleActions: 'play none none none' },
             onStart: function () { kid.classList.add('is-in'); }
           });
       }
@@ -867,7 +762,7 @@
 
     revealEls.forEach(function (el) {
       var kids = el.querySelectorAll(':scope > [data-reveal-child]');
-      var stCfg = { trigger: el, start: clampedStart(el), once: true };
+      var stCfg = { trigger: el, start: clampedStart(el), toggleActions: 'play none none none' };
       if (el.hasAttribute('data-reveal-stagger') && kids.length) {
         gsap.fromTo(kids, { opacity: 0, y: 30 },
           {
@@ -895,7 +790,7 @@
       var obj = { v: 0 };
       gsap.to(obj, {
         v: target, duration: 1.6, ease: 'power2.out',
-        scrollTrigger: { trigger: el, start: 'top 87%', once: true },
+        scrollTrigger: { trigger: el, start: 'top 87%', toggleActions: 'play none none none' },
         onUpdate: function () { numSpan.textContent = Math.round(obj.v).toLocaleString('en-US'); }
       });
     });
@@ -948,6 +843,7 @@
         chip.addEventListener('click', function () {
           chips.forEach(function (c) { c.classList.remove('is-active'); });
           chip.classList.add('is-active');
+          document.dispatchEvent(new Event('project:filter'));
           var f = chip.getAttribute('data-filter');
           cards.forEach(function (card) {
             var show = (f === '*' ) || (card.getAttribute('data-category') || '').split(' ').indexOf(f) !== -1;
@@ -955,8 +851,8 @@
           });
           var vis = cards.filter(function (c) { return !c.hidden; });
           if (!instant && window.gsap) {
-            window.gsap.fromTo(vis, { opacity: 0, y: 16 },
-              { opacity: 1, y: 0, duration: .45, ease: 'power2.out', stagger: 0.06, clearProps: 'transform' });
+            window.gsap.fromTo(vis, { y: 16 },
+              { y: 0, duration: .45, ease: 'power2.out', stagger: 0.04, clearProps: 'transform' });
           }
           if (window.ScrollTrigger) window.ScrollTrigger.refresh();
         });
@@ -1039,3 +935,4 @@
     window.addEventListener('load', function () { if (ST) ST.refresh(); });
   });
 })();
+

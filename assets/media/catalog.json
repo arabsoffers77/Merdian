@@ -2,18 +2,44 @@
   "projects": [
     {
       "key": "al-bahja-hotel",
-      "name": "Al Bahja Hotel",
+      "name": "Hotel design",
       "category": "buildings hospitality",
-      "id": "16qVwtykO1J3q9hIaTS75iACwBkbha2DO",
-      "source_path": "Client/01-Architecture & Interiors/Al Bahja Hotel/Sep 24, 2026, 04_07_52 PM.png",
-      "source_url": "https://drive.google.com/file/d/16qVwtykO1J3q9hIaTS75iACwBkbha2DO/view",
+      "id": "1kVj1fsiWkJCUBx3DUf6D20cUveRdno1f",
+      "source_path": "Client/01-Architecture & Interiors/Hotel/Sep 24, 2026, 04_07_52 PM.png",
+      "source_url": "https://drive.google.com/file/d/1kVj1fsiWkJCUBx3DUf6D20cUveRdno1f/view",
       "extension": ".png",
       "source_filename": "Sep 24, 2026, 04_07_52 PM.png",
-      "kind": "Project visualization",
-      "summary": "Hotel exterior with blue facade accents and landscaped frontage.",
-      "description": "Hotel exterior with blue facade accents and landscaped frontage. Imagery supplied by Meridian.",
-      "alt": "Hotel exterior with blue facade accents and landscaped frontage.",
+      "kind": "Hotel",
+      "summary": "Contemporary hotel architecture, full design and site supervision.",
+      "description": "This  Hotel is a contemporary hospitality development, with a stated project area of 3,000 m². The architectural design features sculpted white façade bands, curved corners, extensive glazing, recessed balconies, and contrasting dark vertical screens and warm-toned accents. Glazed lower levels create an open frontage, while the repeated upper-floor openings establish a consistent rhythm across the elevations. Integrated façade lighting highlights the building’s form after dark.\n\nThe supplied interior concepts combine neutral finishes, warm timber elements, glass balustrades, and layered lighting to create bright, welcoming spaces. The project scope comprises full design and site supervision, supporting the development of the design and its implementation on site, with attention to functional planning, coordinated detailing, material finishes, and the overall quality of the guest environment.",
+      "alt": "Project imagery: Hotel design",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Hotel design",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Hotel"
+        },
+        {
+          "label": "Project area",
+          "value": "3000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "2,870,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Full Design, Site Supervision"
+        }
+      ],
+      "source_document": "1YUh7UWi28iNALZYuGtBF0rcG_7wTJL-Z",
+      "local_image": "_media_work/originals/1kVj1fsiWkJCUBx3DUf6D20cUveRdno1f-rendition.jpg",
+      "source_preparation": "Google Drive image rendition requested at 2560px; original file linked separately. No enlargement or generative alteration.",
       "width": 1672,
       "height": 941,
       "variants": [
@@ -21,54 +47,77 @@
           "src": "assets/media/al-bahja-hotel-480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 32940
+          "bytes": 32660
         },
         {
           "src": "assets/media/al-bahja-hotel-800.webp",
           "width": 800,
           "height": 450,
-          "bytes": 74292
+          "bytes": 74256
         },
         {
           "src": "assets/media/al-bahja-hotel-1200.webp",
           "width": 1200,
           "height": 675,
-          "bytes": 139634
+          "bytes": 140634
         },
         {
           "src": "assets/media/al-bahja-hotel-1600.webp",
           "width": 1600,
           "height": 900,
-          "bytes": 207522
+          "bytes": 208602
         },
         {
           "src": "assets/media/al-bahja-hotel-1672.webp",
           "width": 1672,
           "height": 941,
-          "bytes": 224414
+          "bytes": 227024
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.03,
-        "saturation": 0.679,
-        "mean_luminance": 123.3
-      }
+      "fit": "cover"
     },
     {
       "key": "al-dahareez-shops",
-      "name": "Al Dahareez Commercial Shops",
+      "name": "Commercial shops",
       "category": "buildings",
-      "id": "102GtCPr1sb7eO9n8RWFZyTZngOo5F3Ea",
-      "source_path": "Client/01-Architecture & Interiors/aLDAHAREZ Commercial shops/WhatsApp Image 2024-05-29 at 1.37.42 PM (2).jpeg",
-      "source_url": "https://drive.google.com/file/d/102GtCPr1sb7eO9n8RWFZyTZngOo5F3Ea/view",
+      "id": "1lhzECaoZIUHVF_3Z3v6kbgUSnQH_98Bj",
+      "source_path": "Client/01-Architecture & Interiors/Commercial shops/WhatsApp Image 2024-05-29 at 1.37.42 PM (2).jpeg",
+      "source_url": "https://drive.google.com/file/d/1lhzECaoZIUHVF_3Z3v6kbgUSnQH_98Bj/view",
       "extension": ".jpeg",
       "source_filename": "WhatsApp Image 2024-05-29 at 1.37.42 PM (2).jpeg",
-      "kind": "Project visualization",
-      "summary": "Retail frontage with shaded shop entrances and parking.",
-      "description": "Retail frontage with shaded shop entrances and parking. Imagery supplied by Meridian.",
-      "alt": "Retail frontage with shaded shop entrances and parking.",
+      "kind": "Commercial",
+      "summary": "A low-rise retail complex with coordinated storefronts, parking and landscape.",
+      "description": "Commercial Shops Project is a commercial investment development for Al Dahab Real Estate, with a stated project area of 20,000 m². The scheme brings together a series of retail units and a café within a coordinated, low-rise shopping complex. Its linear arrangement gives the shops prominent frontage, with full-height glazed storefronts, clearly defined entrances, and dedicated signage zones that support visibility and individual tenant identity.\n\nThe contemporary architectural treatment combines light-coloured façade frames, warm-toned cladding, and dark glazing surrounds, with taller entrance features creating focal points along the retail frontage. The site layout incorporates customer parking directly in front of the shops, internal vehicle circulation, pedestrian walkways, and landscaped islands with palm planting. These elements support convenient access and a welcoming shopping environment. The consultancy scope comprised full architectural and structural design, coordinating the spatial layout, building form, and structural requirements of the commercial development. The project is recorded as completed in 2024.",
+      "alt": "Project imagery: Commercial shops",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Commercial shops",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Al Dahab real estate"
+        },
+        {
+          "label": "Project type",
+          "value": "Commercial"
+        },
+        {
+          "label": "Project area",
+          "value": "20000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "12,560,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2024 - Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Full Architecture and Structure design."
+        }
+      ],
+      "source_document": "1Dkg2U8YTtwQxW5KdXOTMBWzrx9s4i0Xj",
       "width": 1280,
       "height": 720,
       "variants": [
@@ -97,27 +146,50 @@
           "bytes": 99766
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 0.999,
-        "saturation": 0.79,
-        "mean_luminance": 135.2
-      }
+      "fit": "cover"
     },
     {
       "key": "kids-library",
-      "name": "Children’s Library",
+      "name": "Children’s library",
       "category": "buildings",
-      "id": "1LmE-jIBoDrEOUaBbukyhF_TgnojcZTRi",
-      "source_path": "Client/01-Architecture & Interiors/children liberary/slide15_image42.png",
-      "source_url": "https://drive.google.com/file/d/1LmE-jIBoDrEOUaBbukyhF_TgnojcZTRi/view",
+      "id": "1pghwsiKP3jD8XU24MJ0l8aGt9I4GR5Mi",
+      "source_path": "Client/01-Architecture & Interiors/KIDS LIBRARY/children liberary/slide15_image42.png",
+      "source_url": "https://drive.google.com/file/d/1pghwsiKP3jD8XU24MJ0l8aGt9I4GR5Mi/view",
       "extension": ".png",
       "source_filename": "slide15_image42.png",
-      "kind": "Project visualization",
-      "summary": "A curved library building with landscaped outdoor spaces.",
-      "description": "A curved library building with landscaped outdoor spaces. Imagery supplied by Meridian.",
-      "alt": "A curved library building with landscaped outdoor spaces.",
+      "kind": "Public / Educational building",
+      "summary": "A public educational destination with curved façades and Arabic calligraphy.",
+      "description": "Kids Library is a public educational development in Salalah for Dhofar Municipality, with a project area of 4,500 m². Conceived as a welcoming destination for children and families, the building supports reading, learning, and engagement with books and culture. Its architectural identity combines flowing, curved building forms with extensive glazing and decorative Arabic calligraphy across the façades, expressing the relationship between language, knowledge, and the built environment. Light-coloured exterior surfaces and integrated lighting emphasise the curved elevations and calligraphic details during both daytime and evening use.\n\nThe building frames a landscaped arrival plaza with stepped terraces, seating edges, planted areas, and pedestrian routes that connect the entrances with the surrounding grounds. These outdoor spaces provide opportunities for informal gathering and complement the library’s educational role. Broad glazed frontages establish visual connections between the interior and the landscape, while the overall site arrangement incorporates parking and vehicle access alongside the pedestrian approaches. The consultancy scope comprises detailed design, developing the architectural layout, façade treatment, and interfaces between the building and external spaces.",
+      "alt": "Project imagery: Children’s library",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Children’s library",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Dhofar Municipality"
+        },
+        {
+          "label": "Project type",
+          "value": "Public / Educational building"
+        },
+        {
+          "label": "Project area",
+          "value": "4500 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "3,850,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2026"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Detail Design"
+        }
+      ],
+      "source_document": "1qJUAQ98kHESorljDc8V01RS3mVreUbsQ",
       "width": 1183,
       "height": 660,
       "variants": [
@@ -140,27 +212,50 @@
           "bytes": 120102
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.074,
-        "saturation": 0.692,
-        "mean_luminance": 106.6
-      }
+      "fit": "cover"
     },
     {
       "key": "gim-theatre",
-      "name": "GIM Theatre",
+      "name": "Theatre concept",
       "category": "buildings",
-      "id": "1mEx96JiEMqP5ua2zSUozn1Kdbq9cWEw4",
-      "source_path": "Client/01-Architecture & Interiors/GIM THEATRE/slide21_image57.jpg",
-      "source_url": "https://drive.google.com/file/d/1mEx96JiEMqP5ua2zSUozn1Kdbq9cWEw4/view",
+      "id": "1yUGxxcaFPRpYP12NeoPR-oU_7xGDDODG",
+      "source_path": "Client/01-Architecture & Interiors/GIM THEATER/slide21_image57.jpg",
+      "source_url": "https://drive.google.com/file/d/1yUGxxcaFPRpYP12NeoPR-oU_7xGDDODG/view",
       "extension": ".jpg",
       "source_filename": "slide21_image57.jpg",
-      "kind": "Project visualization",
-      "summary": "Sculptural theatre exterior illuminated at dusk.",
-      "description": "Sculptural theatre exterior illuminated at dusk. Imagery supplied by Meridian.",
-      "alt": "Sculptural theatre exterior illuminated at dusk.",
+      "kind": "Cultural building / Theatre",
+      "summary": "A performing arts concept inspired by the traditional Omani Gim instrument.",
+      "description": "GIM Theater is a cultural and performing arts concept developed for Dhofar Municipality, with a stated project area of 10,000 m². The design takes inspiration from the Gim, a traditional Omani musical instrument made from a conch shell, translating this cultural reference into a sculptural building with flowing curves and overlapping shell-like forms. White exterior surfaces, patterned openings, sweeping glazed façades, and integrated lighting establish a distinctive architectural identity rooted in Oman’s musical heritage.\n\nThe concept includes an auditorium with a performance stage, tiered audience seating, and curved balcony levels. Sculpted interior surfaces and layered lighting extend the flowing architectural language into the performance space. Glazed public areas connect visually with the surrounding plazas, while landscaped spaces, pedestrian approaches, and reflecting pools shape the arrival experience and provide places for gathering before and after events. Our scope comprised concept design, establishing the architectural vision, overall building form, and spatial relationships between the performance venue, public areas, and external setting.",
+      "alt": "Project imagery: Theatre concept",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Theatre concept",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Dhofar Municipality"
+        },
+        {
+          "label": "Project type",
+          "value": "Cultural building / Theatre"
+        },
+        {
+          "label": "Project area",
+          "value": "10000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "7,850,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2024 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Concept Design"
+        }
+      ],
+      "source_document": "1ZFww1UsKaaJ5yIrOLVsHrjPk7YJoqe4-",
       "width": 2304,
       "height": 1280,
       "variants": [
@@ -195,27 +290,50 @@
           "bytes": 181164
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.13,
-        "saturation": 0.681,
-        "mean_luminance": 84.9
-      }
+      "fit": "cover"
     },
     {
       "key": "grand-resort",
-      "name": "Grand Resort",
+      "name": "Resort development",
       "category": "buildings hospitality",
-      "id": "1IxQ2Xy3HTM34fNrVB8pNF-I8W9fJeoV0",
+      "id": "12M_H6for6M5kQQLv9TAVDvioVpuwYPio",
       "source_path": "Client/01-Architecture & Interiors/Grand Resort/slide33_image93.jpg",
-      "source_url": "https://drive.google.com/file/d/1IxQ2Xy3HTM34fNrVB8pNF-I8W9fJeoV0/view",
+      "source_url": "https://drive.google.com/file/d/12M_H6for6M5kQQLv9TAVDvioVpuwYPio/view",
       "extension": ".jpg",
       "source_filename": "slide33_image93.jpg",
-      "kind": "Project visualization",
-      "summary": "Aerial view of the resort buildings, villas and entrance.",
-      "description": "Aerial view of the resort buildings, villas and entrance. Imagery supplied by Meridian.",
-      "alt": "Aerial view of the resort buildings, villas and entrance.",
+      "kind": "Resort",
+      "summary": "Guest accommodation and landscaped courtyards with integrated building design.",
+      "description": "Grand Resort is a residential property development for Shaher United, with a project area of 20,000 m². The scheme combines a main reception and public facilities building with low-rise guest accommodation arranged around landscaped pedestrian routes and courtyards. The architectural design brings together contemporary geometric forms and traditional arched features, using light-coloured surfaces, stone textures, contrasting façade frames, and generous glazing to establish a coordinated resort identity. A prominent entrance, guest arrival forecourt, and parking areas define the approach to the main building.\n\nThe accommodation concepts include guest rooms and villa-style units with private outdoor spaces and swimming pools. Interior designs feature a spacious reception lobby, lounge seating, decorative screens, warm neutral finishes, and layered lighting, creating a welcoming setting for guests. Landscaped courtyards, palm planting, terraces, and water features connect the buildings and provide spaces for relaxation while supporting privacy within the accommodation areas. The consultancy scope comprises architectural and structural design, mechanical, electrical and plumbing design, coordinating the buildings, services, and external works throughout design development and construction.",
+      "alt": "Project imagery: Resort development",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Resort development",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Shaher United"
+        },
+        {
+          "label": "Project type",
+          "value": "Resort"
+        },
+        {
+          "label": "Project area",
+          "value": "20000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "5,870,650 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2024 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP."
+        }
+      ],
+      "source_document": "1-zUZ430R8srwuZtXMwBIGj2s-CAfO0sP",
       "width": 2734,
       "height": 1538,
       "variants": [
@@ -250,27 +368,50 @@
           "bytes": 304522
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.031,
-        "saturation": 0.772,
-        "mean_luminance": 123.0
-      }
+      "fit": "cover"
     },
     {
       "key": "morjan-hall",
-      "name": "Morjan Hall",
+      "name": "Multi-purpose events hall",
       "category": "buildings hospitality",
-      "id": "1xvEWJMLaYUS8M_aNeTFcIe_X2wSq4mR2",
-      "source_path": "Client/01-Architecture & Interiors/Morjan Hall/slide10_hdphoto7_HD.png",
-      "source_url": "https://drive.google.com/file/d/1xvEWJMLaYUS8M_aNeTFcIe_X2wSq4mR2/view",
+      "id": "1WWDH2z_U9ULwna2Vm69CfCAtwkuYMr5T",
+      "source_path": "Client/01-Architecture & Interiors/Multi Purpose Hall/slide11_image26.png",
+      "source_url": "https://drive.google.com/file/d/1WWDH2z_U9ULwna2Vm69CfCAtwkuYMr5T/view",
       "extension": ".png",
       "source_filename": "slide10_hdphoto7_HD.png",
-      "kind": "Project visualization",
-      "summary": "Aerial sunset view of a landscaped hall complex.",
-      "description": "Aerial sunset view of a landscaped hall complex. Imagery supplied by Meridian.",
-      "alt": "Aerial sunset view of a landscaped hall complex.",
+      "kind": "Events hall / Commercial",
+      "summary": "A coordinated concept for event halls, public spaces and supporting services.",
+      "description": "Multi Purpose Hall is a commercial events venue development for Aldahab Real Estate, with a project area of 10,000 m². The concept brings together hall buildings, supporting commercial spaces, and landscaped outdoor areas within a coordinated site arrangement. The architectural composition uses clustered polygonal forms, faceted roof profiles, and decorative perforated screens to create a distinctive identity. Integrated lighting highlights the building edges and patterned façades, reinforcing the venue’s presence during evening events.\n\nThe external design extends this geometric language into pedestrian plazas, planted areas, and water features with fountains. Landscaped walkways connect the buildings and provide spaces for arrival, gathering, and movement between event areas. Parking and vehicle circulation are incorporated into the site plan, while palm planting and illuminated landscape edges help define the public spaces. The consultancy scope covers concept design for the architecture, site plan, mechanical, electrical and plumbing services, and landscape, establishing the overall development layout and the relationship between the buildings, supporting services, and outdoor environment.",
+      "alt": "Project imagery: Multi-purpose events hall",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Multi-purpose events hall",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Aldahab Real Estate"
+        },
+        {
+          "label": "Project type",
+          "value": "Events hall / Commercial"
+        },
+        {
+          "label": "Project area",
+          "value": "10000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "3,500,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Site Plan, MEP, Landscape (Concept design)"
+        }
+      ],
+      "source_document": "1m6h26A5HOB5bOYhlqIbOyzyet2j1eMZc",
       "width": 1536,
       "height": 1024,
       "variants": [
@@ -278,48 +419,71 @@
           "src": "assets/media/morjan-hall-480.webp",
           "width": 480,
           "height": 320,
-          "bytes": 20356
+          "bytes": 30364
         },
         {
           "src": "assets/media/morjan-hall-800.webp",
           "width": 800,
           "height": 533,
-          "bytes": 47660
+          "bytes": 84244
         },
         {
           "src": "assets/media/morjan-hall-1200.webp",
           "width": 1200,
           "height": 800,
-          "bytes": 104500
+          "bytes": 195966
         },
         {
           "src": "assets/media/morjan-hall-1536.webp",
           "width": 1536,
           "height": 1024,
-          "bytes": 192364
+          "bytes": 328624
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.2,
-        "saturation": 0.65,
-        "mean_luminance": 51.1
-      }
+      "fit": "cover"
     },
     {
       "key": "salalah-municipality",
-      "name": "Salalah Municipality Buildings",
+      "name": "Municipal campus",
       "category": "buildings",
-      "id": "1nUYxUL-gZcSZAlLZtSNawhpoSb_oBm3j",
-      "source_path": "Client/01-Architecture & Interiors/SALALAH MUNCIPALITY/slide27_hdphoto13_HD.png",
-      "source_url": "https://drive.google.com/file/d/1nUYxUL-gZcSZAlLZtSNawhpoSb_oBm3j/view",
+      "id": "1wXECVetFLDrkdjfwXgKCmGM22x1-DZIn",
+      "source_path": "Client/01-Architecture & Interiors/Salalah Municipality/slide27_hdphoto13_HD.png",
+      "source_url": "https://drive.google.com/file/d/1wXECVetFLDrkdjfwXgKCmGM22x1-DZIn/view",
       "extension": ".png",
       "source_filename": "slide27_hdphoto13_HD.png",
-      "kind": "Project visualization",
-      "summary": "Administrative and laboratory building exterior.",
-      "description": "Administrative and laboratory building exterior. Imagery supplied by Meridian.",
-      "alt": "Administrative and laboratory building exterior.",
+      "kind": "Government building",
+      "summary": "Administrative and laboratory buildings planned as a coordinated municipal campus.",
+      "description": "Salalah Municipality is a government building development for Dhofar Municipality, with a project area of 5,388 m². The scheme brings together administrative and laboratory buildings within a coordinated municipal campus. Its contemporary architectural treatment combines white geometric frames, contrasting grey surfaces, and broad glazed elevations. Curved projecting wings and landscaped roof terraces distinguish the main administrative frontage, while clearly expressed entrances establish identifiable arrival points for the buildings.\n\nThe site plan incorporates an entrance gate, internal vehicle circulation, parking areas, pedestrian approaches, and landscaped spaces around the buildings. Palm planting, paved forecourts, and planted islands organise the external areas and connect the individual buildings within the campus. The design balances the formal character of a government facility with welcoming entrances and visual connections to the surrounding landscape. Our scope comprises architectural design, site planning, landscape design, and mechanical, electrical and plumbing design, coordinating the building layouts, façade treatment, external works, and services to support the municipality’s operational requirements.",
+      "alt": "Project imagery: Municipal campus",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Municipal campus",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Dhofar Municipality"
+        },
+        {
+          "label": "Project type",
+          "value": "Government building"
+        },
+        {
+          "label": "Project area",
+          "value": "5388 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "2,850,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2024 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Site Plan, Landscape, MEP"
+        }
+      ],
+      "source_document": "1qBGmqxQxbt4gQ0T0xi65n8boz-AGNkfj",
       "width": 3840,
       "height": 2160,
       "variants": [
@@ -354,27 +518,50 @@
           "bytes": 242512
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.079,
-        "saturation": 0.77,
-        "mean_luminance": 104.7
-      }
+      "fit": "cover"
     },
     {
       "key": "science-space-oasis",
-      "name": "Science and Space Oasis",
-      "category": "buildings",
-      "id": "1524y6y4Ivw4iqlgJdewCpyOdANIvQwFa",
+      "name": "Science and space destination",
+      "category": "buildings hospitality",
+      "id": "1mTaFnKjM5zq_dgyH3IJ4hZXRalowbPxf",
       "source_path": "Client/01-Architecture & Interiors/Science and Space Oasis/slide12_image30.jpg",
-      "source_url": "https://drive.google.com/file/d/1524y6y4Ivw4iqlgJdewCpyOdANIvQwFa/view",
+      "source_url": "https://drive.google.com/file/d/1mTaFnKjM5zq_dgyH3IJ4hZXRalowbPxf/view",
       "extension": ".jpg",
       "source_filename": "slide12_image30.jpg",
-      "kind": "Project visualization",
-      "summary": "Science centre exterior with curved forms and patterned surfaces.",
-      "description": "Science centre exterior with curved forms and patterned surfaces. Imagery supplied by Meridian.",
-      "alt": "Science centre exterior with curved forms and patterned surfaces.",
+      "kind": "Cultural / Educational / Tourism",
+      "summary": "A cultural and educational visitor concept centred on science and space exploration.",
+      "description": "Science and Space Oasis is a cultural, educational, and tourism destination concept in Dhofar, developed for the Minister of State and Governor of Dhofar, with a project area of 80,000 m². The vision brings science and space exploration into an engaging visitor environment, combining exhibition spaces, immersive displays, and public gathering areas. The architectural concept features sculptural rounded volumes, metallic-looking façades, patterned openings, and glazed domes, creating a futuristic identity that reflects the destination’s scientific theme.\n\nThe interior concepts include expansive atriums, flowing circulation routes, and exhibition settings illustrated with space-related displays and natural history exhibits. Curved surfaces, dramatic lighting, and visual connections between levels contribute to a sense of discovery throughout the visitor journey. External plazas, landscaped areas, and clearly expressed entrances connect the building volumes and support arrival and movement across the site. Our scope comprised concept design, establishing the overall architectural vision, building composition, and spatial relationships between the exhibitions, public spaces, circulation, and external setting.",
+      "alt": "Project imagery: Science and space destination",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Science and space destination",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Minister of State and Governor of Dhofar"
+        },
+        {
+          "label": "Project type",
+          "value": "Cultural / Educational / Tourism"
+        },
+        {
+          "label": "Project area",
+          "value": "80000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "9,650,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2024 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Concept Design"
+        }
+      ],
+      "source_document": "1qhsf-17sEPkQIlS2YnUxjmc7tKDw7urJ",
       "width": 1551,
       "height": 834,
       "variants": [
@@ -403,27 +590,50 @@
           "bytes": 115302
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.155,
-        "saturation": 0.723,
-        "mean_luminance": 75.3
-      }
+      "fit": "cover"
     },
     {
       "key": "training-center",
-      "name": "Training Center",
+      "name": "Training centre",
       "category": "buildings",
-      "id": "1S6Ymjct-jzPFPT-nlJJ6N0kDHIDddwor",
+      "id": "1iQUS8k3KpJ_vHz_kbPFnUE116nSaoWhS",
       "source_path": "Client/01-Architecture & Interiors/Training Center/slide17_image47.jpg",
-      "source_url": "https://drive.google.com/file/d/1S6Ymjct-jzPFPT-nlJJ6N0kDHIDddwor/view",
+      "source_url": "https://drive.google.com/file/d/1iQUS8k3KpJ_vHz_kbPFnUE116nSaoWhS/view",
       "extension": ".jpg",
       "source_filename": "slide17_image47.jpg",
-      "kind": "Project visualization",
-      "summary": "Aerial view of a curved training centre building.",
-      "description": "Aerial view of a curved training centre building. Imagery supplied by Meridian.",
-      "alt": "Aerial view of a curved training centre building.",
+      "kind": "Educational building",
+      "summary": "An educational concept with curved wings, a central open space and landscaped approaches.",
+      "description": "Training Center is an educational building concept for the Ministry of Education, with a project area of 4,000 m². The development is conceived as a setting for professional learning, training activities, and the exchange of knowledge. Its contemporary architectural identity is defined by flowing horizontal bands, rounded corners, and extensive glazing. The building is arranged around a central open space, with the curved form creating a cohesive relationship between the different wings and levels. Integrated lighting traces the façade edges and reinforces the building’s architectural character after dark.\n\nThe arrival experience includes a spacious reception lobby with lounge seating, a clearly expressed reception desk, and broad glazed frontages overlooking the landscaped surroundings. Palm planting, gardens, and winding pedestrian paths extend the setting beyond the building and provide outdoor spaces for informal interaction. The design seeks to create a welcoming environment for trainees, staff, and visitors. Our scope comprises concept design, establishing the overall building form, spatial organisation, entrance treatment, and relationship between the educational facility and its external spaces.",
+      "alt": "Project imagery: Training centre",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Training centre",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Ministry of Education"
+        },
+        {
+          "label": "Project type",
+          "value": "Educational building"
+        },
+        {
+          "label": "Project area",
+          "value": "4000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "2,850,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2026"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Concept Design"
+        }
+      ],
+      "source_document": "1Jd58Hu0WeqNZAlF_zJf_Az5rqWs8jOd7",
       "width": 5376,
       "height": 3072,
       "variants": [
@@ -458,137 +668,206 @@
           "bytes": 345396
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.16,
-        "saturation": 0.742,
-        "mean_luminance": 73.3
-      }
+      "fit": "cover"
     },
     {
       "key": "wedding-hall",
-      "name": "Wedding Hall",
+      "name": "Wedding and events hall",
       "category": "buildings hospitality",
-      "id": "15lXqVTSg8EnY2lAAelF6fpxTOlRbcsJ3",
+      "id": "17LGlkEjFe9oaHx4DRSC_GnR1UL0FBkzA",
       "source_path": "Client/01-Architecture & Interiors/WEDDING HALL/1_21 - Photo.jpg",
-      "source_url": "https://drive.google.com/file/d/15lXqVTSg8EnY2lAAelF6fpxTOlRbcsJ3/view",
+      "source_url": "https://drive.google.com/file/d/17LGlkEjFe9oaHx4DRSC_GnR1UL0FBkzA/view",
       "extension": ".jpg",
       "source_filename": "1_21 - Photo.jpg",
-      "kind": "Project visualization",
-      "summary": "Formal hall frontage with a central entrance and landscaped approach.",
-      "description": "Formal hall frontage with a central entrance and landscaped approach. Imagery supplied by Meridian.",
-      "alt": "Formal hall frontage with a central entrance and landscaped approach.",
+      "kind": "Social",
+      "summary": "Formal event halls with coordinated arrival spaces, landscape and building services.",
+      "description": "Wedding Hall is a social events development, with a project area of 2,000 m². The scheme provides a formal setting for wedding celebrations and associated gatherings, complemented by coordinated external works and landscaped spaces. The architectural design combines a symmetrical composition, prominent entrance porticoes, tall arched openings, classical columns, and decorative cornices. Light-coloured façades and integrated uplighting emphasise the entrance features and create a distinguished appearance during evening events.\n\nThe site arrangement incorporates covered arrival areas, vehicle circulation, parking, and pedestrian connections between the halls and outdoor spaces. Landscaped avenues, seating pavilions, geometric plazas, and decorative water features extend the guest experience beyond the buildings and provide places for gathering and photography. Palm planting and planted islands define the approaches and soften the paved areas. Our scope comprises architectural and structural design, mechanical, electrical and plumbing design, and site supervision, coordinating the hall buildings, supporting services, and external works from design development through construction.",
+      "alt": "Project imagery: Wedding and events hall",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
-      "width": 3840,
-      "height": 2160,
+      "display_name": "Wedding and events hall",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Social"
+        },
+        {
+          "label": "Project area",
+          "value": "2000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "1.000,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP, Site Supervision"
+        }
+      ],
+      "source_document": "1oZXvf-DstcjN-7tewrzcNZEIJUNsBq-9",
+      "local_image": "_media_work/originals/17LGlkEjFe9oaHx4DRSC_GnR1UL0FBkzA-rendition.jpg",
+      "source_preparation": "Google Drive image rendition requested at 2560px; original file linked separately. No enlargement or generative alteration.",
+      "width": 2560,
+      "height": 1440,
       "variants": [
         {
           "src": "assets/media/wedding-hall-480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 19012
+          "bytes": 19034
         },
         {
           "src": "assets/media/wedding-hall-800.webp",
           "width": 800,
           "height": 450,
-          "bytes": 47780
+          "bytes": 48062
         },
         {
           "src": "assets/media/wedding-hall-1200.webp",
           "width": 1200,
           "height": 675,
-          "bytes": 102414
+          "bytes": 102922
         },
         {
           "src": "assets/media/wedding-hall-1600.webp",
           "width": 1600,
           "height": 900,
-          "bytes": 174570
+          "bytes": 176098
         },
         {
           "src": "assets/media/wedding-hall-1920.webp",
           "width": 1920,
           "height": 1080,
-          "bytes": 245274
+          "bytes": 248344
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.03,
-        "saturation": 0.726,
-        "mean_luminance": 123.5
-      }
+      "fit": "cover"
     },
     {
       "key": "aftalkout-rock",
-      "name": "Aftalkout Rock",
+      "name": "Coastal landmark and viewpoint",
       "category": "landscape coastal",
-      "id": "1ge8QratkVHUCE5A-E3Watjv1cgklbJk9",
+      "id": "1pm4gHV9ygE4fGxTSE4DnP39Z4WgBI-sS",
       "source_path": "Client/02-Landscape & Public Realm/Aftalkout Rock/slide18_image49.jpg",
-      "source_url": "https://drive.google.com/file/d/1ge8QratkVHUCE5A-E3Watjv1cgklbJk9/view",
+      "source_url": "https://drive.google.com/file/d/1pm4gHV9ygE4fGxTSE4DnP39Z4WgBI-sS/view",
       "extension": ".jpg",
       "source_filename": "slide18_image49.jpg",
-      "kind": "Project visualization",
-      "summary": "A coastal overlook with paths and shaded viewing areas.",
-      "description": "A coastal overlook with paths and shaded viewing areas. Imagery supplied by Meridian.",
-      "alt": "A coastal overlook with paths and shaded viewing areas.",
+      "kind": "Tourism / Landmark",
+      "summary": "A coordinated coastal visitor environment with terraces, paths and a sculptural bridge.",
+      "description": "A tourism and landmark development at Aftalkout Rock in Dhofar, designed for Dhofar Municipality to enhance the visitor experience of the coastal landscape. The design brings together sea-facing viewing terraces, pedestrian promenades, open plazas and shaded seating areas, connected across the changing site levels by steps and sloping walkways. A sculptural pedestrian bridge forms a distinctive focal point within the wider landscape. Stone-faced walls, coordinated paving, palm planting and low-level lighting establish a consistent character, while perimeter railings define the edges of the viewing areas. Dedicated parking and low-rise visitor facilities support arrival and movement through the destination.\n\nOur full design scope develops these elements as a coordinated visitor environment, with attention to circulation, resting points, coastal views and the relationship between built features and the rocky setting. The design integrates landscape treatment, shade structures, external lighting and visitor facilities to support daytime and evening use. Particular attention is given to the detailing of level transitions, viewing edges and public spaces, creating a coherent sequence from the arrival area to the principal coastal viewpoints.",
+      "alt": "Project imagery: Coastal landmark and viewpoint",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
-      "width": 3840,
-      "height": 2160,
+      "display_name": "Coastal landmark and viewpoint",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Dhofar Municipality"
+        },
+        {
+          "label": "Project type",
+          "value": "Tourism / Landmark"
+        },
+        {
+          "label": "Project area",
+          "value": "30000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "1,450,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2024 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Full Design"
+        }
+      ],
+      "source_document": "1wccjFBRA3p4CdmYBavliP3IIq7pi785y",
+      "local_image": "_media_work/originals/1pm4gHV9ygE4fGxTSE4DnP39Z4WgBI-sS-rendition.jpg",
+      "source_preparation": "Google Drive image rendition requested at 2560px; original file linked separately. No enlargement or generative alteration.",
+      "width": 2560,
+      "height": 1440,
       "variants": [
         {
           "src": "assets/media/aftalkout-rock-480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 13862
+          "bytes": 13750
         },
         {
           "src": "assets/media/aftalkout-rock-800.webp",
           "width": 800,
           "height": 450,
-          "bytes": 33118
+          "bytes": 33174
         },
         {
           "src": "assets/media/aftalkout-rock-1200.webp",
           "width": 1200,
           "height": 675,
-          "bytes": 66344
+          "bytes": 67378
         },
         {
           "src": "assets/media/aftalkout-rock-1600.webp",
           "width": 1600,
           "height": 900,
-          "bytes": 105400
+          "bytes": 108582
         },
         {
           "src": "assets/media/aftalkout-rock-1920.webp",
           "width": 1920,
           "height": 1080,
-          "bytes": 145318
+          "bytes": 150406
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.029,
-        "saturation": 0.791,
-        "mean_luminance": 124.0
-      }
+      "fit": "cover"
     },
     {
       "key": "aftalkout-viewpoint",
-      "name": "Aftalkout Viewpoint",
-      "category": "landscape",
-      "id": "1HevDWtT2l1DKwiuSTjzMVXFknJlc2-pR",
+      "name": "Coastal viewing destination",
+      "category": "landscape coastal",
+      "id": "1ZNFCni6kRj15SlBDShJ9g4ecPTYHlPfl",
       "source_path": "Client/02-Landscape & Public Realm/Aftalkout Viewpoint/slide16_image41.jpg",
-      "source_url": "https://drive.google.com/file/d/1HevDWtT2l1DKwiuSTjzMVXFknJlc2-pR/view",
+      "source_url": "https://drive.google.com/file/d/1ZNFCni6kRj15SlBDShJ9g4ecPTYHlPfl/view",
       "extension": ".jpg",
       "source_filename": "slide16_image41.jpg",
-      "kind": "Project visualization",
-      "summary": "A circular public plaza with sculptural shade structures.",
-      "description": "A circular public plaza with sculptural shade structures. Imagery supplied by Meridian.",
-      "alt": "A circular public plaza with sculptural shade structures.",
+      "kind": "Tourism / Viewpoint",
+      "summary": "A cliff-edge viewing deck, visitor pavilion and landscaped public plazas.",
+      "description": "A tourism viewpoint and visitor destination at Aftalkout in Dhofar, designed for Dhofar Municipality to celebrate the coastal setting and panoramic sea views. The design features a curved viewing deck with glass balustrades and a prominent mast-and-cable structure, creating a landmark at the cliff edge. Circular landscaped plazas organise the public spaces, with patterned paving, sculptural shade canopies and seating arranged around planted areas. Pergolas, palm planting and pedestrian paths provide additional places to walk and rest, while a circular visitor pavilion and coordinated wayfinding support the visitor experience.\n\nMeridian Engineering Consultancy’s full design scope brings together the viewing structure, visitor facilities and landscape as a coordinated public destination. Our approach focuses on clear pedestrian connections, comfortable gathering spaces and the relationship between the arrival areas, plazas and coastal viewpoints. Integrated lighting highlights paths, planting, shade structures and architectural features for evening use. The design also incorporates a sculptural focal feature within the landscaped plazas, reinforcing the destination’s identity while maintaining open spaces for visitors to gather and enjoy the surrounding scenery.",
+      "alt": "Project imagery: Coastal viewing destination",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Coastal viewing destination",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Dhofar Municipality"
+        },
+        {
+          "label": "Project type",
+          "value": "Tourism / Viewpoint"
+        },
+        {
+          "label": "Project area",
+          "value": "25000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "1,750,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2024 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Full Design"
+        }
+      ],
+      "source_document": "1u6XTNyP6odyLzR2Hkfo3PsX8xvJgqnxz",
       "width": 1205,
       "height": 678,
       "variants": [
@@ -617,27 +896,50 @@
           "bytes": 104546
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.013,
-        "saturation": 0.763,
-        "mean_luminance": 130.0
-      }
+      "fit": "cover"
     },
     {
       "key": "al-dahareez-beach",
-      "name": "Al Dahareez Beach",
-      "category": "coastal landscape",
-      "id": "1KVv6EbFkT4iZdYvMuD6tTG3VhHqoWpdt",
+      "name": "Beachfront masterplan",
+      "category": "urban-planning coastal landscape",
+      "id": "10qZrtzYJ_X4mMwHN4G0x9iMI8RIprXpY",
       "source_path": "Client/03-Coastal & Marine/Al Dahareez Beach/slide23_image65.jpg",
-      "source_url": "https://drive.google.com/file/d/1KVv6EbFkT4iZdYvMuD6tTG3VhHqoWpdt/view",
+      "source_url": "https://drive.google.com/file/d/10qZrtzYJ_X4mMwHN4G0x9iMI8RIprXpY/view",
       "extension": ".jpg",
       "source_filename": "slide23_image65.jpg",
-      "kind": "Project visualization",
-      "summary": "Aerial view of a landscaped beachfront and public promenade.",
-      "description": "Aerial view of a landscaped beachfront and public promenade. Imagery supplied by Meridian.",
-      "alt": "Aerial view of a landscaped beachfront and public promenade.",
+      "kind": "Waterfront / Master plan",
+      "summary": "A beachfront masterplan connecting promenades, landscaped spaces and leisure facilities.",
+      "description": "A waterfront master plan and concept design for Al Dahareez Beach in Salalah, developed for Dhofar Municipality to enhance the beachfront as a public leisure destination. The proposal combines a continuous coastal promenade with landscaped gardens, open lawns, public plazas and shaded seating areas. Curving viewing terraces and a pedestrian pier extend the visitor experience towards the sea, while clusters of cafés, restaurants and kiosks introduce active gathering spaces along the waterfront. Palm-lined paths, outdoor dining terraces and coordinated landscape treatments connect these attractions with the beach, arrival points and parking areas.\n\nOur scope comprises concept design and master planning, establishing the spatial framework, architectural character and relationship between recreational, commercial and landscape components. Our approach organises pedestrian movement, beach connections and vehicle access to create a coherent sequence of public spaces along the coastline. The concept balances opportunities for walking, relaxation and social activity with open views towards the sea, using shade structures, planting and a consistent family of waterfront elements to support a welcoming environment for residents and visitors.",
+      "alt": "Project imagery: Beachfront masterplan",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Beachfront masterplan",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Dhofar Municipality"
+        },
+        {
+          "label": "Project type",
+          "value": "Waterfront / Master plan"
+        },
+        {
+          "label": "Project area",
+          "value": "160000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "6,650,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2026 – In progress"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Concept Design, Master Plan"
+        }
+      ],
+      "source_document": "1KI4frdb7jRr_7FsytJ2rAzYdmTd5IgWC",
       "width": 1080,
       "height": 607,
       "variants": [
@@ -660,27 +962,50 @@
           "bytes": 158214
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 0.978,
-        "saturation": 0.778,
-        "mean_luminance": 143.3
-      }
+      "fit": "cover"
     },
     {
       "key": "awqad-beach",
-      "name": "Awqad Beach",
-      "category": "coastal landscape urban-planning",
-      "id": "17-m3V-1FWUky4LufeRF6jYdb-4NzGaxR",
-      "source_path": "Client/03-Coastal & Marine/Awqad/slide12_image31.jpg",
-      "source_url": "https://drive.google.com/file/d/17-m3V-1FWUky4LufeRF6jYdb-4NzGaxR/view",
+      "name": "Public beachfront development",
+      "category": "coastal landscape",
+      "id": "1xnYzwpQmulolRFOhTCzgOvNdAQva70VH",
+      "source_path": "Client/03-Coastal & Marine/Awqad/FINAL_15 - Photo.jpg",
+      "source_url": "https://drive.google.com/file/d/1xnYzwpQmulolRFOhTCzgOvNdAQva70VH/view",
       "extension": ".jpg",
       "source_filename": "slide12_image31.jpg",
-      "kind": "Project visualization",
-      "summary": "Sunset aerial view of the Awqad beachfront promenade.",
-      "description": "Sunset aerial view of the Awqad beachfront promenade. Imagery supplied by Meridian.",
-      "alt": "Sunset aerial view of the Awqad beachfront promenade.",
+      "kind": "Waterfront / Beach development",
+      "summary": "An integrated beachfront promenade with recreation spaces, visitor facilities and landscape.",
+      "description": "A public waterfront development at Awqad Beach in Salalah, designed for Dhofar Municipality to provide a connected setting for recreation, relaxation and community activity. The design combines a curving beachfront promenade with palm-lined pedestrian routes, landscaped spaces, open plazas and shaded seating areas overlooking the sea. Distinctive geometric canopies, coordinated paving patterns and sculptural features establish a contemporary identity along the waterfront. Restaurants and outdoor dining areas introduce social gathering points, while roadside parking supports visitor arrival. A modern prayer facility complements the beach amenities, using simple architectural forms, decorative screens and integrated lighting.\n\nOur scope comprises architectural design, site planning, landscape design and mechanical, electrical and plumbing (MEP) design. Our approach coordinates the public spaces, visitor buildings and supporting services within a coherent beachfront layout, with attention to pedestrian movement, beach connections and the relationship between activity areas and quieter resting spaces. Landscape planting, shade structures and external lighting support the use of the waterfront throughout the day and into the evening, while a consistent architectural and landscape treatment links the individual facilities into a unified destination.",
+      "alt": "Project imagery: Public beachfront development",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Public beachfront development",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Dhofar Municipality"
+        },
+        {
+          "label": "Project type",
+          "value": "Waterfront / Beach development"
+        },
+        {
+          "label": "Project area",
+          "value": "280000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "4,450,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2024 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Site Plan, Landscape, MEP"
+        }
+      ],
+      "source_document": "12BeYmz-92vxSQe12kuvLB1El9PMj2krA",
       "width": 3840,
       "height": 2160,
       "variants": [
@@ -688,54 +1013,77 @@
           "src": "assets/media/awqad-beach-480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 18680
+          "bytes": 17094
         },
         {
           "src": "assets/media/awqad-beach-800.webp",
           "width": 800,
           "height": 450,
-          "bytes": 47330
+          "bytes": 39756
         },
         {
           "src": "assets/media/awqad-beach-1200.webp",
           "width": 1200,
           "height": 675,
-          "bytes": 96538
+          "bytes": 77570
         },
         {
           "src": "assets/media/awqad-beach-1600.webp",
           "width": 1600,
           "height": 900,
-          "bytes": 158682
+          "bytes": 126764
         },
         {
           "src": "assets/media/awqad-beach-1920.webp",
           "width": 1920,
           "height": 1080,
-          "bytes": 220412
+          "bytes": 172090
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.044,
-        "saturation": 0.659,
-        "mean_luminance": 118.0
-      }
+      "fit": "cover"
     },
     {
       "key": "barkaa",
-      "name": "Barkaa",
+      "name": "Waterfront tourism development",
       "category": "coastal landscape",
-      "id": "1LSA71Jc1xly_XGKiFteSklVrTrTQXLZU",
+      "id": "1gSlmx3X9Gnn-aYrpVPO4Df5y6uh4IoX6",
       "source_path": "Client/03-Coastal & Marine/Barkaa/slide02_image5.jpg",
-      "source_url": "https://drive.google.com/file/d/1LSA71Jc1xly_XGKiFteSklVrTrTQXLZU/view",
+      "source_url": "https://drive.google.com/file/d/1gSlmx3X9Gnn-aYrpVPO4Df5y6uh4IoX6/view",
       "extension": ".jpg",
       "source_filename": "slide02_image5.jpg",
-      "kind": "Project visualization",
-      "summary": "Waterfront walkway with shaded seating and sculptural bridges.",
-      "description": "Waterfront walkway with shaded seating and sculptural bridges. Imagery supplied by Meridian.",
-      "alt": "Waterfront walkway with shaded seating and sculptural bridges.",
+      "kind": "Waterfront / Tourism",
+      "summary": "Waterfront promenades, sculptural bridges and visitor facilities around Khor Alhifri.",
+      "description": "A waterfront and tourism development at Khor Alhifri, designed for the South Al Batinah Governor’s Office to create a public leisure destination around the khor. The design combines landscaped promenades, pedestrian and cycle routes, shaded seating, dining terraces and recreational spaces along the water’s edge. Sculptural bridges with prominent arches and cable-supported elements connect the waterfront areas and establish a distinctive identity. Boat berths and floating pontoons, a waterfront pavilion, children’s play areas, sports courts and leisure pools provide a varied programme of activities. Palm planting, open lawns and coordinated lighting link these attractions with arrival points and parking areas.\n\nOur scope comprises full design and detailing, coordinating the site layout, architectural features, landscape and supporting visitor facilities. Our approach establishes clear connections between active recreation areas, social gathering spaces and quieter waterfront settings, with attention to pedestrian movement, shade and views across the khor. The design integrates curved canopies, contemporary pavilions and consistent paving and lighting treatments to create continuity throughout the destination. Detailed coordination addresses the interfaces between bridges, promenades, buildings and public spaces, supporting a coherent visitor experience during daytime and evening use.",
+      "alt": "Project imagery: Waterfront tourism development",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Waterfront tourism development",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "South Al Batinah Governor's Office"
+        },
+        {
+          "label": "Project type",
+          "value": "Waterfront / Tourism"
+        },
+        {
+          "label": "Project area",
+          "value": "300000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "3,450,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Full Design and Details"
+        }
+      ],
+      "source_document": "1-HY718DrfUSep3UMDFu5TSOkcak62h7Q",
       "width": 2736,
       "height": 1536,
       "variants": [
@@ -770,27 +1118,46 @@
           "bytes": 204370
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.123,
-        "saturation": 0.65,
-        "mean_luminance": 87.6
-      }
+      "fit": "cover"
     },
     {
       "key": "coastal-erosion",
-      "name": "Coastal Erosion",
+      "name": "Shoreline protection study",
       "category": "coastal",
-      "id": "1ckIw9ZETMe73ywrDVXonQXY-GwIoHkbd",
+      "id": "1jnjvVximXBIrlaB5bnGYE79vDl1nfgbX",
       "source_path": "Client/03-Coastal & Marine/Costal Erosion/3.jpg",
-      "source_url": "https://drive.google.com/file/d/1ckIw9ZETMe73ywrDVXonQXY-GwIoHkbd/view",
+      "source_url": "https://drive.google.com/file/d/1jnjvVximXBIrlaB5bnGYE79vDl1nfgbX/view",
       "extension": ".jpg",
       "source_filename": "3.jpg",
-      "kind": "Survey photograph",
-      "summary": "Survey drone photographed on a beach in the coastal erosion project materials.",
-      "description": "Survey drone photographed on a beach in the coastal erosion project materials. Imagery supplied by Meridian.",
-      "alt": "Survey drone photographed on a beach in the coastal erosion project materials.",
+      "kind": "Coastal engineering / Shoreline protection",
+      "summary": "Survey-led coastal engineering and the design of shoreline protection measures.",
+      "description": "A coastal engineering project for the Environment Authority addressing shoreline erosion along selected coastal stretches in Oman. The project focuses on developing protection measures suited to the conditions of each study area, with attention to the shoreline, adjacent land uses and the coastal setting. A survey-led approach combines regional coastal mapping, defined study extents and site investigations to establish the geographical context of the works. Drone-based surveying and GNSS positioning support the collection of site information, providing a basis for understanding coastal conditions and informing the development of shoreline protection proposals.\n\nOur scope comprises full design of the coastal protection works. Our approach brings together site survey information, assessment of erosion conditions and evaluation of suitable protection options to develop a coordinated engineering response. The design process considers the relationship between individual intervention areas and the surrounding shoreline, with attention to constructability, maintenance requirements and environmental considerations. As the project progresses, the design is developed around the available site evidence and the Environment Authority’s requirements, providing the basis for the proposed protection works and their detailed documentation.",
+      "alt": "Project imagery: Shoreline protection study",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Shoreline protection study",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Environment Authority"
+        },
+        {
+          "label": "Project type",
+          "value": "Coastal engineering / Shoreline protection"
+        },
+        {
+          "label": "Project cost",
+          "value": "18,000,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – In progress"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Full Design"
+        }
+      ],
+      "source_document": "1rurVKX8R0nJn12yGpfC8F6eWVGNubz4V",
       "width": 817,
       "height": 613,
       "variants": [
@@ -813,27 +1180,50 @@
           "bytes": 84360
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 0.94,
-        "saturation": 0.729,
-        "mean_luminance": 165.6
-      }
+      "fit": "cover"
     },
     {
       "key": "fic",
-      "name": "FIC",
-      "category": "coastal buildings",
-      "id": "1KRHE2zXUUImbJxk8CrCEfEKEOPJBVYhf",
+      "name": "Fisheries industrial masterplan",
+      "category": "urban-planning coastal",
+      "id": "1gd7TiA_7b6nlEcz_J_lSx2eyMRVgVyeO",
       "source_path": "Client/03-Coastal & Marine/FIC/صورة_تخيلية_للموقع_العام.png",
-      "source_url": "https://drive.google.com/file/d/1KRHE2zXUUImbJxk8CrCEfEKEOPJBVYhf/view",
+      "source_url": "https://drive.google.com/file/d/1gd7TiA_7b6nlEcz_J_lSx2eyMRVgVyeO/view",
       "extension": ".png",
       "source_filename": "صورة_تخيلية_للموقع_العام.png",
-      "kind": "Project visualization",
-      "summary": "Aerial visualization of a coastal industrial site and harbour.",
-      "description": "Aerial visualization of a coastal industrial site and harbour. Imagery supplied by Meridian.",
-      "alt": "Aerial visualization of a coastal industrial site and harbour.",
+      "kind": "Industrial",
+      "summary": "An integrated fisheries industrial and logistics platform with harbour and marine facilities.",
+      "description": "The fisheries sector is one of the principal non-oil pillars of the national economy and a priority area under Oman Vision 2040, supported by an extensive coastline, productive fishing grounds and a strategic position on established export routes. Consistent with this direction, the Ministry is moving the sector beyond primary landing and first-sale activity towards an integrated industrial model, in which fishing, processing, cold chain, aquaculture support, logistics and export services are consolidated within a single planned and serviced location.\n\nThe Fishery Industrial City in Qurun has been conceived in response to this direction. It is intended to operate as an integrated industrial and logistics platform serving the fishing fleet, the processing industries and aquaculture production, and to attract private capital through a public–private partnership delivery model.\n\nThe total planned area, including the extension, is approximately 6.4 square kilometres.",
+      "alt": "Project imagery: Fisheries industrial masterplan",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Fisheries industrial masterplan",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Ash Sharqiyah South Governor's Office"
+        },
+        {
+          "label": "Project type",
+          "value": "Industrial"
+        },
+        {
+          "label": "Project area",
+          "value": "Approx. 6.4 km² including extension"
+        },
+        {
+          "label": "Project cost",
+          "value": "50M OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2026 – In progress"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Full Design, Details and supervision"
+        }
+      ],
+      "source_document": "1SeCSL33Fyk4usAjlILmNSuFRWUPbwLLa",
       "width": 1672,
       "height": 941,
       "variants": [
@@ -868,27 +1258,50 @@
           "bytes": 440608
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.029,
-        "saturation": 0.716,
-        "mean_luminance": 123.9
-      }
+      "fit": "cover"
     },
     {
       "key": "octagon-beach",
-      "name": "Octagon Beach Walkway",
+      "name": "Beachfront promenade concept",
       "category": "coastal landscape",
-      "id": "1dO-1YUve9y7WOirb75Zq7HDoRW9Vq9eY",
+      "id": "1fDWT04xPYD9IX7RslL66qFnpFMZhGZif",
       "source_path": "Client/03-Coastal & Marine/Octagon Beach Walkway/slide31_image88.jpg",
-      "source_url": "https://drive.google.com/file/d/1dO-1YUve9y7WOirb75Zq7HDoRW9Vq9eY/view",
+      "source_url": "https://drive.google.com/file/d/1fDWT04xPYD9IX7RslL66qFnpFMZhGZif/view",
       "extension": ".jpg",
       "source_filename": "slide31_image88.jpg",
-      "kind": "Project visualization",
-      "summary": "Public walkway with geometric shade canopies and seating.",
-      "description": "Public walkway with geometric shade canopies and seating. Imagery supplied by Meridian.",
-      "alt": "Public walkway with geometric shade canopies and seating.",
+      "kind": "Waterfront / Promenade",
+      "summary": "A shaded beachfront destination for walking, dining and family recreation.",
+      "description": "A beachfront walkway and promenade concept for Muscat Municipality, creating a public destination for walking, dining and family recreation. The proposal centres on an extensive geometric canopy with branching supports and patterned openings, providing a distinctive architectural feature above connected pedestrian spaces. Contemporary café and restaurant pavilions frame open plazas and outdoor dining terraces, while landscaped planters, palms and integrated benches create resting places along the route. Fountain features and a colourful children’s play area introduce additional attractions, linking social activity with views and access towards the beach.\n\nOur scope comprises concept design, establishing the overall spatial arrangement, architectural character and relationship between the promenade’s leisure and commercial components. Our approach coordinates shaded circulation, gathering spaces, dining areas and children’s activities within a coherent waterfront setting. Rounded pavilion forms, vertical façade accents and a consistent palette of paving, planting and seating reinforce the identity of the destination. The concept gives particular attention to the transition between the street frontage, public plazas and beach edge, supporting an inviting environment for residents, families and visitors.",
+      "alt": "Project imagery: Beachfront promenade concept",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Beachfront promenade concept",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Muscat Municipality"
+        },
+        {
+          "label": "Project type",
+          "value": "Waterfront / Promenade"
+        },
+        {
+          "label": "Project area",
+          "value": "60000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "6,320,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Concept Design"
+        }
+      ],
+      "source_document": "1Czoz800IY0JUN0xBAjiS3tcObWdvrdap",
       "width": 2734,
       "height": 1538,
       "variants": [
@@ -923,27 +1336,50 @@
           "bytes": 283134
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.028,
-        "saturation": 0.759,
-        "mean_luminance": 124.3
-      }
+      "fit": "cover"
     },
     {
       "key": "taqa-beach",
-      "name": "Taqa Beach",
+      "name": "Beach and port-area development",
       "category": "coastal landscape",
-      "id": "1YjIZ0hii62y15NG5yieSmGrRNII7HJg6",
+      "id": "1qfKyPSQf-WFH-ac6wLjxK0fDTKq8rO5f",
       "source_path": "Client/03-Coastal & Marine/Taqa/slide10_image26.jpg",
-      "source_url": "https://drive.google.com/file/d/1YjIZ0hii62y15NG5yieSmGrRNII7HJg6/view",
+      "source_url": "https://drive.google.com/file/d/1qfKyPSQf-WFH-ac6wLjxK0fDTKq8rO5f/view",
       "extension": ".jpg",
       "source_filename": "slide10_image26.jpg",
-      "kind": "Project visualization",
-      "summary": "Beachfront promenade with sculptural shade structures and palm trees.",
-      "description": "Beachfront promenade with sculptural shade structures and palm trees. Imagery supplied by Meridian.",
-      "alt": "Beachfront promenade with sculptural shade structures and palm trees.",
+      "kind": "Waterfront / Beach development",
+      "summary": "Recreation, cycling and visitor facilities within a coordinated beachfront setting.",
+      "description": "A beachfront and port-area development at Taqa in Dhofar, designed for Dhofar Municipality to create a connected public setting for recreation, leisure and community activity. The proposal includes a 2.4 km cycling path and cycling station, outdoor fitness areas, tennis courts, children’s play zones and landscaped seating spaces. Two restaurants, men’s and women’s prayer halls, toilets and parking support the visitor facilities. The architectural and landscape concept draws on marine forms, including boats, seashells, jellyfish and starfish, while Dolphin Square provides a sculptural focal point. Palm planting, shaded resting areas and integrated lighting establish continuity along the waterfront.\n\nOur scope comprises architectural design, site planning, landscape design, mechanical, electrical and plumbing (MEP) design, and hydrology. Our approach coordinates the recreational areas, visitor buildings and services within a coherent beachfront layout, with attention to pedestrian and cycle movement, beach connections and arrival points. Hydrological considerations form part of the site planning and drainage coordination. The design brings together active recreation and quieter places to sit and enjoy coastal views, using consistent paving, planting, street furniture and lighting to connect the individual facilities into a unified destination.",
+      "alt": "Project imagery: Beach and port-area development",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Beach and port-area development",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Dhofar Municipality"
+        },
+        {
+          "label": "Project type",
+          "value": "Waterfront / Beach development"
+        },
+        {
+          "label": "Project area",
+          "value": "200000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "2,450,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2024 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Site Plan, Landscape, MEP, Hydrology"
+        }
+      ],
+      "source_document": "1ZzvY8wCyPEwlu1y19h1YgrDgy8Y4EkaY",
       "width": 2734,
       "height": 1538,
       "variants": [
@@ -978,27 +1414,50 @@
           "bytes": 270548
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.026,
-        "saturation": 0.748,
-        "mean_luminance": 124.9
-      }
+      "fit": "cover"
     },
     {
       "key": "alfarouk-street",
-      "name": "Alfarouk Street Proposal",
-      "category": "urban-planning landscape",
-      "id": "1QasM13WoXelDB5vK_ALXb3WZdOhb0qHd",
-      "source_path": "Client/04-Urbanism & Masterplanning/ALFAROUK STREET - PORPOSAL/1 (26).png",
-      "source_url": "https://drive.google.com/file/d/1QasM13WoXelDB5vK_ALXb3WZdOhb0qHd/view",
+      "name": "Urban streetscape upgrade",
+      "category": "landscape urban-planning",
+      "id": "1UhpVjP4bW_X3RMHtqHJaTdjWqOAo3ybr",
+      "source_path": "Client/04-Urbanism & Masterplanning/AL Farouk Street/1 (26).png",
+      "source_url": "https://drive.google.com/file/d/1UhpVjP4bW_X3RMHtqHJaTdjWqOAo3ybr/view",
       "extension": ".png",
       "source_filename": "1 (26).png",
-      "kind": "Project visualization",
-      "summary": "Linear public space with recreation areas and pedestrian paths.",
-      "description": "Linear public space with recreation areas and pedestrian paths. Imagery supplied by Meridian.",
-      "alt": "Linear public space with recreation areas and pedestrian paths.",
+      "kind": "Streetscape / Infrastructure",
+      "summary": "A linear public realm with pedestrian routes, cycling, play areas and landscape.",
+      "description": "A streetscape and public realm upgrade along Al Farouk Street for Dhofar Municipality, combining site works, supporting services and landscape design within an elongated urban corridor. The proposal introduces winding pedestrian routes and a dedicated cycle path alongside lawns, palm planting and shaded gathering areas. Circular recreation spaces, colourful play areas and open plazas create a sequence of activity points, while sculptural canopies and pergolas provide places to rest. A linear water feature, landmark signage and coordinated lighting add visual interest, with parking arranged along the adjoining streets to support access to the public spaces.\n\nOur scope comprises architectural design, site planning, landscape design and mechanical, electrical and plumbing (MEP) design. Our approach coordinates circulation, planting, recreational facilities and services to create a coherent relationship between the street and the landscaped corridor. The design balances active spaces for walking, cycling and family recreation with quieter seating areas, using consistent paving, street furniture and shade structures to connect the different zones. Particular attention is given to the arrangement of entrances, pedestrian connections and lighting, supporting an inviting public environment during daytime and evening use.",
+      "alt": "Project imagery: Urban streetscape upgrade",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Urban streetscape upgrade",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Dhofar Municipality"
+        },
+        {
+          "label": "Project type",
+          "value": "Streetscape / Infrastructure"
+        },
+        {
+          "label": "Project area",
+          "value": "60000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "1,250,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Site Plan, Landscape, MEP"
+        }
+      ],
+      "source_document": "17t1JI8a6nHpEEgqBcqFUhp54Ctp8eDRG",
       "width": 1536,
       "height": 1024,
       "variants": [
@@ -1027,27 +1486,50 @@
           "bytes": 432220
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.093,
-        "saturation": 0.65,
-        "mean_luminance": 99.2
-      }
+      "fit": "cover"
     },
     {
       "key": "jawad-district",
-      "name": "Jawad District",
-      "category": "urban-planning buildings",
-      "id": "1xKFmcoavzgF5zyG1Meokhw5SCeLKl0Gj",
+      "name": "Residential district masterplan",
+      "category": "urban-planning",
+      "id": "1TaenmwLRk0zozpFtjPirvh2BqKGc12vC",
       "source_path": "Client/04-Urbanism & Masterplanning/Jawad district/slide03_image6.jpg",
-      "source_url": "https://drive.google.com/file/d/1xKFmcoavzgF5zyG1Meokhw5SCeLKl0Gj/view",
+      "source_url": "https://drive.google.com/file/d/1TaenmwLRk0zozpFtjPirvh2BqKGc12vC/view",
       "extension": ".jpg",
       "source_filename": "slide03_image6.jpg",
-      "kind": "Project visualization",
-      "summary": "Residential streetscape and public spaces around a central mosque.",
-      "description": "Residential streetscape and public spaces around a central mosque. Imagery supplied by Meridian.",
-      "alt": "Residential streetscape and public spaces around a central mosque.",
+      "kind": "Residential district / Urban planning",
+      "summary": "An integrated residential concept with Omani identity, green spaces and connected mobility.",
+      "description": "a prestigious residential development commissioned by the Ministry of Housing and Urban Planning in the Sultanate of Oman. Spanning approximately 320,000 m², with an estimated project value of OMR 18.5 million, the development embodies a contemporary vision for sustainable urban living. Our design approach focuses on creating a well-integrated residential community that harmonizes modern architectural excellence with Omani cultural identity. The master plan features thoughtfully arranged residential neighbourhoods, landscaped green spaces, pedestrian-friendly pathways, cycling routes, and an efficient road network, complemented by distinctive community landmarks and recreational facilities that promote connectivity, accessibility, and quality of life.\n\nThrough our comprehensive urban planning and architectural design services, we developed a cohesive architectural language characterized by elegant contemporary villas, refined façades, and carefully designed public spaces. A landmark mosque serves as a central architectural and community focal point, while landscaped gathering areas, shaded pedestrian environments, and strategically integrated greenery enhance the district's livability and environmental character. The development also incorporates distinctive architectural features and premium residential amenities, establishing a balanced relationship between private living spaces and vibrant communal environments. Completed in 2026.",
+      "alt": "Project imagery: Residential district masterplan",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Residential district masterplan",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Ministry of Housing and Urban Planning."
+        },
+        {
+          "label": "Project type",
+          "value": "Residential district / Urban planning"
+        },
+        {
+          "label": "Project area",
+          "value": "320,000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "18,500,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2026 – Completed."
+        },
+        {
+          "label": "Scope of work",
+          "value": "Urban Planning, Architectural Design (Concept Design)"
+        }
+      ],
+      "source_document": "1nkMM2wmMKxv8KWmv8oCfLYetAMqO1G8W",
       "width": 2904,
       "height": 1621,
       "variants": [
@@ -1082,27 +1564,50 @@
           "bytes": 467116
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 0.978,
-        "saturation": 0.774,
-        "mean_luminance": 143.4
-      }
+      "fit": "cover"
     },
     {
       "key": "sedra-district",
-      "name": "Sedra District",
+      "name": "Residential community concept",
       "category": "urban-planning",
-      "id": "1lrbNG5CEy73RAjmVEsfHwAHYlls7R3g6",
+      "id": "1440EWNkZcZa2U7s-6xQPOANcjUARbvAR",
       "source_path": "Client/04-Urbanism & Masterplanning/Sedra district/slide08_image20.jpg",
-      "source_url": "https://drive.google.com/file/d/1lrbNG5CEy73RAjmVEsfHwAHYlls7R3g6/view",
+      "source_url": "https://drive.google.com/file/d/1440EWNkZcZa2U7s-6xQPOANcjUARbvAR/view",
       "extension": ".jpg",
       "source_filename": "slide08_image20.jpg",
-      "kind": "Project visualization",
-      "summary": "Aerial masterplan visualization of a residential district.",
-      "description": "Aerial masterplan visualization of a residential district. Imagery supplied by Meridian.",
-      "alt": "Aerial masterplan visualization of a residential district.",
+      "kind": "Residential district / Urban development",
+      "summary": "A residential concept connecting villas, community facilities and landscaped green corridors.",
+      "description": "Sedra District, a contemporary residential development commissioned by the Ministry of Housing and Urban Planning under the SOROH PLUS Programme in the Sultanate of Oman. Covering an area of approximately 208,000 m², with an estimated project value of OMR 6.5 million, the development represents a forward-thinking approach to modern residential communities. Our master planning strategy emphasizes the integration of contemporary residential architecture with efficient urban infrastructure, landscaped open spaces, and thoughtfully organized neighborhoods. The development features a diverse arrangement of modern villas, interconnected streets, pedestrian-friendly walkways, dedicated cycling paths, and landscaped green corridors, creating a cohesive urban environment that balances residential privacy, accessibility, and community interaction.\n\nOur architectural vision for Sedra District focuses on establishing a distinctive residential identity through elegant contemporary designs, well-proportioned building forms, and a harmonious combination of neutral façades, architectural accents, and carefully integrated landscaping. At the heart of the community, a landmark mosque is complemented by landscaped public spaces, recreational areas, children's playgrounds, and accessible parking facilities, creating a vibrant social and cultural focal point. The master plan incorporates strategically positioned green spaces, shaded pedestrian routes, and an organized road network to enhance connectivity, safety, and everyday livability. Completed in 2025.",
+      "alt": "Project imagery: Residential community concept",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Residential community concept",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Ministry of Housing and urban planning."
+        },
+        {
+          "label": "Project type",
+          "value": "Residential district / Urban development"
+        },
+        {
+          "label": "Project area",
+          "value": "208,000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "6,500,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 - Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Urban Planning, Architecture design (Concept Design)"
+        }
+      ],
+      "source_document": "1b-cIcCvFuYuc2xagateEDF6hAMCuX_TK",
       "width": 1205,
       "height": 678,
       "variants": [
@@ -1131,82 +1636,128 @@
           "bytes": 238144
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.08,
-        "saturation": 0.806,
-        "mean_luminance": 104.1
-      }
+      "fit": "cover"
     },
     {
       "key": "tilal-district",
-      "name": "Tilal District",
-      "category": "urban-planning",
-      "id": "1yea1HyZvcJUfqCKCzSxYqm_veVYNXVcu",
-      "source_path": "Client/04-Urbanism & Masterplanning/Tilal District/slide04_image10.png",
-      "source_url": "https://drive.google.com/file/d/1yea1HyZvcJUfqCKCzSxYqm_veVYNXVcu/view",
-      "extension": ".png",
+      "name": "Coastal residential masterplan",
+      "category": "urban-planning coastal",
+      "id": "1QnuUkHWeLSRNN8rfHmHi_7KuGRSQKj2c",
+      "source_path": "Client/04-Urbanism & Masterplanning/Tilal District/001.jpg",
+      "source_url": "https://drive.google.com/file/d/1QnuUkHWeLSRNN8rfHmHi_7KuGRSQKj2c/view",
+      "extension": ".jpg",
       "source_filename": "slide04_image10.png",
-      "kind": "Project visualization",
-      "summary": "Aerial masterplan visualization of a district beside a rocky landscape.",
-      "description": "Aerial masterplan visualization of a district beside a rocky landscape. Imagery supplied by Meridian.",
-      "alt": "Aerial masterplan visualization of a district beside a rocky landscape.",
+      "kind": "Residential district / Urban planning",
+      "summary": "A coastal residential concept with a central park, connected neighbourhoods and a mixed-use promenade.",
+      "description": "Tilal District, a distinctive residential development for the Ministry of Housing and Urban Planning in the Sultanate of Oman. Covering an area of approximately 210,000 m², with an estimated project value of OMR 12.56 million, the development presents an innovative approach to integrated urban living within a remarkable coastal setting. Our master planning concept embraces the site's natural surroundings, combining contemporary residential neighborhoods with an organically arranged urban layout, interconnected road networks, landscaped green corridors, and pedestrian-friendly environments. The development features carefully planned residential clusters surrounding a central landscaped park, with a landmark mosque serving as a prominent architectural and cultural focal point. The overall design promotes community connectivity, residential privacy, and an enhanced quality of life while establishing a strong relationship between the built environment and the surrounding coastal landscape.\n\nOur architectural vision for Tilal District emphasizes a harmonious integration of modern residential architecture, Omani cultural character, and sustainable urban planning principles. The residential units feature elegant geometric forms, natural earth-toned façades, shaded balconies, and thoughtfully designed private outdoor spaces, creating a cohesive architectural identity throughout the district. A central green spine incorporates landscaped gardens, recreational spaces, walking trails, and dedicated cycling paths, encouraging active lifestyles and social interaction. Along the coastal edge, a vibrant mixed-use promenade featuring commercial establishments, cafés, restaurants, and landscaped gathering spaces is envisioned to create an attractive destination that celebrates the site's dramatic natural coastline. Completed in 2026.",
+      "alt": "Project imagery: Coastal residential masterplan",
       "selection_reason": "Revised to the wider overhead masterplan so the complete district is visible, with less foreground cliff.",
-      "width": 2752,
-      "height": 1536,
+      "display_name": "Coastal residential masterplan",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Ministry of Housing and Urban Planning"
+        },
+        {
+          "label": "Project type",
+          "value": "Residential district / Urban planning"
+        },
+        {
+          "label": "Project area",
+          "value": "210,000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "12,560,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2026 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Urban Planning, Architectural Design (Concept design)."
+        }
+      ],
+      "source_document": "1fM90TQ_PDWMTpF86KpVp2duAB7gqAKc7",
+      "width": 4030,
+      "height": 2268,
       "variants": [
         {
           "src": "assets/media/tilal-district-480.webp",
           "width": 480,
-          "height": 268,
-          "bytes": 41576
+          "height": 270,
+          "bytes": 31946
         },
         {
           "src": "assets/media/tilal-district-800.webp",
           "width": 800,
-          "height": 447,
-          "bytes": 104528
+          "height": 450,
+          "bytes": 82386
         },
         {
           "src": "assets/media/tilal-district-1200.webp",
           "width": 1200,
-          "height": 670,
-          "bytes": 206364
+          "height": 675,
+          "bytes": 177522
         },
         {
           "src": "assets/media/tilal-district-1600.webp",
           "width": 1600,
-          "height": 893,
-          "bytes": 315362
+          "height": 900,
+          "bytes": 300960
         },
         {
           "src": "assets/media/tilal-district-1920.webp",
           "width": 1920,
-          "height": 1072,
-          "bytes": 403130
+          "height": 1081,
+          "bytes": 403254
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 1.021,
-        "saturation": 0.769,
-        "mean_luminance": 127.1
-      }
+      "fit": "cover"
     },
     {
       "key": "mrasi-alsaada-2",
-      "name": "Mrasi Al Saada 2",
-      "category": "buildings",
-      "id": "1aquuOAV4oNOKTE22S-alQZcbSSklV_cV",
-      "source_path": "Client/01-Architecture & Interiors/Buildings/02-MARRASI 2/slide22_image59.jpg",
-      "source_url": "https://drive.google.com/file/d/1aquuOAV4oNOKTE22S-alQZcbSSklV_cV/view",
+      "name": "Hotel development",
+      "category": "buildings hospitality",
+      "id": "1w8cIMDRQN3bvvA9r5JlM5Qqt4HSKuf62",
+      "source_path": "Client/01-Architecture & Interiors/Buildings/02-Commercial building/slide22_image59.jpg",
+      "source_url": "https://drive.google.com/file/d/1w8cIMDRQN3bvvA9r5JlM5Qqt4HSKuf62/view",
       "extension": ".jpg",
       "source_filename": "slide22_image59.jpg",
-      "kind": "Project visualization",
-      "summary": "Evening exterior visualization of a multi-storey building.",
-      "description": "Evening exterior visualization of a multi-storey building. Imagery supplied by Meridian.",
-      "alt": "Evening exterior visualization of a multi-storey building.",
+      "kind": "Hotel",
+      "summary": "A hotel with framed façades, recessed balconies and a clearly defined arrival space.",
+      "description": "This project is a hotel development for ALDAHAB REAL ESTATE, with a project area of 6,000 m². The design combines upper-floor guest accommodation with a glazed ground-level frontage and a clearly defined hotel entrance. Its contemporary architectural composition features tall façade frames, contrasting light and dark surfaces, broad glazed bays, and recessed balconies with glass balustrades. The repeated vertical elements organise the elevations, while warm accent lighting highlights the building proportions and establishes a recognisable presence along the street after dark.\n\nThe entrance is emphasised by an overhead canopy, illuminated signage, and a recessed arrival space that creates a welcoming transition from the pavement into the hotel. Palm planting and landscaped frontage areas complement the building and strengthen its relationship with the surrounding streetscape. Recessed balconies add depth to the façades and provide outdoor space for the accommodation. The consultancy scope comprises architectural and structural design, mechanical, electrical and plumbing design, and site supervision, coordinating the hotel layout, façade detailing, building services, and implementation on site.",
+      "alt": "Project imagery: Hotel development",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Hotel development",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "ALDAHAB REAL ESTATE"
+        },
+        {
+          "label": "Project type",
+          "value": "Hotel"
+        },
+        {
+          "label": "Project area",
+          "value": "6000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "12,000,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2026 – In progress"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP, Site Supervision"
+        }
+      ],
+      "source_document": "1GO0uSy1vxBDqPlyhjKWtZvVRK4-jyJkT",
       "width": 1596,
       "height": 1999,
       "variants": [
@@ -1235,27 +1786,46 @@
           "bytes": 154220
         }
       ],
-      "fit": "contain",
-      "grade": {
-        "exposure": 1.119,
-        "saturation": 0.718,
-        "mean_luminance": 89.1
-      }
+      "fit": "contain"
     },
     {
       "key": "sas-building",
-      "name": "SAS Building",
-      "category": "buildings",
-      "id": "1FCBBW0ziPUz01iFOa4BZrlhxBUEJvedG",
-      "source_path": "Client/01-Architecture & Interiors/Buildings/03-SAS/sas (1).jpg",
-      "source_url": "https://drive.google.com/file/d/1FCBBW0ziPUz01iFOa4BZrlhxBUEJvedG/view",
+      "name": "Hospitality building design",
+      "category": "buildings hospitality",
+      "id": "1vD3T98vF0IC77SGsrLkLvIxBkugeFg5p",
+      "source_path": "Client/01-Architecture & Interiors/Buildings/03-Commercial building/(4).jpg",
+      "source_url": "https://drive.google.com/file/d/1vD3T98vF0IC77SGsrLkLvIxBkugeFg5p/view",
       "extension": ".jpg",
       "source_filename": "sas (1).jpg",
-      "kind": "Project visualization",
-      "summary": "Multi-storey building exterior with a formal facade and retail frontage.",
-      "description": "Multi-storey building exterior with a formal facade and retail frontage. Imagery supplied by Meridian.",
-      "alt": "Multi-storey building exterior with a formal facade and retail frontage.",
+      "kind": "Hotel",
+      "summary": "A multi-storey hotel with formal street frontages and coordinated building services.",
+      "description": "This Hotel is a hospitality development, with a project area of 8,000 m². The building accommodates hotel functions within a multi-storey composition that presents a formal frontage to the surrounding streets. Its architectural treatment combines light-coloured façades, a regular arrangement of guest-room windows, vertical glazed elements, recessed balconies, and classical cornice details. Arched openings and decorative panels enrich the lower elevations, while the entrance is emphasised by glazing, signage, and warm accent lighting.\n\nThe design establishes a clear distinction between the lower public-facing levels and the upper accommodation floors, creating an identifiable arrival point and a consistent façade rhythm. Paved pedestrian approaches, frontage parking, palm planting, and landscaped edges connect the building with its urban setting and contribute to the guest arrival experience. The consultancy scope comprised architectural and structural design, mechanical, electrical and plumbing design, and site supervision, coordinating the hotel planning, façade detailing, structural requirements, and building services through design development and construction.",
+      "alt": "Project imagery: Hospitality building design",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
+      "display_name": "Hospitality building design",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Hotel"
+        },
+        {
+          "label": "Project area",
+          "value": "8000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "3,665,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2024 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP, Site Supervision"
+        }
+      ],
+      "source_document": "1C51rVgLfUIjV3ns8jk-cNAAZR-KH3fsA",
       "width": 3840,
       "height": 2160,
       "variants": [
@@ -1263,168 +1833,235 @@
           "src": "assets/media/sas-building-480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 33898
+          "bytes": 37534
         },
         {
           "src": "assets/media/sas-building-800.webp",
           "width": 800,
           "height": 450,
-          "bytes": 79872
+          "bytes": 90766
         },
         {
           "src": "assets/media/sas-building-1200.webp",
           "width": 1200,
           "height": 675,
-          "bytes": 152170
+          "bytes": 176868
         },
         {
           "src": "assets/media/sas-building-1600.webp",
           "width": 1600,
           "height": 900,
-          "bytes": 230284
+          "bytes": 271342
         },
         {
           "src": "assets/media/sas-building-1920.webp",
           "width": 1920,
           "height": 1080,
-          "bytes": 289558
+          "bytes": 336174
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 0.971,
-        "saturation": 0.746,
-        "mean_luminance": 146.3
-      }
+      "fit": "cover"
     },
     {
       "key": "al-shorouq",
-      "name": "Al Shorouq",
-      "category": "urban-planning buildings",
-      "id": "1fdfqhV-bziBAQfskqDr6E7XEy29XSL3t",
-      "source_path": "Client/04-Urbanism & Masterplanning/Al Shorouq/3D/dayrender.jpg",
-      "source_url": "https://drive.google.com/file/d/1fdfqhV-bziBAQfskqDr6E7XEy29XSL3t/view",
+      "name": "Integrated residential neighbourhood",
+      "category": "urban-planning",
+      "id": "1qTe-kc09vSCKKNUQpmhoHsFAftRvy-gb",
+      "source_path": "Client/04-Urbanism & Masterplanning/Al Shorouq District/3D/dayrender.jpg",
+      "source_url": "https://drive.google.com/file/d/1qTe-kc09vSCKKNUQpmhoHsFAftRvy-gb/view",
       "extension": ".jpg",
       "source_filename": "dayrender.jpg",
-      "kind": "Project visualization",
-      "summary": "Daytime aerial visualization of the neighbourhood masterplan.",
-      "description": "Daytime aerial visualization of the neighbourhood masterplan. Imagery supplied by Meridian.",
-      "alt": "Daytime aerial visualization of the neighbourhood masterplan.",
+      "kind": "Residential district / Urban development",
+      "summary": "An integrated neighbourhood with 558 homes, community facilities and connected public spaces.",
+      "description": "Al Shorouq is the first integrated residential neighborhood of its kind in Salalah, developed under the Ministry of Housing and Urban Planning’s Sorouh Initiative. Located in Sahnout, the development comprises 558 residential units, including detached villas, twin villas, townhouses and apartments, supported by approximately 40,000 square meters of landscaped green space and a comprehensive range of community facilities.\n\nWe have served as the multidisciplinary design consultant, delivering the masterplan, urban design, villa architecture, roads, civil infrastructure, utility networks, landscape design, engineering coordination and statutory approvals. The project establishes an integrated framework in which housing, mobility, infrastructure, public spaces and community amenities are planned as one coherent and implementable neighborhood.\n\nThe development covers a total area of 450,000 square metres.",
+      "alt": "Project imagery: Integrated residential neighbourhood",
       "selection_reason": "Selected after comparing the available visual previews for clarity, project coverage and suitability at website size.",
-      "width": 7680,
-      "height": 4320,
+      "display_name": "Integrated residential neighbourhood",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Ministry of Housing and Urban Planning."
+        },
+        {
+          "label": "Project type",
+          "value": "Residential district / Urban development"
+        },
+        {
+          "label": "Project area",
+          "value": "450,000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "32500000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Site Plan, MEP, Road Design, Landscape"
+        }
+      ],
+      "source_document": "1y8QXh4N771HXi1DuA8EDlrzJCFm2kNg_",
+      "local_image": "_media_work/originals/1qTe-kc09vSCKKNUQpmhoHsFAftRvy-gb-rendition.jpg",
+      "source_preparation": "Google Drive image rendition requested at 2560px; original file linked separately. No enlargement or generative alteration.",
+      "width": 2560,
+      "height": 1440,
       "variants": [
         {
           "src": "assets/media/al-shorouq-480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 39786
+          "bytes": 39730
         },
         {
           "src": "assets/media/al-shorouq-800.webp",
           "width": 800,
           "height": 450,
-          "bytes": 95380
+          "bytes": 95662
         },
         {
           "src": "assets/media/al-shorouq-1200.webp",
           "width": 1200,
           "height": 675,
-          "bytes": 181402
+          "bytes": 184144
         },
         {
           "src": "assets/media/al-shorouq-1600.webp",
           "width": 1600,
           "height": 900,
-          "bytes": 282730
+          "bytes": 288280
         },
         {
           "src": "assets/media/al-shorouq-1920.webp",
           "width": 1920,
           "height": 1080,
-          "bytes": 377840
+          "bytes": 389868
         }
       ],
-      "fit": "cover",
-      "grade": {
-        "exposure": 0.96,
-        "saturation": 0.777,
-        "mean_luminance": 150.6
-      }
+      "fit": "cover"
     },
     {
       "key": "mrasi-alsaada-1",
-      "name": "Mrasi Al Saada 1",
-      "category": "buildings",
-      "id": "11gxVDEoRBJ6iFGO9HU1R5SGu1ea8PcsD",
-      "source_path": "Client/01-Architecture & Interiors/Buildings/01-MARRASI 1/MRASI ALSAADA BUILDING.pdf",
+      "name": "Urban hotel design",
+      "category": "buildings hospitality",
+      "id": "1RlmZcCJQfgQ0P63DFrlRpi_JYjI4yxvy",
+      "source_path": "Client/01-Architecture & Interiors/Buildings/01-Commercial building/BUILDING_page-0004.jpg",
       "source_filename": "MRASI ALSAADA BUILDING.pdf",
-      "source_url": "https://drive.google.com/file/d/11gxVDEoRBJ6iFGO9HU1R5SGu1ea8PcsD/view",
-      "extension": ".pdf",
-      "pdf_page": 2,
-      "pdf_image": 0,
-      "kind": "Project visualization",
-      "summary": "Building exterior visualization from the client project presentation.",
-      "description": "Building exterior visualization supplied in the Meridian project presentation.",
-      "alt": "Mrasi Al Saada 1 — exterior visualization",
+      "source_url": "https://drive.google.com/file/d/1RlmZcCJQfgQ0P63DFrlRpi_JYjI4yxvy/view",
+      "extension": ".jpg",
+      "kind": "Hotel",
+      "summary": "A hotel with upper-floor accommodation and a glazed commercial street frontage.",
+      "description": "The project is a hotel development for ALDAHAB REAL ESTATE, with a project area of 5,000 m². The design combines guest accommodation on the upper floors with a glazed street-level frontage incorporating commercial units and a clearly identified hotel entrance. The contemporary façade uses alternating light and dark vertical panels, broad glazed corner elements, and recessed balconies to create a consistent rhythm across the elevations. The corner treatment gives the building a prominent presence along the adjoining streets, while integrated lighting highlights the entrance and lower-level frontage after dark.\n\nThe external arrangement includes paved pedestrian approaches, planting, and palm trees that frame the building and connect its entrances to the surrounding streetscape. Recessed balconies provide outdoor space for the accommodation, while the transparent lower levels establish visual connections with the public frontage. The consultancy scope comprises architectural and structural design, mechanical, electrical and plumbing design, and site supervision, coordinating the hotel layout, façade detailing, building services, and construction implementation.",
+      "alt": "Project imagery: Urban hotel design",
       "selection_reason": "Original embedded image extracted from the project PDF; final page selected by visual comparison.",
-      "width": 2160,
-      "height": 2700,
+      "display_name": "Urban hotel design",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "ALDAHAB REAL ESTATE"
+        },
+        {
+          "label": "Project type",
+          "value": "Hotel"
+        },
+        {
+          "label": "Project area",
+          "value": "5000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "7,000,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP, Site Supervision"
+        }
+      ],
+      "source_document": "1zdO-NXt42Md0fYpuZC-4Dw-DRpbGS2av",
+      "local_image": "_media_work/originals/1RlmZcCJQfgQ0P63DFrlRpi_JYjI4yxvy-rendition.jpg",
+      "source_preparation": "Google Drive image rendition requested at 2560px; original file linked separately. No enlargement or generative alteration.",
+      "width": 2474,
+      "height": 3092,
       "variants": [
         {
           "src": "assets/media/mrasi-alsaada-1-480.webp",
           "width": 480,
           "height": 600,
-          "bytes": 32320
+          "bytes": 57984
         },
         {
           "src": "assets/media/mrasi-alsaada-1-800.webp",
           "width": 800,
           "height": 1000,
-          "bytes": 72278
+          "bytes": 132804
         },
         {
           "src": "assets/media/mrasi-alsaada-1-1200.webp",
           "width": 1200,
           "height": 1500,
-          "bytes": 132960
+          "bytes": 247350
         },
         {
           "src": "assets/media/mrasi-alsaada-1-1600.webp",
           "width": 1600,
           "height": 2000,
-          "bytes": 204856
+          "bytes": 362444
         },
         {
           "src": "assets/media/mrasi-alsaada-1-1920.webp",
           "width": 1920,
           "height": 2400,
-          "bytes": 267724
+          "bytes": 459216
         }
       ],
-      "fit": "contain",
-      "grade": {
-        "exposure": 1.2,
-        "saturation": 0.69,
-        "mean_luminance": 48.8
-      }
+      "fit": "contain"
     },
     {
       "key": "al-dabus-building",
-      "name": "Al Dabus Building",
+      "name": "Residential and commercial building",
       "category": "buildings",
-      "id": "1KESvf9PPiH3Q3wPQWsxA1ZJie3w7ZQF4",
-      "source_path": "Client/01-Architecture & Interiors/Buildings/04-Al Dabus building/Al Dahareez Building (1).pdf",
+      "id": "1G6p4PkAUmnheFmPJ76SEF-KbDfVAEQtp",
+      "source_path": "Client/01-Architecture & Interiors/Buildings/04-building 1/Al Dahareez Building (1).pdf",
       "source_filename": "Al Dahareez Building (1).pdf",
-      "source_url": "https://drive.google.com/file/d/1KESvf9PPiH3Q3wPQWsxA1ZJie3w7ZQF4/view",
+      "source_url": "https://drive.google.com/file/d/1G6p4PkAUmnheFmPJ76SEF-KbDfVAEQtp/view",
       "extension": ".pdf",
       "pdf_page": 1,
       "pdf_image": 0,
-      "kind": "Project visualization",
-      "summary": "Building exterior visualization from the client project presentation.",
-      "description": "Building exterior visualization supplied in the Meridian project presentation.",
-      "alt": "Al Dabus Building — exterior visualization",
+      "kind": "Residential/Commercial",
+      "summary": "A mixed-use building with residential floors above an active commercial frontage.",
+      "description": "The Residential Building and Commercial project is a modern mixed-use development, with a project area of 3,000 m². It combines residential accommodation on the upper floors with commercial space at street level, illustrated in the architectural views as a restaurant frontage. The design uses strong vertical façade frames, contrasting light and dark finishes, generous glazed openings, and recessed balconies with glass balustrades to create a coherent contemporary appearance. Accent lighting emphasises the façade depth and entrance areas after dark.\n\nThe glazed commercial frontage establishes a visible connection with the street, while the upper residential levels provide a more private setting with outdoor balcony spaces. Paved entrance approaches, planting, and landscaped frontage areas complement the building and contribute to the pedestrian experience. The architectural treatment extends to the secondary elevation through coordinated window proportions, façade frames, and material colours. The consultancy scope comprised architectural and structural design, mechanical, electrical and plumbing design, and site supervision, coordinating the residential and commercial functions, building services, and construction implementation.",
+      "alt": "Project imagery: Residential and commercial building",
       "selection_reason": "Original embedded image extracted from the project PDF; final page selected by visual comparison.",
+      "display_name": "Residential and commercial building",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Residential/Commercial"
+        },
+        {
+          "label": "Project area",
+          "value": "3000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "700,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP, Site Supervision"
+        }
+      ],
+      "source_document": "1Q2rWGaO5rSUaGk_79QPQVZjwihDoP_zl",
       "width": 2160,
       "height": 3024,
       "variants": [
@@ -1459,29 +2096,48 @@
           "bytes": 371516
         }
       ],
-      "fit": "contain",
-      "grade": {
-        "exposure": 1.189,
-        "saturation": 0.729,
-        "mean_luminance": 62.2
-      }
+      "fit": "contain"
     },
     {
       "key": "hamed-alamri",
-      "name": "Hamed Alamri Building",
+      "name": "Residential building design",
       "category": "buildings",
-      "id": "17HbyKVrhILA1XMVaoo_e66pIDjrmB_0I",
-      "source_path": "Client/01-Architecture & Interiors/Buildings/05-Hamed Alamri/Residential Building (3D).pdf",
+      "id": "1Uj7vZCbhDaE276cHokGCIk8U6DIOqYQ9",
+      "source_path": "Client/01-Architecture & Interiors/Buildings/05- Building 2/Residential Building (3D).pdf",
       "source_filename": "Residential Building (3D).pdf",
-      "source_url": "https://drive.google.com/file/d/17HbyKVrhILA1XMVaoo_e66pIDjrmB_0I/view",
+      "source_url": "https://drive.google.com/file/d/1Uj7vZCbhDaE276cHokGCIk8U6DIOqYQ9/view",
       "extension": ".pdf",
       "pdf_page": 17,
       "pdf_image": 0,
-      "kind": "Project visualization",
-      "summary": "Building exterior visualization from the client project presentation.",
-      "description": "Building exterior visualization supplied in the Meridian project presentation.",
-      "alt": "Hamed Alamri Building — exterior visualization",
+      "kind": "Residential",
+      "summary": "A five-storey residence with arched openings, recessed panels and integrated façade lighting.",
+      "description": "The Residential Building is a modern five-storey development, with a project area of 3,000 m². The architectural design combines a compact urban form with a distinctive frontage featuring tall arched window openings, recessed façade panels, and contrasting light and dark finishes. Vertical accents and integrated lighting emphasise the main elevation, while coordinated horizontal bands and repeated window openings give the side elevations a consistent character. Decorative planting beneath selected windows adds greenery to the façade.\n\nThe building is set within an urban streetscape, with paved entrance approaches, frontage parking, and planted areas around the street corners. The arrangement provides identifiable access points and a clear relationship between the residential entrances and surrounding pedestrian routes. Generous glazed openings connect the accommodation visually with its surroundings, while recessed elements add depth to the elevations. The consultancy scope comprised architectural and structural design, mechanical, electrical and plumbing design, and site supervision, coordinating the residential layout, façade details, building services, and construction implementation.",
+      "alt": "Project imagery: Residential building design",
       "selection_reason": "Original embedded image extracted from the project PDF; final page selected by visual comparison.",
+      "display_name": "Residential building design",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Residential"
+        },
+        {
+          "label": "Project area",
+          "value": "3000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "700,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP, Site Supervision"
+        }
+      ],
+      "source_document": "1_WuWCs-blwCulcHSi-VjhaEy-1woepMy",
       "width": 1080,
       "height": 1350,
       "variants": [
@@ -1504,28 +2160,23 @@
           "bytes": 86714
         }
       ],
-      "fit": "contain",
-      "grade": {
-        "exposure": 1.16,
-        "saturation": 0.743,
-        "mean_luminance": 73.3
-      }
+      "fit": "contain"
     },
     {
       "key": "aftalqout-bridge",
-      "name": "Aftalqout Bridge",
-      "category": "landscape",
-      "id": "1i8NCh2XaG00WPtZ_Z0BaBOC8CPtahG3O",
-      "source_path": "Client/02-Landscape & Public Realm/AFTALQOUT/tree bridge final.mp4",
-      "source_url": "https://drive.google.com/file/d/1i8NCh2XaG00WPtZ_Z0BaBOC8CPtahG3O/view",
+      "name": "Pedestrian bridge and viewpoint",
+      "category": "landscape coastal",
+      "id": "1-bSpHI1GUbjRtCUBGI-AfIhEUIPO08kc",
+      "source_path": "Client/02-Landscape & Public Realm/AFTALQOUT tree bridge/tree bridge final.mp4",
+      "source_url": "https://drive.google.com/file/d/1-bSpHI1GUbjRtCUBGI-AfIhEUIPO08kc/view",
       "extension": ".mp4",
       "source_filename": "tree bridge final.mp4",
       "frame": "_media_work/video-frames/1i8NCh2XaG00WPtZ_Z0BaBOC8CPtahG3O/extra-75.png",
       "frame_seconds": 75,
-      "kind": "Project visualization",
-      "summary": "A pedestrian bridge with a sculptural white structure and blue deck.",
-      "description": "Pedestrian bridge visualization supplied by Meridian; still extracted from the project film.",
-      "alt": "Aftalqout pedestrian bridge visualization",
+      "kind": "Tourism / Viewpoint",
+      "summary": "A tourism viewpoint and visitor facilities at Aftalkout in Dhofar.",
+      "description": "Tourist viewpoint and visitor facilities at Aftalkout, Dhofar.",
+      "alt": "Project imagery: Pedestrian bridge and viewpoint",
       "selection_reason": "Video-only project: selected a clear bridge view from the reviewed video frames without technical dimension overlays.",
       "width": 1024,
       "height": 576,
@@ -1554,7 +2205,531 @@
         "exposure": 0.947,
         "saturation": 0.715,
         "mean_luminance": 155.3
-      }
+      },
+      "display_name": "Pedestrian bridge and viewpoint",
+      "metadata": [
+        {
+          "label": "Client",
+          "value": "Dhofar Municipality"
+        },
+        {
+          "label": "Project type",
+          "value": "Tourism / Viewpoint"
+        },
+        {
+          "label": "Project cost",
+          "value": "800,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2026"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Concept"
+        }
+      ],
+      "source_document": "16QHMn-uLWPaPnhlmatPYGt-4Rl5L0O1Q"
+    },
+    {
+      "key": "boulevard-commercial-centre",
+      "name": "Commercial showroom complex",
+      "display_name": "Commercial showroom complex",
+      "kind": "Commercial",
+      "category": "buildings",
+      "summary": "Road-facing showrooms with clear entrances, customer parking and landscape.",
+      "description": "Al Boulevard Commercial Centre is a commercial investment development with a stated project area of 2,250 m². The scheme is conceived as a contemporary showroom complex, with prominent glazed display spaces arranged along the road frontage. The architectural design combines white panelled surfaces, contrasting dark entrance frames, and illuminated vertical accents to create a consistent identity while distinguishing individual showroom entrances. Extensive glazing provides clear views into the display areas and strengthens the relationship between the interior spaces and the external forecourt.\n\nThe site arrangement incorporates customer parking along the building frontage and perimeter, vehicle access and circulation, paved pedestrian routes, and landscaped areas with palm planting. Defined entrances, pedestrian crossings, and bollards help organise movement between the parking areas and showrooms. The design also integrates rooftop building services within the overall building arrangement. The consultancy scope comprised full architectural and structural design, coordinating the showroom layout, façade composition, and structural requirements. The project is recorded as completed in 2024.",
+      "alt": "Project imagery: Commercial showroom complex",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Commercial"
+        },
+        {
+          "label": "Project area",
+          "value": "2250 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "1,500,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2024 - Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Full Architecture and Structure design."
+        }
+      ],
+      "source_document": "1r7rRG0-QrjI39skY2hTLlrIeWFP6VisW",
+      "id": "1eVFCyNsrY-c8N2UUtyq16b_MR4ipM0lW",
+      "source_path": "Client/01-Architecture & Interiors/Boulivard commercial centre/SHOWROOM (1)-6-10_page-0003.jpg",
+      "source_url": "https://drive.google.com/file/d/1eVFCyNsrY-c8N2UUtyq16b_MR4ipM0lW/view",
+      "extension": ".jpg",
+      "local_image": "_media_work/originals/1eVFCyNsrY-c8N2UUtyq16b_MR4ipM0lW-rendition.jpg",
+      "source_preparation": "Google Drive image rendition requested at 2560px; original file linked separately. No enlargement or generative alteration.",
+      "width": 2560,
+      "height": 1440,
+      "variants": [
+        {
+          "src": "assets/media/boulevard-commercial-centre-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 20514
+        },
+        {
+          "src": "assets/media/boulevard-commercial-centre-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 51550
+        },
+        {
+          "src": "assets/media/boulevard-commercial-centre-1200.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 110056
+        },
+        {
+          "src": "assets/media/boulevard-commercial-centre-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 187764
+        },
+        {
+          "src": "assets/media/boulevard-commercial-centre-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 265332
+        }
+      ],
+      "fit": "cover"
+    },
+    {
+      "key": "boushar-building",
+      "name": "Contemporary hotel building",
+      "display_name": "Contemporary hotel building",
+      "kind": "Hotel",
+      "category": "buildings hospitality",
+      "summary": "A hotel composition with framed glazed bays, planted ledges and a commercial base.",
+      "description": "Boushar Building is a hotel development with a project area of 15,000 m². The design combines upper-floor accommodation with a glazed commercial frontage at street level, creating a visible relationship with the surrounding urban setting. The architectural composition features prominent rectangular frames, tall glazed bays, recessed balconies, and contrasting light-coloured surfaces with warm-toned vertical accents. Planted ledges introduce greenery into the elevations, while integrated façade lighting highlights the building proportions and entrance frontage after dark.\n\nThe lower levels provide a clearly expressed arrival zone, with an entrance canopy and paved pedestrian approaches connecting the building to the street. Frontage parking, palm planting, and landscaped edges complement the public-facing areas. The upper elevations use repeated window openings and recessed elements to give the accommodation a consistent identity across the building. The consultancy scope comprises architectural and structural design and mechanical, electrical and plumbing design, coordinating the building layout, façade detailing, structural requirements, and building services.",
+      "alt": "Project imagery: Contemporary hotel building",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Hotel"
+        },
+        {
+          "label": "Project area",
+          "value": "15000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "5,000,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP."
+        }
+      ],
+      "source_document": "1gkKRWPsqN_EWY-2pQybk0ij0BPP1B2mv",
+      "id": "1HqNMSaQV-e8UGG4JAH_e5wd2bH6yin3F",
+      "source_path": "Client/01-Architecture & Interiors/Buildings/06-Building 3/4.png",
+      "source_url": "https://drive.google.com/file/d/1HqNMSaQV-e8UGG4JAH_e5wd2bH6yin3F/view",
+      "extension": ".png",
+      "local_image": "_media_work/originals/1HqNMSaQV-e8UGG4JAH_e5wd2bH6yin3F-rendition.jpg",
+      "source_preparation": "Google Drive image rendition requested at 2560px; original file linked separately. No enlargement or generative alteration.",
+      "width": 2560,
+      "height": 3206,
+      "variants": [
+        {
+          "src": "assets/media/boushar-building-480.webp",
+          "width": 480,
+          "height": 601,
+          "bytes": 49058
+        },
+        {
+          "src": "assets/media/boushar-building-800.webp",
+          "width": 800,
+          "height": 1002,
+          "bytes": 99866
+        },
+        {
+          "src": "assets/media/boushar-building-1200.webp",
+          "width": 1200,
+          "height": 1503,
+          "bytes": 167638
+        },
+        {
+          "src": "assets/media/boushar-building-1600.webp",
+          "width": 1600,
+          "height": 2004,
+          "bytes": 243842
+        },
+        {
+          "src": "assets/media/boushar-building-1920.webp",
+          "width": 1920,
+          "height": 2404,
+          "bytes": 298456
+        }
+      ],
+      "fit": "contain"
+    },
+    {
+      "key": "residential-building-4",
+      "name": "Residential building with retail",
+      "display_name": "Residential building with retail",
+      "kind": "Residential",
+      "category": "buildings",
+      "summary": "Five residential storeys with balconies above a glazed ground-floor retail frontage.",
+      "description": "The Residential Building is a modern five-storey development, with a project area of 3,000 m². The scheme combines residential accommodation on the upper floors with retail units at ground level, creating an active commercial frontage along the street. The architectural design uses contrasting cream and dark grey surfaces, warm-toned accent panels, and clearly defined horizontal bands to organise the elevations. Generous windows and recessed balconies with glass balustrades provide visual connections and outdoor space for the residential units.\n\nThe ground-floor shops feature full-height glazed storefronts, individual entrances, and coordinated signage zones. The corner composition gives the building visibility from the adjoining streets, while paved pedestrian approaches connect the retail frontage with the surrounding pavement. Projecting balcony edges and recessed openings add depth to the façades and distinguish the accommodation from the commercial base. The consultancy scope comprised architectural and structural design, mechanical, electrical and plumbing design, and site supervision, coordinating the residential and retail functions, building services, façade detailing, and construction implementation.",
+      "alt": "Project imagery: Residential building with retail",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Residential"
+        },
+        {
+          "label": "Project area",
+          "value": "3000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "700,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP, Site Supervision"
+        }
+      ],
+      "source_document": "13KUf3qeoAcohVYxOnJ1M4epf3sfKgHPL",
+      "id": "1UE_iM1EQKmgQWNGhUtCs84JjN5LeXYHG",
+      "source_path": "Client/01-Architecture & Interiors/Buildings/07-Building 4/WhatsApp Image 2024-03-04 at 7.08.51 PM (1).jpeg",
+      "source_url": "https://drive.google.com/file/d/1UE_iM1EQKmgQWNGhUtCs84JjN5LeXYHG/view",
+      "extension": ".jpeg",
+      "width": 1600,
+      "height": 1249,
+      "variants": [
+        {
+          "src": "assets/media/residential-building-4-480.webp",
+          "width": 480,
+          "height": 375,
+          "bytes": 28676
+        },
+        {
+          "src": "assets/media/residential-building-4-800.webp",
+          "width": 800,
+          "height": 624,
+          "bytes": 61278
+        },
+        {
+          "src": "assets/media/residential-building-4-1200.webp",
+          "width": 1200,
+          "height": 937,
+          "bytes": 113672
+        },
+        {
+          "src": "assets/media/residential-building-4-1600.webp",
+          "width": 1600,
+          "height": 1249,
+          "bytes": 188126
+        }
+      ],
+      "fit": "cover"
+    },
+    {
+      "key": "residential-villa-1",
+      "name": "Residential villa with arches",
+      "display_name": "Residential villa with arches",
+      "kind": "Residential",
+      "category": "buildings",
+      "summary": "A two-storey villa combining contemporary forms and traditional pointed arches.",
+      "description": "A Two-storey residential villa combining a modern architectural composition with traditional arched features. The elevations are defined by light-coloured finishes, projecting vertical elements, recessed windows and contrasting dark frames. Tall pointed arches emphasise the principal entrances, while decorative screens and warm accent lighting add depth and character to the façades. Coordinated boundary walls, pedestrian gateways and vehicle access extend the architectural treatment across the site frontage, creating a cohesive residential setting.\n\nOur scope comprises architectural and structural design, mechanical, electrical and plumbing (MEP) design, and site supervision. Our approach integrates the architectural expression with the building’s structural and service requirements, with attention to residential privacy, daylight and practical access.",
+      "alt": "Project imagery: Residential villa with arches",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Residential"
+        },
+        {
+          "label": "Project area",
+          "value": "1275 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "250,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2026 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP."
+        }
+      ],
+      "source_document": "1FcW8G_PuJWANyem2wFwJ8GuVq2h_wsZ9",
+      "id": "1XFBNW1al4BUyWhU2LWMcqlNbtJj8A5m8",
+      "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (01)/Elevation Design-1-10-1-5_page-0004.jpg",
+      "source_url": "https://drive.google.com/file/d/1XFBNW1al4BUyWhU2LWMcqlNbtJj8A5m8/view",
+      "extension": ".jpg",
+      "width": 3612,
+      "height": 1860,
+      "variants": [
+        {
+          "src": "assets/media/residential-villa-1-480.webp",
+          "width": 480,
+          "height": 247,
+          "bytes": 10932
+        },
+        {
+          "src": "assets/media/residential-villa-1-800.webp",
+          "width": 800,
+          "height": 412,
+          "bytes": 23774
+        },
+        {
+          "src": "assets/media/residential-villa-1-1200.webp",
+          "width": 1200,
+          "height": 618,
+          "bytes": 46784
+        },
+        {
+          "src": "assets/media/residential-villa-1-1600.webp",
+          "width": 1600,
+          "height": 824,
+          "bytes": 76976
+        },
+        {
+          "src": "assets/media/residential-villa-1-1920.webp",
+          "width": 1920,
+          "height": 989,
+          "bytes": 106440
+        }
+      ],
+      "fit": "cover"
+    },
+    {
+      "key": "residential-villa-2",
+      "name": "Courtyard residential villa",
+      "display_name": "Courtyard residential villa",
+      "kind": "Residential",
+      "category": "buildings",
+      "summary": "A two-storey villa with pointed-arch façades and a sheltered private courtyard.",
+      "description": "A Two-storey residential villa combining contemporary geometric forms with traditional pointed-arch motifs. Light-coloured façades, tall recessed glazing and projecting vertical frames create a balanced architectural composition. Repeated arches define the principal elevations, while a prominent corner entrance, glazed balconies and stepped building volumes give the residence a distinctive identity. A sheltered courtyard with outdoor seating, planting and large glazed openings forms a private gathering space between the adjoining wings. Warm architectural lighting highlights the arches, entrance steps and vertical details, extending the character of the design into the evening.\n\nOur scope comprises architectural and structural design, mechanical, electrical and plumbing (MEP) design, and site supervision. Our approach coordinates the villa’s architectural expression with structural and building service requirements, with attention to residential privacy, daylight and the connection between internal spaces and the courtyard. As the project progresses, site supervision supports implementation of the coordinated design, with attention to construction quality, façade detailing, finishes and the integration of services.",
+      "alt": "Project imagery: Courtyard residential villa",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Residential"
+        },
+        {
+          "label": "Project area",
+          "value": "1000 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "200,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2026 – In progress."
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP, Site Supervision"
+        }
+      ],
+      "source_document": "1QJqocWupeMMtGuQYc70i6kIHhQQZgef9",
+      "id": "1jsbWfPnHFVU89wABwD6d23_J5tGW1Wkc",
+      "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (02)/villa rev6-1-4_page-0001.jpg",
+      "source_url": "https://drive.google.com/file/d/1jsbWfPnHFVU89wABwD6d23_J5tGW1Wkc/view",
+      "extension": ".jpg",
+      "local_image": "_media_work/originals/1jsbWfPnHFVU89wABwD6d23_J5tGW1Wkc-rendition.jpg",
+      "source_preparation": "Google Drive image rendition requested at 2560px; original file linked separately. No enlargement or generative alteration.",
+      "width": 2560,
+      "height": 3200,
+      "variants": [
+        {
+          "src": "assets/media/residential-villa-2-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 20800
+        },
+        {
+          "src": "assets/media/residential-villa-2-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 49778
+        },
+        {
+          "src": "assets/media/residential-villa-2-1200.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 100624
+        },
+        {
+          "src": "assets/media/residential-villa-2-1600.webp",
+          "width": 1600,
+          "height": 2000,
+          "bytes": 158996
+        },
+        {
+          "src": "assets/media/residential-villa-2-1920.webp",
+          "width": 1920,
+          "height": 2400,
+          "bytes": 217934
+        }
+      ],
+      "fit": "contain"
+    },
+    {
+      "key": "residential-villa-3",
+      "name": "Contemporary residential villa",
+      "display_name": "Contemporary residential villa",
+      "kind": "Residential",
+      "category": "buildings",
+      "summary": "A contemporary villa with layered frames, a private courtyard and coordinated landscape.",
+      "description": "A modern residential villa defined by clean geometric volumes, layered rectangular frames and a restrained palette of white, warm grey and timber-toned accents. Large dark-framed windows and recessed façade elements create depth, while a tall entrance feature establishes a clear focal point. Integrated lighting highlights the entrance, vertical details and landscaped frontage after dark. The design also incorporates a sheltered outdoor courtyard with seating and planting, overlooked by an upper-level glazed balustrade, providing a private extension of the living environment. Coordinated boundary walls and gates complete the street frontage.\n\nMeridian Engineering Consultancy’s scope comprises architectural and structural design, mechanical, electrical and plumbing (MEP) design, and site supervision. Our approach coordinates the villa’s contemporary architectural detailing with structural and building service requirements, with attention to daylight, residential privacy and the relationship between indoor and outdoor spaces. Site supervision supports implementation of the coordinated design, with attention to construction quality, façade finishes, glazing details and the integration of services.",
+      "alt": "Project imagery: Contemporary residential villa",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Residential"
+        },
+        {
+          "label": "Project area",
+          "value": "700 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "100,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2025 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP, Site Supervision"
+        }
+      ],
+      "source_document": "1-Ep4doRwJX0kpExM2bD65FsrPd_Wg_WW",
+      "id": "1ubZpY-M75X9mh6rPMBlDi7hsqE23-Ur8",
+      "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (03)/S Villa - Elevations-13-15_page-0003.jpg",
+      "source_url": "https://drive.google.com/file/d/1ubZpY-M75X9mh6rPMBlDi7hsqE23-Ur8/view",
+      "extension": ".jpg",
+      "local_image": "_media_work/originals/1ubZpY-M75X9mh6rPMBlDi7hsqE23-Ur8-rendition.jpg",
+      "source_preparation": "Google Drive image rendition requested at 2560px; original file linked separately. No enlargement or generative alteration.",
+      "width": 2560,
+      "height": 3200,
+      "variants": [
+        {
+          "src": "assets/media/residential-villa-3-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 19812
+        },
+        {
+          "src": "assets/media/residential-villa-3-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 45276
+        },
+        {
+          "src": "assets/media/residential-villa-3-1200.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 89444
+        },
+        {
+          "src": "assets/media/residential-villa-3-1600.webp",
+          "width": 1600,
+          "height": 2000,
+          "bytes": 143408
+        },
+        {
+          "src": "assets/media/residential-villa-3-1920.webp",
+          "width": 1920,
+          "height": 2400,
+          "bytes": 196246
+        }
+      ],
+      "fit": "contain"
+    },
+    {
+      "key": "residential-villa-4",
+      "name": "Classical residential villa",
+      "display_name": "Classical residential villa",
+      "kind": "Residential",
+      "category": "buildings",
+      "summary": "A classical villa with balanced façades, entrance columns and landscaped arrival spaces.",
+      "description": "A private residential villa with a classical architectural character, expressed through balanced façade proportions, prominent entrance columns, layered cornices and decorative vertical panels. Light-coloured exterior finishes contrast with dark-framed glazing, ornamental balcony railings and grey pitched roof elements. The composition combines the main residential block with a lower adjoining wing, while the roof arrangement incorporates extensive flat areas and a raised enclosed volume. The external setting includes a paved entrance forecourt, vehicle parking, raised planting beds and perimeter fencing with decorative metalwork, creating a coordinated approach to the residence.\n\nOur scope comprises architectural and structural design, mechanical, electrical and plumbing (MEP) design, and site supervision. Our design approach coordinates the villa’s architectural detailing with its structural and service requirements, with attention to residential privacy, daylight and convenient access. Site supervision supports implementation of the coordinated design, with attention to construction quality, façade detailing, finishes and the integration of building services.",
+      "alt": "Project imagery: Classical residential villa",
+      "metadata": [
+        {
+          "label": "Project type",
+          "value": "Residential"
+        },
+        {
+          "label": "Project area",
+          "value": "1400 m²"
+        },
+        {
+          "label": "Project cost",
+          "value": "350,000 OMR"
+        },
+        {
+          "label": "Project date",
+          "value": "2026 – Completed"
+        },
+        {
+          "label": "Scope of work",
+          "value": "Architectural, Structural Design, MEP, Site supervision."
+        }
+      ],
+      "source_document": "1bQEvbUTLeAOQo3MGNlpywVRINQun7zn4",
+      "id": "15x-u0BnYP2ti7xfEKvCbzZ8re02AGb_B",
+      "source_path": "Client/01-Architecture & Interiors/Buildings/Villa (04)/1 (3).jpeg",
+      "source_url": "https://drive.google.com/file/d/15x-u0BnYP2ti7xfEKvCbzZ8re02AGb_B/view",
+      "extension": ".jpeg",
+      "width": 1600,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/media/residential-villa-4-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 22230
+        },
+        {
+          "src": "assets/media/residential-villa-4-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 52204
+        },
+        {
+          "src": "assets/media/residential-villa-4-1200.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 101432
+        },
+        {
+          "src": "assets/media/residential-villa-4-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 166562
+        }
+      ],
+      "fit": "cover"
     }
   ],
   "featured": [
@@ -1567,21 +2742,20 @@
     "fic"
   ],
   "video": {
-    "source_id": "1aoRCMwcD4HQxn5Qil7uukMVkgXbDf1AP",
-    "source_path": "Client/01-Architecture & Interiors/Buildings/02-MARRASI 2/night view 2.mp4",
-    "start_seconds": 0.5,
-    "source_duration_seconds": 8,
+    "source_path": "_media_work/فيديو الهيرو/فيديو الهيرو.mp4",
+    "source_sha256": "41c5c38698854f062282f5a117490c429f883058334e00ecfdf50755135b0463",
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_duration_seconds": 48.666667,
+    "duration_seconds": 48.666666666666664,
+    "label": "Meridian project film",
+    "alt": "Meridian architecture, urban planning and coastal projects",
+    "loop_treatment": "Client final montage played continuously; original frame order and timing retained",
+    "hold_seconds": 0,
     "playback_speed": 1,
-    "duration_seconds": 17.916667,
-    "label": "Mrasi Al Saada 2 · Film",
-    "alt": "Animated architectural visualization of Mrasi Al Saada 2 supplied by Meridian",
-    "loop_treatment": "Forward, two-second endpoint hold, then reverse",
-    "hold_seconds": 2,
-    "revision": "20261018a",
+    "revision": "20261026-final",
     "desktop_fps": 24,
     "mobile_fps": 24,
-    "source_width": 3840,
-    "source_height": 2160,
     "poster_width": 1600,
     "poster_height": 900,
     "outputs": {
@@ -1589,40 +2763,25 @@
         "width": 1920,
         "height": 1080,
         "fps": 24,
-        "bytes": 12323741,
-        "loop_check": {
-          "frames": 430,
-          "seam_delta": 0.884,
-          "first_step_delta": 0.812,
-          "forward_turn_delta": 2.653,
-          "reverse_turn_delta": 2.657,
-          "hold_seconds": 2,
-          "hold_max_delta": 0.077
-        }
+        "frames": 1168,
+        "bytes": 37074554
       },
       "mobile": {
-        "width": 1280,
-        "height": 720,
+        "width": 960,
+        "height": 540,
         "fps": 24,
-        "bytes": 4475470,
-        "loop_check": {
-          "frames": 430,
-          "seam_delta": 0.957,
-          "first_step_delta": 0.801,
-          "forward_turn_delta": 2.619,
-          "reverse_turn_delta": 2.642,
-          "hold_seconds": 2,
-          "hold_max_delta": 0.066
-        }
+        "frames": 1168,
+        "bytes": 11125650
       }
     },
-    "desktop": "assets/media/mrasi-alsaada-2-loop-desktop.mp4",
-    "mobile": "assets/media/mrasi-alsaada-2-loop-mobile.mp4",
-    "poster": "assets/media/mrasi-alsaada-2-loop-poster.webp",
-    "poster_mobile": "assets/media/mrasi-alsaada-2-loop-poster-mobile.webp",
-    "note": "Source 0.5–8.5s forward at native 24fps; the final view is held for two seconds before reversing. Duplicate reverse endpoint frames removed. Silent; complete decode, hold and adjacent-frame seam checks passed."
+    "desktop": "assets/media/hero-final-20261026-desktop.mp4",
+    "mobile": "assets/media/hero-final-20261026-mobile.mp4",
+    "poster": "assets/media/hero-final-20261026-poster.webp",
+    "poster_mobile": "assets/media/hero-final-20261026-poster-mobile.webp",
+    "note": "1168 source frames retained at native 24fps. Full decode passed. No added cuts, holds, reversal or speed changes. Web derivatives are silent; the source movie and its audio remain untouched."
   },
   "missing": [],
   "source": "Client-supplied Google Drive project library",
-  "note": "Names follow client folders. Visualization does not establish construction status or contract scope."
+  "note": "Project descriptions and metadata follow the client documents reviewed in October 2026. Conflicting area figures for Al Shorouq and FIC are withheld pending confirmation. Imagery does not establish construction status.",
+  "hero_playlist": []
 }

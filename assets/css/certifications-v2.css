@@ -1,0 +1,74 @@
+/* A daylight exhibition: the supplied seals lead, with no exterior white frames. */
+.cert-exhibition{background:#fff;border-top:var(--hair);padding-block:clamp(56px,7vw,100px);overflow:hidden}
+.cert-exhibition-header{display:flex;align-items:flex-start;justify-content:space-between;gap:40px;margin-bottom:32px}
+.cert-exhibition-header h2{font-size:clamp(30px,3.5vw,46px);font-weight:500;line-height:1.3;letter-spacing:-.025em;max-width:16ch;text-wrap:balance}
+.cert-exhibition-header>p{max-width:36ch;font-size:14px;line-height:1.9;color:var(--grey-600);padding-top:8px}
+.iso-experience{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);align-items:center;direction:ltr;gap:clamp(30px,5vw,80px);min-height:470px}
+.iso-stage-wrap{min-width:0}
+.iso-stage{position:relative;height:430px;outline-offset:4px;touch-action:pan-y;cursor:grab;isolation:isolate}
+.iso-stage:active{cursor:grabbing}
+.iso-stage:focus-visible,.cert-exhibition button:focus-visible{outline:2px solid var(--amber-deep);outline-offset:5px}
+.iso-canvas,.iso-fallback{position:absolute;inset:0}
+.iso-canvas canvas{display:block;width:100%;height:100%}
+.iso-fallback{perspective:900px;transition:opacity .3s;pointer-events:auto}
+.iso-fallback.is-hidden{opacity:0;pointer-events:none;visibility:hidden}
+.iso-object{position:absolute;top:50%;left:50%;width:clamp(170px,25vw,300px);padding:0;border:0;background:none;cursor:pointer;transition:transform .8s cubic-bezier(.16,1,.3,1);transform:translate(-50%,-50%);filter:drop-shadow(0 22px 15px rgba(26,33,44,.12))}
+.iso-cut{display:block;position:relative;aspect-ratio:1;overflow:hidden;border-radius:50%;background:none}
+.iso-cut>img{position:absolute;display:block;width:100.32%;max-width:none;height:auto;left:-.16%;top:-2.98%;user-select:none}
+.iso-cut--9001>img{top:-.16%}
+.iso-stage-caption{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:11px;line-height:1.7;color:var(--grey-600);border-top:var(--hair);padding-top:18px;direction:inherit}
+[dir=rtl] .iso-stage-caption{direction:rtl}
+.iso-play{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;flex-shrink:0;background:none;border:0;color:var(--ink-700);font:inherit;cursor:pointer;padding:0 4px}
+.iso-play:hover{color:var(--amber-deep)}
+.iso-editorial{min-width:0;direction:ltr;padding-block:30px}
+[dir=rtl] .iso-editorial{direction:rtl}
+.iso-standard{display:flex;align-items:baseline;gap:14px;justify-content:flex-start;color:#222c58;font-family:var(--font-brand);line-height:1;letter-spacing:-.03em}
+.iso-standard>span{font-size:23px;font-weight:400}
+.iso-standard>strong{font-size:clamp(56px,6vw,82px);font-weight:500;font-variant-numeric:tabular-nums}
+.iso-story{min-height:150px;margin-top:26px}
+.iso-story h3{font-size:clamp(19px,2vw,25px);font-weight:500;line-height:1.5;margin:0 0 12px;text-wrap:balance}
+.iso-story>p{font-size:14px;line-height:1.95;color:var(--grey-600);max-width:39ch}
+.iso-selectors{display:flex;gap:22px;margin-top:24px}
+.iso-selector{border:0;border-bottom:2px solid transparent;background:none;padding:0 2px 12px;cursor:pointer;color:var(--grey-600);font:500 11px/1.5 var(--font-brand);min-width:58px;transition:border-color .25s,color .25s}
+.iso-selector>.iso-cut{width:52px;margin:0 auto 10px;opacity:.6;transition:opacity .25s,transform .35s cubic-bezier(.16,1,.3,1)}
+.iso-selector:hover>.iso-cut,.iso-selector[aria-pressed=true]>.iso-cut{opacity:1;transform:translateY(-3px)}
+.iso-selector[aria-pressed=true]{border-bottom-color:var(--amber-deep);color:var(--ink-900)}
+.iso-navigation{display:flex;align-items:center;justify-content:space-between;border-top:var(--hair);margin-top:26px;padding-top:16px}
+.iso-count{font:400 16px/1 var(--font-brand);color:var(--ink-900);font-variant-numeric:tabular-nums}
+.iso-count>span{color:var(--grey-600);font-size:12px;margin-inline-start:10px}
+.iso-navigation>div{display:flex;gap:12px}
+.iso-navigation button{display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;background:none;border:0;cursor:pointer;transition:color .2s,transform .3s;color:var(--ink-700)}
+.iso-navigation button:hover{color:var(--amber-deep);transform:translateY(-2px)}
+/* First paint and no-script use the same exterior-only crop. */
+.cert-exhibition .certifications-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));list-style:none;margin:0;padding:0;gap:32px;border:0}
+.cert-exhibition .certification{display:flex;flex-direction:column;align-items:center;gap:24px;padding:28px 0;border:0;background:none;text-align:center}
+.certification-seal{width:clamp(120px,17vw,220px)}
+.cert-exhibition .certification-caption h3{font:500 22px/1.3 var(--font-brand)}
+.cert-exhibition .certification-caption p{font-size:13px;line-height:1.85;margin-top:10px}
+.cert-exhibition .cert-description{max-width:32ch;color:var(--grey-600)}
+@media(max-width:760px){
+ .cert-exhibition-header{display:block;margin-bottom:8px}
+ .cert-exhibition-header h2{max-width:22ch;font-size:29px}
+ .cert-exhibition-header>p{margin-top:20px;max-width:42ch;font-size:13px}
+ .iso-experience{grid-template-columns:1fr;gap:6px;min-height:0}
+ .iso-stage{height:300px;margin-inline:-18px}
+ .iso-stage-caption{font-size:10px;padding-top:8px}
+ .iso-editorial{padding-block:22px 0}
+ .iso-standard>strong{font-size:64px}
+ .iso-standard>span{font-size:21px}
+ .iso-story{min-height:114px;margin-top:22px}
+ .iso-story h3{font-size:21px;margin-bottom:8px}
+ .iso-story>p{font-size:13px;max-width:48ch}
+ .iso-selectors{margin-top:22px;gap:clamp(10px,3vw,22px)}
+ .iso-object{width:210px}
+ .iso-selector>.iso-cut{width:48px}
+ .iso-navigation{margin-top:20px;padding-top:8px}
+ .cert-exhibition .certifications-list{grid-template-columns:1fr;gap:0}
+ .cert-exhibition .certification{flex-direction:row;text-align:start;gap:20px}
+ .certification-seal{width:100px;flex-shrink:0}
+}
+@media(prefers-reduced-motion:reduce){.iso-object,.iso-fallback,.iso-selector,.iso-selector>.iso-cut,.iso-navigation button{transition:none}}
+/* The supplied IAF artwork stays oval in the same square presentation slot.
+   Clip its exterior corners only; preserve all white inside the official logo. */
+.iso-cut--iaf{border-radius:0;overflow:visible}
+.iso-cut--iaf>img{width:100%;height:auto;left:0;top:50%;transform:translateY(-50%);clip-path:ellipse(50% 50% at 50% 50%)}
